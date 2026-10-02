@@ -2,6 +2,8 @@
 
 给忙碌的家人准备一桌热乎饭：选搭配 → 看菜单 → 买菜 → 做菜。全站简体中文，手机优先，个人数据只存本机，不需要注册或登录。
 
+**在线体验：[今晚吃什么](https://javaarthur.github.io/c-foods/)** · **[GitHub 仓库](https://github.com/JavaArthur/c-foods)**
+
 **技术栈：** Vue 3 Composition API、Vite、Tailwind CSS 4、vue-router hash 路由。没有后端或数据库，没有付费接口。
 
 ## 本地运行
@@ -126,6 +128,8 @@ HowToCook 仅收录 `dishes/meat_dish`、`dishes/aquatic`、`dishes/vegetable_di
 3. 访问 `https://<用户名>.github.io/<仓库名>/`。
 
 工作流自动设置 `BASE_PATH=/<仓库名>/`。hash 路由的地址形如 `/#/recipes`，刷新不会走服务器子路径，也不会 404。使用根域、自定义域或 `<用户名>.github.io` 仓库时，把工作流的 `BASE_PATH` 改为 `/`。
+
+本项目已部署到 **https://javaarthur.github.io/c-foods/**，可直接打开体验。Cloudflare Pages 尚未连接，按上面的首选方案连接此仓库即可部署到自己的 Cloudflare 账户。
 
 ## 添加到手机桌面
 
