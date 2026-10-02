@@ -1,0 +1,3113 @@
+{
+  "generatedAt": "2026-10-02T16:11:49.048Z",
+  "sources": [
+    {
+      "repo": "Anduin2017/HowToCook",
+      "revision": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "files": 203
+    },
+    {
+      "repo": "Gar-b-age/CookLikeHOC",
+      "revision": "888a4a2164c8e3ac6bfa8820ab2126c2d99bc3f1",
+      "files": 193
+    }
+  ],
+  "included": [
+    {
+      "name": "鳊鱼炖豆腐",
+      "path": "dishes/aquatic/鳊鱼炖豆腐/鳊鱼炖豆腐.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "蛏抱蛋",
+      "path": "dishes/aquatic/蛏抱蛋/蛏抱蛋.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "葱烧海参",
+      "path": "dishes/aquatic/葱烧海参/葱烧海参.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "葱油桂鱼",
+      "path": "dishes/aquatic/葱油桂鱼/葱油桂鱼.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "清水",
+        "一次性手套",
+        "厨房纸",
+        "蒸鱼盘子",
+        "防烫盘夹"
+      ]
+    },
+    {
+      "name": "干煎阿根廷红虾",
+      "path": "dishes/aquatic/干煎阿根廷红虾/干煎阿根廷红虾.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "黑胡椒"
+      ]
+    },
+    {
+      "name": "红烧鲤鱼",
+      "path": "dishes/aquatic/红烧鲤鱼.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "大蒜",
+        "干辣椒",
+        "油",
+        "盐",
+        "生抽",
+        "老抽",
+        "陈醋",
+        "料酒"
+      ]
+    },
+    {
+      "name": "红烧鱼",
+      "path": "dishes/aquatic/红烧鱼.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "料酒",
+        "鱼",
+        "香菜"
+      ]
+    },
+    {
+      "name": "红烧鱼头",
+      "path": "dishes/aquatic/红烧鱼头.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "大蒜",
+        "油",
+        "盐",
+        "鸡精",
+        "生抽",
+        "老抽",
+        "陈醋",
+        "黑胡椒粉",
+        "料酒",
+        "八角",
+        "干辣椒",
+        "鱼头一个",
+        "花鲢",
+        "后者价格略贵",
+        "但口感也更佳！"
+      ]
+    },
+    {
+      "name": "黄油煎虾",
+      "path": "dishes/aquatic/黄油煎虾/黄油煎虾.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "烤鱼",
+      "path": "dishes/aquatic/混合烤鱼/烤鱼.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "草鱼",
+        "大葱",
+        "大蒜",
+        "桂皮",
+        "八角",
+        "香叶",
+        "青花椒",
+        "千张",
+        "绿豆芽",
+        "洋葱",
+        "豆瓣酱",
+        "芹菜段",
+        "熟花生米",
+        "白芝麻",
+        "香菜"
+      ]
+    },
+    {
+      "name": "酱炖蟹",
+      "path": "dishes/aquatic/酱炖蟹.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "芥末黄油罗氏虾",
+      "path": "dishes/aquatic/芥末黄油罗氏虾/芥末黄油罗氏虾.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "鲤鱼炖白菜",
+      "path": "dishes/aquatic/鲤鱼炖白菜/鲤鱼炖白菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "清蒸鲈鱼",
+      "path": "dishes/aquatic/清蒸鲈鱼/清蒸鲈鱼.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "鲈鱼",
+        "香葱",
+        "姜"
+      ]
+    },
+    {
+      "name": "清蒸生蚝",
+      "path": "dishes/aquatic/清蒸生蚝.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "姜",
+        "刷子"
+      ]
+    },
+    {
+      "name": "肉蟹煲",
+      "path": "dishes/aquatic/肉蟹煲.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "水煮鱼",
+      "path": "dishes/aquatic/水煮鱼.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "蒜瓣",
+        "量杯",
+        "厨房秤"
+      ]
+    },
+    {
+      "name": "蒜蓉虾",
+      "path": "dishes/aquatic/蒜蓉虾/蒜蓉虾.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "蒜香黄油虾",
+      "path": "dishes/aquatic/蒜香黄油虾/蒜香黄油虾.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "厨房用夹"
+      ]
+    },
+    {
+      "name": "糖醋鲤鱼",
+      "path": "dishes/aquatic/糖醋鲤鱼/糖醋鲤鱼.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "香菜一颗",
+        "笊篱一个"
+      ]
+    },
+    {
+      "name": "微波葱姜黑鳕鱼",
+      "path": "dishes/aquatic/微波葱姜黑鳕鱼.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "带皮",
+        "密封袋"
+      ]
+    },
+    {
+      "name": "香煎翘嘴鱼",
+      "path": "dishes/aquatic/香煎翘嘴鱼/香煎翘嘴鱼.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "青椒",
+        "香菜",
+        "豆瓣酱"
+      ]
+    },
+    {
+      "name": "响油鳝丝",
+      "path": "dishes/aquatic/响油鳝丝.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "小龙虾",
+      "path": "dishes/aquatic/小龙虾/小龙虾.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "香叶",
+        "八角"
+      ]
+    },
+    {
+      "name": "阳朔啤酒鱼",
+      "path": "dishes/aquatic/阳朔啤酒鱼/阳朔啤酒鱼.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "油焖大虾",
+      "path": "dishes/aquatic/油焖大虾/油焖大虾.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "料酒",
+        "食用油"
+      ]
+    },
+    {
+      "name": "奥尔良风味烤鸡腿",
+      "path": "dishes/meat_dish/奥尔良风味烤鸡腿/奥尔良风味烤鸡腿.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "铝箔纸",
+        "豉油调味汁"
+      ]
+    },
+    {
+      "name": "澳门湿版免治牛肉饭",
+      "path": "dishes/meat_dish/澳门湿版免治牛肉饭/澳门湿版免治牛肉饭.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "洋葱",
+        "黄油",
+        "小葱",
+        "老抽",
+        "白糖",
+        "黑胡椒",
+        "米饭"
+      ]
+    },
+    {
+      "name": "巴基斯坦牛肉咖喱",
+      "path": "dishes/meat_dish/巴基斯坦牛肉咖喱/巴基斯坦牛肉咖喱.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "牛肉",
+        "原味酸奶"
+      ]
+    },
+    {
+      "name": "白菜猪肉炖粉条",
+      "path": "dishes/meat_dish/白菜猪肉炖粉条.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "豉汁排骨",
+      "path": "dishes/meat_dish/豉汁排骨.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "葱花",
+        "白芝麻"
+      ]
+    },
+    {
+      "name": "豉汁蒸白鱔",
+      "path": "dishes/meat_dish/豉汁蒸白鱔/豉汁蒸白鱔.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "耐热盘"
+      ]
+    },
+    {
+      "name": "葱烧鸡腿",
+      "path": "dishes/meat_dish/葱烧鸡腿.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "带把肘子",
+      "path": "dishes/meat_dish/带把肘子.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "小斧头",
+        "消毒纱布"
+      ]
+    },
+    {
+      "name": "冬瓜酿肉",
+      "path": "dishes/meat_dish/冬瓜酿肉/冬瓜酿肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "冬瓜桑拿鸡",
+      "path": "dishes/meat_dish/冬瓜桑拿鸡.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "豆豉鲮鱼油麦菜",
+      "path": "dishes/meat_dish/豆豉鲮鱼油麦菜/豆豉鲮鱼油麦菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "番茄红酱",
+      "path": "dishes/meat_dish/番茄红酱.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "胡萝卜",
+        "芹菜",
+        "洋葱",
+        "橄榄油",
+        "干罗勒或百里香"
+      ]
+    },
+    {
+      "name": "粉蒸肉",
+      "path": "dishes/meat_dish/粉蒸肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "腐乳肉",
+      "path": "dishes/meat_dish/腐乳肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "香葱"
+      ]
+    },
+    {
+      "name": "干煸仔鸡",
+      "path": "dishes/meat_dish/干煸仔鸡/干煸仔鸡.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "大蒜"
+      ]
+    },
+    {
+      "name": "宫保鸡丁",
+      "path": "dishes/meat_dish/宫保鸡丁/宫保鸡丁.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "生花生"
+      ]
+    },
+    {
+      "name": "咕噜肉",
+      "path": "dishes/meat_dish/咕噜肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "广式萝卜牛腩",
+      "path": "dishes/meat_dish/广式萝卜牛腩/广式萝卜牛腩.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "葱",
+        "桂皮"
+      ]
+    },
+    {
+      "name": "贵州辣子鸡",
+      "path": "dishes/meat_dish/贵州辣子鸡/贵州辣子鸡.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "农村玉米鸡",
+        "土豆",
+        "大蒜",
+        "姜",
+        "花椒or麻椒",
+        "豆瓣酱",
+        "啤酒",
+        "蒜苗",
+        "酒糟",
+        "食用油"
+      ]
+    },
+    {
+      "name": "桂林十八酿",
+      "path": "dishes/meat_dish/桂林十八酿/桂林十八酿.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "青椒",
+        "苦瓜",
+        "茄子",
+        "田螺",
+        "豆腐",
+        "香菇",
+        "南瓜花",
+        "柚子",
+        "笋",
+        "冬瓜",
+        "香芋",
+        "蒜",
+        "番茄",
+        "豆芽",
+        "蛋",
+        "香菌",
+        "原则",
+        "猪肉馅",
+        "虾滑馅",
+        "鱼肉馅",
+        "混合馅"
+      ]
+    },
+    {
+      "name": "荷兰豆炒腊肠",
+      "path": "dishes/meat_dish/荷兰豆炒腊肠/荷兰豆炒腊肠.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "红烧鸡翅",
+      "path": "dishes/meat_dish/红烧鸡翅.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "简易红烧肉",
+      "path": "dishes/meat_dish/红烧肉/简易红烧肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "主料"
+      ]
+    },
+    {
+      "name": "南派红烧肉",
+      "path": "dishes/meat_dish/红烧肉/南派红烧肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "主料",
+        "辅料",
+        "开水",
+        "凉水"
+      ]
+    },
+    {
+      "name": "红烧猪蹄",
+      "path": "dishes/meat_dish/红烧猪蹄/红烧猪蹄.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "葱"
+      ]
+    },
+    {
+      "name": "湖南家常红烧肉",
+      "path": "dishes/meat_dish/湖南家常红烧肉/湖南家常红烧肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "干小米椒🌶",
+        "桂皮",
+        "开水"
+      ]
+    },
+    {
+      "name": "虎皮肘子",
+      "path": "dishes/meat_dish/虎皮肘子.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "猪前肘",
+        "食用食用油",
+        "冰糖",
+        "盐",
+        "老抽",
+        "生抽",
+        "白醋",
+        "香叶",
+        "肉桂皮",
+        "豆蔻",
+        "花椒",
+        "大料",
+        "淀粉",
+        "葱",
+        "姜",
+        "蒜",
+        "水",
+        "料酒"
+      ]
+    },
+    {
+      "name": "黄焖鸡",
+      "path": "dishes/meat_dish/黄焖鸡.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "鸡腿",
+        "香菇",
+        "青椒",
+        "姜片",
+        "味精",
+        "土豆"
+      ]
+    },
+    {
+      "name": "黄油鸡",
+      "path": "dishes/meat_dish/黄油鸡.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "搅拌机/料理机"
+      ]
+    },
+    {
+      "name": "徽派红烧肉",
+      "path": "dishes/meat_dish/徽派红烧肉/徽派红烧肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "回锅肉",
+      "path": "dishes/meat_dish/回锅肉/回锅肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "尖椒炒牛肉",
+      "path": "dishes/meat_dish/尖椒炒牛肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "蒜",
+        "尖椒"
+      ]
+    },
+    {
+      "name": "尖叫牛蛙",
+      "path": "dishes/meat_dish/尖叫牛蛙/尖叫牛蛙.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "煎烤羊排",
+      "path": "dishes/meat_dish/煎烤羊排/煎烤羊排.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "姜炒鸡",
+      "path": "dishes/meat_dish/姜炒鸡/姜炒鸡.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "姜葱捞鸡",
+      "path": "dishes/meat_dish/姜葱捞鸡/姜葱捞鸡.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "酱牛肉",
+      "path": "dishes/meat_dish/酱牛肉/酱牛肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "葱"
+      ]
+    },
+    {
+      "name": "酱排骨",
+      "path": "dishes/meat_dish/酱排骨/酱排骨.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "茭白炒肉",
+      "path": "dishes/meat_dish/茭白炒肉/茭白炒肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "椒盐排条",
+      "path": "dishes/meat_dish/椒盐排条.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "芥末罗氏虾",
+      "path": "dishes/meat_dish/芥末罗氏虾/芥末罗氏虾.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "咖喱肥牛",
+      "path": "dishes/meat_dish/咖喱肥牛/咖喱肥牛.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "烤鸡翅",
+      "path": "dishes/meat_dish/烤鸡翅.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "鸡翅中"
+      ]
+    },
+    {
+      "name": "可乐鸡翅",
+      "path": "dishes/meat_dish/可乐鸡翅.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "小葱"
+      ]
+    },
+    {
+      "name": "空气炸锅脆皮现腌炸鸡",
+      "path": "dishes/meat_dish/空气炸锅脆皮现腌炸鸡/空气炸锅脆皮现腌炸鸡.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "口水鸡",
+      "path": "dishes/meat_dish/口水鸡/口水鸡.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "半只鸡"
+      ]
+    },
+    {
+      "name": "老妈蹄花",
+      "path": "dishes/meat_dish/老妈蹄花/老妈蹄花.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "料酒",
+        "白芷",
+        "盐",
+        "小米椒",
+        "香醋",
+        "花椒油",
+        "油泼辣子"
+      ]
+    },
+    {
+      "name": "老式锅包肉",
+      "path": "dishes/meat_dish/老式锅包肉/老式锅包肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "味精",
+        "土豆淀粉",
+        "中筋面粉"
+      ]
+    },
+    {
+      "name": "荔枝肉",
+      "path": "dishes/meat_dish/荔枝肉/荔枝肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "凉拌鸡丝",
+      "path": "dishes/meat_dish/凉拌鸡丝/凉拌鸡丝.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "料酒",
+        "凉白开水"
+      ]
+    },
+    {
+      "name": "卤菜",
+      "path": "dishes/meat_dish/卤菜/卤菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "滤网"
+      ]
+    },
+    {
+      "name": "萝卜炖羊排",
+      "path": "dishes/meat_dish/萝卜炖羊排.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "白萝卜",
+        "大葱",
+        "白芷"
+      ]
+    },
+    {
+      "name": "麻辣香锅",
+      "path": "dishes/meat_dish/麻辣香锅.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "麻婆豆腐",
+      "path": "dishes/meat_dish/麻婆豆腐/麻婆豆腐.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "内脂豆腐",
+        "咸鸭蛋",
+        "五花肉",
+        "大蒜",
+        "姜",
+        "小米椒",
+        "香辣酱",
+        "花椒",
+        "食盐",
+        "酱油"
+      ]
+    },
+    {
+      "name": "蚂蚁上树",
+      "path": "dishes/meat_dish/蚂蚁上树.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "小葱"
+      ]
+    },
+    {
+      "name": "梅菜扣肉",
+      "path": "dishes/meat_dish/梅菜扣肉/梅菜扣肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "奶酪培根通心粉",
+      "path": "dishes/meat_dish/奶酪培根通心粉/奶酪培根通心粉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "大蒜"
+      ]
+    },
+    {
+      "name": "牛排",
+      "path": "dishes/meat_dish/牛排/牛排.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "锡箔纸",
+        "厨房纸",
+        "汤匙"
+      ]
+    },
+    {
+      "name": "农家一碗香",
+      "path": "dishes/meat_dish/农家一碗香/农家一碗香.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "啤酒鸭",
+      "path": "dishes/meat_dish/啤酒鸭/啤酒鸭.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "黔式腊肠娃娃菜",
+      "path": "dishes/meat_dish/黔式腊肠娃娃菜/黔式腊肠娃娃菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "青椒酿",
+      "path": "dishes/meat_dish/青椒酿/青椒酿.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "青椒土豆炒肉",
+      "path": "dishes/meat_dish/青椒土豆炒肉/青椒土豆炒肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "清蒸鳜鱼",
+      "path": "dishes/meat_dish/清蒸鳜鱼/清蒸鳜鱼.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "大葱"
+      ]
+    },
+    {
+      "name": "肉饼炖蛋",
+      "path": "dishes/meat_dish/肉饼炖蛋.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "杀猪菜",
+      "path": "dishes/meat_dish/杀猪菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "山西过油肉",
+      "path": "dishes/meat_dish/山西过油肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "酱油",
+        "料酒",
+        "陈醋",
+        "花椒粉",
+        "鸡精"
+      ]
+    },
+    {
+      "name": "商芝肉",
+      "path": "dishes/meat_dish/商芝肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "瘦肉土豆片",
+      "path": "dishes/meat_dish/瘦肉土豆片/瘦肉土豆片.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "水煮牛肉",
+      "path": "dishes/meat_dish/水煮牛肉/水煮牛肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "水煮肉片",
+      "path": "dishes/meat_dish/水煮肉片.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "猪里脊肉",
+        "红油豆瓣"
+      ]
+    },
+    {
+      "name": "蒜苔炒肉末",
+      "path": "dishes/meat_dish/蒜苔炒肉末.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "食用盐"
+      ]
+    },
+    {
+      "name": "台式卤肉饭",
+      "path": "dishes/meat_dish/台式卤肉饭/台式卤肉饭.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "米饭"
+      ]
+    },
+    {
+      "name": "糖醋里脊",
+      "path": "dishes/meat_dish/糖醋里脊.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "糖醋排骨",
+      "path": "dishes/meat_dish/糖醋排骨/糖醋排骨.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "田螺酿",
+      "path": "dishes/meat_dish/田螺酿/田螺酿.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "甜辣烤全翅",
+      "path": "dishes/meat_dish/甜辣烤全翅.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "土豆炖排骨",
+      "path": "dishes/meat_dish/土豆炖排骨/土豆炖排骨.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "无骨鸡爪",
+      "path": "dishes/meat_dish/无骨鸡爪/无骨鸡爪.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "洋葱"
+      ]
+    },
+    {
+      "name": "西红柿牛腩",
+      "path": "dishes/meat_dish/西红柿牛腩/西红柿牛腩.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "燃气灶",
+        "生抽",
+        "白胡椒粉",
+        "白糖",
+        "料/黄酒",
+        "八角三小片"
+      ]
+    },
+    {
+      "name": "西红柿土豆炖牛肉",
+      "path": "dishes/meat_dish/西红柿土豆炖牛肉/西红柿土豆炖牛肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "小料",
+        "葱",
+        "姜",
+        "料酒",
+        "八角",
+        "香叶",
+        "白糖or冰糖",
+        "老抽",
+        "土豆",
+        "番茄"
+      ]
+    },
+    {
+      "name": "乡村啤酒鸭",
+      "path": "dishes/meat_dish/乡村啤酒鸭.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "红椒",
+        "姜",
+        "小米椒",
+        "草果",
+        "桂皮"
+      ]
+    },
+    {
+      "name": "香干芹菜炒肉",
+      "path": "dishes/meat_dish/香干芹菜炒肉/香干芹菜炒肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "香菇滑鸡",
+      "path": "dishes/meat_dish/香菇滑鸡/香菇滑鸡.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "香煎五花肉",
+      "path": "dishes/meat_dish/香煎五花肉/香煎五花肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "五花肉条",
+        "生菜",
+        "酱油",
+        "盐",
+        "味精",
+        "料酒",
+        "姜蒜",
+        "豆瓣酱"
+      ]
+    },
+    {
+      "name": "香辣鸡爪煲",
+      "path": "dishes/meat_dish/香辣鸡爪煲/香辣鸡爪煲.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "鸡爪",
+        "料酒",
+        "八角",
+        "生抽",
+        "老抽",
+        "辣椒面",
+        "五香粉",
+        "盐",
+        "鸡精"
+      ]
+    },
+    {
+      "name": "湘祁米夫鸭",
+      "path": "dishes/meat_dish/湘祁米夫鸭/湘祁米夫鸭.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "小炒黄牛肉",
+      "path": "dishes/meat_dish/小炒黄牛肉/小炒黄牛肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "小炒鸡肝",
+      "path": "dishes/meat_dish/小炒鸡肝/小炒鸡肝.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "小炒肉",
+      "path": "dishes/meat_dish/小炒肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "小米辣炒肉",
+      "path": "dishes/meat_dish/小米辣炒肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "小米辣",
+        "大蒜"
+      ]
+    },
+    {
+      "name": "小酥肉",
+      "path": "dishes/meat_dish/小酥肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "食用油"
+      ]
+    },
+    {
+      "name": "新疆大盘鸡",
+      "path": "dishes/meat_dish/新疆大盘鸡/新疆大盘鸡.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "花椒",
+        "香叶",
+        "香果"
+      ]
+    },
+    {
+      "name": "血浆鸭",
+      "path": "dishes/meat_dish/血浆鸭/血浆鸭.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "羊排焖面",
+      "path": "dishes/meat_dish/羊排焖面/羊排焖面.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "甜椒",
+        "大葱",
+        "花椒",
+        "干辣椒",
+        "姜",
+        "白糖",
+        "老抽"
+      ]
+    },
+    {
+      "name": "洋葱炒猪肉",
+      "path": "dishes/meat_dish/洋葱炒猪肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "洋葱",
+        "蕃茄酱"
+      ]
+    },
+    {
+      "name": "意式烤鸡",
+      "path": "dishes/meat_dish/意式烤鸡.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "鱼香茄子",
+      "path": "dishes/meat_dish/鱼香茄子/鱼香茄子.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "鱼香肉丝",
+      "path": "dishes/meat_dish/鱼香肉丝.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "枝竹羊腩煲",
+      "path": "dishes/meat_dish/枝竹羊腩煲/枝竹羊腩煲.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "料酒",
+        "蚝油",
+        "葱段",
+        "其余配菜例如马蹄"
+      ]
+    },
+    {
+      "name": "猪皮冻",
+      "path": "dishes/meat_dish/猪皮冻/猪皮冻.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "猪皮",
+        "大料",
+        "花椒",
+        "白芷",
+        "桂皮",
+        "丁香",
+        "香叶",
+        "小茴香"
+      ]
+    },
+    {
+      "name": "猪肉烩酸菜",
+      "path": "dishes/meat_dish/猪肉烩酸菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "猪五花肉或猪肉排骨"
+      ]
+    },
+    {
+      "name": "柱候牛腩",
+      "path": "dishes/meat_dish/柱候牛腩/柱候牛腩.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "孜然牛肉",
+      "path": "dishes/meat_dish/孜然牛肉.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "牛柳或牛肩肉",
+        "捣药罐"
+      ]
+    },
+    {
+      "name": "淄博烧烤",
+      "path": "dishes/meat_dish/淄博烧烤/淄博烧烤.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "小薄饼",
+        "芝麻盐",
+        "炭火或燃气"
+      ]
+    },
+    {
+      "name": "醉排骨",
+      "path": "dishes/meat_dish/醉排骨/醉排骨.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "拔丝土豆",
+      "path": "dishes/vegetable_dish/拔丝土豆/拔丝土豆.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "白灼菜心",
+      "path": "dishes/vegetable_dish/白灼菜心/白灼菜心.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "大蒜",
+        "小米辣"
+      ]
+    },
+    {
+      "name": "包菜炒鸡蛋粉丝",
+      "path": "dishes/vegetable_dish/包菜炒鸡蛋粉丝/包菜炒鸡蛋粉丝.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "包菜",
+        "胡萝卜",
+        "生抽",
+        "老抽",
+        "蚝油",
+        "干辣椒"
+      ]
+    },
+    {
+      "name": "菠菜炒鸡蛋",
+      "path": "dishes/vegetable_dish/菠菜炒鸡蛋/菠菜炒鸡蛋.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "炒滑蛋",
+      "path": "dishes/vegetable_dish/炒滑蛋/炒滑蛋.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "炒土豆和胡萝卜蒸菜",
+      "path": "dishes/vegetable_dish/炒土豆和胡萝卜蒸菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "蒜瓣",
+        "干辣椒"
+      ]
+    },
+    {
+      "name": "脆皮豆腐",
+      "path": "dishes/vegetable_dish/脆皮豆腐.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "地三鲜",
+      "path": "dishes/vegetable_dish/地三鲜/地三鲜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "葱",
+        "姜",
+        "蒜",
+        "豆瓣酱",
+        "生抽",
+        "糖"
+      ]
+    },
+    {
+      "name": "干锅花菜",
+      "path": "dishes/vegetable_dish/干锅花菜/干锅花菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "蚝油三鲜菇",
+      "path": "dishes/vegetable_dish/蚝油三鲜菇/蚝油三鲜菇.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "香菇"
+      ]
+    },
+    {
+      "name": "蚝油生菜",
+      "path": "dishes/vegetable_dish/蚝油生菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "红烧冬瓜",
+      "path": "dishes/vegetable_dish/红烧冬瓜/红烧冬瓜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "虎皮青椒",
+      "path": "dishes/vegetable_dish/虎皮青椒/虎皮青椒.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "话梅煮毛豆",
+      "path": "dishes/vegetable_dish/话梅煮毛豆/话梅煮毛豆.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "鸡蛋羹",
+      "path": "dishes/vegetable_dish/鸡蛋羹/鸡蛋羹.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "藤椒油"
+      ]
+    },
+    {
+      "name": "蒸箱鸡蛋羹",
+      "path": "dishes/vegetable_dish/鸡蛋羹/蒸箱鸡蛋羹.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "蒸箱"
+      ]
+    },
+    {
+      "name": "鸡蛋花",
+      "path": "dishes/vegetable_dish/鸡蛋花/鸡蛋花.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "搅拌器"
+      ]
+    },
+    {
+      "name": "鸡蛋火腿炒黄瓜",
+      "path": "dishes/vegetable_dish/鸡蛋火腿炒黄瓜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "家常日本豆腐",
+      "path": "dishes/vegetable_dish/家常日本豆腐.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "椒盐玉米",
+      "path": "dishes/vegetable_dish/椒盐玉米/椒盐玉米.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "油",
+        "淀粉",
+        "两个塑料簸箕"
+      ]
+    },
+    {
+      "name": "金钱蛋",
+      "path": "dishes/vegetable_dish/金钱蛋.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "金针菇日本豆腐煲",
+      "path": "dishes/vegetable_dish/金针菇日本豆腐煲.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "盐"
+      ]
+    },
+    {
+      "name": "烤茄子",
+      "path": "dishes/vegetable_dish/烤茄子/烤茄子.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "辣椒"
+      ]
+    },
+    {
+      "name": "榄菜肉末四季豆",
+      "path": "dishes/vegetable_dish/榄菜肉末四季豆/榄菜肉末四季豆.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "雷椒皮蛋",
+      "path": "dishes/vegetable_dish/雷椒皮蛋.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "葱"
+      ]
+    },
+    {
+      "name": "凉拌豆腐",
+      "path": "dishes/vegetable_dish/凉拌豆腐.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "凉拌金针菇",
+      "path": "dishes/vegetable_dish/凉拌金针菇.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "凉拌木耳",
+      "path": "dishes/vegetable_dish/凉拌木耳/凉拌木耳.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "芥末"
+      ]
+    },
+    {
+      "name": "凉拌莴笋",
+      "path": "dishes/vegetable_dish/凉拌莴笋/凉拌莴笋.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "皮蛋豆腐",
+      "path": "dishes/vegetable_dish/皮蛋豆腐.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "内酯豆腐",
+        "香菜"
+      ]
+    },
+    {
+      "name": "蒲烧茄子",
+      "path": "dishes/vegetable_dish/蒲烧茄子.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "茄子",
+        "蒲烧汁",
+        "蜂蜜",
+        "白糖",
+        "生抽",
+        "老抽",
+        "料酒",
+        "水"
+      ]
+    },
+    {
+      "name": "乾隆白菜",
+      "path": "dishes/vegetable_dish/乾隆白菜/乾隆白菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "芹菜拌茶树菇",
+      "path": "dishes/vegetable_dish/芹菜拌茶树菇/芹菜拌茶树菇.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "清炒花菜",
+      "path": "dishes/vegetable_dish/清炒花菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "清蒸南瓜",
+      "path": "dishes/vegetable_dish/清蒸南瓜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "陕北熬豆角",
+      "path": "dishes/vegetable_dish/陕北熬豆角.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "葱"
+      ]
+    },
+    {
+      "name": "上汤娃娃菜",
+      "path": "dishes/vegetable_dish/上汤娃娃菜/上汤娃娃菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "皮蛋",
+        "午餐肉",
+        "葱",
+        "姜",
+        "蒜",
+        "盐",
+        "糖",
+        "淀粉"
+      ]
+    },
+    {
+      "name": "手撕包菜",
+      "path": "dishes/vegetable_dish/手撕包菜/手撕包菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "水油焖蔬菜",
+      "path": "dishes/vegetable_dish/水油焖蔬菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "食用油",
+        "盐",
+        "蚝油"
+      ]
+    },
+    {
+      "name": "松仁玉米",
+      "path": "dishes/vegetable_dish/松仁玉米.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "素炒豆角",
+      "path": "dishes/vegetable_dish/素炒豆角.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "葱"
+      ]
+    },
+    {
+      "name": "酸辣土豆丝",
+      "path": "dishes/vegetable_dish/酸辣土豆丝.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "蒜蓉炒芹菜",
+      "path": "dishes/vegetable_dish/蒜蓉炒芹菜/蒜蓉炒芹菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "芹菜"
+      ]
+    },
+    {
+      "name": "蒜蓉空心菜",
+      "path": "dishes/vegetable_dish/蒜蓉空心菜/蒜蓉空心菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "大蒜",
+        "铲子"
+      ]
+    },
+    {
+      "name": "蒜蓉西兰花",
+      "path": "dishes/vegetable_dish/蒜蓉西兰花.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "糖拌西红柿",
+      "path": "dishes/vegetable_dish/糖拌西红柿/糖拌西红柿.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": [
+        "冰箱"
+      ]
+    },
+    {
+      "name": "莴笋叶煎饼",
+      "path": "dishes/vegetable_dish/莴笋叶煎饼/莴笋叶煎饼.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "西红柿炒鸡蛋",
+      "path": "dishes/vegetable_dish/西红柿炒鸡蛋.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "西红柿豆腐汤羹",
+      "path": "dishes/vegetable_dish/西红柿豆腐汤羹/西红柿豆腐汤羹.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "西葫芦炒鸡蛋",
+      "path": "dishes/vegetable_dish/西葫芦炒鸡蛋/西葫芦炒鸡蛋.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "小炒藕丁",
+      "path": "dishes/vegetable_dish/小炒藕丁/小炒藕丁.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "洋葱炒鸡蛋",
+      "path": "dishes/vegetable_dish/洋葱炒鸡蛋/洋葱炒鸡蛋.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "印度葫芦丸子",
+      "path": "dishes/vegetable_dish/印度葫芦丸子.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "印度土豆花菜",
+      "path": "dishes/vegetable_dish/印度土豆花菜.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "油醋爆蛋",
+      "path": "dishes/vegetable_dish/油醋爆蛋.md",
+      "source": "howtocook",
+      "scale": 1,
+      "mainMass": null,
+      "unknownAmounts": []
+    },
+    {
+      "name": "鹌鹑蛋红烧肉",
+      "path": "炒菜/鹌鹑蛋红烧肉.md",
+      "source": "cooklikehoc",
+      "scale": 0.2147239263803681,
+      "mainMass": 1630,
+      "unknownAmounts": []
+    },
+    {
+      "name": "包菜炒鸡蛋",
+      "path": "炒菜/包菜炒鸡蛋.md",
+      "source": "cooklikehoc",
+      "scale": 0.175,
+      "mainMass": 2000,
+      "unknownAmounts": []
+    },
+    {
+      "name": "爆炒牛肉",
+      "path": "炒菜/爆炒牛肉.md",
+      "source": "cooklikehoc",
+      "scale": 0.2916666666666667,
+      "mainMass": 1200,
+      "unknownAmounts": []
+    },
+    {
+      "name": "菠萝咕咾肉",
+      "path": "炒菜/菠萝咕咾肉.md",
+      "source": "cooklikehoc",
+      "scale": 0.19444444444444445,
+      "mainMass": 1800,
+      "unknownAmounts": []
+    },
+    {
+      "name": "蚕豆炒鸡蛋",
+      "path": "炒菜/蚕豆炒鸡蛋.md",
+      "source": "cooklikehoc",
+      "scale": 0.21875,
+      "mainMass": 1600,
+      "unknownAmounts": []
+    },
+    {
+      "name": "蚕豆炒虾仁",
+      "path": "炒菜/蚕豆炒虾仁.md",
+      "source": "cooklikehoc",
+      "scale": 0.1794871794871795,
+      "mainMass": 1950,
+      "unknownAmounts": [
+        "蒜子"
+      ]
+    },
+    {
+      "name": "剁椒木耳炒鸡蛋",
+      "path": "炒菜/剁椒木耳炒鸡蛋.md",
+      "source": "cooklikehoc",
+      "scale": 0.21875,
+      "mainMass": 1600,
+      "unknownAmounts": [
+        "香葱"
+      ]
+    },
+    {
+      "name": "宫保鸡丁",
+      "path": "炒菜/宫保鸡丁.md",
+      "source": "cooklikehoc",
+      "scale": 0.2229299363057325,
+      "mainMass": 1570,
+      "unknownAmounts": []
+    },
+    {
+      "name": "贵州风味辣子鸡",
+      "path": "炒菜/贵州风味辣子鸡.md",
+      "source": "cooklikehoc",
+      "scale": 0.20588235294117646,
+      "mainMass": 1700,
+      "unknownAmounts": []
+    },
+    {
+      "name": "胡萝卜炒鸡蛋",
+      "path": "炒菜/胡萝卜炒鸡蛋.md",
+      "source": "cooklikehoc",
+      "scale": 0.16666666666666666,
+      "mainMass": 2100,
+      "unknownAmounts": [
+        "香葱"
+      ]
+    },
+    {
+      "name": "黄瓜炒红肠",
+      "path": "炒菜/黄瓜炒红肠.md",
+      "source": "cooklikehoc",
+      "scale": 0.1590909090909091,
+      "mainMass": 2200,
+      "unknownAmounts": [
+        "蒜子"
+      ]
+    },
+    {
+      "name": "农家小炒肉（鸡蛋干版本）",
+      "path": "炒菜/农家小炒肉（鸡蛋干）.md",
+      "source": "cooklikehoc",
+      "scale": 0.19021739130434784,
+      "mainMass": 1840,
+      "unknownAmounts": [
+        "盐",
+        "小炒肉调料"
+      ]
+    },
+    {
+      "name": "农家小炒肉（鸡蛋干版本）",
+      "path": "炒菜/农家小炒肉（鸡蛋干版本）.md",
+      "source": "cooklikehoc",
+      "scale": 0.1715686274509804,
+      "mainMass": 2040,
+      "unknownAmounts": []
+    },
+    {
+      "name": "农家小炒肉（玉耳版本）",
+      "path": "炒菜/农家小炒肉（玉耳）.md",
+      "source": "cooklikehoc",
+      "scale": 0.17587939698492464,
+      "mainMass": 1990,
+      "unknownAmounts": []
+    },
+    {
+      "name": "芹菜炒香干",
+      "path": "炒菜/芹菜炒香干.md",
+      "source": "cooklikehoc",
+      "scale": 0.21084337349397592,
+      "mainMass": 1660,
+      "unknownAmounts": []
+    },
+    {
+      "name": "芹菜香干炒肉丝",
+      "path": "炒菜/芹菜香干炒肉丝.md",
+      "source": "cooklikehoc",
+      "scale": 0.18324607329842932,
+      "mainMass": 1910,
+      "unknownAmounts": []
+    },
+    {
+      "name": "青椒炒豆芽",
+      "path": "炒菜/青椒炒豆芽.md",
+      "source": "cooklikehoc",
+      "scale": 0.3181818181818182,
+      "mainMass": 1100,
+      "unknownAmounts": []
+    },
+    {
+      "name": "青椒炒鸡蛋",
+      "path": "炒菜/青椒炒鸡蛋.md",
+      "source": "cooklikehoc",
+      "scale": 0.175,
+      "mainMass": 2000,
+      "unknownAmounts": []
+    },
+    {
+      "name": "青椒毛豆米",
+      "path": "炒菜/青椒毛豆米.md",
+      "source": "cooklikehoc",
+      "scale": 0.18421052631578946,
+      "mainMass": 1900,
+      "unknownAmounts": []
+    },
+    {
+      "name": "清炒菜心",
+      "path": "炒菜/清炒菜心.md",
+      "source": "cooklikehoc",
+      "scale": 0.25,
+      "mainMass": 1400,
+      "unknownAmounts": []
+    },
+    {
+      "name": "清炒春菜",
+      "path": "炒菜/清炒春菜.md",
+      "source": "cooklikehoc",
+      "scale": 0.20588235294117646,
+      "mainMass": 1700,
+      "unknownAmounts": []
+    },
+    {
+      "name": "清炒毛白菜",
+      "path": "炒菜/清炒毛白菜.md",
+      "source": "cooklikehoc",
+      "scale": 0.2692307692307692,
+      "mainMass": 1300,
+      "unknownAmounts": []
+    },
+    {
+      "name": "清炒青菜",
+      "path": "炒菜/清炒青菜.md",
+      "source": "cooklikehoc",
+      "scale": 0.2692307692307692,
+      "mainMass": 1300,
+      "unknownAmounts": []
+    },
+    {
+      "name": "清炒莴笋片",
+      "path": "炒菜/清炒莴笋片.md",
+      "source": "cooklikehoc",
+      "scale": 0.19230769230769232,
+      "mainMass": 1820,
+      "unknownAmounts": []
+    },
+    {
+      "name": "清炒西兰花",
+      "path": "炒菜/清炒西兰花.md",
+      "source": "cooklikehoc",
+      "scale": 0.175,
+      "mainMass": 2000,
+      "unknownAmounts": []
+    },
+    {
+      "name": "清炒油麦菜",
+      "path": "炒菜/清炒油麦菜.md",
+      "source": "cooklikehoc",
+      "scale": 0.2692307692307692,
+      "mainMass": 1300,
+      "unknownAmounts": []
+    },
+    {
+      "name": "生炒上海青",
+      "path": "炒菜/生炒上海青.md",
+      "source": "cooklikehoc",
+      "scale": 0.2692307692307692,
+      "mainMass": 1300,
+      "unknownAmounts": []
+    },
+    {
+      "name": "酸辣包菜",
+      "path": "炒菜/酸辣包菜.md",
+      "source": "cooklikehoc",
+      "scale": 0.19444444444444445,
+      "mainMass": 1800,
+      "unknownAmounts": []
+    },
+    {
+      "name": "酸辣大白菜",
+      "path": "炒菜/酸辣大白菜.md",
+      "source": "cooklikehoc",
+      "scale": 0.19444444444444445,
+      "mainMass": 1800,
+      "unknownAmounts": []
+    },
+    {
+      "name": "酸辣土豆丝",
+      "path": "炒菜/酸辣土豆丝.md",
+      "source": "cooklikehoc",
+      "scale": 0.19337016574585636,
+      "mainMass": 1810,
+      "unknownAmounts": []
+    },
+    {
+      "name": "蒜黄炒鸡蛋",
+      "path": "炒菜/蒜黄炒鸡蛋.md",
+      "source": "cooklikehoc",
+      "scale": 0.16203703703703703,
+      "mainMass": 2160,
+      "unknownAmounts": []
+    },
+    {
+      "name": "蒜泥菠菜",
+      "path": "炒菜/蒜泥菠菜.md",
+      "source": "cooklikehoc",
+      "scale": 0.16666666666666666,
+      "mainMass": 2100,
+      "unknownAmounts": []
+    },
+    {
+      "name": "蒜苔炒香干",
+      "path": "炒菜/蒜苔炒香干.md",
+      "source": "cooklikehoc",
+      "scale": 0.20588235294117646,
+      "mainMass": 1700,
+      "unknownAmounts": []
+    },
+    {
+      "name": "糖醋排骨",
+      "path": "炒菜/糖醋排骨.md",
+      "source": "cooklikehoc",
+      "scale": 0.12280701754385964,
+      "mainMass": 2850,
+      "unknownAmounts": []
+    },
+    {
+      "name": "外婆菜炒鸡蛋",
+      "path": "炒菜/外婆菜炒鸡蛋.md",
+      "source": "cooklikehoc",
+      "scale": 0.17326732673267325,
+      "mainMass": 2020,
+      "unknownAmounts": []
+    },
+    {
+      "name": "莴笋丝炒鸡蛋",
+      "path": "炒菜/莴笋丝炒鸡蛋.md",
+      "source": "cooklikehoc",
+      "scale": 0.18421052631578946,
+      "mainMass": 1900,
+      "unknownAmounts": []
+    },
+    {
+      "name": "西红柿炒鸡蛋",
+      "path": "炒菜/西红柿炒鸡蛋.md",
+      "source": "cooklikehoc",
+      "scale": 0.14736842105263157,
+      "mainMass": 2375,
+      "unknownAmounts": [
+        "玉米淀粉"
+      ]
+    },
+    {
+      "name": "西兰花炒鸡胸肉",
+      "path": "炒菜/西兰花炒鸡胸肉.md",
+      "source": "cooklikehoc",
+      "scale": 0.14893617021276595,
+      "mainMass": 2350,
+      "unknownAmounts": []
+    },
+    {
+      "name": "西芹炒虾仁",
+      "path": "炒菜/西芹炒虾仁.md",
+      "source": "cooklikehoc",
+      "scale": 0.16666666666666666,
+      "mainMass": 2100,
+      "unknownAmounts": []
+    },
+    {
+      "name": "香椿炒鸡蛋",
+      "path": "炒菜/香椿炒鸡蛋.md",
+      "source": "cooklikehoc",
+      "scale": 0.1881720430107527,
+      "mainMass": 1860,
+      "unknownAmounts": []
+    },
+    {
+      "name": "香菇青菜",
+      "path": "炒菜/香菇青菜.md",
+      "source": "cooklikehoc",
+      "scale": 0.2413793103448276,
+      "mainMass": 1450,
+      "unknownAmounts": []
+    },
+    {
+      "name": "小炒脆笋",
+      "path": "炒菜/小炒脆笋.md",
+      "source": "cooklikehoc",
+      "scale": 0.1891891891891892,
+      "mainMass": 1850,
+      "unknownAmounts": [
+        "蒜子"
+      ]
+    },
+    {
+      "name": "红烧冬瓜",
+      "path": "炖菜/红烧冬瓜.md",
+      "source": "cooklikehoc",
+      "scale": 0.11589403973509933,
+      "mainMass": 3020,
+      "unknownAmounts": []
+    },
+    {
+      "name": "红烧鱼块",
+      "path": "炖菜/红烧鱼块.md",
+      "source": "cooklikehoc",
+      "scale": 0.23333333333333334,
+      "mainMass": 1500,
+      "unknownAmounts": [
+        "葱"
+      ]
+    },
+    {
+      "name": "鸡血汤",
+      "path": "炖菜/鸡血汤.md",
+      "source": "cooklikehoc",
+      "scale": 1.0057471264367817,
+      "mainMass": 348,
+      "unknownAmounts": []
+    },
+    {
+      "name": "梅干菜凤爪翅",
+      "path": "炖菜/梅干菜凤爪翅.md",
+      "source": "cooklikehoc",
+      "scale": 0.15548645046645934,
+      "mainMass": 2251,
+      "unknownAmounts": [
+        "香葱"
+      ]
+    },
+    {
+      "name": "凉拌莴笋丝",
+      "path": "凉拌/凉拌莴笋丝.md",
+      "source": "cooklikehoc",
+      "scale": 0.31390134529147984,
+      "mainMass": 1115,
+      "unknownAmounts": []
+    },
+    {
+      "name": "西芹花生米",
+      "path": "凉拌/西芹花生米.md",
+      "source": "cooklikehoc",
+      "scale": 0.2845528455284553,
+      "mainMass": 1230,
+      "unknownAmounts": []
+    },
+    {
+      "name": "砂锅牛杂煲",
+      "path": "砂锅菜/砂锅牛杂煲.md",
+      "source": "cooklikehoc",
+      "scale": 1.09375,
+      "mainMass": 320,
+      "unknownAmounts": []
+    },
+    {
+      "name": "老鸡汤",
+      "path": "汤/老鸡汤.md",
+      "source": "cooklikehoc",
+      "scale": 0.7,
+      "mainMass": 500,
+      "unknownAmounts": []
+    },
+    {
+      "name": "菠菜蛋皮丝",
+      "path": "烫菜/菠菜蛋皮丝.md",
+      "source": "cooklikehoc",
+      "scale": 0.22727272727272727,
+      "mainMass": 1540,
+      "unknownAmounts": []
+    },
+    {
+      "name": "葱油菜苔",
+      "path": "烫菜/葱油菜苔.md",
+      "source": "cooklikehoc",
+      "scale": 2.0588235294117645,
+      "mainMass": 170,
+      "unknownAmounts": []
+    },
+    {
+      "name": "葱油菜心",
+      "path": "烫菜/葱油菜心.md",
+      "source": "cooklikehoc",
+      "scale": 1.9444444444444444,
+      "mainMass": 180,
+      "unknownAmounts": []
+    },
+    {
+      "name": "鸡汤娃娃菜",
+      "path": "烫菜/鸡汤娃娃菜.md",
+      "source": "cooklikehoc",
+      "scale": 0.6363636363636364,
+      "mainMass": 550,
+      "unknownAmounts": []
+    },
+    {
+      "name": "浇汁西兰花",
+      "path": "烫菜/浇汁西兰花.md",
+      "source": "cooklikehoc",
+      "scale": 1.75,
+      "mainMass": 200,
+      "unknownAmounts": []
+    },
+    {
+      "name": "香脆木耳",
+      "path": "烫菜/香脆木耳.md",
+      "source": "cooklikehoc",
+      "scale": 1.2962962962962963,
+      "mainMass": 270,
+      "unknownAmounts": [
+        "生抽"
+      ]
+    },
+    {
+      "name": "风干牛肉蒸白干",
+      "path": "蒸菜/风干牛肉蒸白干.md",
+      "source": "cooklikehoc",
+      "scale": 3.1818181818181817,
+      "mainMass": 110,
+      "unknownAmounts": [
+        "风干牛肉酱料"
+      ]
+    },
+    {
+      "name": "胡萝卜牛肉",
+      "path": "蒸菜/胡萝卜牛肉.md",
+      "source": "cooklikehoc",
+      "scale": 2.121212121212121,
+      "mainMass": 165,
+      "unknownAmounts": [
+        "葱"
+      ]
+    },
+    {
+      "name": "酱椒蒜香片片鱼",
+      "path": "蒸菜/酱椒蒜香片片鱼.md",
+      "source": "cooklikehoc",
+      "scale": 1.8421052631578947,
+      "mainMass": 190,
+      "unknownAmounts": [
+        "葱"
+      ]
+    },
+    {
+      "name": "酱香小河虾",
+      "path": "蒸菜/酱香小河虾.md",
+      "source": "cooklikehoc",
+      "scale": 2.6923076923076925,
+      "mainMass": 130,
+      "unknownAmounts": [
+        "河虾酱料（干辣椒、黄酒、蚕豆辣酱、火葱、鸡油等）（老乡鸡中央厨房分切、调理，详细成分与配比官方未公布，请依据个人口味适量调整）"
+      ]
+    },
+    {
+      "name": "酱蒸白干",
+      "path": "蒸菜/酱蒸白干.md",
+      "source": "cooklikehoc",
+      "scale": 0.2916666666666667,
+      "mainMass": 1200,
+      "unknownAmounts": []
+    },
+    {
+      "name": "酱蒸豆腐",
+      "path": "蒸菜/酱蒸豆腐.md",
+      "source": "cooklikehoc",
+      "scale": 2.1875,
+      "mainMass": 160,
+      "unknownAmounts": []
+    },
+    {
+      "name": "蜜汁南瓜",
+      "path": "蒸菜/蜜汁南瓜.md",
+      "source": "cooklikehoc",
+      "scale": 2.3333333333333335,
+      "mainMass": 150,
+      "unknownAmounts": []
+    },
+    {
+      "name": "农家蒸蛋",
+      "path": "蒸菜/农家蒸蛋.md",
+      "source": "cooklikehoc",
+      "scale": 0.5384615384615384,
+      "mainMass": 650,
+      "unknownAmounts": []
+    },
+    {
+      "name": "青椒蒸豆米",
+      "path": "蒸菜/青椒蒸豆米.md",
+      "source": "cooklikehoc",
+      "scale": 1.9444444444444444,
+      "mainMass": 180,
+      "unknownAmounts": []
+    },
+    {
+      "name": "蒜蓉娃娃菜",
+      "path": "蒸菜/蒜蓉娃娃菜.md",
+      "source": "cooklikehoc",
+      "scale": 2.3333333333333335,
+      "mainMass": 150,
+      "unknownAmounts": []
+    },
+    {
+      "name": "豌豆肉末",
+      "path": "蒸菜/豌豆肉末.md",
+      "source": "cooklikehoc",
+      "scale": 1.8918918918918919,
+      "mainMass": 185,
+      "unknownAmounts": []
+    },
+    {
+      "name": "香肠蒸豆干",
+      "path": "蒸菜/香肠蒸豆干.md",
+      "source": "cooklikehoc",
+      "scale": 2.3333333333333335,
+      "mainMass": 150,
+      "unknownAmounts": []
+    },
+    {
+      "name": "香辣血旺",
+      "path": "蒸菜/香辣血旺.md",
+      "source": "cooklikehoc",
+      "scale": 1.5217391304347827,
+      "mainMass": 230,
+      "unknownAmounts": []
+    },
+    {
+      "name": "香芋蒸排骨",
+      "path": "蒸菜/香芋蒸排骨.md",
+      "source": "cooklikehoc",
+      "scale": 1.9444444444444444,
+      "mainMass": 180,
+      "unknownAmounts": []
+    },
+    {
+      "name": "蒸嫩豆腐",
+      "path": "蒸菜/蒸嫩豆腐.md",
+      "source": "cooklikehoc",
+      "scale": 1.8421052631578947,
+      "mainMass": 190,
+      "unknownAmounts": []
+    },
+    {
+      "name": "竹笋蒸鸡翅",
+      "path": "蒸菜/竹笋蒸鸡翅.md",
+      "source": "cooklikehoc",
+      "scale": 2.413793103448276,
+      "mainMass": 145,
+      "unknownAmounts": []
+    },
+    {
+      "name": "嗨嗨锅（鲜蔬锅）",
+      "path": "煮锅/嗨嗨锅（鲜蔬锅）.md",
+      "source": "cooklikehoc",
+      "scale": 1,
+      "mainMass": 350,
+      "unknownAmounts": []
+    },
+    {
+      "name": "金汤酸菜鱼",
+      "path": "煮锅/金汤酸菜鱼.md",
+      "source": "cooklikehoc",
+      "scale": 0.7142857142857143,
+      "mainMass": 490,
+      "unknownAmounts": [
+        "葱"
+      ]
+    },
+    {
+      "name": "铜锅番茄虾滑",
+      "path": "煮锅/铜锅番茄虾滑.md",
+      "source": "cooklikehoc",
+      "scale": 1.5151515151515151,
+      "mainMass": 231,
+      "unknownAmounts": []
+    }
+  ],
+  "skipped": [
+    {
+      "path": "dishes/aquatic/咖喱炒蟹.md",
+      "reason": "含参数化用量公式，需要人工明确基准份量"
+    },
+    {
+      "path": "dishes/aquatic/白灼虾/白灼虾.md",
+      "reason": "含参数化用量公式，需要人工明确基准份量"
+    },
+    {
+      "path": "dishes/meat_dish/冷吃兔.md",
+      "reason": "含参数化用量公式，需要人工明确基准份量"
+    },
+    {
+      "path": "dishes/meat_dish/辣椒炒肉.md",
+      "reason": "含参数化用量公式，需要人工明确基准份量"
+    },
+    {
+      "path": "dishes/meat_dish/香干肉丝.md",
+      "reason": "含参数化用量公式，需要人工明确基准份量"
+    },
+    {
+      "path": "dishes/meat_dish/黄瓜炒肉.md",
+      "reason": "含参数化用量公式，需要人工明确基准份量"
+    },
+    {
+      "path": "dishes/meat_dish/黑椒牛柳/黑椒牛柳.md",
+      "reason": "含参数化用量公式，需要人工明确基准份量"
+    },
+    {
+      "path": "dishes/vegetable_dish/凉拌油麦菜.md",
+      "reason": "含参数化用量公式，需要人工明确基准份量"
+    },
+    {
+      "path": "dishes/vegetable_dish/凉拌黄瓜.md",
+      "reason": "含参数化用量公式，需要人工明确基准份量"
+    },
+    {
+      "path": "dishes/vegetable_dish/炒茄子.md",
+      "reason": "含参数化用量公式，需要人工明确基准份量"
+    },
+    {
+      "path": "dishes/vegetable_dish/炒青菜.md",
+      "reason": "含参数化用量公式，需要人工明确基准份量"
+    },
+    {
+      "path": "dishes/vegetable_dish/红烧茄子.md",
+      "reason": "含参数化用量公式，需要人工明确基准份量"
+    },
+    {
+      "path": "dishes/vegetable_dish/茄子炖土豆.md",
+      "reason": "含参数化用量公式，需要人工明确基准份量"
+    },
+    {
+      "path": "dishes/vegetable_dish/葱煎豆腐.md",
+      "reason": "含参数化用量公式，需要人工明确基准份量"
+    },
+    {
+      "path": "dishes/vegetable_dish/韭菜炒蛋/韭菜炒蛋.md",
+      "reason": "含参数化用量公式，需要人工明确基准份量"
+    },
+    {
+      "path": "dishes/vegetable_dish/鸡蛋羹/微波炉鸡蛋羹.md",
+      "reason": "含参数化用量公式，需要人工明确基准份量"
+    },
+    {
+      "path": "凉拌/口水鸡.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "凉拌/柠檬凤爪.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "卤菜/卤大排.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "卤菜/卤方干.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "卤菜/卤翅根.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "卤菜/卤鸡爪.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "卤菜/卤肉肠.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "卤菜/卤鸡腿.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "卤菜/嗨嗨桶（红油串串）.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "卤菜/咸蛋黄狮子头（卤制版）.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "卤菜/把子肉.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "卤菜/海带结.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "汤/山药莲子鸡汤.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "卤菜/薄皮青椒.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "汤/竹荪鹿茸菇鸡汤.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "汤/肥西老母鸡汤（单品）.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "汤/菌菇鸡汤.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "汤/金牌老母鸡汤.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/什锦蛋炒饭.md",
+      "reason": "属于主食，不纳入荤素配菜"
+    },
+    {
+      "path": "炒菜/农家小炒肉（玉耳版本）.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/家常土豆片.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/家常小炒.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/小炒河虾.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/小炒花菜.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/小炒面筋.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/小炒香干.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/小炒鸡丁.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/小炒黄牛肉.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/山药炒木耳.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/毛豆烧土鸡.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/油渣大白菜.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/笋子烧肉.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/笋子鸡丁盖饭.md",
+      "reason": "属于主食，不纳入荤素配菜"
+    },
+    {
+      "path": "炒菜/红烧茄子.md",
+      "reason": "主库同名做法待修正，不用补充库替代"
+    },
+    {
+      "path": "炒菜/经典毛豆烧鸡.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/肥肠鸡.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/胡萝卜炒木耳.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/胡萝卜炒肉丝.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/胡萝卜炒肉片.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/芋儿鸡.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/菠萝咕咾肉时蔬饭.md",
+      "reason": "属于主食，不纳入荤素配菜"
+    },
+    {
+      "path": "炒菜/蒜苔炒木耳.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/蒜苔炒鸡胗.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/豆皮毛白菜.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/酸辣海带丝.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/鱼香肉丝.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/鱼香肉丝盖饭.md",
+      "reason": "属于主食，不纳入荤素配菜"
+    },
+    {
+      "path": "炖菜/土豆牛腩.md",
+      "reason": "菜名含肉类但主料肉量不明，待人工确认"
+    },
+    {
+      "path": "炖菜/小鸡炖蘑菇.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炖菜/板栗烧鸡.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炖菜/甜辣辣年糕烧鸡.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炖菜/白菜炖豆腐.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炖菜/肉汁素鸡.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炖菜/酸菜血旺豆腐.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炖菜/银鱼浦鸡蛋.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炖菜/香辣鸡杂.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炖菜/麻婆豆腐.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "烫菜/特色热干面.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "烫菜/白灼虾（8只）.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "烫菜/葱油生菜.md",
+      "reason": "缺少可核实的主料克数，待人工覆盖"
+    },
+    {
+      "path": "烫菜/葱油拌面.md",
+      "reason": "属于主食，不纳入荤素配菜"
+    },
+    {
+      "path": "烫菜/葱油青菜.md",
+      "reason": "缺少可核实的主料克数，待人工覆盖"
+    },
+    {
+      "path": "烫菜/麻辣鸡块.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "煮锅/冒烤鸭.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "煮锅/嗨嗨锅（泡椒鸡米花米线）.md",
+      "reason": "属于主食，不纳入荤素配菜"
+    },
+    {
+      "path": "煮锅/嗨嗨锅（番茄肥牛锅）.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "煮锅/嗨嗨锅（酸菜鱼米线）.md",
+      "reason": "属于主食，不纳入荤素配菜"
+    },
+    {
+      "path": "煮锅/金汤酸菜鱼（大份）.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "煮锅/铜锅安格斯肥牛.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "煮锅/铜锅川味水煮肉片.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "煮锅/铜锅豆花鸡.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "砂锅菜/砂锅三鲜豆腐.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "砂锅菜/砂锅原味鸡汤米线.md",
+      "reason": "属于主食，不纳入荤素配菜"
+    },
+    {
+      "path": "砂锅菜/砂锅木瓜.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "砂锅菜/砂锅泡椒鸡米花米线.md",
+      "reason": "属于主食，不纳入荤素配菜"
+    },
+    {
+      "path": "砂锅菜/砂锅番茄米线.md",
+      "reason": "属于主食，不纳入荤素配菜"
+    },
+    {
+      "path": "砂锅菜/砂锅盐焗鸡.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "砂锅菜/砂锅老坛酸菜鱼.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "砂锅菜/砂锅肉汁素鸡.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "砂锅菜/砂锅腐竹.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "砂锅菜/砂锅蒜蓉粉丝虾.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "砂锅菜/砂锅豆花鸡.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "砂锅菜/砂锅酸菜鱼.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "砂锅菜/砂锅香辣鱿鱼.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "砂锅菜/酸菜肥肠煲.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/三色虾仁.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/剁椒鱼头.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/凤爪蒸豆米.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/剁椒鱼头（白鲢鱼头版）.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/剁椒鱼头（草鱼头版）.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/奥尔良鸡翅.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/咸蛋黄狮子头（蒸制版）.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/松糕.md",
+      "reason": "属于主食，不纳入荤素配菜"
+    },
+    {
+      "path": "蒸菜/梅菜扣肉.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/活珠子.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/珍珠糯米肉丸.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/番茄菌菇肉丸.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/百叶包肉.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/白切鸡.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/秘汁卤肉饭.md",
+      "reason": "属于主食，不纳入荤素配菜"
+    },
+    {
+      "path": "蒸菜/粉蒸肉.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/肉饼蒸蛋.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/粗粮盒.md",
+      "reason": "属于主食，不纳入荤素配菜"
+    },
+    {
+      "path": "蒸菜/肉饼蒸蛋（常规版）.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/葱油鸡.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/肉饼蒸蛋（马蹄版）.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/葱油鸡（小母鸡版）.md",
+      "reason": "缺少可核实的主料克数，待人工覆盖"
+    },
+    {
+      "path": "蒸菜/葱油鸡（白切鸡版）.md",
+      "reason": "缺少可核实的主料克数，待人工覆盖"
+    },
+    {
+      "path": "蒸菜/葱油鸡（鸡排腿版）.md",
+      "reason": "缺少可核实的主料克数，待人工覆盖"
+    },
+    {
+      "path": "蒸菜/蒜蓉粉丝虾.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/蒸南瓜.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/虾仁蒸鸡蛋.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/豉汁鱼块.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/香肠蒸豆米.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/香辣红油鸡（小母鸡版）.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/香辣红油鸡（白切鸡版）.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/香辣红油鸡（鸡排腿版）.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/鸡汁辣鱼.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    }
+  ],
+  "merged": [
+    "宫保鸡丁",
+    "农家小炒肉（鸡蛋干版本）",
+    "酸辣土豆丝",
+    "糖醋排骨",
+    "西红柿炒鸡蛋",
+    "红烧冬瓜"
+  ]
+}

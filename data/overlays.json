@@ -1,0 +1,25 @@
+{
+  "_说明": "按菜名覆盖任意标准字段；proteinDefaults 决定鸡蛋、豆腐分类。原料未知用量保留 null，不能猜测。",
+  "proteinDefaults": { "egg": false, "tofu": false },
+  "dishes": {
+    "蒜蓉西兰花": {"servings":2,"cookTimeMinutes":15,"mainIngredients":["西兰花"]},
+    "宫保鸡丁": {"servings":2,"cookTimeMinutes":90,"proteinType":"chicken","mainIngredients":["鸡肉","花生"]},
+    "干锅花菜": {"isMeat":true},
+    "鸡蛋火腿炒黄瓜": {"isMeat":true},
+    "家常日本豆腐": {"isMeat":true},
+    "榄菜肉末四季豆": {"isMeat":true},
+    "手撕包菜": {"isMeat":true},
+    "炒土豆和胡萝卜蒸菜": {"proteinType":"vegetable"},
+    "西红柿炒鸡蛋": {
+      "servings":2,"isMeat":false,"proteinType":"egg","mainIngredients":["番茄","鸡蛋"],
+      "ingredients":[
+        {"name":"番茄","amount":2,"unit":"个","group":"veg"},
+        {"name":"鸡蛋","amount":3,"unit":"个","group":"meat"},
+        {"name":"食用油","amount":12,"unit":"ml","group":"pantry"},
+        {"name":"盐","amount":4,"unit":"g","group":"pantry"},
+        {"name":"糖（可选）","amount":4,"unit":"g","group":"pantry"},
+        {"name":"葱花（可选）","amount":20,"unit":"g","group":"seasoning"}
+      ]
+    }
+  }
+}
