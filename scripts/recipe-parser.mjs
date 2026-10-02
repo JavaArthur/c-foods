@@ -69,31 +69,8 @@ export function group(name) {
     return "meat";
   return "veg";
 }
-export function timer(text) {
-  const cn = {
-    一: 1,
-    二: 2,
-    三: 3,
-    四: 4,
-    五: 5,
-    六: 6,
-    七: 7,
-    八: 8,
-    九: 9,
-    十: 10,
-    半: 0.5,
-  };
-  const values = [
-    ...text.matchAll(
-      /(\d+(?:\.\d+)?|[一二三四五六七八九十半])\s*(?:[-~～到至]\s*(\d+(?:\.\d+)?))?\s*(小时|分钟|秒钟|秒|min\b|[sS]\b)/g,
-    ),
-  ].map(
-    (m) =>
-      (Number(m[2] || m[1]) || cn[m[1]]) *
-      (m[3] === "小时" ? 3600 : /分钟|min/.test(m[3]) ? 60 : 1),
-  );
-  return values.length ? Math.round(Math.max(...values)) : null;
-}
+import { timer } from "./recipe-time.mjs";
+export { timer } from "./recipe-time.mjs";
 export function section(md, re) {
   const parts = md.split(/^##\s+/m);
   return (
@@ -242,7 +219,19 @@ export function sourceImage(md, source, p) {
   const repo =
       source === "howtocook" ? "Anduin2017/HowToCook" : "Gar-b-age/CookLikeHOC",
     branch = source === "howtocook" ? "master" : "main";
-  const img = md.match(/!\[[^\]]*\]\(([^)]+)\)/)?.[1];
+  const images = [...md.matchAll(/!\[[^\]]*\]\((.+)\)\s*$/gm)].map((m) =>
+    m[1].trim(),
+  );
+  const title = clean(md.match(/^#\s+(.+)$/m)?.[1] || "").replace(
+    /的做法$/,
+    "",
+  );
+  const img =
+    images.find((p) => /成品|成菜|完成|出锅|最终/.test(p)) ||
+    images.find(
+      (p) => path.posix.basename(p).replace(/\.[^.]+$/, "") === title,
+    ) ||
+    images.at(-1);
   if (!img) return null;
   const imagePath = path.posix.normalize(
     path.posix.join(path.posix.dirname(p), img),

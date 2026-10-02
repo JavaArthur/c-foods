@@ -1,0 +1,1690 @@
+{
+  "dish-5f4ef14a3e9e": {
+    "name": "鳊鱼炖豆腐",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/aquatic/%E9%B3%8A%E9%B1%BC%E7%82%96%E8%B1%86%E8%85%90/%E9%B3%8A%E9%B1%BC%E7%82%96%E8%B1%86%E8%85%90.jpg",
+    "file": "/images/dish-5f4ef14a3e9e.webp"
+  },
+  "dish-2256b2c0c16a": {
+    "name": "蛏抱蛋",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/aquatic/%E8%9B%8F%E6%8A%B1%E8%9B%8B/3.jpeg",
+    "file": "/images/dish-2256b2c0c16a.webp"
+  },
+  "dish-ce564879325d": {
+    "name": "葱烧海参",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/aquatic/%E8%91%B1%E7%83%A7%E6%B5%B7%E5%8F%82/%E8%91%B1%E7%83%A7%E6%B5%B7%E5%8F%82.jpeg",
+    "file": "/images/dish-ce564879325d.webp"
+  },
+  "dish-d78e304b4af9": {
+    "name": "葱油桂鱼",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-d78e304b4af9.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 葱油桂鱼. Main ingredients: 桂鱼, 小米辣, 一次性手套. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-c6a64e9989d6": {
+    "name": "干煎阿根廷红虾",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/aquatic/%E5%B9%B2%E7%85%8E%E9%98%BF%E6%A0%B9%E5%BB%B7%E7%BA%A2%E8%99%BE/%E5%B9%B2%E7%85%8E%E9%98%BF%E6%A0%B9%E5%BB%B7%E7%BA%A2%E8%99%BE.jpg",
+    "file": "/images/dish-c6a64e9989d6.webp"
+  },
+  "dish-eebace3a0c5f": {
+    "name": "红烧鲤鱼",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-eebace3a0c5f.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 红烧鲤鱼. Main ingredients: 鲤鱼, 五花肉. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-cd65d843e8ba": {
+    "name": "红烧鱼",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-cd65d843e8ba.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 红烧鱼. Main ingredients: 姜丝, 鱼, 香菜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-6df045c0d850": {
+    "name": "红烧鱼头",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-6df045c0d850.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 红烧鱼头. Main ingredients: 美人椒, 香菜, 鱼头一个. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-afbdbbf6781d": {
+    "name": "黄油煎虾",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/aquatic/%E9%BB%84%E6%B2%B9%E7%85%8E%E8%99%BE/%E9%BB%84%E6%B2%B9%E7%85%8E%E8%99%BE.jpg",
+    "file": "/images/dish-afbdbbf6781d.webp"
+  },
+  "dish-87dd9561e5cb": {
+    "name": "烤鱼",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/aquatic/%E6%B7%B7%E5%90%88%E7%83%A4%E9%B1%BC/%E7%83%A4%E9%B1%BC.jpg",
+    "file": "/images/dish-87dd9561e5cb.webp"
+  },
+  "dish-4f0d6f03231b": {
+    "name": "酱炖蟹",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-4f0d6f03231b.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 酱炖蟹. Main ingredients: 螃蟹, 老姜, 鸡蛋. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-aad5297d0d4f": {
+    "name": "芥末黄油罗氏虾",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/aquatic/%E8%8A%A5%E6%9C%AB%E9%BB%84%E6%B2%B9%E7%BD%97%E6%B0%8F%E8%99%BE/%E8%8A%A5%E6%9C%AB%E9%BB%84%E6%B2%B9%E7%BD%97%E6%B0%8F%E8%99%BE.jpg",
+    "file": "/images/dish-aad5297d0d4f.webp"
+  },
+  "dish-c8ee5c3f5d0f": {
+    "name": "鲤鱼炖白菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/aquatic/%E9%B2%A4%E9%B1%BC%E7%82%96%E7%99%BD%E8%8F%9C/%E9%B2%A4%E9%B1%BC%E7%82%96%E7%99%BD%E8%8F%9C.jpeg",
+    "file": "/images/dish-c8ee5c3f5d0f.webp"
+  },
+  "dish-572e443d2b4f": {
+    "name": "清蒸鲈鱼",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/aquatic/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC.jpg",
+    "file": "/images/dish-572e443d2b4f.webp"
+  },
+  "dish-51b421c7dd58": {
+    "name": "清蒸生蚝",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-51b421c7dd58.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 清蒸生蚝. Main ingredients: 生蚝, 蒜, 刷子. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-d4b470c23990": {
+    "name": "肉蟹煲",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-d4b470c23990.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 肉蟹煲. Main ingredients: 肉蟹, 虾, 土豆. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-4a8c017b54b2": {
+    "name": "水煮鱼",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-4a8c017b54b2.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 水煮鱼. Main ingredients: 巴沙鱼, 蔬菜, 豆豉. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-2100ef8721d3": {
+    "name": "蒜蓉虾",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/aquatic/%E8%92%9C%E8%93%89%E8%99%BE/2.jpeg",
+    "file": "/images/dish-2100ef8721d3.webp"
+  },
+  "dish-8e6f9fac4821": {
+    "name": "蒜香黄油虾",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/aquatic/%E8%92%9C%E9%A6%99%E9%BB%84%E6%B2%B9%E8%99%BE/1.jpg",
+    "file": "/images/dish-8e6f9fac4821.webp"
+  },
+  "dish-270bae9a3e69": {
+    "name": "糖醋鲤鱼",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/aquatic/%E7%B3%96%E9%86%8B%E9%B2%A4%E9%B1%BC/%E6%88%90%E5%93%81.jpg",
+    "file": "/images/dish-270bae9a3e69.webp"
+  },
+  "dish-c2113a4d8b32": {
+    "name": "微波葱姜黑鳕鱼",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-c2113a4d8b32.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 微波葱姜黑鳕鱼. Main ingredients: 黑鳕鱼, 青葱, 带皮. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-6e7cba67272a": {
+    "name": "香煎翘嘴鱼",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/aquatic/%E9%A6%99%E7%85%8E%E7%BF%98%E5%98%B4%E9%B1%BC/%E9%A6%99%E7%85%8E%E7%BF%98%E5%98%B4%E9%B1%BC.jpeg",
+    "file": "/images/dish-6e7cba67272a.webp"
+  },
+  "dish-90313363367b": {
+    "name": "响油鳝丝",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-90313363367b.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 响油鳝丝. Main ingredients: 鳝丝, 姜末, 葱花. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-416117464d90": {
+    "name": "小龙虾",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/aquatic/%E5%B0%8F%E9%BE%99%E8%99%BE/%E6%88%90%E5%93%81.jpg",
+    "file": "/images/dish-416117464d90.webp"
+  },
+  "dish-6317306ff143": {
+    "name": "阳朔啤酒鱼",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/aquatic/%E9%98%B3%E6%9C%94%E5%95%A4%E9%85%92%E9%B1%BC/%E9%98%B3%E6%9C%94%E5%95%A4%E9%85%92%E9%B1%BC.png",
+    "file": "/images/dish-6317306ff143.webp"
+  },
+  "dish-852f1106dd9e": {
+    "name": "油焖大虾",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/aquatic/%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE/%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE.jpg",
+    "file": "/images/dish-852f1106dd9e.webp"
+  },
+  "dish-c2425b4ce4f5": {
+    "name": "奥尔良风味烤鸡腿",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-c2425b4ce4f5.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 奥尔良风味烤鸡腿. Main ingredients: 手枪腿鸡腿, 铝箔纸. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-c36c0019ce76": {
+    "name": "澳门湿版免治牛肉饭",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E6%BE%B3%E9%97%A8%E6%B9%BF%E7%89%88%E5%85%8D%E6%B2%BB%E7%89%9B%E8%82%89%E9%A5%AD/%E6%BE%B3%E9%97%A8%E6%B9%BF%E7%89%88%E5%85%8D%E6%B2%BB%E7%89%9B%E8%82%89%E9%A5%AD.jpg",
+    "file": "/images/dish-c36c0019ce76.webp"
+  },
+  "dish-52e83fc0ba1e": {
+    "name": "巴基斯坦牛肉咖喱",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E7%89%9B%E8%82%89%E5%92%96%E5%96%B1/%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E7%89%9B%E8%82%89%E5%92%96%E5%96%B1.png",
+    "file": "/images/dish-52e83fc0ba1e.webp"
+  },
+  "dish-753710e84ebf": {
+    "name": "白菜猪肉炖粉条",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-753710e84ebf.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 白菜猪肉炖粉条. Main ingredients: 五花肉, 大白菜, 土豆干粉条. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-9b7527e52267": {
+    "name": "豉汁排骨",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-9b7527e52267.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 豉汁排骨. Main ingredients: 肋排, 阳江豆豉, 蒜蓉. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-11791e8f98f9": {
+    "name": "豉汁蒸白鱔",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E8%B1%89%E6%B1%81%E8%92%B8%E7%99%BD%E9%B1%94/%E8%B1%89%E6%B1%81%E8%92%B8%E7%99%BD%E9%B1%94.jpeg",
+    "file": "/images/dish-11791e8f98f9.webp"
+  },
+  "dish-883b48e24f2a": {
+    "name": "葱烧鸡腿",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-883b48e24f2a.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 葱烧鸡腿. Main ingredients: 鸡腿. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-4323fc57af18": {
+    "name": "带把肘子",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-4323fc57af18.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 带把肘子. Main ingredients: 带脚、爪猪前肘, 红豆腐乳, 蒜片. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-b8229b8949c7": {
+    "name": "冬瓜酿肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E5%86%AC%E7%93%9C%E9%85%BF%E8%82%89/%E5%86%AC%E7%93%9C%E9%85%BF%E8%82%89%E6%88%90%E5%93%81.jpg",
+    "file": "/images/dish-b8229b8949c7.webp"
+  },
+  "dish-2a766decfc82": {
+    "name": "冬瓜桑拿鸡",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-2a766decfc82.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 冬瓜桑拿鸡. Main ingredients: 鸡肉, 冬瓜, 虫草花. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-d400a76b1972": {
+    "name": "豆豉鲮鱼油麦菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E8%B1%86%E8%B1%89%E9%B2%AE%E9%B1%BC%E6%B2%B9%E9%BA%A6%E8%8F%9C/%E8%B1%86%E8%B1%89%E9%B2%AE%E9%B1%BC%E6%B2%B9%E9%BA%A6%E8%8F%9C%E6%88%90%E5%93%81.jpg",
+    "file": "/images/dish-d400a76b1972.webp"
+  },
+  "dish-21cfd000630e": {
+    "name": "番茄红酱",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-21cfd000630e.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 番茄红酱. Main ingredients: 碎牛肉, 牛奶, 胡萝卜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-2b6c17e9c54c": {
+    "name": "粉蒸肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E7%B2%89%E8%92%B8%E8%82%89.png",
+    "file": "/images/dish-2b6c17e9c54c.webp"
+  },
+  "dish-9fcd0a23ba29": {
+    "name": "腐乳肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-9fcd0a23ba29.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 腐乳肉. Main ingredients: 带皮五花肉, 红腐乳, 腐乳汁. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-6b55206c8130": {
+    "name": "干煸仔鸡",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E5%B9%B2%E7%85%B8%E4%BB%94%E9%B8%A1/%E5%B9%B2%E7%85%B8%E4%BB%94%E9%B8%A1%E6%88%90%E5%93%81.jpg",
+    "file": "/images/dish-6b55206c8130.webp"
+  },
+  "dish-14b71ecfefbd": {
+    "name": "宫保鸡丁",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81.png",
+    "file": "/images/dish-14b71ecfefbd.webp"
+  },
+  "dish-799fb76c158a": {
+    "name": "咕噜肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-799fb76c158a.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 咕噜肉. Main ingredients: 梅头猪肉, 青椒, 罐头菠萝片. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-5da377822c7d": {
+    "name": "广式萝卜牛腩",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E5%B9%BF%E5%BC%8F%E8%90%9D%E5%8D%9C%E7%89%9B%E8%85%A9/%E5%B9%BF%E5%BC%8F%E8%90%9D%E5%8D%9C%E7%89%9B%E8%85%A9.webp",
+    "file": "/images/dish-5da377822c7d.webp"
+  },
+  "dish-99ea3f4157e5": {
+    "name": "贵州辣子鸡",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E8%B4%B5%E5%B7%9E%E8%BE%A3%E5%AD%90%E9%B8%A1/%E8%B4%B5%E5%B7%9E%E8%BE%A3%E5%AD%90%E9%B8%A1.jpg",
+    "file": "/images/dish-99ea3f4157e5.webp"
+  },
+  "dish-579392d7f741": {
+    "name": "桂林十八酿",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E6%A1%82%E6%9E%97%E5%8D%81%E5%85%AB%E9%85%BF/%E5%8D%97%E7%93%9C%E8%8A%B1%E9%85%BF.png",
+    "file": "/images/dish-579392d7f741.webp"
+  },
+  "dish-ba8bc67dd810": {
+    "name": "荷兰豆炒腊肠",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E8%8D%B7%E5%85%B0%E8%B1%86%E7%82%92%E8%85%8A%E8%82%A0/1.png",
+    "file": "/images/dish-ba8bc67dd810.webp",
+    "selectionNote": "1.png is the finished dish; 2.png is a process collage"
+  },
+  "dish-a6d13f7259d3": {
+    "name": "红烧鸡翅",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-a6d13f7259d3.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 红烧鸡翅. Main ingredients: 新鲜鸡翅, 葱段, 白芝麻. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-c4210fe787bf": {
+    "name": "简易红烧肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E8%82%89/001.jpg",
+    "file": "/images/dish-c4210fe787bf.webp"
+  },
+  "dish-34d824026b7c": {
+    "name": "南派红烧肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-34d824026b7c.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 南派红烧肉. Main ingredients: 猪五花肉, 主料, 辅料. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-9adf3a818eb5": {
+    "name": "红烧猪蹄",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E7%8C%AA%E8%B9%84/%E7%BA%A2%E7%83%A7%E7%8C%AA%E8%B9%84.jpg",
+    "file": "/images/dish-9adf3a818eb5.webp"
+  },
+  "dish-5deb1037d76a": {
+    "name": "湖南家常红烧肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E6%B9%96%E5%8D%97%E5%AE%B6%E5%B8%B8%E7%BA%A2%E7%83%A7%E8%82%89/%E6%B9%96%E5%8D%97%E5%AE%B6%E5%B8%B8%E7%BA%A2%E7%83%A7%E8%82%89.jpeg",
+    "file": "/images/dish-5deb1037d76a.webp"
+  },
+  "dish-226ef9cee720": {
+    "name": "虎皮肘子",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-226ef9cee720.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 虎皮肘子. Main ingredients: 猪前肘, 豆蔻, 大料. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-7a9ded525498": {
+    "name": "黄焖鸡",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-7a9ded525498.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 黄焖鸡. Main ingredients: 鸡腿, 香菇, 青椒. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-89ecebd7c114": {
+    "name": "黄油鸡",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-89ecebd7c114.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 黄油鸡. Main ingredients: 鸡腿肉, 酸奶, 柠檬汁. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-dd07bae9bb3b": {
+    "name": "徽派红烧肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E5%BE%BD%E6%B4%BE%E7%BA%A2%E7%83%A7%E8%82%89/2.jpeg",
+    "file": "/images/dish-dd07bae9bb3b.webp"
+  },
+  "dish-6248f88c0b96": {
+    "name": "回锅肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E5%9B%9E%E9%94%85%E8%82%89/2.jpeg",
+    "file": "/images/dish-6248f88c0b96.webp"
+  },
+  "dish-b90030febe49": {
+    "name": "尖椒炒牛肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-b90030febe49.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 尖椒炒牛肉. Main ingredients: 牛肉用量为, 葱的用量为, 姜的用量为. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-fe5636493a4b": {
+    "name": "尖叫牛蛙",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E5%B0%96%E5%8F%AB%E7%89%9B%E8%9B%99/%E5%B0%96%E5%8F%AB%E7%89%9B%E8%9B%99.jpg",
+    "file": "/images/dish-fe5636493a4b.webp"
+  },
+  "dish-5fc272527c3e": {
+    "name": "煎烤羊排",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-5fc272527c3e.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 煎烤羊排. Main ingredients: 羊排, 白芷, 孜然粒. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-6db2ebad7e19": {
+    "name": "姜炒鸡",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E5%A7%9C%E7%82%92%E9%B8%A1/%E5%A7%9C%E7%82%92%E9%B8%A1.jpg",
+    "file": "/images/dish-6db2ebad7e19.webp"
+  },
+  "dish-536301a10014": {
+    "name": "姜葱捞鸡",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-536301a10014.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 姜葱捞鸡. Main ingredients: 鸡腿. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-31c7da6a6027": {
+    "name": "酱牛肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E9%85%B1%E7%89%9B%E8%82%89/%E9%85%B1%E7%89%9B%E8%82%89.jpg",
+    "file": "/images/dish-31c7da6a6027.webp"
+  },
+  "dish-4002fae1b118": {
+    "name": "酱排骨",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E9%85%B1%E6%8E%92%E9%AA%A8/2.jpeg",
+    "file": "/images/dish-4002fae1b118.webp"
+  },
+  "dish-e5fb59ad789e": {
+    "name": "茭白炒肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E8%8C%AD%E7%99%BD%E7%82%92%E8%82%89/2.jpeg",
+    "file": "/images/dish-e5fb59ad789e.webp"
+  },
+  "dish-719cfc96f5bd": {
+    "name": "椒盐排条",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-719cfc96f5bd.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 椒盐排条. Main ingredients: 大排, 鸡蛋, 葱姜水. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-f6b56b2237ec": {
+    "name": "咖喱肥牛",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E5%92%96%E5%96%B1%E8%82%A5%E7%89%9B/%E5%92%96%E5%96%B1%E8%82%A5%E7%89%9B.jpg",
+    "file": "/images/dish-f6b56b2237ec.webp"
+  },
+  "dish-e9011fc0d25c": {
+    "name": "烤鸡翅",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-e9011fc0d25c.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 烤鸡翅. Main ingredients: 鸡翅用量为, 盐的用量为, 鸡翅中. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-0e59f44026ad": {
+    "name": "可乐鸡翅",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-0e59f44026ad.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 可乐鸡翅. Main ingredients: 鸡翅, 可乐. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-19cd8258b005": {
+    "name": "空气炸锅脆皮现腌炸鸡",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-19cd8258b005.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 空气炸锅脆皮现腌炸鸡. Main ingredients: 鸡翅中, 酸奶或牛奶, 鸡蛋. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-a21c80058c2d": {
+    "name": "口水鸡",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E5%8F%A3%E6%B0%B4%E9%B8%A1.png",
+    "file": "/images/dish-a21c80058c2d.webp"
+  },
+  "dish-6135539de733": {
+    "name": "老妈蹄花",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E8%80%81%E5%A6%88%E8%B9%84%E8%8A%B1/result2.jpg",
+    "file": "/images/dish-6135539de733.webp"
+  },
+  "dish-747b0431e0da": {
+    "name": "老式锅包肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89.jpg",
+    "file": "/images/dish-747b0431e0da.webp"
+  },
+  "dish-b0a818c22f10": {
+    "name": "荔枝肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E8%8D%94%E6%9E%9D%E8%82%89/7.jpeg",
+    "file": "/images/dish-b0a818c22f10.webp"
+  },
+  "dish-172840f1ca5e": {
+    "name": "凉拌鸡丝",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E5%87%89%E6%8B%8C%E9%B8%A1%E4%B8%9D/%E5%87%89%E6%8B%8C%E9%B8%A1%E4%B8%9D.jpg",
+    "file": "/images/dish-172840f1ca5e.webp"
+  },
+  "dish-422b810f8633": {
+    "name": "卤菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E5%8D%A4%E8%8F%9C/%E5%8D%A4%E6%B0%B4.jpeg",
+    "file": "/images/dish-422b810f8633.webp"
+  },
+  "dish-8bf8fa5405cb": {
+    "name": "萝卜炖羊排",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-8bf8fa5405cb.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 萝卜炖羊排. Main ingredients: 羊排, 白萝卜, 白芷. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-89f89e49cf2c": {
+    "name": "麻辣香锅",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-89f89e49cf2c.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 麻辣香锅. Main ingredients: 青菜共需, 无骨肉共需, 干豆腐. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-2ee6b4355ed5": {
+    "name": "麻婆豆腐",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90.jpg",
+    "file": "/images/dish-2ee6b4355ed5.webp"
+  },
+  "dish-dde6ab027b97": {
+    "name": "蚂蚁上树",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-dde6ab027b97.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 蚂蚁上树. Main ingredients: 红薯粉丝, 猪肉末, 姜末. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-581d2a67504f": {
+    "name": "梅菜扣肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89.png",
+    "file": "/images/dish-581d2a67504f.webp"
+  },
+  "dish-8e92cbbdd934": {
+    "name": "奶酪培根通心粉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E5%A5%B6%E9%85%AA%E5%9F%B9%E6%A0%B9%E9%80%9A%E5%BF%83%E7%B2%89/onepot.png",
+    "file": "/images/dish-8e92cbbdd934.webp"
+  },
+  "dish-1dad319dfd99": {
+    "name": "牛排",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E7%89%9B%E6%8E%92/%E7%89%9B%E6%8E%92.jpg",
+    "file": "/images/dish-1dad319dfd99.webp"
+  },
+  "dish-ee6b150344e5": {
+    "name": "农家一碗香",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E5%86%9C%E5%AE%B6%E4%B8%80%E7%A2%97%E9%A6%99/%E5%86%9C%E5%AE%B6%E4%B8%80%E7%A2%97%E9%A6%99%E6%88%90%E5%93%81.jpg",
+    "file": "/images/dish-ee6b150344e5.webp"
+  },
+  "dish-d76d98c2db72": {
+    "name": "啤酒鸭",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E5%95%A4%E9%85%92%E9%B8%AD/%E5%95%A4%E9%85%92%E9%B8%AD.jpg",
+    "file": "/images/dish-d76d98c2db72.webp"
+  },
+  "dish-4091a109a237": {
+    "name": "黔式腊肠娃娃菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E9%BB%94%E5%BC%8F%E8%85%8A%E8%82%A0%E5%A8%83%E5%A8%83%E8%8F%9C/%E9%BB%94%E5%BC%8F%E8%85%8A%E8%82%A0%E5%A8%83%E5%A8%83%E8%8F%9C.jpg",
+    "file": "/images/dish-4091a109a237.webp"
+  },
+  "dish-d073dbe515f0": {
+    "name": "青椒酿",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E9%9D%92%E6%A4%92%E9%85%BF/%E6%88%90%E5%93%81.jpeg",
+    "file": "/images/dish-d073dbe515f0.webp"
+  },
+  "dish-5d2ead0fcfeb": {
+    "name": "青椒土豆炒肉",
+    "kind": "photo",
+    "sourceUrl": "https://user-images.githubusercontent.com/49046468/205808925-b0ab8f98-0325-4136-8094-3f2ae8c547d5.jpg",
+    "file": "/images/dish-5d2ead0fcfeb.webp",
+    "sourcePageUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%9D%92%E6%A4%92%E5%9C%9F%E8%B1%86%E7%82%92%E8%82%89/%E9%9D%92%E6%A4%92%E5%9C%9F%E8%B1%86%E7%82%92%E8%82%89.md"
+  },
+  "dish-7b106cf47303": {
+    "name": "清蒸鳜鱼",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E6%B8%85%E8%92%B8%E9%B3%9C%E9%B1%BC/%E6%B8%85%E8%92%B8%E9%B3%9C%E9%B1%BC%E6%88%90%E5%93%81%E5%9B%BE.jpg",
+    "file": "/images/dish-7b106cf47303.webp"
+  },
+  "dish-f13647a78548": {
+    "name": "肉饼炖蛋",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-f13647a78548.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 肉饼炖蛋. Main ingredients: 猪肉末, 鸡蛋. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-88a9608d24a2": {
+    "name": "杀猪菜",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-88a9608d24a2.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 杀猪菜. Main ingredients: 血肠, 酸菜, 排骨. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-12311f225bc1": {
+    "name": "山西过油肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-12311f225bc1.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 山西过油肉. Main ingredients: 猪里脊, 蒜苔, 葱姜蒜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-cb4748d03c22": {
+    "name": "商芝肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-cb4748d03c22.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 商芝肉. Main ingredients: 带皮猪五花肉, 商芝, 蜂蜜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-536e6245d34e": {
+    "name": "瘦肉土豆片",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E7%98%A6%E8%82%89%E5%9C%9F%E8%B1%86%E7%89%87/%E7%98%A6%E8%82%89%E5%9C%9F%E8%B1%86%E7%89%87.jpg",
+    "file": "/images/dish-536e6245d34e.webp"
+  },
+  "dish-0f1fa883607f": {
+    "name": "水煮牛肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/sznr12.jpg",
+    "file": "/images/dish-0f1fa883607f.webp"
+  },
+  "dish-5ae4f200f4ec": {
+    "name": "水煮肉片",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-5ae4f200f4ec.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 水煮肉片. Main ingredients: 里脊肉的用量为, 蒜苗, 芹菜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-28499e879e96": {
+    "name": "蒜苔炒肉末",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-28499e879e96.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 蒜苔炒肉末. Main ingredients: 蒜苔, 五花肉薄片. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-58435b16a682": {
+    "name": "台式卤肉饭",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-58435b16a682.webp",
+    "generator": "image_gen",
+    "prompt": "Create a square hand-painted gouache food illustration for 台式卤肉饭. A ceramic bowl of white rice topped with glossy amber-brown braised pork belly in fine short strips, rich soy sauce, and one halved braised egg. Pork is fully cooked and tender, skin and fat visible in the small strips. Warm cream background #FFF8F0, overhead three-quarter view, centered whole bowl, only the finished dish, no raw ingredients or decorative props, no text, no logo, no watermark. This will be explicitly labeled 示意图."
+  },
+  "dish-447097124d9a": {
+    "name": "糖醋里脊",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-447097124d9a.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 糖醋里脊. Main ingredients: 里脊肉, 鸡蛋. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-6278e4f4c804": {
+    "name": "糖醋排骨",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8.jpg",
+    "file": "/images/dish-6278e4f4c804.webp"
+  },
+  "dish-e29b14f0c0f7": {
+    "name": "田螺酿",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E7%94%B0%E8%9E%BA%E9%85%BF/%E6%88%90%E5%93%81.jpeg",
+    "file": "/images/dish-e29b14f0c0f7.webp"
+  },
+  "dish-5533ea15a6b2": {
+    "name": "甜辣烤全翅",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-5533ea15a6b2.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 甜辣烤全翅. Main ingredients: 鸡全翅. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-b4144475fa33": {
+    "name": "土豆炖排骨",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-b4144475fa33.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 土豆炖排骨. Main ingredients: 肋排, 土豆. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-861c2ec338fb": {
+    "name": "无骨鸡爪",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E6%97%A0%E9%AA%A8%E9%B8%A1%E7%88%AA/%E6%97%A0%E9%AA%A8%E9%B8%A1%E7%88%AA.jpg",
+    "file": "/images/dish-861c2ec338fb.webp"
+  },
+  "dish-95722bbda883": {
+    "name": "西红柿牛腩",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-95722bbda883.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 西红柿牛腩. Main ingredients: 番茄, 牛腩, 燃气灶. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-a8e9b9bbf287": {
+    "name": "西红柿土豆炖牛肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89/abaaba_1.png",
+    "file": "/images/dish-a8e9b9bbf287.webp"
+  },
+  "dish-a5b1e37ad84b": {
+    "name": "香干芹菜炒肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E9%A6%99%E5%B9%B2%E8%8A%B9%E8%8F%9C%E7%82%92%E8%82%89/%E9%A6%99%E5%B9%B2%E8%8A%B9%E8%8F%9C%E7%82%92%E8%82%89.jpg",
+    "file": "/images/dish-a5b1e37ad84b.webp"
+  },
+  "dish-ec37c5b55597": {
+    "name": "香菇滑鸡",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E9%A6%99%E8%8F%87%E6%BB%91%E9%B8%A1/%E9%A6%99%E8%8F%87%E6%BB%91%E9%B8%A1.jpg",
+    "file": "/images/dish-ec37c5b55597.webp"
+  },
+  "dish-9858b2916716": {
+    "name": "香煎五花肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E9%A6%99%E7%85%8E%E4%BA%94%E8%8A%B1%E8%82%89/%E9%A6%99%E7%85%8E%E4%BA%94%E8%8A%B1%E8%82%89.jpg",
+    "file": "/images/dish-9858b2916716.webp"
+  },
+  "dish-4a917541ec8d": {
+    "name": "香辣鸡爪煲",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E9%A6%99%E8%BE%A3%E9%B8%A1%E7%88%AA%E7%85%B2/result1.jpg",
+    "file": "/images/dish-4a917541ec8d.webp"
+  },
+  "dish-2adc4b98a4a7": {
+    "name": "湘祁米夫鸭",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E6%B9%98%E7%A5%81%E7%B1%B3%E5%A4%AB%E9%B8%AD/%E6%B9%98%E7%A5%81%E7%B1%B3%E5%A4%AB%E9%B8%AD.jpg",
+    "file": "/images/dish-2adc4b98a4a7.webp"
+  },
+  "dish-d1ec1ae99e15": {
+    "name": "小炒黄牛肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E5%B0%8F%E7%82%92%E9%BB%84%E7%89%9B%E8%82%89/%E5%B0%8F%E7%82%92%E9%BB%84%E7%89%9B%E8%82%89.jpg",
+    "file": "/images/dish-d1ec1ae99e15.webp"
+  },
+  "dish-88a9c10768cd": {
+    "name": "小炒鸡肝",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E5%B0%8F%E7%82%92%E9%B8%A1%E8%82%9D/%E6%88%90%E5%93%81.jpg",
+    "file": "/images/dish-88a9c10768cd.webp"
+  },
+  "dish-fdca766bb4a0": {
+    "name": "小炒肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-fdca766bb4a0.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 小炒肉. Main ingredients: 五花肉, 朝天椒, 豆豉. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-3c3ebe2eadb2": {
+    "name": "小米辣炒肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-3c3ebe2eadb2.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 小米辣炒肉. Main ingredients: 五花肉/瘦肉, 姜蒜, 小米辣. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-87893dd05358": {
+    "name": "小酥肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-87893dd05358.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 小酥肉. Main ingredients: 猪肉, 鸡蛋, 老姜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-52b51631256e": {
+    "name": "新疆大盘鸡",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E6%96%B0%E7%96%86%E5%A4%A7%E7%9B%98%E9%B8%A1/%E5%A4%A7%E7%9B%98%E9%B8%A1%E7%9A%AE%E5%B8%A6%E9%9D%A2.jpeg",
+    "file": "/images/dish-52b51631256e.webp"
+  },
+  "dish-83f2963bdecf": {
+    "name": "血浆鸭",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E8%A1%80%E6%B5%86%E9%B8%AD/%E8%A1%80%E6%B5%86%E9%B8%AD(%E5%BE%AE%E8%BE%A3).jpg",
+    "file": "/images/dish-83f2963bdecf.webp"
+  },
+  "dish-0b14d3c784d7": {
+    "name": "羊排焖面",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E7%BE%8A%E6%8E%92%E7%84%96%E9%9D%A2/%E7%BE%8A%E6%8E%92%E7%84%96%E9%9D%A2.jpg",
+    "file": "/images/dish-0b14d3c784d7.webp"
+  },
+  "dish-16cc00dd784b": {
+    "name": "洋葱炒猪肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-16cc00dd784b.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 洋葱炒猪肉. Main ingredients: 猪肉, 洋葱. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-5d05cf2d8ef4": {
+    "name": "意式烤鸡",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-5d05cf2d8ef4.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 意式烤鸡. Main ingredients: 鸡腿肉用量通常来说为, 盐用量为, 橄榄油用量为. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-335fe4e71281": {
+    "name": "鱼香茄子",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E9%B1%BC%E9%A6%99%E8%8C%84%E5%AD%90/yxqz7.jpg",
+    "file": "/images/dish-335fe4e71281.webp"
+  },
+  "dish-7e6f0c60d2d9": {
+    "name": "鱼香肉丝",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%B1%BC%E9%A6%99%E8%82%89%E4%B8%9D.png",
+    "file": "/images/dish-7e6f0c60d2d9.webp"
+  },
+  "dish-276cb4e55c1b": {
+    "name": "枝竹羊腩煲",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-276cb4e55c1b.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 枝竹羊腩煲. Main ingredients: 羊腩, 炸腐竹, 腐乳. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-74c3e5ca3c1d": {
+    "name": "猪皮冻",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E7%8C%AA%E7%9A%AE%E5%86%BB/%E7%8C%AA%E7%9A%AE%E5%86%BB.jpg",
+    "file": "/images/dish-74c3e5ca3c1d.webp"
+  },
+  "dish-5a5f860bfe9c": {
+    "name": "猪肉烩酸菜",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-5a5f860bfe9c.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 猪肉烩酸菜. Main ingredients: 猪排骨或者五花肉, 东北酸菜, 蒜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-ee51d3cdce26": {
+    "name": "柱候牛腩",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E6%9F%B1%E5%80%99%E7%89%9B%E8%85%A9/%E6%9F%B1%E5%80%99%E7%89%9B%E8%85%A9.jpeg",
+    "file": "/images/dish-ee51d3cdce26.webp"
+  },
+  "dish-9043d01603b6": {
+    "name": "孜然牛肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-9043d01603b6.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 孜然牛肉. Main ingredients: 牛肉用量为, 青椒用量为, 孜然用量为. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-ee3fd3ed08a5": {
+    "name": "淄博烧烤",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E6%B7%84%E5%8D%9A%E7%83%A7%E7%83%A4/%E6%B7%84%E5%8D%9A%E7%83%A7%E7%83%A4.jpg",
+    "file": "/images/dish-ee3fd3ed08a5.webp"
+  },
+  "dish-473daabe1e6c": {
+    "name": "醉排骨",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/meat_dish/%E9%86%89%E6%8E%92%E9%AA%A8/1.jpeg",
+    "file": "/images/dish-473daabe1e6c.webp"
+  },
+  "dish-aa3241c160a3": {
+    "name": "拔丝土豆",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E6%8B%94%E4%B8%9D%E5%9C%9F%E8%B1%86/4.jpeg",
+    "file": "/images/dish-aa3241c160a3.webp"
+  },
+  "dish-8fbb82d41231": {
+    "name": "白灼菜心",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E7%99%BD%E7%81%BC%E8%8F%9C%E5%BF%83/%E7%99%BD%E7%81%BC%E8%8F%9C%E5%BF%83.jpg",
+    "file": "/images/dish-8fbb82d41231.webp"
+  },
+  "dish-654810c131b9": {
+    "name": "包菜炒鸡蛋粉丝",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E5%8C%85%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B%E7%B2%89%E4%B8%9D/1.jpg",
+    "file": "/images/dish-654810c131b9.webp"
+  },
+  "dish-17ef9ac3e39d": {
+    "name": "菠菜炒鸡蛋",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E8%8F%A0%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B/%E8%8F%A0%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+    "file": "/images/dish-17ef9ac3e39d.webp"
+  },
+  "dish-036bbd7e8b1d": {
+    "name": "炒滑蛋",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E7%82%92%E6%BB%91%E8%9B%8B/%E7%82%92%E6%BB%91%E8%9B%8B.jpg",
+    "file": "/images/dish-036bbd7e8b1d.webp"
+  },
+  "dish-a4714e6e12f5": {
+    "name": "炒土豆和胡萝卜蒸菜",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-a4714e6e12f5.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 炒土豆和胡萝卜蒸菜. Main ingredients: 土豆, 胡萝卜, 蒜粒. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-b16b22dee990": {
+    "name": "脆皮豆腐",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-b16b22dee990.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 脆皮豆腐. Main ingredients: 老豆腐, 鸡蛋. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-2ebaec2562eb": {
+    "name": "地三鲜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E5%9C%B0%E4%B8%89%E9%B2%9C/%E5%9C%B0%E4%B8%89%E9%B2%9C.jpg",
+    "file": "/images/dish-2ebaec2562eb.webp"
+  },
+  "dish-a524ac2cd293": {
+    "name": "干锅花菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C.jpg",
+    "file": "/images/dish-a524ac2cd293.webp"
+  },
+  "dish-d30de0405e48": {
+    "name": "蚝油三鲜菇",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E8%9A%9D%E6%B2%B9%E4%B8%89%E9%B2%9C%E8%8F%87/2.jpeg",
+    "file": "/images/dish-d30de0405e48.webp"
+  },
+  "dish-19e72a1ce0e1": {
+    "name": "蚝油生菜",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-19e72a1ce0e1.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 蚝油生菜. Main ingredients: 生菜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-6b2f7287871f": {
+    "name": "红烧冬瓜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C/2.jpeg",
+    "file": "/images/dish-6b2f7287871f.webp"
+  },
+  "dish-c6d120c60078": {
+    "name": "虎皮青椒",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92.jpg",
+    "file": "/images/dish-c6d120c60078.webp"
+  },
+  "dish-075083422a21": {
+    "name": "话梅煮毛豆",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E8%AF%9D%E6%A2%85%E7%85%AE%E6%AF%9B%E8%B1%86/1.jpeg",
+    "file": "/images/dish-075083422a21.webp"
+  },
+  "dish-9492795d23a2": {
+    "name": "鸡蛋羹",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E9%B8%A1%E8%9B%8B%E7%BE%B9/%E9%B8%A1%E8%9B%8B%E7%BE%B9.jpg",
+    "file": "/images/dish-9492795d23a2.webp"
+  },
+  "dish-c6bc911a286b": {
+    "name": "鸡蛋花",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-c6bc911a286b.webp",
+    "generator": "image_gen",
+    "prompt": "Create a square hand-painted gouache food illustration for the Chinese dish 鸡蛋花: a small ceramic bowl of clear pale-yellow hot water with fine delicate floating cooked egg ribbons, made by pouring boiling water into beaten egg. It is a liquid egg flower soup, NOT scrambled eggs, not fried, no solids piled on plate. Warm cream background #FFF8F0, centered entire bowl, overhead three-quarter view, no garnish, no other ingredients or props, no text, no watermark. The app will label this 示意图."
+  },
+  "dish-9c0a468f715e": {
+    "name": "鸡蛋火腿炒黄瓜",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-9c0a468f715e.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 鸡蛋火腿炒黄瓜. Main ingredients: 黄瓜, 鸡蛋, 火腿肠. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-f61e31ce36ed": {
+    "name": "家常日本豆腐",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-f61e31ce36ed.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 家常日本豆腐. Main ingredients: 日本豆腐, 青椒, 胡萝卜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-4f8d89bee641": {
+    "name": "椒盐玉米",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E6%A4%92%E7%9B%90%E7%8E%89%E7%B1%B3/%E6%A4%92%E7%9B%90%E7%8E%89%E7%B1%B3.jpeg",
+    "file": "/images/dish-4f8d89bee641.webp"
+  },
+  "dish-19343eb19cb8": {
+    "name": "金钱蛋",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-19343eb19cb8.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 金钱蛋. Main ingredients: 鸡蛋, 线椒, 小米辣. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-e41d828883bb": {
+    "name": "金针菇日本豆腐煲",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-e41d828883bb.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 金针菇日本豆腐煲. Main ingredients: 金针菇, 豆腐, 蒜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-283156efe836": {
+    "name": "烤茄子",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E7%83%A4%E8%8C%84%E5%AD%90/%E7%83%A4%E8%8C%84%E5%AD%90.jpg",
+    "file": "/images/dish-283156efe836.webp"
+  },
+  "dish-5b904656de5e": {
+    "name": "榄菜肉末四季豆",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E6%A6%84%E8%8F%9C%E8%82%89%E6%9C%AB%E5%9B%9B%E5%AD%A3%E8%B1%86/%E6%A6%84%E8%8F%9C%E8%82%89%E6%9C%AB%E5%9B%9B%E5%AD%A3%E8%B1%86.JPG",
+    "file": "/images/dish-5b904656de5e.webp"
+  },
+  "dish-7ad95753e2ee": {
+    "name": "雷椒皮蛋",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-7ad95753e2ee.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 雷椒皮蛋. Main ingredients: 皮蛋, 青椒, 蒜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-712a971fa8e3": {
+    "name": "凉拌豆腐",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-712a971fa8e3.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 凉拌豆腐. Main ingredients: 豆腐. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-bf75c52063f0": {
+    "name": "凉拌金针菇",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-bf75c52063f0.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 凉拌金针菇. Main ingredients: 金针菇. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-824d32829edb": {
+    "name": "凉拌木耳",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E6%9C%A8%E8%80%B3/10.jpg",
+    "file": "/images/dish-824d32829edb.webp"
+  },
+  "dish-4068106ca5ad": {
+    "name": "凉拌莴笋",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E8%8E%B4%E7%AC%8B/1.jpeg",
+    "file": "/images/dish-4068106ca5ad.webp"
+  },
+  "dish-a5c463be5bbc": {
+    "name": "皮蛋豆腐",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-a5c463be5bbc.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 皮蛋豆腐. Main ingredients: 皮蛋, 花生碎, 葱花. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-b6df17f4fb25": {
+    "name": "蒲烧茄子",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-b6df17f4fb25.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 蒲烧茄子. Main ingredients: 茄子, 蒲烧汁, 蜂蜜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-e9412f79e65a": {
+    "name": "乾隆白菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E4%B9%BE%E9%9A%86%E7%99%BD%E8%8F%9C/%E4%B9%BE%E9%9A%86%E7%99%BD%E8%8F%9C.jpg",
+    "file": "/images/dish-e9412f79e65a.webp"
+  },
+  "dish-56d348d33b1f": {
+    "name": "芹菜拌茶树菇",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E8%8A%B9%E8%8F%9C%E6%8B%8C%E8%8C%B6%E6%A0%91%E8%8F%87/%E8%8A%B9%E8%8F%9C%E6%8B%8C%E8%8C%B6%E6%A0%91%E8%8F%87.jpg",
+    "file": "/images/dish-56d348d33b1f.webp"
+  },
+  "dish-a6ca987f0c7d": {
+    "name": "清炒花菜",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-a6ca987f0c7d.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 清炒花菜. Main ingredients: 花菜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-5e98a61bbf97": {
+    "name": "清蒸南瓜",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-5e98a61bbf97.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 清蒸南瓜. Main ingredients: 南瓜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-57216e517d6f": {
+    "name": "陕北熬豆角",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-57216e517d6f.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 陕北熬豆角. Main ingredients: 豆角, 土豆, 番茄. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-6c3c664e4159": {
+    "name": "上汤娃娃菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.png",
+    "file": "/images/dish-6c3c664e4159.webp"
+  },
+  "dish-2191a08ce88b": {
+    "name": "手撕包菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C/4.jpeg",
+    "file": "/images/dish-2191a08ce88b.webp"
+  },
+  "dish-b4f2f53b27ff": {
+    "name": "水油焖蔬菜",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-b4f2f53b27ff.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 水油焖蔬菜. Main ingredients: 叶菜类蔬菜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-dfe5a882445f": {
+    "name": "松仁玉米",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-dfe5a882445f.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 松仁玉米. Main ingredients: 玉米粒, 熟松子仁, 胡萝卜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-5ddc266f40fc": {
+    "name": "素炒豆角",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-5ddc266f40fc.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 素炒豆角. Main ingredients: 豆角, 蒜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-2f5d30a0810b": {
+    "name": "酸辣土豆丝",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D.jpg",
+    "file": "/images/dish-2f5d30a0810b.webp"
+  },
+  "dish-40552b54f402": {
+    "name": "蒜蓉炒芹菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E7%82%92%E8%8A%B9%E8%8F%9C/%E8%92%9C%E8%93%89%E7%82%92%E8%8A%B9%E8%8F%9C.jpg",
+    "file": "/images/dish-40552b54f402.webp"
+  },
+  "dish-97ed025a03b5": {
+    "name": "蒜蓉空心菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E7%A9%BA%E5%BF%83%E8%8F%9C/1.JPG",
+    "file": "/images/dish-97ed025a03b5.webp"
+  },
+  "dish-bb921a0a7723": {
+    "name": "蒜蓉西兰花",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-bb921a0a7723.webp",
+    "generator": "image_gen",
+    "prompt": "Create one square food illustration for a Chinese home-cooking recipe app: 蒜蓉西兰花, garlic broccoli florets on a simple ceramic plate. Warm cream background #FFF8F0, appetizing hand-painted gouache editorial illustration, soft natural shadows, overhead three-quarter view, centered whole plate, no text, no letters, no watermark. This is an explicitly labeled recipe illustration, not a photograph."
+  },
+  "dish-bfb9b74ffa8e": {
+    "name": "糖拌西红柿",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E7%B3%96%E6%8B%8C%E8%A5%BF%E7%BA%A2%E6%9F%BF/%E7%81%AB%E5%B1%B1%E9%A3%98%E9%9B%AA.jpg",
+    "file": "/images/dish-bfb9b74ffa8e.webp"
+  },
+  "dish-ca376a4897e4": {
+    "name": "莴笋叶煎饼",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E8%8E%B4%E7%AC%8B%E5%8F%B6%E7%85%8E%E9%A5%BC/3.jpeg",
+    "file": "/images/dish-ca376a4897e4.webp"
+  },
+  "dish-e154b5b48437": {
+    "name": "西红柿炒鸡蛋",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+    "file": "/images/dish-e154b5b48437.webp"
+  },
+  "dish-5dd92a985962": {
+    "name": "西红柿豆腐汤羹",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E8%B1%86%E8%85%90%E6%B1%A4%E7%BE%B9/1.jpeg",
+    "file": "/images/dish-5dd92a985962.webp"
+  },
+  "dish-19715afd5528": {
+    "name": "西葫芦炒鸡蛋",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E8%A5%BF%E8%91%AB%E8%8A%A6%E7%82%92%E9%B8%A1%E8%9B%8B/%E8%A5%BF%E8%91%AB%E8%8A%A6%E7%82%92%E9%B8%A1%E8%9B%8B.jpeg",
+    "file": "/images/dish-19715afd5528.webp"
+  },
+  "dish-bb7fdc686dda": {
+    "name": "小炒藕丁",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E5%B0%8F%E7%82%92%E8%97%95%E4%B8%81/%E5%B0%8F%E7%82%92%E8%97%95%E4%B8%81.jpg",
+    "file": "/images/dish-bb7fdc686dda.webp"
+  },
+  "dish-d2b3b5355782": {
+    "name": "洋葱炒鸡蛋",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/master/dishes/vegetable_dish/%E6%B4%8B%E8%91%B1%E7%82%92%E9%B8%A1%E8%9B%8B/1.jpeg",
+    "file": "/images/dish-d2b3b5355782.webp"
+  },
+  "dish-c19cb388bc3f": {
+    "name": "印度葫芦丸子",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-c19cb388bc3f.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 印度葫芦丸子. Main ingredients: 瓠瓜, 洋葱, 番茄. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-829d71f9c069": {
+    "name": "印度土豆花菜",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-829d71f9c069.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 印度土豆花菜. Main ingredients: 土豆, 花菜, 洋葱. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-98a32cdfeb7f": {
+    "name": "油醋爆蛋",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-98a32cdfeb7f.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 油醋爆蛋. Main ingredients: 鸡蛋, 小米辣, 蒜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-38163b53be00": {
+    "name": "鹌鹑蛋红烧肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-38163b53be00.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 鹌鹑蛋红烧肉. Main ingredients: 五花肉块, 鹌鹑蛋, 西兰花. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-dcef94290a14": {
+    "name": "包菜炒鸡蛋",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-dcef94290a14.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 包菜炒鸡蛋. Main ingredients: 圆包菜, 鸡蛋, 胡萝卜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-142295c1bd2b": {
+    "name": "爆炒牛肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-142295c1bd2b.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 爆炒牛肉. Main ingredients: 调理牛肉片, 香芹. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-e074a3b6b852": {
+    "name": "菠萝咕咾肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E8%8F%A0%E8%90%9D%E5%92%95%E5%92%BE%E8%82%89.png",
+    "file": "/images/dish-e074a3b6b852.webp"
+  },
+  "dish-31313e448819": {
+    "name": "蚕豆炒鸡蛋",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E8%9A%95%E8%B1%86%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+    "file": "/images/dish-31313e448819.webp"
+  },
+  "dish-29a52fb0e3c6": {
+    "name": "蚕豆炒虾仁",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-29a52fb0e3c6.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 蚕豆炒虾仁. Main ingredients: 蚕豆, 虾仁, 红椒. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-d9038226cd88": {
+    "name": "剁椒木耳炒鸡蛋",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E5%89%81%E6%A4%92%E6%9C%A8%E8%80%B3%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+    "file": "/images/dish-d9038226cd88.webp"
+  },
+  "dish-d4f8f0792145": {
+    "name": "胡萝卜炒鸡蛋",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E8%83%A1%E8%90%9D%E5%8D%9C%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+    "file": "/images/dish-d4f8f0792145.webp"
+  },
+  "dish-40467303cc00": {
+    "name": "黄瓜炒红肠",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-40467303cc00.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 黄瓜炒红肠. Main ingredients: 黄瓜, 红肠. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-32504e153a7d": {
+    "name": "农家小炒肉（鸡蛋干版本）",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E5%86%9C%E5%AE%B6%E5%B0%8F%E7%82%92%E8%82%89(%E9%B8%A1%E8%9B%8B%E5%B9%B2%E7%89%88%E6%9C%AC).png",
+    "file": "/images/dish-32504e153a7d.webp"
+  },
+  "dish-fcc087fe3c8d": {
+    "name": "农家小炒肉（玉耳版本）",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E5%86%9C%E5%AE%B6%E5%B0%8F%E7%82%92%E8%82%89%EF%BC%88%E7%8E%89%E8%80%B3%E7%89%88%E6%9C%AC%EF%BC%89.png",
+    "file": "/images/dish-fcc087fe3c8d.webp"
+  },
+  "dish-d817479fdc1f": {
+    "name": "芹菜炒香干",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E8%8A%B9%E8%8F%9C%E7%82%92%E9%A6%99%E5%B9%B2.jpg",
+    "file": "/images/dish-d817479fdc1f.webp"
+  },
+  "dish-95aa5e15d370": {
+    "name": "青椒炒豆芽",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%9D%92%E6%A4%92%E7%82%92%E8%B1%86%E8%8A%BD.jpg",
+    "file": "/images/dish-95aa5e15d370.webp"
+  },
+  "dish-b1fd3d363ff9": {
+    "name": "青椒炒鸡蛋",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%9D%92%E6%A4%92%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+    "file": "/images/dish-b1fd3d363ff9.webp"
+  },
+  "dish-1308acad107d": {
+    "name": "青椒毛豆米",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-1308acad107d.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 青椒毛豆米. Main ingredients: 青椒, 豆米. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-ff0a9c789742": {
+    "name": "清炒菜心",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E6%B8%85%E7%82%92%E8%8F%9C%E5%BF%83.jpg",
+    "file": "/images/dish-ff0a9c789742.webp"
+  },
+  "dish-1c66ba8e3f41": {
+    "name": "清炒春菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E6%B8%85%E7%82%92%E6%98%A5%E8%8F%9C.jpg",
+    "file": "/images/dish-1c66ba8e3f41.webp"
+  },
+  "dish-c6e38eafbfc6": {
+    "name": "清炒毛白菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E6%B8%85%E7%82%92%E6%AF%9B%E7%99%BD%E8%8F%9C.jpg",
+    "file": "/images/dish-c6e38eafbfc6.webp"
+  },
+  "dish-6cb3e5005e3b": {
+    "name": "清炒青菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E6%B8%85%E7%82%92%E9%9D%92%E8%8F%9C.jpg",
+    "file": "/images/dish-6cb3e5005e3b.webp"
+  },
+  "dish-7fdd3c85d57c": {
+    "name": "清炒莴笋片",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E6%B8%85%E7%82%92%E8%8E%B4%E7%AC%8B%E7%89%87.jpg",
+    "file": "/images/dish-7fdd3c85d57c.webp"
+  },
+  "dish-2225a7ec897e": {
+    "name": "清炒西兰花",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E6%B8%85%E7%82%92%E8%A5%BF%E5%85%B0%E8%8A%B1.jpg",
+    "file": "/images/dish-2225a7ec897e.webp"
+  },
+  "dish-1c1b1068a1ad": {
+    "name": "清炒油麦菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E6%B8%85%E7%82%92%E6%B2%B9%E9%BA%A6%E8%8F%9C.jpg",
+    "file": "/images/dish-1c1b1068a1ad.webp"
+  },
+  "dish-b48d348f6cf9": {
+    "name": "生炒上海青",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E7%94%9F%E7%82%92%E4%B8%8A%E6%B5%B7%E9%9D%92.jpg",
+    "file": "/images/dish-b48d348f6cf9.webp"
+  },
+  "dish-e288b3e8e891": {
+    "name": "酸辣包菜",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-e288b3e8e891.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 酸辣包菜. Main ingredients: 圆包菜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-4c2c3875ae7b": {
+    "name": "酸辣大白菜",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-4c2c3875ae7b.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 酸辣大白菜. Main ingredients: 大白菜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-d2b9febdf41e": {
+    "name": "蒜黄炒鸡蛋",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-d2b9febdf41e.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 蒜黄炒鸡蛋. Main ingredients: 蒜黄, 鸡蛋, 红椒. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-86b6c94fad36": {
+    "name": "蒜泥菠菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E8%92%9C%E6%B3%A5%E8%8F%A0%E8%8F%9C.jpg",
+    "file": "/images/dish-86b6c94fad36.webp"
+  },
+  "dish-1c66f92a8716": {
+    "name": "蒜苔炒香干",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-1c66f92a8716.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 蒜苔炒香干. Main ingredients: 蒜苔, 香干, 红椒. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-d9b012fd4d3d": {
+    "name": "外婆菜炒鸡蛋",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E5%A4%96%E5%A9%86%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B.png",
+    "file": "/images/dish-d9b012fd4d3d.webp"
+  },
+  "dish-fa4343701f04": {
+    "name": "莴笋丝炒鸡蛋",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E8%8E%B4%E7%AC%8B%E4%B8%9D%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+    "file": "/images/dish-fa4343701f04.webp"
+  },
+  "dish-89b283241971": {
+    "name": "西兰花炒鸡胸肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-89b283241971.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 西兰花炒鸡胸肉. Main ingredients: 鸡胸肉片, 胡萝卜片, 西兰花. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-1a0cf72cd9c0": {
+    "name": "西芹炒虾仁",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-1a0cf72cd9c0.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 西芹炒虾仁. Main ingredients: 西芹段, 虾仁, 胡萝卜片. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-a1feb014f5f6": {
+    "name": "香椿炒鸡蛋",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%A6%99%E6%A4%BF%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+    "file": "/images/dish-a1feb014f5f6.webp"
+  },
+  "dish-c3d1622b1d6c": {
+    "name": "香菇青菜",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-c3d1622b1d6c.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 香菇青菜. Main ingredients: 青菜, 香菇. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-1f8cde1e69dc": {
+    "name": "小炒脆笋",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-1f8cde1e69dc.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 小炒脆笋. Main ingredients: 五花肉, 笋片, 青蒜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-130fac0265ac": {
+    "name": "红烧鱼块",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E7%BA%A2%E7%83%A7%E9%B1%BC%E5%9D%97.png",
+    "file": "/images/dish-130fac0265ac.webp"
+  },
+  "dish-6507a71923dd": {
+    "name": "鸡血汤",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%B8%A1%E8%A1%80%E6%B1%A4.png",
+    "file": "/images/dish-6507a71923dd.webp"
+  },
+  "dish-5371836cccb7": {
+    "name": "梅干菜凤爪翅",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E6%A2%85%E5%B9%B2%E8%8F%9C%E5%87%A4%E7%88%AA%E7%BF%85.jpg",
+    "file": "/images/dish-5371836cccb7.webp"
+  },
+  "dish-2d2b3bef19eb": {
+    "name": "西芹花生米",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E8%A5%BF%E8%8A%B9%E8%8A%B1%E7%94%9F%E7%B1%B3.jpg",
+    "file": "/images/dish-2d2b3bef19eb.webp"
+  },
+  "dish-a36a517ee6ba": {
+    "name": "砂锅牛杂煲",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E7%A0%82%E9%94%85%E7%89%9B%E6%9D%82%E7%85%B2.png",
+    "file": "/images/dish-a36a517ee6ba.webp"
+  },
+  "dish-37b7e61ba43e": {
+    "name": "老鸡汤",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-37b7e61ba43e.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 老鸡汤. Main ingredients: 老母鸡. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-56b8c1c7aafd": {
+    "name": "菠菜蛋皮丝",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E8%8F%A0%E8%8F%9C%E8%9B%8B%E7%9A%AE%E4%B8%9D.jpg",
+    "file": "/images/dish-56b8c1c7aafd.webp"
+  },
+  "dish-2926a72511b2": {
+    "name": "葱油菜苔",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E8%91%B1%E6%B2%B9%E8%8F%9C%E8%8B%94.png",
+    "file": "/images/dish-2926a72511b2.webp"
+  },
+  "dish-0ad6bf72078b": {
+    "name": "葱油菜心",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E8%91%B1%E6%B2%B9%E8%8F%9C%E5%BF%83.jpg",
+    "file": "/images/dish-0ad6bf72078b.webp"
+  },
+  "dish-74b0558a7a5f": {
+    "name": "鸡汤娃娃菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%B8%A1%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.jpg",
+    "file": "/images/dish-74b0558a7a5f.webp"
+  },
+  "dish-246bc65e378a": {
+    "name": "浇汁西兰花",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E6%B5%87%E6%B1%81%E8%A5%BF%E5%85%B0%E8%8A%B1.jpg",
+    "file": "/images/dish-246bc65e378a.webp"
+  },
+  "dish-717ac9a6b004": {
+    "name": "香脆木耳",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%A6%99%E8%84%86%E6%9C%A8%E8%80%B3.jpg",
+    "file": "/images/dish-717ac9a6b004.webp"
+  },
+  "dish-e5f424bf9d76": {
+    "name": "风干牛肉蒸白干",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%A3%8E%E5%B9%B2%E7%89%9B%E8%82%89%E8%92%B8%E7%99%BD%E5%B9%B2.jpg",
+    "file": "/images/dish-e5f424bf9d76.webp"
+  },
+  "dish-472080d1e35f": {
+    "name": "胡萝卜牛肉",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E8%83%A1%E8%90%9D%E5%8D%9C%E7%89%9B%E8%82%89.png",
+    "file": "/images/dish-472080d1e35f.webp"
+  },
+  "dish-226ff4c9ee5b": {
+    "name": "酱椒蒜香片片鱼",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%85%B1%E6%A4%92%E8%92%9C%E9%A6%99%E7%89%87%E7%89%87%E9%B1%BC.png",
+    "file": "/images/dish-226ff4c9ee5b.webp"
+  },
+  "dish-fca2e69d17c1": {
+    "name": "酱香小河虾",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%85%B1%E9%A6%99%E5%B0%8F%E6%B2%B3%E8%99%BE.jpg",
+    "file": "/images/dish-fca2e69d17c1.webp"
+  },
+  "dish-5be5eb4467ee": {
+    "name": "酱蒸白干",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%85%B1%E8%92%B8%E7%99%BD%E5%B9%B2.png",
+    "file": "/images/dish-5be5eb4467ee.webp"
+  },
+  "dish-e8c69d110535": {
+    "name": "酱蒸豆腐",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%85%B1%E8%92%B8%E8%B1%86%E8%85%90.jpg",
+    "file": "/images/dish-e8c69d110535.webp"
+  },
+  "dish-878db570afa6": {
+    "name": "蜜汁南瓜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E8%9C%9C%E6%B1%81%E5%8D%97%E7%93%9C.jpg",
+    "file": "/images/dish-878db570afa6.webp"
+  },
+  "dish-c1caa461d2b9": {
+    "name": "青椒蒸豆米",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-c1caa461d2b9.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 青椒蒸豆米. Main ingredients: 豆米, 螺丝椒. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-2f36186fda3b": {
+    "name": "蒜蓉娃娃菜",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E8%92%9C%E8%93%89%E5%A8%83%E5%A8%83%E8%8F%9C.jpg",
+    "file": "/images/dish-2f36186fda3b.webp"
+  },
+  "dish-379461ae81d2": {
+    "name": "豌豆肉末",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-379461ae81d2.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 豌豆肉末. Main ingredients: 甜青豌豆, 肉末, 胡萝卜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-5debb34e7928": {
+    "name": "香肠蒸豆干",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-5debb34e7928.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 香肠蒸豆干. Main ingredients: 香肠, 香大元. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-f1b950ee7e86": {
+    "name": "香辣血旺",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%A6%99%E8%BE%A3%E8%A1%80%E6%97%BA.png",
+    "file": "/images/dish-f1b950ee7e86.webp"
+  },
+  "dish-782f5e089d1a": {
+    "name": "香芋蒸排骨",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%A6%99%E8%8A%8B%E8%92%B8%E6%8E%92%E9%AA%A8.png",
+    "file": "/images/dish-782f5e089d1a.webp"
+  },
+  "dish-3e9b20edb3da": {
+    "name": "蒸嫩豆腐",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-3e9b20edb3da.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 蒸嫩豆腐. Main ingredients: 嫩豆腐, 豉油汁. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  },
+  "dish-600d554e551f": {
+    "name": "竹笋蒸鸡翅",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E7%AB%B9%E7%AC%8B%E8%92%B8%E9%B8%A1%E7%BF%85.jpg",
+    "file": "/images/dish-600d554e551f.webp"
+  },
+  "dish-43be0d1d0bc6": {
+    "name": "嗨嗨锅（鲜蔬锅）",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E5%97%A8%E5%97%A8%E9%94%85%EF%BC%88%E9%B2%9C%E8%94%AC%E9%94%85%EF%BC%89.png",
+    "file": "/images/dish-43be0d1d0bc6.webp"
+  },
+  "dish-b316243af5ea": {
+    "name": "金汤酸菜鱼",
+    "kind": "photo",
+    "sourceUrl": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/images/%E9%87%91%E6%B1%A4%E9%85%B8%E8%8F%9C%E9%B1%BC.png",
+    "file": "/images/dish-b316243af5ea.webp"
+  },
+  "dish-135e0dead55a": {
+    "name": "铜锅番茄虾滑",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-135e0dead55a.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Create one square food illustration for a Chinese home cooking recipe card. Dish: 铜锅番茄虾滑. Main ingredients: 虾滑, 番茄, 娃娃菜. Show the recognizable finished cooked dish on a ceramic plate or bowl appropriate to this dish, centered with full rim visible. Hand-painted gouache food illustration with clear brush texture, warm cream background #FFF8F0, appetizing natural food colors, soft shadows, overhead three-quarter view. No text, no logos, no decorative extra ingredients, no watermark. This will be clearly labeled 示意图 in the app."
+  }
+}

@@ -65,7 +65,7 @@ HowToCook 仅收录 `dishes/meat_dish`、`dishes/aquatic`、`dishes/vegetable_di
 
 编写解析器前实际阅读了 HowToCook 的宫保鸡丁、蒜蓉西兰花、徽派红烧肉，以及 CookLikeHOC 的农家小炒肉、什锦蛋炒饭、西红柿炒鸡蛋。解析同时兼容「配料 / 原料」「步骤 / 步骤：」、带序号的无序列表、嵌套供应商括号、分数和数量范围。
 
-当前快照 **256 道：164 道荤菜、92 道素菜**。HowToCook 187 道，CookLikeHOC 69 道。同名做法优先 HowToCook，图片优先 CookLikeHOC；即使补充库的做法无法解析，仍可为主库同名菜提供图片。
+当前快照 **249 道：160 道荤菜、89 道素菜**。HowToCook 184 道，CookLikeHOC 65 道。同名做法优先 HowToCook，图片优先 CookLikeHOC。已合并 7 个确认过的别名或设备版本，映射见 `data/recipe-aliases.json`；旧收藏、黑名单和历史 ID 会自动迁移。不同地区的红烧肉等做法保留，但 `data/recipe-families.json` 中的同款菜不会同时出现在一桌，放宽主料限制时也遵守。
 
 `data/build-report.json` 保存上游 commit SHA、每道菜的来源路径、缩放比例、未定量原料、合并记录和跳过原因。含参数化计算公式、缺少主料克数等不能可靠转换的条目会跳过，绝不生成臆造做法或份量。更新后应检查报告与 `git diff public/data/dishes.json`。数量不足荤素各 30 道时脚本失败并保留旧 JSON。
 
@@ -78,7 +78,9 @@ HowToCook 仅收录 `dishes/meat_dish`、`dishes/aquatic`、`dishes/vegetable_di
 5. 同名不同单位如「姜 2片 + 5g」保留并列，因为原文没有每片重量。数量范围取上限用于备料，做法保留原文范围。
 6. 商用复合调味料保留原名及供应商，可在详情展开「原文配料及供应商标注」查看；`homeSubstitute` 单独标明「家庭替代建议」，不会写进原文步骤。
 
-步骤里的时间、温度不跟人数缩放。倒计时支持数字、常见中文数字和时间范围；同一步出现多个时长时以最长时长显示按钮。烹饪时间和难度优先读取原文，否则按步骤时间和烹饪方式估算。
+步骤里的时间、温度不跟人数缩放。倒计时支持完整中文数词、范围和复合时间（如“三十分钟”“两个半小时”“3分40秒”）；同一步出现多个独立时长时以最长时长显示按钮。页面用时是**家庭预计范围**，并非实测承诺。`scripts/recipe-time.mjs` 对照原文概述与步骤，预留切配和烧水时间；复杂、累计或替代分支的计时由 `data/time-overrides.json` 修正并记录依据。泡发、腌制、冷藏等提前准备在卡片、详情和确认弹层中提示。整桌按依次制作相加，前置等待另算。
+
+`public/data/dishes.json` 保持既定字段结构，`cookTimeMinutes` 保存估时上限以便排序；范围、依据、图片出处与旧 ID 映射放在 `public/data/dish-meta.json`。用时覆盖请编辑 `data/time-overrides.json`，不要只修改 `overlays.json` 中的旧用时字段。
 
 ### 人工修正
 
@@ -104,7 +106,13 @@ HowToCook 仅收录 `dishes/meat_dish`、`dishes/aquatic`、`dishes/vegetable_di
 
 ### 图片策略
 
-**图片使用 jsDelivr 远程地址**，不把大量图片下载进项目。浏览器缓存最近看过的图片；图片失败或离线没有图片时，显示浅色底和菜名首字。应用外壳和完整菜谱 JSON 会预缓存，第一次在线成功打开后可离线做菜。运行时不请求 GitHub API 或 raw 域名。
+**249 道菜全部使用项目内的 WebP 图片**，保存于 `public/images/`。其中 153 张取自指定原仓库，96 张为逐道生成的菜品插画，页面统一标注「示意图」，详情说明 AI 生成。原图 URL、生成工具和每张插画的完整提示词保存在 `data/image-manifest.json`。插画不作为做法或成品真实性依据。
+
+原图下载脚本为 `node scripts/download-images.mjs`，优先 raw、失败重试 jsDelivr，缩放至最长边 640px。Markdown 图片解析兼容括号文件名，优先命名成品图，避免把第一张备料图当成菜图。更新菜库遇到新增图片记录或文件缺失时，`data:build` 会中止，需先补齐图片和来源记录，防止发布空图。
+
+应用外壳、完整菜谱、图片与元数据一起预缓存；首次在线加载并完成缓存后可离线查看。正常使用不请求 GitHub 或图片 CDN。图片意外损坏时仍有首字兜底。
+
+项目维护规则见 [AGENTS.md](AGENTS.md)，[AGENT.md](AGENT.md) 是兼容入口。
 
 ## 首选：Cloudflare Pages
 

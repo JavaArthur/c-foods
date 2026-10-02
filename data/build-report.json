@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T16:11:49.048Z",
+  "generatedAt": "2026-10-02T17:06:17.588Z",
   "sources": [
     {
       "repo": "Anduin2017/HowToCook",
@@ -19,7 +19,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "鳊鱼改刀，放上姜片和料酒腌制 5-10 分钟",
+            "minutes": 10
+          },
+          {
+            "text": "小火烧 10-15 分钟，然后大火收点汁，即可出锅",
+            "minutes": 15
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "蛏抱蛋",
@@ -27,7 +46,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "烧开水，将蛏子放入水中，水煮 2 分钟后，捞上来去壳，放入大碗",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "葱烧海参",
@@ -35,7 +69,40 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "热锅，锅内放入 20ml - 25ml 食用油。等待 10 秒让油温升高。",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "放入葱白，调小火，注意不要让葱白变焦。大概煎 3-5 分钟即可。",
+            "minutes": 5
+          },
+          {
+            "text": "倒入调好的料汁，炒香，等待 1 - 2 分钟 。",
+            "minutes": 2
+          },
+          {
+            "text": "放入切好的海参，翻炒 1 分钟",
+            "minutes": 1
+          },
+          {
+            "text": "加入 100 ml 的水， 中小火， 等待 5 分钟",
+            "minutes": 5
+          }
+        ],
+        "preparations": [
+          "整体烹饪难度不高，但需提前花时间将干海参充分泡发，实际烧制过程约三十分钟即可完成，新手只要按步骤操作也容易成功"
+        ],
+        "note": null
+      }
     },
     {
       "name": "葱油桂鱼",
@@ -49,7 +116,34 @@
         "厨房纸",
         "蒸鱼盘子",
         "防烫盘夹"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 50,
+        "max": 60,
+        "basis": "原文概述约 45 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 45,
+        "timedSteps": [
+          {
+            "text": "加入 8g 盐，25g 料酒到盆中，带上一次性手套，然后对鱼进行全身按摩 1 分钟，确保鱼身每个部位都均匀涂抹了盐和料酒",
+            "minutes": 1
+          },
+          {
+            "text": "按摩好鱼后，在鱼身的每一个刀口中塞入一片姜片，鱼肚子中放入 3 片姜片，腌制 10 分钟（建议不要腌制太久，否则鱼的鲜度降低）",
+            "minutes": 10
+          },
+          {
+            "text": "然后将蒸鱼盘放入蒸笼中，盖上盖子，中火蒸 20 分钟",
+            "minutes": 20
+          },
+          {
+            "text": "在铁锅中倒入 15g 植物油，用中小火慢熬 5 分钟，不要用大火，否则油会挥发很快",
+            "minutes": 5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "干煎阿根廷红虾",
@@ -59,7 +153,41 @@
       "mainMass": null,
       "unknownAmounts": [
         "黑胡椒"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "长时间泡发、腌制、解冻另列；按其余步骤计时，加切配和烧水余量估算。",
+        "sourceMinutes": 20,
+        "timedSteps": [
+          {
+            "text": "阿根廷红虾解冻，最好是提前 1 天从速冻取出放到冷藏里自然解冻，能更好保持风味和口感。可买已经开背去虾线的，节省了不少时间",
+            "minutes": 1440
+          },
+          {
+            "text": "约 1 分钟后取出生姜，洋葱和香菜茎，弃用",
+            "minutes": 1
+          },
+          {
+            "text": "调中大火，放入红虾开始煎，注意所有虾需要单面都完整接触平底锅，煎约 2 分钟，同时给每只虾刷上一层油",
+            "minutes": 2
+          },
+          {
+            "text": "约 1 分钟后添加 20ml 白葡萄酒",
+            "minutes": 1
+          },
+          {
+            "text": "再煎 1 分钟后调中小火，均匀撒上一层盐和黑胡椒",
+            "minutes": 1
+          }
+        ],
+        "preparations": [
+          "阿根廷红虾解冻，最好是提前 1 天从速冻取出放到冷藏里自然解冻，能更好保持风味和口感。可买已经开背去虾线的，节省了不少时间",
+          "解冻好的红虾洗净擦干备用，注意这里一定要沥干水分，赶时间可以用厨房用纸吸干水分"
+        ],
+        "note": null
+      }
     },
     {
       "name": "红烧鲤鱼",
@@ -76,7 +204,30 @@
         "老抽",
         "陈醋",
         "料酒"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "锅里多倒点油，烧至 7 成热（刚刚开始冒烟），下入鱼炸 1 分钟至鱼皮稍稍变硬捞出备用（注意不要一下锅就拨弄鱼，等炸一会再拨弄、翻面），炸鱼的油倒出，锅里留一点底油",
+            "minutes": 1
+          },
+          {
+            "text": "放入干辣椒、葱、姜、蒜瓣，翻炒 1 分钟。",
+            "minutes": 1
+          },
+          {
+            "text": "15 分钟 后，打开锅盖，挑出锅里的葱、姜、蒜、干辣椒。",
+            "minutes": 15
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "红烧鱼",
@@ -88,7 +239,30 @@
         "料酒",
         "鱼",
         "香菜"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "加入冷水，以刚好淹没鱼身为宜，然后调成中火，盖上锅盖，大概 1 分钟后将鱼翻身，继续盖上锅盖",
+            "minutes": 1
+          },
+          {
+            "text": "3-4 分钟后，加入盐、小米椒、蚝油（味精、鸡精等），然后继续盖上锅盖，后续继续要翻身",
+            "minutes": 4
+          },
+          {
+            "text": "当锅内汤汁收汁到鱼的脊背线上的鱼鳍下面一点点的时候（或者汤汁不多的时候），转小火，加入香菜，葱花，然后盖上锅盖 20 秒，关火",
+            "minutes": 0.3333333333333333
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "红烧鱼头",
@@ -112,7 +286,30 @@
         "花鲢",
         "后者价格略贵",
         "但口感也更佳！"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 150,
+        "max": 180,
+        "basis": "原文概述约 150 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 150,
+        "timedSteps": [
+          {
+            "text": "将清洗好的鱼块放入盆中，加入 5g 盐、10g 生抽、10g 料酒。放入葱（前半段切碎的那个）、1/3 姜片。将其拌匀，静置 1-2 小时。",
+            "minutes": 120
+          },
+          {
+            "text": "放入蒜碎、八角、干辣椒，翻炒 5 秒。",
+            "minutes": 0.08333333333333333
+          },
+          {
+            "text": "将腌制好的鱼头倒入锅中，翻炒 2-3 分钟。",
+            "minutes": 3
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "黄油煎虾",
@@ -120,7 +317,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "中大火热锅，热锅内放入食用油，等待 10 秒让油温升高",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "大火翻炒 15 秒收汁即可装盘",
+            "minutes": 0.25
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "烤鱼",
@@ -144,7 +360,30 @@
         "熟花生米",
         "白芝麻",
         "香菜"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "把鱼放到容器中，加入料酒，10g 白胡椒粉，5g 食盐抹匀腌制二十分钟入味。",
+            "minutes": 20
+          },
+          {
+            "text": "干辣椒段中间一分为二切开并和灯笼椒装在一个容器中",
+            "minutes": 1
+          },
+          {
+            "text": "煮 5-6 分钟，美味即成。",
+            "minutes": 6
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "酱炖蟹",
@@ -152,7 +391,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "上锅蒸 10-12 分钟",
+            "minutes": 12
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "芥末黄油罗氏虾",
@@ -160,7 +414,19 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [],
+        "preparations": [
+          "制作难度适中，只要提前备好料、控制火候，新手也能成功"
+        ],
+        "note": null
+      }
     },
     {
       "name": "鲤鱼炖白菜",
@@ -168,7 +434,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "把鱼放锅里煎（3 分钟）每（30 秒）需要翻面",
+            "minutes": 3
+          },
+          {
+            "text": "大火炖 15-20 分钟，汤汁快干时添加 “盐” 即可出锅",
+            "minutes": 20
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "清蒸鲈鱼",
@@ -180,7 +465,14 @@
         "鲈鱼",
         "香葱",
         "姜"
-      ]
+      ],
+      "time": {
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述三十分钟；步骤明确腌制10分钟以上、蒸10分钟，另含处理鱼和烧水。",
+        "preparations": [],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "清蒸生蚝",
@@ -191,7 +483,26 @@
       "unknownAmounts": [
         "姜",
         "刷子"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文概述约 20 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 20,
+        "timedSteps": [
+          {
+            "text": "蒸锅中放水，将蒸屉放上之后，将 6 个生蚝平铺在蒸屉，使用 50%功率，蒸 3 分钟。",
+            "minutes": 3
+          },
+          {
+            "text": "关上烫锅盖，100%功率蒸 3.5 分钟。",
+            "minutes": 3.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "肉蟹煲",
@@ -199,7 +510,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "螃蟹切成 50-80 g 的块，裹薄淀粉，180 °C 油温炸 1 分钟捞出",
+            "minutes": 1
+          },
+          {
+            "text": "加螃蟹、土豆、啤酒和清水，烧开转小火炖 12 分钟",
+            "minutes": 12
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "水煮鱼",
@@ -211,7 +541,16 @@
         "蒜瓣",
         "量杯",
         "厨房秤"
-      ]
+      ],
+      "time": {
+        "min": 60,
+        "max": 80,
+        "basis": "原文需静置腌制至少30分钟，另含切鱼片、备蔬菜、烧水煮制；长时间解冻另列。",
+        "preparations": [
+          "使用已解冻的鱼肉；原文另有解冻步骤，其时间不包含在这里。"
+        ],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "蒜蓉虾",
@@ -219,7 +558,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "锅中倒入热水，将盘子放入锅中，大火蒸 3 分钟",
+            "minutes": 3
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "蒜香黄油虾",
@@ -229,7 +583,34 @@
       "mainMass": null,
       "unknownAmounts": [
         "厨房用夹"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文概述约 20 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 20,
+        "timedSteps": [
+          {
+            "text": "油热后放入大虾，每面煎 1-1.5 分钟至变色，取出备用",
+            "minutes": 1.5
+          },
+          {
+            "text": "同一锅中加入黄油，融化后放入蒜末，小火炒香（约 30 秒）",
+            "minutes": 0.5
+          },
+          {
+            "text": "如使用白葡萄酒，此时加入并煮至酒精挥发（约 1 分钟）",
+            "minutes": 1
+          },
+          {
+            "text": "将虾放回锅中，与蒜香黄油酱汁翻炒均匀（约 1 分钟）",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "糖醋鲤鱼",
@@ -240,7 +621,34 @@
       "unknownAmounts": [
         "香菜一颗",
         "笊篱一个"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 75,
+        "max": 90,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": " （腌鱼时间越长，鱼腥味就越小，推荐腌 30 分钟以上）",
+            "minutes": 30
+          },
+          {
+            "text": "等待 30 分钟",
+            "minutes": 30
+          },
+          {
+            "text": "用锅铲从鱼身处轻轻铲入，两个工具配合鱼翻个身。再炸两分钟，还是同样的方式（笊篱托着鱼头，锅铲托着鱼身，将鱼盛入盘中）",
+            "minutes": 2
+          },
+          {
+            "text": "加入调好的水淀粉，边倒边搅拌，然后 20 秒后关火",
+            "minutes": 0.3333333333333333
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "微波葱姜黑鳕鱼",
@@ -251,7 +659,22 @@
       "unknownAmounts": [
         "带皮",
         "密封袋"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文概述约 20 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 20,
+        "timedSteps": [
+          {
+            "text": "封好密封袋，放入微波炉中，中火（800 瓦）微波至不透明且容易散开时（约 3.5-5 分钟），从袋中取出鱼片。",
+            "minutes": 5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "香煎翘嘴鱼",
@@ -263,7 +686,16 @@
         "青椒",
         "香菜",
         "豆瓣酱"
-      ]
+      ],
+      "time": {
+        "min": 30,
+        "max": 40,
+        "basis": "原文烹饪约半小时；前置腌晒跨天，单独提示。",
+        "preparations": [
+          "原文要求腌制1–2天，再晾晒1–2天；需要提前安排。"
+        ],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "响油鳝丝",
@@ -271,7 +703,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "加入鳝丝，中火爆炒 30 秒",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "小龙虾",
@@ -282,7 +729,17 @@
       "unknownAmounts": [
         "香叶",
         "八角"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 45,
+        "max": 55,
+        "basis": "原文概述约 45 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 45,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "阳朔啤酒鱼",
@@ -290,7 +747,30 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 50,
+        "max": 60,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "鱼处理好内脏，保留鱼鳞，清洗干净，从腹部剖开成两半（背部相连），用 15ml 料酒、姜片、食盐 3g 腌制 15 分钟",
+            "minutes": 15
+          },
+          {
+            "text": "放入煎好的鱼，大火烧开后转中小火，盖上锅盖焖煮 15-20 分钟",
+            "minutes": 20
+          },
+          {
+            "text": "开盖，放入青椒红椒块，继续煮 3-5 分钟",
+            "minutes": 5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "油焖大虾",
@@ -301,7 +781,17 @@
       "unknownAmounts": [
         "料酒",
         "食用油"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "奥尔良风味烤鸡腿",
@@ -312,7 +802,16 @@
       "unknownAmounts": [
         "铝箔纸",
         "豉油调味汁"
-      ]
+      ],
+      "time": {
+        "min": 75,
+        "max": 90,
+        "basis": "原文分三段烤20、20、15–20分钟，加切配、预热和翻面；冷藏腌制另列。",
+        "preparations": [
+          "提前解冻鸡腿，并冷藏腌制2–4小时。"
+        ],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "澳门湿版免治牛肉饭",
@@ -328,7 +827,22 @@
         "白糖",
         "黑胡椒",
         "米饭"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "将 200g 牛肉末放入碗中，加入 1 汤匙生抽、半汤匙白糖和 2g 黑胡椒，搅拌均匀，等待腌制 10 分钟。",
+            "minutes": 10
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "巴基斯坦牛肉咖喱",
@@ -339,7 +853,14 @@
       "unknownAmounts": [
         "牛肉",
         "原味酸奶"
-      ]
+      ],
+      "time": {
+        "min": 150,
+        "max": 210,
+        "basis": "原文概述两个半小时；步骤慢炖2–3小时，另含切配和炒制。",
+        "preparations": [],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "白菜猪肉炖粉条",
@@ -347,7 +868,44 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 45,
+        "max": 55,
+        "basis": "原文概述约 45 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 45,
+        "timedSteps": [
+          {
+            "text": "锅内烧水，水开后放入干粉条，煮 5 分钟后同水一起倒出容器中，盖上盖子继续浸泡泡 备用（第一步先做这个，期间可以进行以下步骤）",
+            "minutes": 5
+          },
+          {
+            "text": "热锅，锅内放入 10ml - 15ml 食用油。等待 10 秒让油温升高",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "加入老抽，炒 1 分钟，给肉上色",
+            "minutes": 1
+          },
+          {
+            "text": "加入白菜帮子，加入食用盐、生抽，炒一分钟（如果粘锅，烹入 10ml 水）",
+            "minutes": 1
+          },
+          {
+            "text": "加水没过所有食材，加入鸡精 ，十三香，沸腾后，将火调小然后等待 20 分钟",
+            "minutes": 20
+          },
+          {
+            "text": "加入白菜嫩叶，炒匀后将粉条放在菜上方，加盖再煮 5 分钟",
+            "minutes": 5
+          }
+        ],
+        "preparations": [
+          "锅内烧水，水开后放入干粉条，煮 5 分钟后同水一起倒出容器中，盖上盖子继续浸泡泡 备用（第一步先做这个，期间可以进行以下步骤）"
+        ],
+        "note": null
+      }
     },
     {
       "name": "豉汁排骨",
@@ -358,7 +916,41 @@
       "unknownAmounts": [
         "葱花",
         "白芝麻"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 75,
+        "max": 90,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "将排骨用冷水浸泡 10 分钟泡去血水，换水重复 2 次，用厨房纸吸干",
+            "minutes": 10
+          },
+          {
+            "text": "将豆豉放入水中浸泡 5 分钟",
+            "minutes": 5
+          },
+          {
+            "text": "将所有食材混合（食用油放 10 ml），腌制 8-30 分钟",
+            "minutes": 30
+          },
+          {
+            "text": "水开后上锅蒸 18 分钟",
+            "minutes": 18
+          },
+          {
+            "text": "焖 2 分钟",
+            "minutes": 2
+          }
+        ],
+        "preparations": [
+          "将排骨用冷水浸泡 10 分钟泡去血水，换水重复 2 次，用厨房纸吸干",
+          "将豆豉放入水中浸泡 5 分钟"
+        ],
+        "note": null
+      }
     },
     {
       "name": "豉汁蒸白鱔",
@@ -368,7 +960,26 @@
       "mainMass": null,
       "unknownAmounts": [
         "耐热盘"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "可选：用 3g 盐和 1 茶匙生粉轻搓白鱔段，腌制 5 分钟后冲洗干净，去腥并增加嫩滑口感。",
+            "minutes": 5
+          },
+          {
+            "text": "用中大火蒸约 8-10 分钟 （视白鱔段大小调整时间），至白鱔熟透但不过老 （肉质变白，无血水）。",
+            "minutes": 10
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "葱烧鸡腿",
@@ -376,7 +987,38 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "鸡腿丁加入 10ml 料酒、5ml 生抽、2g 盐、1g 白胡椒粉抓匀，腌制 10 分钟。",
+            "minutes": 10
+          },
+          {
+            "text": "等待 2-3 分钟让鸡腿丁底部煎出焦壳，再翻炒到所有面都变色、鸡肉完全断生。",
+            "minutes": 3
+          },
+          {
+            "text": "下入大葱片，保持中大火翻炒 1 分钟炒出葱香。",
+            "minutes": 1
+          },
+          {
+            "text": "等待 2 分钟让料汁和葱香完全融合到鸡肉里。",
+            "minutes": 2
+          },
+          {
+            "text": "开盖，下入小葱段和 2g 熟白芝麻（可选），翻炒 5-10 秒即可关火出锅。",
+            "minutes": 0.16666666666666666
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "带把肘子",
@@ -387,7 +1029,22 @@
       "unknownAmounts": [
         "小斧头",
         "消毒纱布"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 210,
+        "max": 255,
+        "basis": "原文概述约 210 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 210,
+        "timedSteps": [
+          {
+            "text": "撒入精盐，用消过毒的干净纱布盖在肉上，再将甜面酱（50 克）、葱（75 克）、红豆腐乳、红酱油、白酱油、姜、蒜等在纱布上抹开，用旺火蒸大约三小时（以蒸烂为准）。",
+            "minutes": 180
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "冬瓜酿肉",
@@ -395,7 +1052,30 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "将切好的冬瓜放入碗中，放入 15g 盐，将冬瓜抹匀，放置 10 分钟",
+            "minutes": 10
+          },
+          {
+            "text": "使用筷子在肉末中进行顺时针搅拌，搅拌到食材颜色没有明显对比（约 2 分钟）",
+            "minutes": 2
+          },
+          {
+            "text": "放入普通铁锅中水烧开后，蒸 15 分钟，盖上锅盖",
+            "minutes": 15
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "冬瓜桑拿鸡",
@@ -403,7 +1083,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 45,
+        "max": 55,
+        "basis": "原文概述约 35 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 35,
+        "timedSteps": [
+          {
+            "text": "鸡切块，加姜丝、生抽、蚝油、盐、食用油，揉搓均匀后腌制 20 分钟",
+            "minutes": 20
+          },
+          {
+            "text": "水烧开后放入蒸锅，上汽后蒸 15 分钟，出锅即可",
+            "minutes": 15
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "豆豉鲮鱼油麦菜",
@@ -411,7 +1110,17 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "番茄红酱",
@@ -425,7 +1134,26 @@
         "洋葱",
         "橄榄油",
         "干罗勒或百里香"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "锅内加油 10ml，加蒜翻炒 10 秒，加入碎牛肉、糖、盐、胡椒粉和香料将牛肉炒脆（有颗粒感）。",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "分多次缓缓倒入牛奶，中小火煮 30 分钟，完成。",
+            "minutes": 30
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "粉蒸肉",
@@ -433,7 +1161,34 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 120,
+        "max": 145,
+        "basis": "原文概述约 90 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 90,
+        "timedSteps": [
+          {
+            "text": "用筷子搅拌均匀后，盖上保鲜膜，室温(20°C - 25°C)静置腌制 30 分钟",
+            "minutes": 30
+          },
+          {
+            "text": "腌制完成后，加入 100g 蒸肉米粉，继续翻拌 2 分钟，确保每片肉都均匀裹粉",
+            "minutes": 2
+          },
+          {
+            "text": "保持中火蒸 60 分钟（火力保持在可持续沸腾的程度，约 600W 热功率）",
+            "minutes": 60
+          },
+          {
+            "text": "若未达到此状态，则继续加热 10 - 15 分钟，直至肉质软烂，油脂渗出",
+            "minutes": 15
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "腐乳肉",
@@ -443,7 +1198,22 @@
       "mainMass": null,
       "unknownAmounts": [
         "香葱"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "小火慢炖 40 分钟",
+            "minutes": 40
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "干煸仔鸡",
@@ -453,7 +1223,42 @@
       "mainMass": null,
       "unknownAmounts": [
         "大蒜"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "鸡腿肉中加入盐、鸡精（可选）、胡椒粉、生抽、老抽、料酒，抓拌至粘手时加入淀粉拌匀，加入食用油防止粘连，腌制 30 分钟。",
+            "minutes": 30
+          },
+          {
+            "text": "土豆去皮，切成 2cm 的块，沸水煮 5 分钟后捞出，控干水分，防止油炸时爆锅。",
+            "minutes": 5
+          },
+          {
+            "text": "锅中加入宽油（根据锅的形状，能没过食材即可），油温烧至 180℃ 时，下入土豆块炸 3 分钟后捞出。",
+            "minutes": 3
+          },
+          {
+            "text": "待油温再次升高到 180℃时，下入鸡块炸 2 分钟后捞出。",
+            "minutes": 2
+          },
+          {
+            "text": "待油温再次升高到 180℃时，下入鸡块复炸 1 分钟后捞出。",
+            "minutes": 1
+          },
+          {
+            "text": "待油温再次升高到 180℃时，下入土豆块复炸 1 分钟后，将锅中的油和土豆块经过笊篱过滤倒出，让笊篱上的青椒片断生。",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "宫保鸡丁",
@@ -463,7 +1268,16 @@
       "mainMass": null,
       "unknownAmounts": [
         "生花生"
-      ]
+      ],
+      "time": {
+        "min": 30,
+        "max": 40,
+        "basis": "步骤需泡鸡肉10分钟、焙花生5分钟、焖2分钟，另计切配快炒；1小时腌制另列。",
+        "preparations": [
+          "按原文将鸡丁放冰箱腌制1小时；未提前腌好时需要加上这段时间。"
+        ],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "咕噜肉",
@@ -471,7 +1285,38 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 45,
+        "max": 55,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "用盐（1/2 茶匙）腌制梅头猪肉 20 分钟。",
+            "minutes": 20
+          },
+          {
+            "text": "将梅头猪肉粒放至锅里中火炸 5 分钟，然后盛起。",
+            "minutes": 5
+          },
+          {
+            "text": "加入梅头猪肉粒，再大火翻炸 1 分钟。",
+            "minutes": 1
+          },
+          {
+            "text": "加入油（1 茶匙）和酱汁，中火加热 3 分钟。",
+            "minutes": 3
+          },
+          {
+            "text": "加入青椒和菠萝，大火加热 2 分钟。",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "广式萝卜牛腩",
@@ -482,7 +1327,30 @@
       "unknownAmounts": [
         "葱",
         "桂皮"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 170,
+        "max": 205,
+        "basis": "原文概述约 150 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 150,
+        "timedSteps": [
+          {
+            "text": "牛腩整块焯水，加入 2 片姜和一把葱结，等水开之后煮 5-10 分钟，然后捞出切件",
+            "minutes": 10
+          },
+          {
+            "text": "将牛腩换到汤锅中，放入桂皮、八角、香叶和干辣椒，焖大概 2 个小时",
+            "minutes": 120
+          },
+          {
+            "text": "牛腩焖到半软之后加入白萝卜继续焖 30 分钟",
+            "minutes": 30
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "贵州辣子鸡",
@@ -501,7 +1369,14 @@
         "蒜苗",
         "酒糟",
         "食用油"
-      ]
+      ],
+      "time": {
+        "min": 60,
+        "max": 80,
+        "basis": "原文概述出现“1.大约5小时”格式错误；操作明确先焖10分钟、再焖20分钟，另预留切配、分批炸土豆和鸡块的时间。",
+        "preparations": [],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "桂林十八酿",
@@ -531,7 +1406,17 @@
         "虾滑馅",
         "鱼肉馅",
         "混合馅"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 90,
+        "max": 110,
+        "basis": "原文概述约 90 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 90,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "荷兰豆炒腊肠",
@@ -539,7 +1424,30 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "把荷兰豆清洗一下，然后焯一下水，大概 45s，荷兰豆焯至变色即可，捞出过凉水备用",
+            "minutes": 0.75
+          },
+          {
+            "text": "热锅，锅内放入大约 10ml 食用油。等待 10 秒让油温升高",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "放入荷兰豆，转为中大火，翻炒 30s 放入生抽，接着再翻炒 20-30s 即可",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "红烧鸡翅",
@@ -547,7 +1455,46 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 50,
+        "max": 60,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "如果鸡翅不新鲜，可在打完花刀之后用姜水泡 10-20 分钟。",
+            "minutes": 20
+          },
+          {
+            "text": "起锅开火，锅中加入清水没过所有鸡翅，冷水下锅放入处理好的鸡翅，加入 20ml 黄酒或料酒、2 片姜片（约 5g），开大火烧至沸腾，沸腾后保持大火继续煮 2-3 分钟，撇去浮沫。",
+            "minutes": 3
+          },
+          {
+            "text": "待油温至 5 成热，加入 15g 冰糖，开大火将冰糖熬至完全融化，冰糖融化变色后转小火，继续炒至冰糖呈枣红色，立即放入控干水分的鸡翅，快速翻炒 1-2 分钟，使每只鸡翅均匀裹上糖色。",
+            "minutes": 2
+          },
+          {
+            "text": "加入准备好的 1 片香叶、1 个八角、2 个干辣椒（可选）、剩下的 2 片姜片（约 5g）、15g 葱段、拍散的大蒜，继续煸炒 30 秒至香料香味完全释放。",
+            "minutes": 0.5
+          },
+          {
+            "text": "沿锅边淋入 15ml 料酒或黄酒，15ml 生抽，快速翻炒 10 秒。",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "盖上锅盖，开中火烧煮 7-8 分钟。",
+            "minutes": 8
+          },
+          {
+            "text": "转大火，保持不断翻炒，将汤汁烧至粘稠状态（约 1-2 分钟）。",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "简易红烧肉",
@@ -557,7 +1504,36 @@
       "mainMass": null,
       "unknownAmounts": [
         "主料"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 105,
+        "max": 130,
+        "basis": "长时间泡发、腌制、解冻另列；按其余步骤计时，加切配和烧水余量估算。",
+        "sourceMinutes": 90,
+        "timedSteps": [
+          {
+            "text": "猪五花肉切大块（约 4.5cm ，冷冻半小时至一小时更好切）",
+            "minutes": 60
+          },
+          {
+            "text": "冷水锅中放入切好的猪五花肉，加入料酒与葱姜，煮 15 分钟去掉血腥",
+            "minutes": 15
+          },
+          {
+            "text": "加入烧好的开水炖煮 40 分钟（刀工差的同学切的过大请自觉延长炖煮时间），并放入",
+            "minutes": 40
+          },
+          {
+            "text": "盖上锅盖煮至沸腾后，加入煮好扎好孔的鹌鹑蛋和豆皮，开中小火，等待 40 分钟。（中途可适当翻搅防止粘锅）；",
+            "minutes": 40
+          }
+        ],
+        "preparations": [
+          "猪五花肉切大块（约 4.5cm ，冷冻半小时至一小时更好切）"
+        ],
+        "note": null
+      }
     },
     {
       "name": "南派红烧肉",
@@ -570,7 +1546,30 @@
         "辅料",
         "开水",
         "凉水"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 110,
+        "max": 135,
+        "basis": "原文概述约 90 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 90,
+        "timedSteps": [
+          {
+            "text": "凉水锅中放入五花肉大块，加入 20ml 料酒 与 A包（2 片姜、2 段葱段），煮 15 分钟去掉血腥，捞出来后洗干净；",
+            "minutes": 15
+          },
+          {
+            "text": "爆出香味后（约 5-10 秒内），先不要加开水，而是立刻将焯过水的五花肉倒入锅中大火翻炒，让肉块均匀裹上糖色并煸炒出油脂。待闻到肉香后，再倒入开水至没过全部肉，盖上锅盖，转中小火炖煮 50 分钟-60 分钟（高压锅则为 40 分钟）；",
+            "minutes": 60
+          },
+          {
+            "text": "盖上锅盖煮至沸腾后，每隔 25 分钟打开盖子将浮在表面的油和沫捞出；",
+            "minutes": 25
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "红烧猪蹄",
@@ -580,7 +1579,42 @@
       "mainMass": null,
       "unknownAmounts": [
         "葱"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "冷水锅中放入热心摊主剁好的猪蹄，加入 20 ml 料酒与葱姜，煮 15 分钟去掉血腥",
+            "minutes": 15
+          },
+          {
+            "text": "热锅冷油，倒入 30ml 食用油，放入 7-8 粒冰糖，开小火，熬成糖色，期间用锅铲把冰糖压碎，大概熬 2 分钟",
+            "minutes": 2
+          },
+          {
+            "text": "加入香叶 2 片、桂皮 1 块、八角 4 个、生抽 20 ml、老抽 20 ml、料酒 10 ml、姜 3 片、盐 8 克，转中火、继续翻炒 1 分钟",
+            "minutes": 1
+          },
+          {
+            "text": "把锅内的食材全部倒入高压锅中，高压锅中需要 15 分钟（如果同学没有高压锅，可放在锅中大火转小火熬制即可）",
+            "minutes": 15
+          },
+          {
+            "text": "15 分钟之后，把高压锅的食材倒入炒锅中，开大火收汁，此时可用筷子尝下味道、淡的话可以加 2~3g 盐",
+            "minutes": 15
+          },
+          {
+            "text": "大火收汁时长根据锅中的水来算，一般 30 秒即可，多留点也无碍、红烧猪蹄汤也是很下饭的",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "湖南家常红烧肉",
@@ -592,7 +1626,26 @@
         "干小米椒🌶",
         "桂皮",
         "开水"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "加入备好的姜片、八角、桂皮、生抽、老抽、料酒、干小米椒、盐，小火翻炒 1 分钟，加开水没过肉",
+            "minutes": 1
+          },
+          {
+            "text": "加盖中火煮沸，转小火慢顿 30 分钟，慢炖期间，间隔 10 分钟搅拌一次防止粘锅",
+            "minutes": 30
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "虎皮肘子",
@@ -619,7 +1672,44 @@
         "蒜",
         "水",
         "料酒"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 80,
+        "max": 100,
+        "basis": "长时间泡发、腌制、解冻另列；按其余步骤计时，加切配和烧水余量估算。",
+        "sourceMinutes": 150,
+        "timedSteps": [
+          {
+            "text": "猪肘解冻后水泡 1 小时去除血水。",
+            "minutes": 60
+          },
+          {
+            "text": "锅中水烧开后，等待五分钟，随后将猪肘取出，捡出锅中所有配料，更换容器保留所有肉汤备用。",
+            "minutes": 5
+          },
+          {
+            "text": "在油炸过程中，使用锅铲或其他耐高温厨具将锅中的油均匀淋到猪肘未被浸没的部分，如果条件允许应以 3 分钟的间隔翻转猪肘，使其油炸均匀。",
+            "minutes": 3
+          },
+          {
+            "text": "油炸过程持续大约 20 分钟，当观察到猪肘皮已经全部呈现出浅棕色，而瘦肉部分已经微焦，则可捞出备用。",
+            "minutes": 20
+          },
+          {
+            "text": "盖上锅盖，加压炖煮 40 分钟。",
+            "minutes": 40
+          },
+          {
+            "text": "等待肉汤沸腾，沸腾后等待 1-2 分钟关火，此时锅内的肉汤呈红棕色粘稠状",
+            "minutes": 2
+          }
+        ],
+        "preparations": [
+          "猪肘解冻后水泡 1 小时去除血水。"
+        ],
+        "note": null
+      }
     },
     {
       "name": "黄焖鸡",
@@ -634,7 +1724,24 @@
         "姜片",
         "味精",
         "土豆"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "翻炒均匀后，盖上锅盖焖煮，转中小火15——20分钟，有条件可以转至砂锅",
+            "minutes": 20
+          }
+        ],
+        "preparations": [
+          "香菇切片，青椒切成细长的马蹄状，若为干香菇，洗净灰尘后泡一晚上并留香菇水备用"
+        ],
+        "note": null
+      }
     },
     {
       "name": "黄油鸡",
@@ -644,7 +1751,40 @@
       "mainMass": null,
       "unknownAmounts": [
         "搅拌机/料理机"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 45,
+        "max": 55,
+        "basis": "长时间泡发、腌制、解冻另列；按其余步骤计时，加切配和烧水余量估算。",
+        "sourceMinutes": 105,
+        "timedSteps": [
+          {
+            "text": "盖保鲜膜，冷藏腌制至少 1 小时",
+            "minutes": 60
+          },
+          {
+            "text": "大火煎至两面焦黄（每面约 3 分钟），鸡肉不需要完全煮熟",
+            "minutes": 3
+          },
+          {
+            "text": "大火煮沸后转中火，煮 15 分钟，直至所有材料完全软烂",
+            "minutes": 15
+          },
+          {
+            "text": "翻炒 3-5 分钟，直至酱汁颜色变深且油花浮出",
+            "minutes": 5
+          },
+          {
+            "text": "小火炖 10-12 分钟，使鸡肉完全熟透且吸收酱汁",
+            "minutes": 12
+          }
+        ],
+        "preparations": [
+          "盖保鲜膜，冷藏腌制至少 1 小时"
+        ],
+        "note": null
+      }
     },
     {
       "name": "徽派红烧肉",
@@ -652,7 +1792,34 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 45,
+        "max": 55,
+        "basis": "原文概述约 45 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 45,
+        "timedSteps": [
+          {
+            "text": "锅中加入 150 ml 食用油，倒入五花肉，煎炸 2 分钟 后，加入盐，翻炒五花肉，2 分钟 后出锅",
+            "minutes": 2
+          },
+          {
+            "text": "倒入五花肉，翻炒 30 S ，加入姜片、蒜头后翻炒 30 S",
+            "minutes": 0.5
+          },
+          {
+            "text": "加入料酒，五香粉、葱，加入水没过五花肉，盖上锅盖煮 10 分钟",
+            "minutes": 10
+          },
+          {
+            "text": "加入生抽、老抽、蚝油，中火煮 20 分钟",
+            "minutes": 20
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "回锅肉",
@@ -660,7 +1827,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "开大火煮，水开后撇去浮沫，继续煮 15 分钟，煮至瘦肉部分可以用筷子轻松刺穿",
+            "minutes": 15
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "尖椒炒牛肉",
@@ -671,7 +1853,22 @@
       "unknownAmounts": [
         "蒜",
         "尖椒"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "加姜、盐、酱油、糖进行腌制 30-40 分钟",
+            "minutes": 40
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "尖叫牛蛙",
@@ -679,7 +1876,42 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 120,
+        "max": 145,
+        "basis": "原文概述约 120 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 120,
+        "timedSteps": [
+          {
+            "text": "牛蛙肉洗净后控干水分，加入 10 克以上的盐巴和 50ml 以上的啤酒，用手抓 5 分钟，去除牛蛙肉的腥味",
+            "minutes": 5
+          },
+          {
+            "text": "加入 5 克盐，30 克生粉，10ml 料酒，5 克胡椒粉，用手抓均匀，腌制 5-10 分钟",
+            "minutes": 10
+          },
+          {
+            "text": "起锅烧热，加入 200ml 食用油（锅底比较平的可以再加 100ml）,烧至 6 成油温（有小气泡出现），将腌制好的牛蛙倒入，快速过油炸制，10 秒钟后捞出（不能超时太多，否则会导致蛙肉老柴）",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "待油温 6 成热，加入泡姜、泡椒、野山椒、大蒜，超出香味，加入豆瓣酱 20 克，中火翻炒至出红油（时间控制在 30 秒），倒入 400ml 啤酒，",
+            "minutes": 0.5
+          },
+          {
+            "text": "然后倒入炸过的牛蛙肉，用勺子推着翻，不要用力搅拌，加入 5 克胡椒粉，加入 5ml 藤椒油，中火慢焖 3 分钟",
+            "minutes": 3
+          },
+          {
+            "text": "加大火力，大火收汁半分钟，加入青红辣椒圈，再煮 10 秒准备起锅",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "煎烤羊排",
@@ -687,7 +1919,30 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 100,
+        "max": 120,
+        "basis": "原文概述约 90 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 90,
+        "timedSteps": [
+          {
+            "text": "炒锅中加入冷水，放入全部羊排块，水沸腾后继续焯水 2 - 3 分钟，捞出备用。",
+            "minutes": 3
+          },
+          {
+            "text": "加入饮用水没过所有食材。如果使用高压锅，上汽后压 30 分钟。如果使用普通锅，炖煮 80 分钟。",
+            "minutes": 80
+          },
+          {
+            "text": "中大火煎 6 - 7 分钟，直至羊排中的油脂被煎出，表面呈金黄酥脆状态。",
+            "minutes": 7
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "姜炒鸡",
@@ -695,7 +1950,42 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "鸡尽量剁成 1cm 的小块，洗净后滤干，再放生抽腌和料酒腌制 30 分钟",
+            "minutes": 30
+          },
+          {
+            "text": "大先热锅到微微冒烟，放入食用油，等 5 秒",
+            "minutes": 0.08333333333333333
+          },
+          {
+            "text": "下入姜片后转中火炒 30 秒，",
+            "minutes": 0.5
+          },
+          {
+            "text": "下入鸡块翻炒 3 分钟，炒干水分，炒出鸡油",
+            "minutes": 3
+          },
+          {
+            "text": "放入各种剁碎的辣椒和大蒜子，加盐和老抽继续翻炒 30 秒",
+            "minutes": 0.5
+          },
+          {
+            "text": "倒入啤酒，中小火焖 2 分钟",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "姜葱捞鸡",
@@ -703,7 +1993,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 45,
+        "max": 55,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "让鸡腿静置腌制 15 分钟， 同时准备蒸锅并把水煮开",
+            "minutes": 15
+          },
+          {
+            "text": "鸡腿腌制完成后， 放入水开后的蒸锅中，蒸制 20 分钟",
+            "minutes": 20
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "酱牛肉",
@@ -713,7 +2022,16 @@
       "mainMass": null,
       "unknownAmounts": [
         "葱"
-      ]
+      ],
+      "time": {
+        "min": 200,
+        "max": 230,
+        "basis": "原文90分钟加90分钟合计炖煮180分钟；随后“加热180分钟后”是累计时间，不能再加一次。另含焯水和处理。",
+        "preparations": [
+          "提前浸泡1小时、腌制4–6小时；炖好还需冷藏数小时后切片。"
+        ],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "酱排骨",
@@ -721,7 +2039,30 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "起锅烧热水，放入排骨、姜片、料酒，煮开后用勺子舀去白色油沫，2-3 分钟后出锅",
+            "minutes": 3
+          },
+          {
+            "text": "倒入排骨翻炒 30 S 后，加入生抽、蚝油、五香粉、蒜、小米椒后翻炒 30 S 后，加入清水没过排骨",
+            "minutes": 0.5
+          },
+          {
+            "text": "大火煮 30 分钟，加入老抽上色，再煮 10 分钟",
+            "minutes": 30
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "茭白炒肉",
@@ -729,7 +2070,34 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文概述约 20 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 20,
+        "timedSteps": [
+          {
+            "text": "起锅水烧开，放入茭白，水煮 60-90 S 后取出沥干",
+            "minutes": 1.5
+          },
+          {
+            "text": "起锅，倒入 15 ml 油，倒入瘦肉，反复翻炒 60 S 取出",
+            "minutes": 1
+          },
+          {
+            "text": "起锅，倒入 15 ml 油，倒入姜、蒜翻炒 30S，加入茭白继续翻炒 30 S",
+            "minutes": 0.5
+          },
+          {
+            "text": "继续加入瘦肉翻炒 60 S，加入 20 ml 水，加入盐、鸡精后翻炒 60S 出锅",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "椒盐排条",
@@ -737,7 +2105,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "加入椒盐粉，搅匀，待到出胶质了分次加入葱姜水，放入冰箱腌制 20 分钟。",
+            "minutes": 20
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "芥末罗氏虾",
@@ -745,7 +2128,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "盖锅盖焖煮 2 分钟汤汁浓稠后出锅",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "咖喱肥牛",
@@ -753,7 +2151,30 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "热锅，锅内放入 10ml - 15ml 食用油，等待 10 秒让油温升高",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "放入土豆以及胡萝卜翻炒 2 分钟",
+            "minutes": 2
+          },
+          {
+            "text": "加入肥牛卷以及牛奶，盖上锅盖再小火煮 2-3 分钟即可出锅（用勺子搅拌食材，注意力度，避免肥牛卷破碎）",
+            "minutes": 3
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "烤鸡翅",
@@ -763,7 +2184,30 @@
       "mainMass": null,
       "unknownAmounts": [
         "鸡翅中"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 90,
+        "max": 110,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "加盐、黑胡椒粉、酱油、料酒进行腌制 30-40 分钟",
+            "minutes": 40
+          },
+          {
+            "text": "将烤盘放入烤箱中层，烤 15-20 分钟",
+            "minutes": 20
+          },
+          {
+            "text": "取出烤盘，将鸡翅翻面，再烤 15-20 分钟，直到熟透",
+            "minutes": 20
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "可乐鸡翅",
@@ -773,7 +2217,26 @@
       "mainMass": null,
       "unknownAmounts": [
         "小葱"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "鸡翅入锅，倒入冷水淹没。放生姜 1 片和料酒 10 ～ 20 毫升。大火煮开（ 大约 2 分钟 ）后，撇去浮沫，沥出水分",
+            "minutes": 2
+          },
+          {
+            "text": "捞出鸡翅，可用刀将两边各划上两口改刀。生抽约 10 克腌制鸡翅 10 分钟（生抽能完全包裹鸡翅表面入味就行）",
+            "minutes": 10
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "空气炸锅脆皮现腌炸鸡",
@@ -781,7 +2244,16 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "min": 75,
+        "max": 90,
+        "basis": "原文操作有静置10及20分钟、预热5分钟、炸10及6分钟、补脆1–2分钟；另计裹粉处理。概述中1–2天描述腌制安排，不能当成烹饪用时。",
+        "preparations": [
+          "原文要求鸡翅在冰箱静置一晚。"
+        ],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "口水鸡",
@@ -791,7 +2263,22 @@
       "mainMass": null,
       "unknownAmounts": [
         "半只鸡"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 90,
+        "max": 110,
+        "basis": "原文概述约 90 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 90,
+        "timedSteps": [
+          {
+            "text": "大火烧开后，转中小火 20 分钟关火",
+            "minutes": 20
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "老妈蹄花",
@@ -807,7 +2294,28 @@
         "香醋",
         "花椒油",
         "油泼辣子"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 120,
+        "max": 145,
+        "basis": "原文概述约 120 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 120,
+        "timedSteps": [
+          {
+            "text": "冷水锅中加入猪蹄、大葱段、姜片、料酒，焯水十分钟，撇去浮沫，捞出洗干净备用",
+            "minutes": 10
+          },
+          {
+            "text": "高压锅中放入猪蹄、当归、白芷、白胡椒粉、姜片，上汽后压三十分钟，放入白芸豆，再压十分钟，这个时候如果汤底是奶白色，那么恭喜是正确的（如果中途需要加水，只能加热水）",
+            "minutes": 30
+          }
+        ],
+        "preparations": [
+          "200g 白芸豆提前一晚清水浸泡备用"
+        ],
+        "note": null
+      }
     },
     {
       "name": "老式锅包肉",
@@ -819,7 +2327,46 @@
         "味精",
         "土豆淀粉",
         "中筋面粉"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 95,
+        "max": 115,
+        "basis": "原文概述约 90 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 90,
+        "timedSteps": [
+          {
+            "text": "可选：加入小苏打 5g，抓匀，静置 5 分钟。",
+            "minutes": 5
+          },
+          {
+            "text": "在肉片中加入盐 3g、料酒 5ml，拌匀，腌制 15 分钟。",
+            "minutes": 15
+          },
+          {
+            "text": "将土豆淀粉 170g 加入过量清水，搅匀，静置 60 分钟，等待淀粉沉降分层。",
+            "minutes": 60
+          },
+          {
+            "text": "将肉片逐片放入油中，炸至表面定型，表面挂浆不粘筷子，肉上浮，颜色浅黄，约 30 秒（取决于肉片大小），捞出备用。",
+            "minutes": 0.5
+          },
+          {
+            "text": "将所有肉片放入油中，炸至外壳金黄酥脆，约 30 秒，捞出备用。",
+            "minutes": 0.5
+          },
+          {
+            "text": "将肉片快速复炸，直到能看到肉片黄里透红，约 30 秒（取决于油温维持能力），增强酥脆度，捞出沥油。",
+            "minutes": 0.5
+          },
+          {
+            "text": "锅中留 20ml 底油， 倒入调好的糖醋汁，大火加热至沸腾，熬至汤汁粘稠，约 30-60 秒。",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "荔枝肉",
@@ -827,7 +2374,30 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 45,
+        "max": 55,
+        "basis": "原文概述约 45 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 45,
+        "timedSteps": [
+          {
+            "text": "全部放入瘦肉后，每 30 S 用勺子来回两面翻转瘦肉块，直至瘦肉块表面金黄",
+            "minutes": 0.5
+          },
+          {
+            "text": "取出瘦肉，一分钟后倒入油锅中继续炸，直至瘦肉块表面出现焦黄后，取出放入大碗备用",
+            "minutes": 1
+          },
+          {
+            "text": "起锅，倒入汤汁，30 S 后倒入瘦肉块、凤梨块，充分翻炒后 出锅",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "凉拌鸡丝",
@@ -838,7 +2408,22 @@
       "unknownAmounts": [
         "料酒",
         "凉白开水"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "继续煮 5-7 分钟，如果是非冷冻肉煮 5 分钟，冷冻肉煮 7 分钟",
+            "minutes": 7
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "卤菜",
@@ -848,7 +2433,33 @@
       "mainMass": null,
       "unknownAmounts": [
         "滤网"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "长时间泡发、腌制、解冻另列；按其余步骤计时，加切配和烧水余量估算。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "牛腱子提前浸泡在冷水中 3 小时以上，去除血水",
+            "minutes": 180
+          },
+          {
+            "text": "牛腱子放入锅中焯水 2-3 分钟，捞出并用热水冲洗干净表面的浮沫",
+            "minutes": 3
+          },
+          {
+            "text": "盖上高压锅盖，上汽后继续烹饪 25-30 分钟",
+            "minutes": 30
+          }
+        ],
+        "preparations": [
+          "牛腱子提前浸泡在冷水中 3 小时以上，去除血水",
+          "烹饪完成后，不要开盖保温，自然冷却并浸泡一晚上（这样会更入味）"
+        ],
+        "note": null
+      }
     },
     {
       "name": "萝卜炖羊排",
@@ -860,7 +2471,15 @@
         "白萝卜",
         "大葱",
         "白芷"
-      ]
+      ],
+      "time": {
+        "min": 95,
+        "max": 120,
+        "basis": "按普通锅分支：焯水10分钟、萝卜预煮5分钟、羊排炖40–60分钟、加萝卜炖20分钟，再计切配烧水。高压锅的15及10分钟不与普通锅累加。",
+        "preparations": [],
+        "note": "此处按普通锅估时；高压锅用时请查看原文对应分支。",
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "麻辣香锅",
@@ -868,7 +2487,54 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "在开水中放入青菜，焯 5 分钟后盛出备用。",
+            "minutes": 5
+          },
+          {
+            "text": "在开水中放入无骨肉，焯 4 分钟后盛出备用。",
+            "minutes": 4
+          },
+          {
+            "text": "在开水中放入北京麻辣方便面，煮 2 分钟后盛出备用。",
+            "minutes": 2
+          },
+          {
+            "text": "倒出开水，擦干锅具，放入 105 克食用油，大火加热 30 秒。",
+            "minutes": 0.5
+          },
+          {
+            "text": "放入麻辣香锅调料，翻炒 20 秒。",
+            "minutes": 0.3333333333333333
+          },
+          {
+            "text": "放入干辣椒，翻炒 10 秒。",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "放入焯过的青菜，改中火，翻炒 3 分钟。",
+            "minutes": 3
+          },
+          {
+            "text": "放入焯过的无骨肉，翻炒 3 分钟。",
+            "minutes": 3
+          },
+          {
+            "text": "放入煮过的北京麻辣方便面，用筷子翻动 1 分钟。",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "麻婆豆腐",
@@ -887,7 +2553,34 @@
         "花椒",
         "食盐",
         "酱油"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "热锅，锅内放入 10ml - 15ml 食用油。等待 10 秒让油温升高",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "调成小火，放入大蒜、生姜、辣椒圈、花椒、咸鸭蛋、蒜蓉辣酱翻炒 20 秒，炒出香味",
+            "minutes": 0.3333333333333333
+          },
+          {
+            "text": "调成中火，放入肉糜，翻炒大约 1 分钟，肉炒变色",
+            "minutes": 1
+          },
+          {
+            "text": "开大火，水沸腾后立马转入中火，等待大约 10 分钟",
+            "minutes": 10
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "蚂蚁上树",
@@ -897,7 +2590,26 @@
       "mainMass": null,
       "unknownAmounts": [
         "小葱"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 35,
+        "max": 45,
+        "basis": "原文概述约 20 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 20,
+        "timedSteps": [
+          {
+            "text": "红薯粉丝提前泡软，泡水时间为 20 分钟，备用",
+            "minutes": 20
+          },
+          {
+            "text": "中小火煮约 5 分钟，直至粉丝完全吸收汤汁、呈现微微收干状态",
+            "minutes": 5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "梅菜扣肉",
@@ -905,7 +2617,44 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 100,
+        "max": 120,
+        "basis": "长时间泡发、腌制、解冻另列；按其余步骤计时，加切配和烧水余量估算。",
+        "sourceMinutes": 150,
+        "timedSteps": [
+          {
+            "text": "梅菜放到清水中，浸泡 1 小时",
+            "minutes": 60
+          },
+          {
+            "text": "锅中倒入 50 ml 食用油，将整个五花肉猪皮朝下，放到锅中 1 分钟 ，取出挂掉猪皮 【可选】",
+            "minutes": 1
+          },
+          {
+            "text": "锅中加入开水，放入五花肉，大火煮 20 分钟 （筷子可以插进五花肉），取出五花肉",
+            "minutes": 20
+          },
+          {
+            "text": "在五花肉表面涂抹均匀老抽、五香粉、白砂糖，放置 15 分钟",
+            "minutes": 15
+          },
+          {
+            "text": "起锅烧油，加入五花肉，中火油炸直至两面金黄色（3-5 分钟）",
+            "minutes": 5
+          },
+          {
+            "text": "中火蒸 45 分钟",
+            "minutes": 45
+          }
+        ],
+        "preparations": [
+          "梅菜放到清水中，浸泡 1 小时"
+        ],
+        "note": null
+      }
     },
     {
       "name": "奶酪培根通心粉",
@@ -915,7 +2664,34 @@
       "mainMass": null,
       "unknownAmounts": [
         "大蒜"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "通心粉用微咸的水煮 6 分钟",
+            "minutes": 6
+          },
+          {
+            "text": "大蒜香味出来后，加入肉类，等待 5 秒",
+            "minutes": 0.08333333333333333
+          },
+          {
+            "text": "分四次加入牛奶，每次搅拌 5 秒后再加下一次",
+            "minutes": 0.08333333333333333
+          },
+          {
+            "text": "烤至表面金黄,约 24 分钟",
+            "minutes": 24
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "牛排",
@@ -927,7 +2703,16 @@
         "锡箔纸",
         "厨房纸",
         "汤匙"
-      ]
+      ],
+      "time": {
+        "min": 30,
+        "max": 45,
+        "basis": "煎制、醒肉和配菜可依次穿插；按原文约30分钟估算，加操作余量。解冻和烹饪前回温单列，避免重复累计。",
+        "preparations": [
+          "原文要求冷冻牛排提前一晚转冷藏解冻，烹饪前回温半小时。"
+        ],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "农家一碗香",
@@ -935,7 +2720,17 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文概述约 17 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 17,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "啤酒鸭",
@@ -943,7 +2738,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "倒入啤酒，没过鸭肉，加入盐、鸡精，然后中火将鸭子烧 30 分钟（牙口不好的话可以再多烧 5 分钟）。",
+            "minutes": 30
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "黔式腊肠娃娃菜",
@@ -951,7 +2761,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "放入腊肠，计时 13 分钟",
+            "minutes": 13
+          },
+          {
+            "text": "放入娃娃菜，计时 2 分钟",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "青椒酿",
@@ -959,7 +2788,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "朝一个方向搅拌肉馅至粘稠上劲，腌制 10 分钟",
+            "minutes": 10
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "青椒土豆炒肉",
@@ -967,7 +2811,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "转 5 成油温，加入葱姜蒜炒 5 秒，然后加入土豆片，转 7 成油温均匀翻炒，加入约 5ml 酱油和 2g 盐，炒至土豆断生，表面轻微焦黄。",
+            "minutes": 0.08333333333333333
+          },
+          {
+            "text": "转 8 成油温加入青椒，大火煸炒出锅气（有白烟冒出），反复均匀翻炒 1 分钟上色，最后在锅周围倒入水淀粉转 4 成火勾芡。",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "清蒸鳜鱼",
@@ -977,7 +2840,22 @@
       "mainMass": null,
       "unknownAmounts": [
         "大葱"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "锅里加水，水量大一些，水热后放入鳜鱼，盖上锅盖，大火蒸制 8 - 10 分钟，蒸鱼四字窍门：汽大火足",
+            "minutes": 10
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "肉饼炖蛋",
@@ -985,7 +2863,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文概述约 20 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 20,
+        "timedSteps": [
+          {
+            "text": "锅中加水至 1/4 高度，水烧开后，将盘子放入锅中，盖上锅盖，蒸 15 分钟。",
+            "minutes": 15
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "杀猪菜",
@@ -993,7 +2886,34 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 65,
+        "max": 80,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "血肠用牙签多扎一些小孔，然后放水中小火煮十分钟，不要让水烧开，保持 80 度，否则血肠非常容易爆开。",
+            "minutes": 10
+          },
+          {
+            "text": "酸菜洗净拧干水分，放入锅中，加入香油翻炒，香油可以更好的去除酸味而且让酸菜更香，大火翻炒二分钟。",
+            "minutes": 2
+          },
+          {
+            "text": "浓香模式压 40 分钟。",
+            "minutes": 40
+          },
+          {
+            "text": "到时间后放气开盖。加入血肠和枸杞，盖上锅盖焖二分钟即可，血肠是熟的，不需再加热。",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "山西过油肉",
@@ -1007,7 +2927,24 @@
         "陈醋",
         "花椒粉",
         "鸡精"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "猪里脊切片放入碗中，加 20ml 生抽、料酒、花椒粉，打入一个鸡蛋，拿自己的小手搅拌均匀，加入淀粉（建议红薯淀粉）拌匀，倒入 300ml 食用油封浆，腌制 15 分钟。",
+            "minutes": 15
+          }
+        ],
+        "preparations": [
+          "木耳提前泡发好，如果着急可以用热水泡发。"
+        ],
+        "note": null
+      }
     },
     {
       "name": "商芝肉",
@@ -1015,7 +2952,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 150,
+        "max": 180,
+        "basis": "原文概述约 150 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 150,
+        "timedSteps": [
+          {
+            "text": "炒锅内放入熟猪油，用旺火烧至八成熟（约 200 度，油表有大量青烟，油状平静），将肉块皮朝下投入，炸至呈金红色时，捞入凉肉煮锅（之前煮完的煮锅）中泡软，放在案板上，切成三寸(10 cm)长、两分(0.6 cm)厚的片，仍然皮朝下，整齐装入蒸碗内。",
+            "minutes": 2
+          },
+          {
+            "text": "商芝入沸水锅中煮软捞出，去除老茎、杂质，淘洗干净，切成 3 cm 长的段，放入碗中,加酱油（5 克）、精盐（1 克）、熟猪油（10 克）拌匀，盖在肉片上，另将鸡汤（100 克）放入一小碗中，加酱油（5 克）、精盐（0.5 克）、料酒（15 克）搅匀，浇入蒸碗，再放入姜片、葱段、八角上笼用旺火蒸约半小时后，转用小火继续蒸约一小时三十分钟，熟烂后取出，拣去姜、葱、八角，倒、过滤原汁，将肉扣入汤盘。",
+            "minutes": 90
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "瘦肉土豆片",
@@ -1023,7 +2979,38 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "瘦肉洗净切成约 2mm 的薄片，放入碗中，加入 5g 生粉、5g 生抽、3g 老抽腌制十分钟，备用",
+            "minutes": 10
+          },
+          {
+            "text": "瘦肉腌制时，烧一锅开水，将土豆片放入锅中，焯水，约 5 分钟",
+            "minutes": 5
+          },
+          {
+            "text": "热锅，锅内放入 10ml - 15ml 食用油。等待 10 秒让油温升高",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "放入瘦肉，翻炒至变色，倒入蒜苗一起炒，蒜苗炒约 20 秒",
+            "minutes": 0.3333333333333333
+          },
+          {
+            "text": "炒约 3 分钟，盛盘",
+            "minutes": 3
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "水煮牛肉",
@@ -1031,7 +3018,14 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述四十分钟，原解析误读成十分钟；按原文家庭份量估算。",
+        "preparations": [],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "水煮肉片",
@@ -1042,7 +3036,22 @@
       "unknownAmounts": [
         "猪里脊肉",
         "红油豆瓣"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 120,
+        "max": 145,
+        "basis": "原文概述约 120 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 120,
+        "timedSteps": [
+          {
+            "text": "碗中加入食用盐 1.5g，胡椒粉 1g，生抽酱油 5g，料酒 3g，然后朝着一个方向搅拌 2 分钟，使其入味。",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "蒜苔炒肉末",
@@ -1052,7 +3061,42 @@
       "mainMass": null,
       "unknownAmounts": [
         "食用盐"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文概述约 10 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 10,
+        "timedSteps": [
+          {
+            "text": "热锅，锅内放入 10ml 食用油。等待 10 秒让油温升高",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "放入蒜末，中火翻炒 10 秒 将蒜末炒出香味",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "放入五花肉和 5ml 生抽，中火翻炒 30 秒 将肉炒熟并上色",
+            "minutes": 0.5
+          },
+          {
+            "text": "将蒜苔放入锅内并加入 10ml 生抽，翻炒 30 秒",
+            "minutes": 0.5
+          },
+          {
+            "text": "锅内加入 20g 水，中火翻炒 5 分钟 将蒜苔炒至稍稍变软",
+            "minutes": 5
+          },
+          {
+            "text": "最后加入 2g 食盐，中火翻炒 30 秒，即可出锅装盘",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "台式卤肉饭",
@@ -1062,7 +3106,14 @@
       "mainMass": null,
       "unknownAmounts": [
         "米饭"
-      ]
+      ],
+      "time": {
+        "min": 90,
+        "max": 110,
+        "basis": "原文卤1小时，随后“1小时后”是同一过程；每隔15分钟搅拌是提醒，不是新增烹饪阶段。另计切肉、炒制、煮蛋和收汁。",
+        "preparations": [],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "糖醋里脊",
@@ -1070,7 +3121,28 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "腌肉：将猪里脊肉先切厚片，用刀背拍一拍，把肉拍松一点。切成一个手指头粗的条，加料酒，生抽，蚝油，食盐，白胡椒粉，一个鸡蛋，将肉用手抓匀，腌制 20 分钟以上。",
+            "minutes": 20
+          },
+          {
+            "text": "炸到表面微黄可以捞出，全程中火。然后等油温升高到 200 摄氏度，把里脊倒进去重新炸一次，只需 40 秒，表皮就会很脆，马上捞出。",
+            "minutes": 0.6666666666666666
+          }
+        ],
+        "preparations": [
+          "制作时需要掌握腌制、复炸和调汁火候，对新手稍有挑战，建议提前备好料并一气呵成"
+        ],
+        "note": null
+      }
     },
     {
       "name": "糖醋排骨",
@@ -1078,7 +3150,34 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 45,
+        "max": 55,
+        "basis": "原文概述约 45 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 45,
+        "timedSteps": [
+          {
+            "text": "排骨与姜片放入冷水中，大火加热至水沸腾、出现大量泡沫后转中火，待水持续沸腾时再转小火焯水 2–3 分钟，捞出备用。",
+            "minutes": 3
+          },
+          {
+            "text": "在锅中倒入足够量的食用油进行深炸（油量依据锅具大小而定，建议约 300 ml 供一般家庭使用），待油温升至约 170°C 后，下排骨炸制 3–5 分钟，直至表面略呈金黄色，捞出控油。",
+            "minutes": 5
+          },
+          {
+            "text": "将炸好的排骨倒入炒制糖水的锅中，迅速翻炒 30 秒后，依次加入香醋 5 ml、生抽 5 ml、蚝油 5 ml、鸡精 2 g、番茄酱 10 g、五香粉 0.5 g，再次翻炒 30 秒，使调料均匀裹覆排骨，然后加入开水至刚好没过排骨。",
+            "minutes": 0.5
+          },
+          {
+            "text": "用大火将锅中液体煮沸后，加入老抽 5 ml 进行上色，并快速收汁；若排骨块较大，可转小火焖煮 5–10 分钟以便更好地入味，切勿采用中火长时间炖煮 20 分钟，以免损伤口感。",
+            "minutes": 20
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "田螺酿",
@@ -1086,7 +3185,16 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "min": 40,
+        "max": 60,
+        "basis": "原文烹饪估计40分钟，步骤焯烫1–2分钟、焖10及2–3分钟；另需取螺肉、处理肉馅和回填。",
+        "preparations": [
+          "使用已完成吐沙处理的田螺；原文要求提前安排吐沙。"
+        ],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "甜辣烤全翅",
@@ -1094,7 +3202,16 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "min": 65,
+        "max": 80,
+        "basis": "原文两段各烤25分钟，加切配和翻面；冷藏静置另列。",
+        "preparations": [
+          "提前冷藏腌制120分钟。"
+        ],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "土豆炖排骨",
@@ -1102,7 +3219,46 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 105,
+        "max": 130,
+        "basis": "原文概述约 90 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 90,
+        "timedSteps": [
+          {
+            "text": "冷水焯水： 将 750g 肋排冷水下锅，加入 15g 葱结、15g 姜片、15ml 料酒。大火煮沸后，继续保持沸腾焯水 2 分钟，逼出内部血沫。",
+            "minutes": 2
+          },
+          {
+            "text": "上色煎制： 迅速加入彻底脱水的 750g 排骨，转中大火翻炒。煎制约 2-3 分钟，至排骨两面微微金黄，且均匀裹满焦糖色。",
+            "minutes": 3
+          },
+          {
+            "text": "一键爆香： 在锅中拨出一小块空地，直接倒入【香料碟】。利用锅底的热油爆香约 10 秒，激发出香料的脂溶性香气。",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "一键调味： 顺着热锅边缘淋入剩余的 10ml 料酒激发出锅气。紧接着直接倒入【酱汁碗】，翻炒约 30 秒，让酱料完全包裹排骨并炒出浓郁酱香。",
+            "minutes": 0.5
+          },
+          {
+            "text": "加水长炖： 此时电热水壶已沸腾，直接加入 700ml 滚烫的开水（水量需没过排骨），大火烧开。随后盖上锅盖，转小火持续焖煮 40 分钟。",
+            "minutes": 40
+          },
+          {
+            "text": "加入土豆： 40 分钟后打开锅盖，将泡在水里的 300g 土豆捞出沥干，下入锅中。重新盖上锅盖，继续小火焖煮 15-20 分钟，直到用筷子能轻松扎透土豆块。",
+            "minutes": 40
+          },
+          {
+            "text": "调味收汁： 打开锅盖，加入 3g 盐（此时可尝一下汤汁，根据个人口味酌情微调）。转大火开始翻炒收汁，大约需要 3-5 分钟。直到汤汁变得浓稠，均匀地挂在排骨和土豆上即可关火。",
+            "minutes": 5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "无骨鸡爪",
@@ -1112,7 +3268,16 @@
       "mainMass": null,
       "unknownAmounts": [
         "洋葱"
-      ]
+      ],
+      "time": {
+        "min": 90,
+        "max": 150,
+        "basis": "原文为大批量鸡爪，需煮10分钟、冷冻20分钟并逐只去骨；可选2小时放凉及隔夜入味另列，耗时随数量和熟练度变化。",
+        "preparations": [
+          "原文还要求冷藏一晚（6小时）；可选的自然放凉步骤约2小时。"
+        ],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "西红柿牛腩",
@@ -1127,7 +3292,30 @@
         "白糖",
         "料/黄酒",
         "八角三小片"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 90,
+        "max": 110,
+        "basis": "原文概述约 90 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 90,
+        "timedSteps": [
+          {
+            "text": "牛腩切条、切块成长宽高均 2cm ，冷水下锅，开锅煮制 2 分钟去除血水，捞出冲洗干净",
+            "minutes": 2
+          },
+          {
+            "text": "另起锅 2L 水烧开，加入 2cm 两段葱段、两片姜片、八角、料/黄酒 5-10ml，放入焯好的牛肉，盖盖炖制（砂锅 1 小时，高压锅炖肉模式 45 分钟），筷子能轻松插透就证明炖好了",
+            "minutes": 60
+          },
+          {
+            "text": "开锅后大火继续炒制 3-5 分钟",
+            "minutes": 5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "西红柿土豆炖牛肉",
@@ -1146,7 +3334,30 @@
         "老抽",
         "土豆",
         "番茄"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 100,
+        "max": 120,
+        "basis": "原文概述约 90 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 90,
+        "timedSteps": [
+          {
+            "text": "牛肉泡凉水半小时去血水，或凉水下锅煮至表面变白捞出，期间撇去浮末",
+            "minutes": 30
+          },
+          {
+            "text": "凉水没过牛肉，放入高压锅，放入葱段，姜片，放入 20g 料酒，上汽压 20 分钟",
+            "minutes": 20
+          },
+          {
+            "text": "出锅前 30-40 分钟 加土豆并调味",
+            "minutes": 40
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "乡村啤酒鸭",
@@ -1160,7 +3371,50 @@
         "小米椒",
         "草果",
         "桂皮"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 110,
+        "max": 135,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "加鸭肉翻炒 4 分钟",
+            "minutes": 4
+          },
+          {
+            "text": "2 分钟后加入所有的香料",
+            "minutes": 2
+          },
+          {
+            "text": "3 分钟的时候加入所有的料头（生姜，大蒜，小米辣）",
+            "minutes": 3
+          },
+          {
+            "text": "烧鸭肉 30 分钟",
+            "minutes": 30
+          },
+          {
+            "text": "10 分钟的时候加 盐 （3 克） 生抽( 10 ml ) 老抽( 5 ml)",
+            "minutes": 10
+          },
+          {
+            "text": "20 分钟 加入所有的辅料 （青椒和红椒段）",
+            "minutes": 20
+          },
+          {
+            "text": "29 分钟加入 蒜苗段 和 大葱段",
+            "minutes": 29
+          },
+          {
+            "text": "翻炒 1 分钟",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "香干芹菜炒肉",
@@ -1168,7 +3422,34 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "热锅，锅内放入 10ml - 15ml 食用油。等待 10 秒让油温升高",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "加入香干翻炒均匀（大约 2 分钟）",
+            "minutes": 2
+          },
+          {
+            "text": "加入辣椒翻炒均匀（大约 1-2 分钟）",
+            "minutes": 2
+          },
+          {
+            "text": "加入芹菜，放入 5g 盐翻炒 1 分钟",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "香菇滑鸡",
@@ -1176,7 +3457,37 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "泡发的香菇一分为四，香菇水留着备用",
+            "minutes": 1
+          },
+          {
+            "text": "鸡腿肉焯水 1 分钟，去除血沫和杂质",
+            "minutes": 1
+          },
+          {
+            "text": "等待 20 秒会有香菇香味从锅中飘出，此时下入煸炒过的鸡腿肉，下入香菇水（全部，本程序员认为的灵魂操作）、糖 15ml、生抽 30ml",
+            "minutes": 0.3333333333333333
+          },
+          {
+            "text": "转中火不盖盖，咕嘟 2 分钟收浓汤汁，淋入香油 5ml，撒上葱花后即可关火、装盘",
+            "minutes": 2
+          }
+        ],
+        "preparations": [
+          "温水泡发干香菇",
+          "泡发的香菇一分为四，香菇水留着备用"
+        ],
+        "note": null
+      }
     },
     {
       "name": "香煎五花肉",
@@ -1193,7 +3504,22 @@
         "料酒",
         "姜蒜",
         "豆瓣酱"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "将切好的五花肉放置碗中，依次加入 8g 酱油，1g 盐，1g 味精，10g 料酒，两片姜，两朵拍扁的大蒜腌制 10 分钟",
+            "minutes": 10
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "香辣鸡爪煲",
@@ -1211,7 +3537,26 @@
         "五香粉",
         "盐",
         "鸡精"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 45,
+        "max": 55,
+        "basis": "原文概述约 45 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 45,
+        "timedSteps": [
+          {
+            "text": "加入香叶、八角、生抽、老抽，盖盖小火慢煮三十分钟。",
+            "minutes": 30
+          },
+          {
+            "text": "放入鸡爪，放一点盐调味，翻炒一两分钟，再倒入鸡汤，边炒边搅动。",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "湘祁米夫鸭",
@@ -1219,7 +3564,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "翻炒鸭肉和米粉有湿感，铲出入碗中，高压锅放水蒸 20-25 分钟",
+            "minutes": 25
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "小炒黄牛肉",
@@ -1227,7 +3587,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "热锅，锅内放入 15ml 食用油，大火等待 30 秒让油温升高",
+            "minutes": 0.5
+          },
+          {
+            "text": "放入牛里脊和芹菜，然后大火翻炒 1 分钟",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "小炒鸡肝",
@@ -1235,7 +3614,34 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "开大火，待水沸腾调至中火并撇去浮沫后等待5-10分钟",
+            "minutes": 10
+          },
+          {
+            "text": "开中火。锅内加入 30ml 食用油，等待 10 秒使油升温",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "加入蒜苗，翻炒 30 秒，断生后调至为小火",
+            "minutes": 0.5
+          },
+          {
+            "text": "调至为大火，快速翻炒 30 秒防止糊锅，关火",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "小炒肉",
@@ -1243,7 +3649,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "把肉放入器皿内，加入淀粉、老抽、盐搅拌腌制半小时",
+            "minutes": 30
+          },
+          {
+            "text": "加入小米椒、朝天椒、葱段翻炒 40 秒",
+            "minutes": 0.6666666666666666
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "小米辣炒肉",
@@ -1254,7 +3679,22 @@
       "unknownAmounts": [
         "小米辣",
         "大蒜"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文概述约 25 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 25,
+        "timedSteps": [
+          {
+            "text": "肉的话，想切丝切丝，想切片切片，倒入调料（生抽、蚝油、盐）腌制 5 分钟",
+            "minutes": 5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "小酥肉",
@@ -1264,7 +3704,38 @@
       "mainMass": null,
       "unknownAmounts": [
         "食用油"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 90,
+        "max": 110,
+        "basis": "原文概述约 90 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 90,
+        "timedSteps": [
+          {
+            "text": "用手捏揉 5 分钟，使姜葱的味道充分溶解在水中。",
+            "minutes": 5
+          },
+          {
+            "text": "抓匀并且充分揉制 10 分钟，直至肉吸收所有水分并且变得粘手。",
+            "minutes": 10
+          },
+          {
+            "text": "封上保鲜膜放冷藏室静置 30 分钟。",
+            "minutes": 30
+          },
+          {
+            "text": "充分揉制 15 分钟。",
+            "minutes": 15
+          },
+          {
+            "text": "将裹好粉的肉条用筷子夹入油锅中，捋成自己喜欢的形状，炸 3~5 分钟定型。目测颜色微黄，用锅铲翻动感受倒略微有些硬了就可以。具体时间受肉块大小、油温、裹粉程度影响。",
+            "minutes": 5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "新疆大盘鸡",
@@ -1276,7 +3747,24 @@
         "花椒",
         "香叶",
         "香果"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 60,
+        "max": 75,
+        "basis": "原文概述约 60 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 60,
+        "timedSteps": [
+          {
+            "text": "肉先剁好，块状，用清水+盐浸泡 5 分钟，去除血水，去腥，然后空干水",
+            "minutes": 5
+          }
+        ],
+        "preparations": [
+          "肉先剁好，块状，用清水+盐浸泡 5 分钟，去除血水，去腥，然后空干水"
+        ],
+        "note": null
+      }
     },
     {
       "name": "血浆鸭",
@@ -1284,7 +3772,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 120,
+        "max": 145,
+        "basis": "原文概述约 120 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 120,
+        "timedSteps": [
+          {
+            "text": "待鸭肉完全变色（肉眼可见泛白），放入酒，再加入 200ml 开水，刚好淹没鸭肉即可，盖上锅盖中火煮 15 分钟。",
+            "minutes": 15
+          },
+          {
+            "text": "水开之后，打开锅盖放入姜蒜，翻炒一遍，盖上锅盖持续加热 10 分钟。",
+            "minutes": 10
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "羊排焖面",
@@ -1300,7 +3807,22 @@
         "姜",
         "白糖",
         "老抽"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 90,
+        "max": 110,
+        "basis": "原文概述约 90 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 90,
+        "timedSteps": [
+          {
+            "text": "加入清水没过羊肉，大火煮沸之后，让其继续煮 10 分钟，之后小火炖煮 30 分钟。",
+            "minutes": 30
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "洋葱炒猪肉",
@@ -1311,7 +3833,30 @@
       "unknownAmounts": [
         "洋葱",
         "蕃茄酱"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "炒锅内倒入 1 大匙食用油（等待 10 秒让油温升高），倒入猪肉",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "原锅下洋葱翻炒 3~4 分钟后加入调味料炒匀",
+            "minutes": 4
+          },
+          {
+            "text": "待猪肉熟后再翻炒 1、2 分钟即可起锅",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "意式烤鸡",
@@ -1319,7 +3864,14 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "min": 50,
+        "max": 65,
+        "basis": "原文概述五十分钟，原解析误读成十分钟；已计入备料与烤制。",
+        "preparations": [],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "鱼香茄子",
@@ -1327,7 +3879,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "锅中倒入 300ml 油，开小火（小火容易掌控），等油温七成热（小火大约 40 秒，有烟冒出）放入茄子炸两分钟，当茄子边缘微黄就捞出。多出的油可以盛出以后炒菜用。",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "鱼香肉丝",
@@ -1335,7 +3902,40 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 45,
+        "max": 55,
+        "basis": "长时间泡发、腌制、解冻另列；按其余步骤计时，加切配和烧水余量估算。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "用腌料腌制里脊肉 15-30 分钟。注意将肉抓匀。",
+            "minutes": 30
+          },
+          {
+            "text": "干木耳泡 4 个小时，洗净，切成小块。",
+            "minutes": 240
+          },
+          {
+            "text": "倒入全部胡萝卜，翻炒 20s 后，放入青椒和木耳，翻炒 2 分钟。",
+            "minutes": 2
+          },
+          {
+            "text": "倒入炒过的肉。快速翻炒均匀。注意不要炒超过 20 秒。",
+            "minutes": 0.3333333333333333
+          },
+          {
+            "text": "倒入香汁。快速翻炒均匀。注意不要炒超过 15 秒。",
+            "minutes": 0.25
+          }
+        ],
+        "preparations": [
+          "干木耳泡 4 个小时，洗净，切成小块。"
+        ],
+        "note": null
+      }
     },
     {
       "name": "枝竹羊腩煲",
@@ -1348,7 +3948,16 @@
         "蚝油",
         "葱段",
         "其余配菜例如马蹄"
-      ]
+      ],
+      "time": {
+        "min": 140,
+        "max": 165,
+        "basis": "原文概述两个半小时；步骤炖90分钟、煮20分钟，再计切配焯水与炒制。",
+        "preparations": [
+          "提前泡发香菇2–3小时、腐竹30分钟；以上烹饪用时不含泡发。"
+        ],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "猪皮冻",
@@ -1365,7 +3974,16 @@
         "丁香",
         "香叶",
         "小茴香"
-      ]
+      ],
+      "time": {
+        "min": 120,
+        "max": 160,
+        "basis": "原文焯水5–10分钟、煲煮90分钟，另需刮油切丝清洗；浸泡和冷却凝固单独安排。",
+        "preparations": [
+          "提前浸泡猪皮12小时；煮好后还要晾凉、冷藏至凝固，无法按本页烹饪分钟数直接上桌。"
+        ],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "猪肉烩酸菜",
@@ -1375,7 +3993,34 @@
       "mainMass": null,
       "unknownAmounts": [
         "猪五花肉或猪肉排骨"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 180,
+        "max": 220,
+        "basis": "原文概述约 180 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 180,
+        "timedSteps": [
+          {
+            "text": "排骨和五花肉入锅，倒入冷水淹没。放入全部葱段， 50 克生姜段和料酒 20 毫升。大火煮开后，等待 5 分钟。关火，将排骨和五花肉捞出，冷水冲洗掉浮沫，备用",
+            "minutes": 5
+          },
+          {
+            "text": "锅中加入油，开中火，放入姜蒜末爆香，放入五花肉和排骨。将五花肉和排骨煎至金黄，倒入 10 克五香粉和 15 克 生抽酱油，用铲子翻动 1 ～ 2 分钟。",
+            "minutes": 2
+          },
+          {
+            "text": "将冲洗好的酸菜丝加入锅中，翻炒 3 分钟。",
+            "minutes": 3
+          },
+          {
+            "text": "等待 1.5 ～ 2 小时，直至五花肉软烂 （可以用筷子轻松扎穿）",
+            "minutes": 120
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "柱候牛腩",
@@ -1383,7 +4028,15 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "min": 210,
+        "max": 240,
+        "basis": "按原文普通锅炖3小时，加切配焯水和可选配菜；高压锅40分钟是替代分支，不与普通锅相加。",
+        "preparations": [],
+        "note": "使用高压锅时按原文另选分支；此处按普通锅估时。",
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "孜然牛肉",
@@ -1394,7 +4047,28 @@
       "unknownAmounts": [
         "牛柳或牛肩肉",
         "捣药罐"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 45,
+        "max": 55,
+        "basis": "原文概述约 45 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 45,
+        "timedSteps": [
+          {
+            "text": "然后进行腌肉，加入生抽，淀粉，油，均匀搅拌，静止 30 分钟。腌肉方法也可参考学习腌",
+            "minutes": 30
+          },
+          {
+            "text": "大🔥炒 1 分钟后关火再翻炒 30 秒保证受热均匀即可出锅",
+            "minutes": 1
+          }
+        ],
+        "preparations": [
+          "牛肉提前解冻，过一边水洗干净，晾干或用厨用纸吸干，将牛肉顺着纹理切成片"
+        ],
+        "note": null
+      }
     },
     {
       "name": "淄博烧烤",
@@ -1406,7 +4080,26 @@
         "小薄饼",
         "芝麻盐",
         "炭火或燃气"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "点燃炭火，等待炭火烧至通红无明火状态（约 15 分钟）",
+            "minutes": 15
+          },
+          {
+            "text": "继续烤制约 2 - 3 分钟，至两面焦黄、边缘微焦后取下",
+            "minutes": 3
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "醉排骨",
@@ -1414,7 +4107,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "全部放入后，每 30 S 用勺子来回两面翻转瘦肉块，直至排骨表面金黄",
+            "minutes": 0.5
+          },
+          {
+            "text": "取出排骨，一分钟后倒入油锅中继续炸，直至瘦肉块表面出现焦黄后，取出放入大碗备用",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "拔丝土豆",
@@ -1422,7 +4134,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "起锅烧油，放入土豆块，缓缓翻滚煎炸 5-7 分钟 ，直至筷子可以插进土豆",
+            "minutes": 7
+          },
+          {
+            "text": "重新倒入土豆，翻炒 30 S 后 出锅",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "白灼菜心",
@@ -1433,7 +4164,22 @@
       "unknownAmounts": [
         "大蒜",
         "小米辣"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "将菜心根茎在沸水中烫 1 分钟，直到根茎颜色变成深绿。再将整个菜心放到锅中烫熟 1 分钟，捞起来码入盘中",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "包菜炒鸡蛋粉丝",
@@ -1448,7 +4194,40 @@
         "老抽",
         "蚝油",
         "干辣椒"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "长时间泡发、腌制、解冻另列；按其余步骤计时，加切配和烧水余量估算。",
+        "sourceMinutes": 80,
+        "timedSteps": [
+          {
+            "text": "粉丝先用冷水浸泡 1 小时，然后将粉丝放入锅中，加入开水烧至粉丝烫软捞出备用",
+            "minutes": 60
+          },
+          {
+            "text": "鸡蛋打入碗中，加入盐后搅拌 15 秒",
+            "minutes": 0.25
+          },
+          {
+            "text": "再倒入油，放入葱、蒜、干辣椒翻炒 8 秒",
+            "minutes": 0.13333333333333333
+          },
+          {
+            "text": "下胡萝卜、包菜丝儿翻炒 30 秒",
+            "minutes": 0.5
+          },
+          {
+            "text": "放入之前炒好的鸡蛋，翻炒约 15 秒",
+            "minutes": 0.25
+          }
+        ],
+        "preparations": [
+          "粉丝先用冷水浸泡 1 小时，然后将粉丝放入锅中，加入开水烧至粉丝烫软捞出备用"
+        ],
+        "note": null
+      }
     },
     {
       "name": "菠菜炒鸡蛋",
@@ -1456,7 +4235,30 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "油热后，倒入鸡蛋液，中火翻炒 15 秒，先煎成蛋饼，然后再用锅铲切成小块",
+            "minutes": 0.25
+          },
+          {
+            "text": "重新开火，倒入 5ml 油，油热后，放入菠菜，大火 翻炒 15 秒后，倒入鸡蛋块，翻炒均匀",
+            "minutes": 0.25
+          },
+          {
+            "text": "加入 5g 盐、100ml 饮用水，大火 翻炒 10 秒",
+            "minutes": 0.16666666666666666
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "炒滑蛋",
@@ -1464,7 +4266,14 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "min": 5,
+        "max": 10,
+        "basis": "原文约5分钟，步骤主要是打蛋、热锅和炒蛋，按操作熟练度预留余量。",
+        "preparations": [],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "炒土豆和胡萝卜蒸菜",
@@ -1475,7 +4284,30 @@
       "unknownAmounts": [
         "蒜瓣",
         "干辣椒"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文概述约 20 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 20,
+        "timedSteps": [
+          {
+            "text": "把弄散了混合好的，土豆和胡萝卜丝，使用电蒸锅蒸5分钟/蒸锅在上气后大火蒸5分钟",
+            "minutes": 5
+          },
+          {
+            "text": "开大火后 15 秒先道友加葱翻炒，把葱炒香/炒 40 秒,加入混合的土豆和胡萝卜丝翻炒",
+            "minutes": 0.6666666666666666
+          },
+          {
+            "text": "20 秒后加入李大厨牌子的炒菜料，随后加入李大厨牌子的肉香味儿，然后加入食盐，然后加入味精，一会儿后出锅，关火",
+            "minutes": 0.3333333333333333
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "脆皮豆腐",
@@ -1483,7 +4315,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "热锅，锅内放入 18ml 食用油。等待 10 秒让油温升高",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "待两面煎至金黄后，倒入酱料，让每块豆腐都沐浴在酱料中，大火 3 分钟至酱汁浓稠",
+            "minutes": 3
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "地三鲜",
@@ -1498,7 +4349,14 @@
         "豆瓣酱",
         "生抽",
         "糖"
-      ]
+      ],
+      "time": {
+        "min": 40,
+        "max": 50,
+        "basis": "原文约40分钟，按厨房纸擦干青椒后依次煎炸和收汁估算；风干半小时是替代选项，不能额外强制累计。",
+        "preparations": [],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "干锅花菜",
@@ -1506,7 +4364,36 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "花菜朵朝下，没入淡盐水中浸泡 20 分钟。然后洗净用小刀拆成小朵",
+            "minutes": 20
+          },
+          {
+            "text": "入开水锅中焯水 1 分钟，捞出立即用冷水冲淋至完全凉透，沥水备用",
+            "minutes": 1
+          },
+          {
+            "text": "再加入 5 g 白糖，转大火不断翻炒 1 分钟",
+            "minutes": 1
+          },
+          {
+            "text": "把大蒜叶部分切成段，放入锅中，翻炒几下后，关火盖上盖子焖 1 分钟即可",
+            "minutes": 1
+          }
+        ],
+        "preparations": [
+          "花菜朵朝下，没入淡盐水中浸泡 20 分钟。然后洗净用小刀拆成小朵"
+        ],
+        "note": null
+      }
     },
     {
       "name": "蚝油三鲜菇",
@@ -1516,7 +4403,34 @@
       "mainMass": null,
       "unknownAmounts": [
         "香菇"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "水开，放入西蓝花，清水煮 3 分钟，放入碗中备用",
+            "minutes": 3
+          },
+          {
+            "text": "洗锅烧开水，加入 5 g 食用盐，倒入蟹味菇、白玉菇、香菇，水煮 1 分钟",
+            "minutes": 1
+          },
+          {
+            "text": "1 分钟后，捞出沥干水分",
+            "minutes": 1
+          },
+          {
+            "text": "起锅烧油，待油开始冒小泡，放入姜末、小米辣、菜椒 煸炒 30 S",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "蚝油生菜",
@@ -1524,7 +4438,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "水沸后，放入生菜，将每一片生菜叶都焯水 10 s。",
+            "minutes": 0.16666666666666666
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "红烧冬瓜",
@@ -1532,7 +4461,34 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文概述约 25 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 25,
+        "timedSteps": [
+          {
+            "text": "起锅烧油，放入冬瓜，缓缓翻滚煎炸 2 分钟 ，直至冬瓜表面泛金黄色",
+            "minutes": 2
+          },
+          {
+            "text": "利用锅中的剩余油，依次放入姜末、生抽、蚝油，翻炒 15 S",
+            "minutes": 0.25
+          },
+          {
+            "text": "重新倒入冬瓜，翻炒 30 S 后，加入开水，水要没过冬瓜表面，大火煮 10 分钟",
+            "minutes": 10
+          },
+          {
+            "text": "加入鸡精、料酒、香葱翻炒后 30 S， 取出冬瓜到大碗中",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "虎皮青椒",
@@ -1540,7 +4496,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "翻炒约 2 分钟，待青椒表皮出现褶皱时，倒入 调料 2。",
+            "minutes": 2
+          },
+          {
+            "text": "加大火候继续翻炒 30s 后即可出锅盛入盘中。",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "话梅煮毛豆",
@@ -1548,7 +4523,28 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 55,
+        "max": 70,
+        "basis": "原文概述约 45 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 45,
+        "timedSteps": [
+          {
+            "text": "清水加入食用盐，毛豆浸泡 15 分钟",
+            "minutes": 15
+          },
+          {
+            "text": "加入开水，倒入毛豆、话梅，水煮 20-30 分钟",
+            "minutes": 30
+          }
+        ],
+        "preparations": [
+          "清水加入食用盐，毛豆浸泡 15 分钟"
+        ],
+        "note": null
+      }
     },
     {
       "name": "鸡蛋羹",
@@ -1558,7 +4554,26 @@
       "mainMass": null,
       "unknownAmounts": [
         "藤椒油"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "开中火蒸10 分钟, 10 分钟之后关火再闷上5 分钟。",
+            "minutes": 10
+          },
+          {
+            "text": "开大火蒸5 分钟，要保持锅中水一直处于沸腾状态，否则要延长时间。每隔2 分钟开盖一次释放水蒸气，开盖过晚蛋羹容易变成蜂窝状；开盖太早/频繁蒸的时间需要久一些。",
+            "minutes": 5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "蒸箱鸡蛋羹",
@@ -1568,7 +4583,22 @@
       "mainMass": null,
       "unknownAmounts": [
         "蒸箱"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "调节至100摄氏度蒸 10 分钟",
+            "minutes": 10
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "鸡蛋花",
@@ -1578,7 +4608,14 @@
       "mainMass": null,
       "unknownAmounts": [
         "搅拌器"
-      ]
+      ],
+      "time": {
+        "min": 5,
+        "max": 10,
+        "basis": "原文约5分钟，按打蛋1–2分钟及烧水冲蛋预留余量。",
+        "preparations": [],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "鸡蛋火腿炒黄瓜",
@@ -1586,7 +4623,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 10 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 10,
+        "timedSteps": [
+          {
+            "text": "不用洗锅，往锅内倒入 5ml 食用油，倒入黄瓜片大火翻炒 1 分钟",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "家常日本豆腐",
@@ -1594,7 +4646,17 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "椒盐玉米",
@@ -1606,7 +4668,33 @@
         "油",
         "淀粉",
         "两个塑料簸箕"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "玉米粒都是剥好的，直接解冻即可，温水泡 15 分钟或者灶上开水煮 5 分钟。",
+            "minutes": 15
+          },
+          {
+            "text": "中火先煎 30s，不要翻炒，不然淀粉会掉。",
+            "minutes": 0.5
+          },
+          {
+            "text": "轻微翻炒 3 分钟即可出锅。",
+            "minutes": 3
+          }
+        ],
+        "preparations": [
+          "玉米粒都是剥好的，直接解冻即可，温水泡 15 分钟或者灶上开水煮 5 分钟。",
+          "拿出一个簸箕，将其假设为 BoxA，垫上吸油纸，倒进解冻好的玉米粒。"
+        ],
+        "note": null
+      }
     },
     {
       "name": "金钱蛋",
@@ -1614,7 +4702,30 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "鸡蛋冷水下锅，大火煮开转小火煮 8 分钟",
+            "minutes": 8
+          },
+          {
+            "text": "第二面微黄后，加入线椒、小米辣、蒜末煎制约一分钟，翻面",
+            "minutes": 1
+          },
+          {
+            "text": "接着加豆瓣酱煎制约几十秒，翻面",
+            "minutes": 0.16666666666666666
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "金针菇日本豆腐煲",
@@ -1624,7 +4735,22 @@
       "mainMass": null,
       "unknownAmounts": [
         "盐"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "热锅放油，油热放小米椒、蒜末爆香，先放金针菇，炒软，把煎好的豆腐平铺在金针菇上，倒入#2 配好的料汁，焖 5 分钟，大火收汁。",
+            "minutes": 5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "烤茄子",
@@ -1634,7 +4760,30 @@
       "mainMass": null,
       "unknownAmounts": [
         "辣椒"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 35,
+        "max": 45,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "将烤箱温度设置为 200℃ （打开烤箱风扇 大火），预热 2 分钟",
+            "minutes": 2
+          },
+          {
+            "text": "将茄子放入烤箱中层或者上层，烤制 12-15 分钟 （茄子表面有褶皱，且能按压 0.3-0.5cm 的深度即可）",
+            "minutes": 15
+          },
+          {
+            "text": "再次将茄子放入烤箱，将烤箱温度设置为 200℃ ，烤制 4-7 分钟",
+            "minutes": 7
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "榄菜肉末四季豆",
@@ -1642,7 +4791,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "如果家里没有晾油瓶的话，也可以不用滑锅，放入油之后，直接加入肉末开始煸炒，小火煸炒两分钟，炒出猪油。",
+            "minutes": 2
+          },
+          {
+            "text": "加入四季豆开中火煸炒，四季豆至少要炒 5 分钟，一定要保证四季豆熟透，否则可能会食物中毒。",
+            "minutes": 5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "雷椒皮蛋",
@@ -1652,7 +4820,17 @@
       "mainMass": null,
       "unknownAmounts": [
         "葱"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "凉拌豆腐",
@@ -1660,7 +4838,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 10 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 10,
+        "timedSteps": [
+          {
+            "text": "放入 豆腐 块，煮 1-2 分钟，以去除豆腥味并使豆腐口感更紧实。",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "凉拌金针菇",
@@ -1668,7 +4861,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 10 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 10,
+        "timedSteps": [
+          {
+            "text": "放入 金针菇，煮 1-2 分钟，至金针菇变软。",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "凉拌木耳",
@@ -1678,7 +4886,16 @@
       "mainMass": null,
       "unknownAmounts": [
         "芥末"
-      ]
+      ],
+      "time": {
+        "min": 15,
+        "max": 20,
+        "basis": "使用已泡发木耳时，原文煮1.5–2分钟，加清洗切配拌汁。",
+        "preparations": [
+          "干木耳按原文先泡发约45分钟；使用湿木耳可跳过。"
+        ],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "凉拌莴笋",
@@ -1686,7 +4903,30 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文概述约 20 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 20,
+        "timedSteps": [
+          {
+            "text": "莴笋削皮，切小条。萝卜切条，一起放入大碗，加入盐搅拌，放置 10 分钟",
+            "minutes": 10
+          },
+          {
+            "text": "起锅烧水，放入莴笋，水煮 1 分钟 捞出，沥干水分，放入大碗",
+            "minutes": 1
+          },
+          {
+            "text": "起锅烧油，放入姜片、蒜粒、小米椒煸炒 30-45 S ，倒入莴笋中",
+            "minutes": 0.75
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "皮蛋豆腐",
@@ -1697,7 +4937,14 @@
       "unknownAmounts": [
         "内酯豆腐",
         "香菜"
-      ]
+      ],
+      "time": {
+        "min": 5,
+        "max": 10,
+        "basis": "原文约5分钟，无加热过程，主要是切皮蛋豆腐和调汁，增加切配余量。",
+        "preparations": [],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "蒲烧茄子",
@@ -1714,7 +4961,22 @@
         "老抽",
         "料酒",
         "水"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "蒸 5  分钟",
+            "minutes": 5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "乾隆白菜",
@@ -1722,7 +4984,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 10 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 10,
+        "timedSteps": [
+          {
+            "text": "撒上熟白芝麻，装盘即可食用；若时间充裕，可静置 5 分钟待其入味后再食用",
+            "minutes": 5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "芹菜拌茶树菇",
@@ -1730,7 +5007,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "（如果是芹菜苗这一步略过）将切好的芹菜条放入锅中焯水，大约 20 秒放入芹菜叶,5 秒后关火全部捞出过凉水，备用",
+            "minutes": 0.3333333333333333
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "清炒花菜",
@@ -1738,7 +5030,30 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "放入 花菜 朵，煮 2-3 分钟，至花菜颜色变浅，口感稍微软化。",
+            "minutes": 3
+          },
+          {
+            "text": "放入 焯好水的 花菜 朵，转中大火，快速翻炒约 2 分钟，使花菜均匀受热。",
+            "minutes": 2
+          },
+          {
+            "text": "沿锅边淋入 50 ml 饮用水，盖上锅盖，焖 1 分钟，帮助花菜完全熟透入味。",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "清蒸南瓜",
@@ -1746,7 +5061,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 20 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 20,
+        "timedSteps": [
+          {
+            "text": "盖上锅盖，保持大火蒸 15-20 分钟，直至南瓜变软，可以用筷子轻松穿透。",
+            "minutes": 20
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "陕北熬豆角",
@@ -1756,7 +5086,22 @@
       "mainMass": null,
       "unknownAmounts": [
         "葱"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文概述约 30 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 30,
+        "timedSteps": [
+          {
+            "text": "加入土豆块，翻炒 30s；",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "上汤娃娃菜",
@@ -1773,7 +5118,26 @@
         "盐",
         "糖",
         "淀粉"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文概述约 20 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 20,
+        "timedSteps": [
+          {
+            "text": "烧热水娃娃菜放进去十秒钟出一下水捞出。",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "煮 3 分钟, 煮开后开始装盘, 盛出娃娃菜后皮蛋放在上面把汤汁浇上去就可以了",
+            "minutes": 3
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "手撕包菜",
@@ -1781,7 +5145,34 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文概述约 20 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 20,
+        "timedSteps": [
+          {
+            "text": "锅中加入 30 ml 食用油，倒入包菜翻炒，大火翻炒 1 分钟 后，加入 3 g 盐 ，继续翻炒 2 分钟 后取出备用",
+            "minutes": 2
+          },
+          {
+            "text": "锅中加入 30 ml 食用油，倒入五花肉，大火翻炒 1 分钟",
+            "minutes": 1
+          },
+          {
+            "text": "倒入姜片等材料，翻炒 1 分钟",
+            "minutes": 1
+          },
+          {
+            "text": "倒入包菜翻炒后，加入 香醋、料酒、鸡精、料酒，大火继续翻炒，2 分钟 后出锅",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "水油焖蔬菜",
@@ -1793,7 +5184,22 @@
         "食用油",
         "盐",
         "蚝油"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 10 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 10,
+        "timedSteps": [
+          {
+            "text": "下菜， 翻拌一下，然后盖上锅盖焖 1 分钟",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "松仁玉米",
@@ -1801,7 +5207,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "玉米粒和胡萝卜丁提前焯水 1 分钟，捞出沥干备用",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "素炒豆角",
@@ -1811,7 +5232,30 @@
       "mainMass": null,
       "unknownAmounts": [
         "葱"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文概述约 20 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 20,
+        "timedSteps": [
+          {
+            "text": "加入豆角，翻炒30s,",
+            "minutes": 0.5
+          },
+          {
+            "text": "加入料汁，开大火翻炒2分钟",
+            "minutes": 2
+          },
+          {
+            "text": "转中小火，盖上锅盖焖制 8-10 分钟",
+            "minutes": 10
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "酸辣土豆丝",
@@ -1819,7 +5263,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文概述约 20 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 20,
+        "timedSteps": [
+          {
+            "text": "切好的土豆丝用清水清洗，去除多余的淀粉，然后对土豆丝焯水 10 秒。沥干，备用。",
+            "minutes": 0.16666666666666666
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "蒜蓉炒芹菜",
@@ -1829,7 +5288,26 @@
       "mainMass": null,
       "unknownAmounts": [
         "芹菜"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 10 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 10,
+        "timedSteps": [
+          {
+            "text": "放入蒜末，小火炒 10 秒煸香",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "转大火，倒入芹菜段，快速翻炒 30 秒，立即出锅",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "蒜蓉空心菜",
@@ -1840,7 +5318,30 @@
       "unknownAmounts": [
         "大蒜",
         "铲子"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "放入蒜末，小火炒 10 到 15 秒煸香",
+            "minutes": 0.25
+          },
+          {
+            "text": "接着不需使用筷子，而是使用铲子快速翻炒已软化的空心菜 15 - 20 秒，使之受热更均匀，撒入盐 2 g ，白糖 3 g，生抽 8 ml。",
+            "minutes": 0.3333333333333333
+          },
+          {
+            "text": "继续大火翻炒 10 秒，即可出锅。",
+            "minutes": 0.16666666666666666
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "蒜蓉西兰花",
@@ -1848,7 +5349,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "放入 西兰花，保持大火 煮 2-3 分钟，至 西兰花 颜色变翠绿，口感变软。",
+            "minutes": 3
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "糖拌西红柿",
@@ -1858,7 +5374,26 @@
       "mainMass": null,
       "unknownAmounts": [
         "冰箱"
-      ]
+      ],
+      "time": {
+        "kind": "source-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "用筷子插入西红柿的菊花，在燃气上转动烤 10 秒（或用开水冲 30 秒），直到西红柿皮卷边",
+            "minutes": 0.5
+          },
+          {
+            "text": "放入冰箱冷藏 10 分钟",
+            "minutes": 10
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "莴笋叶煎饼",
@@ -1866,7 +5401,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 10 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 10,
+        "timedSteps": [
+          {
+            "text": "第一面炸 120 S 后，翻面再炸 60 S 后出锅",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "西红柿炒鸡蛋",
@@ -1874,7 +5424,22 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "加入 西红柿块，锅铲拍打并翻炒 20 秒，或至西红柿软烂",
+            "minutes": 0.3333333333333333
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "西红柿豆腐汤羹",
@@ -1882,7 +5447,30 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "起锅烧油，放入姜片 5 S 后倒入入西红柿翻炒 30 S",
+            "minutes": 0.5
+          },
+          {
+            "text": "锅中加入开水，汤水烧开，60 S 后到入鸡蛋液、豆腐块",
+            "minutes": 1
+          },
+          {
+            "text": "加入鸡精、盐、香葱，30 S 后起锅",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "西葫芦炒鸡蛋",
@@ -1890,7 +5478,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文概述约 15 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 15,
+        "timedSteps": [
+          {
+            "text": "倒入西葫芦一起翻炒均匀，放入 6g 食用盐，将火调小然后等待 4 - 5 分钟",
+            "minutes": 5
+          },
+          {
+            "text": "倒入备用的鸡蛋，中火翻炒 15 秒",
+            "minutes": 0.25
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "小炒藕丁",
@@ -1898,7 +5505,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文概述约 20 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 20,
+        "timedSteps": [
+          {
+            "text": "将藕丁下入沸水中，焯水 2 分钟后，取出放入盘中备用",
+            "minutes": 2
+          },
+          {
+            "text": "翻炒 2 分钟即可出锅",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "洋葱炒鸡蛋",
@@ -1906,7 +5532,26 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 5 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 5,
+        "timedSteps": [
+          {
+            "text": "鸡蛋打入大碗中，加入洋葱片、盐后搅拌 60 S",
+            "minutes": 1
+          },
+          {
+            "text": "起锅烧油，倒入鸡蛋，一面煎炸 30-45 S ，翻面继续翻炒，反复 2-3 分钟 后散上料酒出锅",
+            "minutes": 3
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "印度葫芦丸子",
@@ -1914,7 +5559,50 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 45,
+        "max": 55,
+        "basis": "原文概述约 40 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 40,
+        "timedSteps": [
+          {
+            "text": "将丸子分批放入油中，炸 4-5 分钟，直至表面金黄酥脆",
+            "minutes": 5
+          },
+          {
+            "text": "在炒锅中倒入 30ml 食用油，中火加热 10 秒",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "放入切碎的洋葱，翻炒至洋葱变成金棕色（约 5-7 分钟）",
+            "minutes": 7
+          },
+          {
+            "text": "加入磨碎的生姜和大蒜，翻炒 1 分钟至香味散出",
+            "minutes": 1
+          },
+          {
+            "text": "加入切碎的番茄，翻炒至番茄完全软烂出油（约 5 分钟）",
+            "minutes": 5
+          },
+          {
+            "text": "翻炒 2 分钟，使香料与番茄充分融合",
+            "minutes": 2
+          },
+          {
+            "text": "加入 200ml 水，搅拌均匀，煮沸后转小火炖 5 分钟",
+            "minutes": 5
+          },
+          {
+            "text": "将炸好的丸子轻轻放入酱汁中，小火炖 3-5 分钟，使丸子吸收酱汁",
+            "minutes": 5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "印度土豆花菜",
@@ -1922,7 +5610,50 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 40,
+        "max": 50,
+        "basis": "原文概述约 25 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 25,
+        "timedSteps": [
+          {
+            "text": "油热后放入孜然籽 3g，炸至孜然籽变深色且散发香味（约 10 秒，注意不要炸糊）",
+            "minutes": 0.16666666666666666
+          },
+          {
+            "text": "放入切碎的洋葱，翻炒至洋葱变透明微黄（约 3-4 分钟）",
+            "minutes": 4
+          },
+          {
+            "text": "加入生姜、大蒜和青辣椒，翻炒 1 分钟",
+            "minutes": 1
+          },
+          {
+            "text": "加入切碎的番茄，翻炒至番茄软烂（约 2-3 分钟）",
+            "minutes": 3
+          },
+          {
+            "text": "翻炒 1 分钟，使香料与蔬菜融合",
+            "minutes": 1
+          },
+          {
+            "text": "放入土豆块，翻炒 2 分钟使土豆表面裹上香料",
+            "minutes": 2
+          },
+          {
+            "text": "盖上锅盖，转中小火，焖 12-15 分钟，期间每 3-4 分钟打开翻炒一次防止粘锅",
+            "minutes": 15
+          },
+          {
+            "text": "翻炒 1 分钟",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "油醋爆蛋",
@@ -1930,7 +5661,17 @@
       "source": "howtocook",
       "scale": 1,
       "mainMass": null,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "source-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文概述约 10 分钟；对照步骤中的计时，补足切配、烧水与装盘余量。",
+        "sourceMinutes": 10,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "鹌鹑蛋红烧肉",
@@ -1938,7 +5679,26 @@
       "source": "cooklikehoc",
       "scale": 0.2147239263803681,
       "mainMass": 1630,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 50,
+        "max": 60,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "西兰花焯水30秒；",
+            "minutes": 0.5
+          },
+          {
+            "text": "215g五花肉、130g鹌鹑蛋、95g酱汁、280g水、10g熟猪油，烧煮20分钟；",
+            "minutes": 20
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "包菜炒鸡蛋",
@@ -1946,7 +5706,22 @@
       "source": "cooklikehoc",
       "scale": 0.175,
       "mainMass": 2000,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入210g圆包菜、35g胡萝卜丝、5g盐、5g鸡精、10g生抽，大火翻炒2分钟；再下入鸡蛋片，炒制1分钟出品。",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "爆炒牛肉",
@@ -1954,7 +5729,17 @@
       "source": "cooklikehoc",
       "scale": 0.2916666666666667,
       "mainMass": 1200,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [],
+        "preparations": [],
+        "note": "以原文所用的熟制或预处理食材已备好为前提；从生食材制作还需额外时间。"
+      }
     },
     {
       "name": "菠萝咕咾肉",
@@ -1962,7 +5747,17 @@
       "source": "cooklikehoc",
       "scale": 0.19444444444444445,
       "mainMass": 1800,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "蚕豆炒鸡蛋",
@@ -1970,7 +5765,22 @@
       "source": "cooklikehoc",
       "scale": 0.21875,
       "mainMass": 1600,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入10g 大豆油、195g 蚕豆、20g 红椒、5g 盐、5g 鸡 精，大火爆炒1 分钟；",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "蚕豆炒虾仁",
@@ -1980,7 +5790,17 @@
       "mainMass": 1950,
       "unknownAmounts": [
         "蒜子"
-      ]
+      ],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "剁椒木耳炒鸡蛋",
@@ -1990,7 +5810,26 @@
       "mainMass": 1600,
       "unknownAmounts": [
         "香葱"
-      ]
+      ],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入 20g 菜籽油、175g 木耳、15g 蒜子、5g 盐、5g 鸡精，大火爆炒 1 分 10 秒；",
+            "minutes": 1.1666666666666667
+          },
+          {
+            "text": "最后下入鸡蛋片、15g 葱段，大火爆炒 30 秒出品。",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "宫保鸡丁",
@@ -1998,7 +5837,16 @@
       "source": "cooklikehoc",
       "scale": 0.2229299363057325,
       "mainMass": 1570,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "min": 30,
+        "max": 40,
+        "basis": "步骤需泡鸡肉10分钟、焙花生5分钟、焖2分钟，另计切配快炒；1小时腌制另列。",
+        "preparations": [
+          "按原文将鸡丁放冰箱腌制1小时；未提前腌好时需要加上这段时间。"
+        ],
+        "kind": "reviewed-estimate"
+      }
     },
     {
       "name": "贵州风味辣子鸡",
@@ -2006,7 +5854,22 @@
       "source": "cooklikehoc",
       "scale": 0.20588235294117646,
       "mainMass": 1700,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "加入350g 炸制鸡块，翻炒4 分钟。",
+            "minutes": 4
+          }
+        ],
+        "preparations": [],
+        "note": "以原文所用的熟制或预处理食材已备好为前提；从生食材制作还需额外时间。"
+      }
     },
     {
       "name": "胡萝卜炒鸡蛋",
@@ -2016,7 +5879,26 @@
       "mainMass": 2100,
       "unknownAmounts": [
         "香葱"
-      ]
+      ],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入 15g 大豆油、250g 胡萝卜丝、5g 盐、5g 鸡精，炒制 2 分钟；",
+            "minutes": 2
+          },
+          {
+            "text": "最后下入鸡蛋片，大火爆炒 1 分 40 秒，最后下入 5g 葱段，翻炒均匀出品。",
+            "minutes": 1.6666666666666667
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "黄瓜炒红肠",
@@ -2026,7 +5908,17 @@
       "mainMass": 2200,
       "unknownAmounts": [
         "蒜子"
-      ]
+      ],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "农家小炒肉（鸡蛋干版本）",
@@ -2037,7 +5929,17 @@
       "unknownAmounts": [
         "盐",
         "小炒肉调料"
-      ]
+      ],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "农家小炒肉（鸡蛋干版本）",
@@ -2045,7 +5947,17 @@
       "source": "cooklikehoc",
       "scale": 0.1715686274509804,
       "mainMass": 2040,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "农家小炒肉（玉耳版本）",
@@ -2053,7 +5965,22 @@
       "source": "cooklikehoc",
       "scale": 0.17587939698492464,
       "mainMass": 1990,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "加入煸炒好的肉片和 45g 玉耳，大火翻炒 3 分钟出品。",
+            "minutes": 3
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "芹菜炒香干",
@@ -2061,7 +5988,22 @@
       "source": "cooklikehoc",
       "scale": 0.21084337349397592,
       "mainMass": 1660,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "大火爆炒 3 分钟出品。",
+            "minutes": 3
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "芹菜香干炒肉丝",
@@ -2069,7 +6011,22 @@
       "source": "cooklikehoc",
       "scale": 0.18324607329842932,
       "mainMass": 1910,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "最后下入 185g 芹菜、90g 香干、10g 红椒、5g 盐、5g 鸡精，大火爆炒 2 分钟出品。",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": "以原文所用的熟制或预处理食材已备好为前提；从生食材制作还需额外时间。"
+      }
     },
     {
       "name": "青椒炒豆芽",
@@ -2077,7 +6034,17 @@
       "source": "cooklikehoc",
       "scale": 0.3181818181818182,
       "mainMass": 1100,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "青椒炒鸡蛋",
@@ -2085,7 +6052,17 @@
       "source": "cooklikehoc",
       "scale": 0.175,
       "mainMass": 2000,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "青椒毛豆米",
@@ -2093,7 +6070,30 @@
       "source": "cooklikehoc",
       "scale": 0.18421052631578946,
       "mainMass": 1900,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入275g豆米翻炒1分钟；",
+            "minutes": 1
+          },
+          {
+            "text": "再下入5g盐、5g鸡精、5g白砂糖，翻炒1分钟；",
+            "minutes": 1
+          },
+          {
+            "text": "最后下入75g青椒丝，炒制30秒出品。",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "清炒菜心",
@@ -2101,7 +6101,22 @@
       "source": "cooklikehoc",
       "scale": 0.25,
       "mainMass": 1400,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入 350g 菜心、5g 鸡精、5g 白砂糖、5g 盐，大火爆炒 3 分钟出品。",
+            "minutes": 3
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "清炒春菜",
@@ -2109,7 +6124,17 @@
       "source": "cooklikehoc",
       "scale": 0.20588235294117646,
       "mainMass": 1700,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "清炒毛白菜",
@@ -2117,7 +6142,17 @@
       "source": "cooklikehoc",
       "scale": 0.2692307692307692,
       "mainMass": 1300,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "清炒青菜",
@@ -2125,7 +6160,22 @@
       "source": "cooklikehoc",
       "scale": 0.2692307692307692,
       "mainMass": 1300,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "大火爆炒 2 分钟出品。",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "清炒莴笋片",
@@ -2133,7 +6183,22 @@
       "source": "cooklikehoc",
       "scale": 0.19230769230769232,
       "mainMass": 1820,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入 345g 莴笋、5g 蒸鱼豉油、5g 鸡精、5g 盐、5g 白砂糖，大火爆炒 3 分钟出品。",
+            "minutes": 3
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "清炒西兰花",
@@ -2141,7 +6206,22 @@
       "source": "cooklikehoc",
       "scale": 0.175,
       "mainMass": 2000,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入 350g 西兰花、5g 盐、5g 鸡精，大火爆炒 1 分 30 秒出品。",
+            "minutes": 1.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "清炒油麦菜",
@@ -2149,7 +6229,22 @@
       "source": "cooklikehoc",
       "scale": 0.2692307692307692,
       "mainMass": 1300,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "大火爆炒 2 分钟出品。",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "生炒上海青",
@@ -2157,7 +6252,22 @@
       "source": "cooklikehoc",
       "scale": 0.2692307692307692,
       "mainMass": 1300,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入 350g 上海青、5g 鸡精、5g 盐，大火爆炒 3 分钟出品。",
+            "minutes": 3
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "酸辣包菜",
@@ -2165,7 +6275,22 @@
       "source": "cooklikehoc",
       "scale": 0.19444444444444445,
       "mainMass": 1800,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入350g包菜丝、5g盐、5g鸡精、5g白砂糖，炒制3分40秒；",
+            "minutes": 3.6666666666666665
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "酸辣大白菜",
@@ -2173,7 +6298,22 @@
       "source": "cooklikehoc",
       "scale": 0.19444444444444445,
       "mainMass": 1800,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入350g大白菜、5g鸡精、5g盐、5g生抽，炒制3分20秒；",
+            "minutes": 3.3333333333333335
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "酸辣土豆丝",
@@ -2181,7 +6321,30 @@
       "source": "cooklikehoc",
       "scale": 0.19337016574585636,
       "mainMass": 1810,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "将 350g 土豆丝，在沸水中汆烫 15 秒，捞出备用；",
+            "minutes": 0.25
+          },
+          {
+            "text": "下入 30g 大豆油、5g 干红椒，加入焯水后的土豆丝，炒制 1 分钟；",
+            "minutes": 1
+          },
+          {
+            "text": "下入 5g 盐、5g 鸡精，炒制 1 分 30 秒；",
+            "minutes": 1.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "蒜黄炒鸡蛋",
@@ -2189,7 +6352,26 @@
       "source": "cooklikehoc",
       "scale": 0.16203703703703703,
       "mainMass": 2160,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入10g大豆油、245g蒜黄、10g红椒、5g盐、5g鸡精，大火翻炒1分钟；",
+            "minutes": 1
+          },
+          {
+            "text": "再下入鸡蛋片，炒制1分钟，出品。",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "蒜泥菠菜",
@@ -2197,7 +6379,22 @@
       "source": "cooklikehoc",
       "scale": 0.16666666666666666,
       "mainMass": 2100,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "取 350g 菠菜段，置于沸水中汆烫 30 秒；",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "蒜苔炒香干",
@@ -2205,7 +6402,26 @@
       "source": "cooklikehoc",
       "scale": 0.20588235294117646,
       "mainMass": 1700,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入25g菜籽油、10g熟猪油、205g蒜苔、5g盐、5g鸡精，大火炒制1分40秒；",
+            "minutes": 1.6666666666666667
+          },
+          {
+            "text": "再下入105g香干、40g红椒，炒制1分钟出品。",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "糖醋排骨",
@@ -2213,7 +6429,26 @@
       "source": "cooklikehoc",
       "scale": 0.12280701754385964,
       "mainMass": 2850,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "烧开后炖煮 6 分钟；",
+            "minutes": 6
+          },
+          {
+            "text": "倒入 5g 陈醋，继续炖煮 1 分钟至汤汁浓稠。",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": "以原文所用的熟制或预处理食材已备好为前提；从生食材制作还需额外时间。"
+      }
     },
     {
       "name": "外婆菜炒鸡蛋",
@@ -2221,7 +6456,22 @@
       "source": "cooklikehoc",
       "scale": 0.17326732673267325,
       "mainMass": 2020,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入175g 外婆菜、加5g 鸡精、5g 生抽，大火爆炒2 分钟；",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "莴笋丝炒鸡蛋",
@@ -2229,7 +6479,17 @@
       "source": "cooklikehoc",
       "scale": 0.18421052631578946,
       "mainMass": 1900,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "西红柿炒鸡蛋",
@@ -2239,7 +6499,17 @@
       "mainMass": 2375,
       "unknownAmounts": [
         "玉米淀粉"
-      ]
+      ],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "西兰花炒鸡胸肉",
@@ -2247,7 +6517,22 @@
       "source": "cooklikehoc",
       "scale": 0.14893617021276595,
       "mainMass": 2350,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入240g西兰花、20g胡萝卜片、25g鸡胸肉调味汁，大火炒制1分钟，出品。",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "西芹炒虾仁",
@@ -2255,7 +6540,19 @@
       "source": "cooklikehoc",
       "scale": 0.16666666666666666,
       "mainMass": 2100,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [],
+        "preparations": [
+          "锅中倒入足量水，下入250g西芹段、完全解冻冲洗的50g虾仁、50g胡萝卜片，焯水至熟透，捞出沥干水分；"
+        ],
+        "note": null
+      }
     },
     {
       "name": "香椿炒鸡蛋",
@@ -2263,7 +6560,22 @@
       "source": "cooklikehoc",
       "scale": 0.1881720430107527,
       "mainMass": 1860,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入55g 香椿、10g 红椒、5g 盐、5g 鸡精，大火爆炒80秒出品。",
+            "minutes": 1.3333333333333333
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "香菇青菜",
@@ -2271,7 +6583,22 @@
       "source": "cooklikehoc",
       "scale": 0.2413793103448276,
       "mainMass": 1450,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入15g大豆油、10g熟猪油、315g青菜、35g香菇片、5g盐、5g鸡精、5g白砂糖，大火爆炒2分20秒出品。",
+            "minutes": 2.3333333333333335
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "小炒脆笋",
@@ -2281,7 +6608,17 @@
       "mainMass": 1850,
       "unknownAmounts": [
         "蒜子"
-      ]
+      ],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "红烧冬瓜",
@@ -2289,7 +6626,17 @@
       "source": "cooklikehoc",
       "scale": 0.11589403973509933,
       "mainMass": 3020,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 50,
+        "max": 60,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "红烧鱼块",
@@ -2299,7 +6646,22 @@
       "mainMass": 1500,
       "unknownAmounts": [
         "葱"
-      ]
+      ],
+      "time": {
+        "kind": "step-estimate",
+        "min": 50,
+        "max": 60,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入185g 炸制鱼块炖烧7 分钟，出品撒5g 葱花点缀。",
+            "minutes": 7
+          }
+        ],
+        "preparations": [],
+        "note": "以原文所用的熟制或预处理食材已备好为前提；从生食材制作还需额外时间。"
+      }
     },
     {
       "name": "鸡血汤",
@@ -2307,7 +6669,26 @@
       "source": "cooklikehoc",
       "scale": 1.0057471264367817,
       "mainMass": 348,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "30g 鸡血用开水烫制 2 分钟后，冷却备用;",
+            "minutes": 2
+          },
+          {
+            "text": "取鸡血、5g 蛋皮、5g 青菜烫制 10 秒后放入汤盅， 加入 310g 老鸡汤,葱花点缀出品。",
+            "minutes": 0.16666666666666666
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "梅干菜凤爪翅",
@@ -2317,7 +6698,22 @@
       "mainMass": 2251,
       "unknownAmounts": [
         "香葱"
-      ]
+      ],
+      "time": {
+        "kind": "step-estimate",
+        "min": 50,
+        "max": 60,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "锅中放入 110g 水、325g 卤鸡爪翅，烧制 7 分钟；",
+            "minutes": 7
+          }
+        ],
+        "preparations": [],
+        "note": "以原文所用的熟制或预处理食材已备好为前提；从生食材制作还需额外时间。"
+      }
     },
     {
       "name": "凉拌莴笋丝",
@@ -2325,7 +6721,22 @@
       "source": "cooklikehoc",
       "scale": 0.31390134529147984,
       "mainMass": 1115,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "冲洗后的莴笋丝加入5g 盐腌制10 分钟；",
+            "minutes": 10
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "西芹花生米",
@@ -2333,7 +6744,22 @@
       "source": "cooklikehoc",
       "scale": 0.2845528455284553,
       "mainMass": 1230,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "取230g 西芹、115g 花生米、10g 红椒，放入沸水中汆烫1分钟捞出；",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "砂锅牛杂煲",
@@ -2341,7 +6767,22 @@
       "source": "cooklikehoc",
       "scale": 1.09375,
       "mainMass": 320,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "烧开后煮 1 分钟，撒上 10g 蒜花出品。",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": "以原文所用的熟制或预处理食材已备好为前提；从生食材制作还需额外时间。"
+      }
     },
     {
       "name": "老鸡汤",
@@ -2349,7 +6790,26 @@
       "source": "cooklikehoc",
       "scale": 0.7,
       "mainMass": 500,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 90,
+        "max": 110,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "每只鸡用 5g 盐均匀揉搓鸡表皮，冷藏 20 分钟；",
+            "minutes": 20
+          },
+          {
+            "text": "每 350g 老母鸡，加入 10g 盐、40g 鸡油、1750g 水，烧开后炖制 60 分钟；",
+            "minutes": 60
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "菠菜蛋皮丝",
@@ -2357,7 +6817,22 @@
       "source": "cooklikehoc",
       "scale": 0.22727272727272727,
       "mainMass": 1540,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "菠菜焯水：取 300g 菠菜，在沸水中汆烫 60 秒捞出，纯净水冲凉，挤干水分，切成段状，备用；",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "葱油菜苔",
@@ -2365,7 +6840,22 @@
       "source": "cooklikehoc",
       "scale": 2.0588235294117645,
       "mainMass": 170,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "取 290g 菜苔，在沸水中汆烫 30 秒；",
+            "minutes": 0.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "葱油菜心",
@@ -2373,7 +6863,22 @@
       "source": "cooklikehoc",
       "scale": 1.9444444444444444,
       "mainMass": 180,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "取 290g 菜心，在沸水中汆烫 60 秒；",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "鸡汤娃娃菜",
@@ -2381,7 +6886,22 @@
       "source": "cooklikehoc",
       "scale": 0.6363636363636364,
       "mainMass": 550,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "取 140g 娃娃菜，在沸水汆烫 2 分 30 秒；",
+            "minutes": 2.5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "浇汁西兰花",
@@ -2389,7 +6909,22 @@
       "source": "cooklikehoc",
       "scale": 1.75,
       "mainMass": 200,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "取300g 西兰花，在沸水中汆烫60 秒；",
+            "minutes": 1
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "香脆木耳",
@@ -2399,7 +6934,22 @@
       "mainMass": 270,
       "unknownAmounts": [
         "生抽"
-      ]
+      ],
+      "time": {
+        "kind": "step-estimate",
+        "min": 15,
+        "max": 20,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "取 155g 木耳，在沸水中汆烫 10 秒；",
+            "minutes": 0.16666666666666666
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "风干牛肉蒸白干",
@@ -2409,7 +6959,22 @@
       "mainMass": 110,
       "unknownAmounts": [
         "风干牛肉酱料"
-      ]
+      ],
+      "time": {
+        "kind": "step-estimate",
+        "min": 35,
+        "max": 45,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "蒸柜上汽后，蒸制 25 分钟出品。",
+            "minutes": 25
+          }
+        ],
+        "preparations": [],
+        "note": "以原文所用的熟制或预处理食材已备好为前提；从生食材制作还需额外时间。"
+      }
     },
     {
       "name": "胡萝卜牛肉",
@@ -2419,7 +6984,22 @@
       "mainMass": 165,
       "unknownAmounts": [
         "葱"
-      ]
+      ],
+      "time": {
+        "kind": "step-estimate",
+        "min": 35,
+        "max": 45,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "蒸柜上汽后，蒸制 25 分钟，出品时撒 5g 葱花点缀。",
+            "minutes": 25
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "酱椒蒜香片片鱼",
@@ -2429,7 +7009,30 @@
       "mainMass": 190,
       "unknownAmounts": [
         "葱"
-      ]
+      ],
+      "time": {
+        "kind": "step-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "55g 娃娃菜和 55g 玉耳下入沸水中汆烫 15 秒后，冲凉备用；",
+            "minutes": 0.25
+          },
+          {
+            "text": "220g 黑鱼片下入沸水中汆烫 30 秒后，冲凉备用；",
+            "minutes": 0.5
+          },
+          {
+            "text": "蒸柜上汽后，蒸制 6 分钟，出品撒 5g 葱花点缀。",
+            "minutes": 6
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "酱香小河虾",
@@ -2439,7 +7042,22 @@
       "mainMass": 130,
       "unknownAmounts": [
         "河虾酱料（干辣椒、黄酒、蚕豆辣酱、火葱、鸡油等）（老乡鸡中央厨房分切、调理，详细成分与配比官方未公布，请依据个人口味适量调整）"
-      ]
+      ],
+      "time": {
+        "kind": "step-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "蒸柜上汽后，蒸制12 分钟出品。",
+            "minutes": 12
+          }
+        ],
+        "preparations": [],
+        "note": "以原文所用的熟制或预处理食材已备好为前提；从生食材制作还需额外时间。"
+      }
     },
     {
       "name": "酱蒸白干",
@@ -2447,7 +7065,22 @@
       "source": "cooklikehoc",
       "scale": 0.2916666666666667,
       "mainMass": 1200,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "分装到餐具后，在上汽的蒸柜中，蒸制 20 分钟出品。",
+            "minutes": 20
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "酱蒸豆腐",
@@ -2455,7 +7088,22 @@
       "source": "cooklikehoc",
       "scale": 2.1875,
       "mainMass": 160,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "蒸柜上汽后，蒸制 20 分钟出品。",
+            "minutes": 20
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "蜜汁南瓜",
@@ -2463,7 +7111,22 @@
       "source": "cooklikehoc",
       "scale": 2.3333333333333335,
       "mainMass": 150,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "蒸柜上汽后，蒸制 20 分钟出品。",
+            "minutes": 20
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "农家蒸蛋",
@@ -2471,7 +7134,22 @@
       "source": "cooklikehoc",
       "scale": 0.5384615384615384,
       "mainMass": 650,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "蒸制：蒸柜上汽后，蒸 5 分钟，焖 1 分钟。",
+            "minutes": 5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "青椒蒸豆米",
@@ -2479,7 +7157,22 @@
       "source": "cooklikehoc",
       "scale": 1.9444444444444444,
       "mainMass": 180,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "蒸柜上汽后，蒸制12分钟，出品。",
+            "minutes": 12
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "蒜蓉娃娃菜",
@@ -2487,7 +7180,22 @@
       "source": "cooklikehoc",
       "scale": 2.3333333333333335,
       "mainMass": 150,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "蒸柜上汽后，蒸制 8 分钟出品。",
+            "minutes": 8
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "豌豆肉末",
@@ -2495,7 +7203,22 @@
       "source": "cooklikehoc",
       "scale": 1.8918918918918919,
       "mainMass": 185,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "285g甜青豌豆、45g肉末、20g胡萝卜，蒸制5分钟出品。",
+            "minutes": 5
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "香肠蒸豆干",
@@ -2503,7 +7226,22 @@
       "source": "cooklikehoc",
       "scale": 2.3333333333333335,
       "mainMass": 150,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "蒸柜上汽后，蒸制10分钟。",
+            "minutes": 10
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "香辣血旺",
@@ -2511,7 +7249,22 @@
       "source": "cooklikehoc",
       "scale": 1.5217391304347827,
       "mainMass": 230,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "蒸柜上汽后，蒸制 10 分钟出品。",
+            "minutes": 10
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "香芋蒸排骨",
@@ -2519,7 +7272,22 @@
       "source": "cooklikehoc",
       "scale": 1.9444444444444444,
       "mainMass": 180,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "蒸柜上汽后，蒸制 18 分钟出品。",
+            "minutes": 18
+          }
+        ],
+        "preparations": [],
+        "note": "以原文所用的熟制或预处理食材已备好为前提；从生食材制作还需额外时间。"
+      }
     },
     {
       "name": "蒸嫩豆腐",
@@ -2527,7 +7295,22 @@
       "source": "cooklikehoc",
       "scale": 1.8421052631578947,
       "mainMass": 190,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "蒸柜上汽后，蒸制12分钟，最后淋上20g豉油汁出品。",
+            "minutes": 12
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "竹笋蒸鸡翅",
@@ -2535,7 +7318,22 @@
       "source": "cooklikehoc",
       "scale": 2.413793103448276,
       "mainMass": 145,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 30,
+        "max": 40,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "蒸柜上汽后，蒸制 20 分钟出品。",
+            "minutes": 20
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "嗨嗨锅（鲜蔬锅）",
@@ -2543,7 +7341,22 @@
       "source": "cooklikehoc",
       "scale": 1,
       "mainMass": 350,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "下入 120g 娃娃菜、80g 西红柿片、50g 金针菇、50g 木耳、50g 青菜煮 2 分钟出品。",
+            "minutes": 2
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "金汤酸菜鱼",
@@ -2553,7 +7366,22 @@
       "mainMass": 490,
       "unknownAmounts": [
         "葱"
-      ]
+      ],
+      "time": {
+        "kind": "step-estimate",
+        "min": 20,
+        "max": 25,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "餐具中加入 70g 小叶酸菜、烫制鱼片和 130g 底汤，蒸柜上汽后，蒸制 7 分钟；",
+            "minutes": 7
+          }
+        ],
+        "preparations": [],
+        "note": null
+      }
     },
     {
       "name": "铜锅番茄虾滑",
@@ -2561,7 +7389,22 @@
       "source": "cooklikehoc",
       "scale": 1.5151515151515151,
       "mainMass": 231,
-      "unknownAmounts": []
+      "unknownAmounts": [],
+      "time": {
+        "kind": "step-estimate",
+        "min": 25,
+        "max": 30,
+        "basis": "原文未给完整家庭总用时；按步骤计时和切配、烧水余量估算。",
+        "sourceMinutes": null,
+        "timedSteps": [
+          {
+            "text": "铜锅番茄虾滑煮制：锅中加入500g番茄汤底、120g虾滑、75g西红柿片、60g金针菇、60g娃娃菜、30g青菜烧开煮约1分30秒，倒入铜锅中撒入5g葱花出品。",
+            "minutes": 1.5
+          }
+        ],
+        "preparations": [],
+        "note": "以原文所用的熟制或预处理食材已备好为前提；从生食材制作还需额外时间。"
+      }
     }
   ],
   "skipped": [
@@ -2630,11 +7473,11 @@
       "reason": "含参数化用量公式，需要人工明确基准份量"
     },
     {
-      "path": "凉拌/口水鸡.md",
+      "path": "凉拌/柠檬凤爪.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "凉拌/柠檬凤爪.md",
+      "path": "凉拌/口水鸡.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
@@ -2650,11 +7493,11 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "卤菜/卤鸡爪.md",
+      "path": "卤菜/卤肉肠.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "卤菜/卤肉肠.md",
+      "path": "卤菜/卤鸡爪.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
@@ -2662,11 +7505,11 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "卤菜/嗨嗨桶（红油串串）.md",
+      "path": "卤菜/咸蛋黄狮子头（卤制版）.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "卤菜/咸蛋黄狮子头（卤制版）.md",
+      "path": "卤菜/嗨嗨桶（红油串串）.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
@@ -2678,11 +7521,11 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "汤/山药莲子鸡汤.md",
+      "path": "卤菜/薄皮青椒.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "卤菜/薄皮青椒.md",
+      "path": "汤/山药莲子鸡汤.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
@@ -2734,15 +7577,15 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
+      "path": "炒菜/山药炒木耳.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
       "path": "炒菜/小炒鸡丁.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
       "path": "炒菜/小炒黄牛肉.md",
-      "reason": "部分主料用量不明确，避免错误缩放"
-    },
-    {
-      "path": "炒菜/山药炒木耳.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
@@ -2762,19 +7605,19 @@
       "reason": "属于主食，不纳入荤素配菜"
     },
     {
-      "path": "炒菜/红烧茄子.md",
-      "reason": "主库同名做法待修正，不用补充库替代"
-    },
-    {
       "path": "炒菜/经典毛豆烧鸡.md",
       "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "炒菜/红烧茄子.md",
+      "reason": "主库同名做法待修正，不用补充库替代"
     },
     {
       "path": "炒菜/肥肠鸡.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "炒菜/胡萝卜炒木耳.md",
+      "path": "炒菜/胡萝卜炒肉片.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
@@ -2782,7 +7625,7 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "炒菜/胡萝卜炒肉片.md",
+      "path": "炒菜/胡萝卜炒木耳.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
@@ -2830,11 +7673,11 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "炖菜/甜辣辣年糕烧鸡.md",
+      "path": "炖菜/白菜炖豆腐.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "炖菜/白菜炖豆腐.md",
+      "path": "炖菜/甜辣辣年糕烧鸡.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
@@ -2842,11 +7685,11 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "炖菜/酸菜血旺豆腐.md",
+      "path": "炖菜/银鱼浦鸡蛋.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "炖菜/银鱼浦鸡蛋.md",
+      "path": "炖菜/酸菜血旺豆腐.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
@@ -2866,12 +7709,12 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "烫菜/葱油生菜.md",
-      "reason": "缺少可核实的主料克数，待人工覆盖"
-    },
-    {
       "path": "烫菜/葱油拌面.md",
       "reason": "属于主食，不纳入荤素配菜"
+    },
+    {
+      "path": "烫菜/葱油生菜.md",
+      "reason": "缺少可核实的主料克数，待人工覆盖"
     },
     {
       "path": "烫菜/葱油青菜.md",
@@ -2914,12 +7757,12 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "砂锅菜/砂锅三鲜豆腐.md",
-      "reason": "部分主料用量不明确，避免错误缩放"
-    },
-    {
       "path": "砂锅菜/砂锅原味鸡汤米线.md",
       "reason": "属于主食，不纳入荤素配菜"
+    },
+    {
+      "path": "砂锅菜/砂锅三鲜豆腐.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
       "path": "砂锅菜/砂锅木瓜.md",
@@ -2934,11 +7777,11 @@
       "reason": "属于主食，不纳入荤素配菜"
     },
     {
-      "path": "砂锅菜/砂锅盐焗鸡.md",
+      "path": "砂锅菜/砂锅老坛酸菜鱼.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "砂锅菜/砂锅老坛酸菜鱼.md",
+      "path": "砂锅菜/砂锅盐焗鸡.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
@@ -2950,6 +7793,10 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
+      "path": "砂锅菜/砂锅酸菜鱼.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
       "path": "砂锅菜/砂锅蒜蓉粉丝虾.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
@@ -2958,15 +7805,7 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "砂锅菜/砂锅酸菜鱼.md",
-      "reason": "部分主料用量不明确，避免错误缩放"
-    },
-    {
       "path": "砂锅菜/砂锅香辣鱿鱼.md",
-      "reason": "部分主料用量不明确，避免错误缩放"
-    },
-    {
-      "path": "砂锅菜/酸菜肥肠煲.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
@@ -2974,7 +7813,7 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "蒸菜/剁椒鱼头.md",
+      "path": "砂锅菜/酸菜肥肠煲.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
@@ -2982,7 +7821,7 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "蒸菜/剁椒鱼头（白鲢鱼头版）.md",
+      "path": "蒸菜/剁椒鱼头.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
@@ -2990,16 +7829,20 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "蒸菜/奥尔良鸡翅.md",
+      "path": "蒸菜/剁椒鱼头（白鲢鱼头版）.md",
       "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/松糕.md",
+      "reason": "属于主食，不纳入荤素配菜"
     },
     {
       "path": "蒸菜/咸蛋黄狮子头（蒸制版）.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "蒸菜/松糕.md",
-      "reason": "属于主食，不纳入荤素配菜"
+      "path": "蒸菜/奥尔良鸡翅.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
       "path": "蒸菜/梅菜扣肉.md",
@@ -3014,6 +7857,10 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
+      "path": "蒸菜/白切鸡.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
       "path": "蒸菜/番茄菌菇肉丸.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
@@ -3022,7 +7869,7 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "蒸菜/白切鸡.md",
+      "path": "蒸菜/粉蒸肉.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
@@ -3030,23 +7877,15 @@
       "reason": "属于主食，不纳入荤素配菜"
     },
     {
-      "path": "蒸菜/粉蒸肉.md",
-      "reason": "部分主料用量不明确，避免错误缩放"
+      "path": "蒸菜/粗粮盒.md",
+      "reason": "属于主食，不纳入荤素配菜"
     },
     {
       "path": "蒸菜/肉饼蒸蛋.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "蒸菜/粗粮盒.md",
-      "reason": "属于主食，不纳入荤素配菜"
-    },
-    {
       "path": "蒸菜/肉饼蒸蛋（常规版）.md",
-      "reason": "部分主料用量不明确，避免错误缩放"
-    },
-    {
-      "path": "蒸菜/葱油鸡.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
@@ -3054,11 +7893,11 @@
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "蒸菜/葱油鸡（小母鸡版）.md",
-      "reason": "缺少可核实的主料克数，待人工覆盖"
+      "path": "蒸菜/葱油鸡.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "蒸菜/葱油鸡（白切鸡版）.md",
+      "path": "蒸菜/葱油鸡（小母鸡版）.md",
       "reason": "缺少可核实的主料克数，待人工覆盖"
     },
     {
@@ -3066,19 +7905,23 @@
       "reason": "缺少可核实的主料克数，待人工覆盖"
     },
     {
-      "path": "蒸菜/蒜蓉粉丝虾.md",
-      "reason": "部分主料用量不明确，避免错误缩放"
+      "path": "蒸菜/葱油鸡（白切鸡版）.md",
+      "reason": "缺少可核实的主料克数，待人工覆盖"
     },
     {
       "path": "蒸菜/蒸南瓜.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
-      "path": "蒸菜/虾仁蒸鸡蛋.md",
+      "path": "蒸菜/蒜蓉粉丝虾.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
       "path": "蒸菜/豉汁鱼块.md",
+      "reason": "部分主料用量不明确，避免错误缩放"
+    },
+    {
+      "path": "蒸菜/虾仁蒸鸡蛋.md",
       "reason": "部分主料用量不明确，避免错误缩放"
     },
     {
@@ -3108,6 +7951,41 @@
     "酸辣土豆丝",
     "糖醋排骨",
     "西红柿炒鸡蛋",
-    "红烧冬瓜"
+    "红烧冬瓜",
+    {
+      "alias": "蒸箱鸡蛋羹",
+      "name": "鸡蛋羹",
+      "reason": "已核对的同菜别名或设备版本"
+    },
+    {
+      "alias": "农家蒸蛋",
+      "name": "鸡蛋羹",
+      "reason": "已核对的同菜别名或设备版本"
+    },
+    {
+      "alias": "芹菜香干炒肉丝",
+      "name": "香干芹菜炒肉",
+      "reason": "已核对的同菜别名或设备版本"
+    },
+    {
+      "alias": "凉拌莴笋丝",
+      "name": "凉拌莴笋",
+      "reason": "已核对的同菜别名或设备版本"
+    },
+    {
+      "alias": "贵州风味辣子鸡",
+      "name": "贵州辣子鸡",
+      "reason": "已核对的同菜别名或设备版本"
+    },
+    {
+      "alias": "乡村啤酒鸭",
+      "name": "啤酒鸭",
+      "reason": "已核对的同菜别名或设备版本"
+    },
+    {
+      "alias": "芥末罗氏虾",
+      "name": "芥末黄油罗氏虾",
+      "reason": "已核对的同菜别名或设备版本"
+    }
   ]
 }

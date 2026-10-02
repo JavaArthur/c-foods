@@ -47,6 +47,19 @@ defineEmits(["close"]);
         <p v-for="i in dish.ingredients" :key="i.name">{{ i.name }}</p>
       </details>
       <h3>跟着这样做</h3>
+      <div v-if="dish._meta?.time" class="time-explanation">
+        <strong
+          >预计 {{ dish._meta.time.min }}–{{ dish._meta.time.max }} 分钟</strong
+        >
+        <p>{{ dish._meta.time.basis }}</p>
+        <p v-if="dish._meta.time.note">{{ dish._meta.time.note }}</p>
+        <template v-if="dish._meta.time.preparations?.length">
+          <strong>提前准备</strong>
+          <p v-for="text in dish._meta.time.preparations" :key="text">
+            {{ text }}
+          </p>
+        </template>
+      </div>
       <ol class="preview-steps">
         <li v-for="(s, i) in dish.steps" :key="i">
           {{ portionText(s.text, state.settings.servings / dish.servings) }}
@@ -72,9 +85,23 @@ defineEmits(["close"]);
             : "做法来自 HowToCook"
         }}
         ↗</a
-      ><br /><span v-if="dish.image?.includes('CookLikeHOC')"
-        >图片来自 CookLikeHOC · 仅供非商业学习</span
-      ><span v-if="dish.source === 'cooklikehoc'"
+      ><br /><span v-if="dish._meta?.image.kind === 'illustration'"
+        >配图为 AI 生成的菜品示意插画，仅用于辨认菜品。</span
+      >
+      <a
+        v-else-if="dish._meta?.image.sourceUrl"
+        :href="dish._meta.image.sourceUrl"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {{
+          dish._meta.image.sourceUrl.includes("CookLikeHOC")
+            ? "图片来自 CookLikeHOC · 仅供非商业学习"
+            : "图片来自 HowToCook"
+        }}
+        ↗
+      </a>
+      <span v-if="dish.source === 'cooklikehoc'"
         >已按主料约 350g 换算为 2 人份基础配方，当前按人数显示。</span
       >
     </p></Sheet

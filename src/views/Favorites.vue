@@ -10,7 +10,7 @@ import {
   invalidate,
   tell,
 } from "../lib/store";
-import { allowed } from "../lib/menu";
+import { allowed, uniqueDishes } from "../lib/menu";
 import DishCard from "../components/DishCard.vue";
 import DishDetails from "../components/DishDetails.vue";
 const tab = ref("saved"),
@@ -25,9 +25,11 @@ function names(ids) {
     .filter(Boolean);
 }
 function again(h) {
-  const valid = h.ids
-    .map((id) => dishes.value.find((d) => d.id === id))
-    .filter((d) => d && allowed(d, state.settings));
+  const valid = uniqueDishes(
+    h.ids
+      .map((id) => dishes.value.find((d) => d.id === id))
+      .filter((d) => d && allowed(d, state.settings)),
+  );
   if (!valid.length) {
     tell("这桌不符合现在的忌口，重新配一桌吧。");
     return;
@@ -37,7 +39,7 @@ function again(h) {
   invalidate();
   goStep(2);
   router.push("/");
-  if (valid.length < h.ids.length) tell("已帮你去掉不符合当前忌口的菜。");
+  if (valid.length < h.ids.length) tell("已帮你去掉重复或不符合当前忌口的菜。");
 }
 </script>
 <template>

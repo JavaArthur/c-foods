@@ -1,5 +1,6 @@
 import { reactive, ref, computed, watch } from "vue";
-import { localDate, allowed } from "./menu";
+import { localDate, allowed, sameDish, uniqueDishes } from "./menu";
+import { migrateRecipeIds } from "./migrate";
 const KEY = "dinner-v1";
 const defaults = () => ({
   settings: {
@@ -69,20 +70,28 @@ export async function loadDishes() {
   loading.value = true;
   loadError.value = false;
   try {
-    const r = await fetch(import.meta.env.BASE_URL + "data/dishes.json");
-    if (!r.ok) throw Error();
-    const data = await r.json();
+    const responses = await Promise.all(
+      ["dishes.json", "dish-meta.json"].map((name) =>
+        fetch(import.meta.env.BASE_URL + "data/" + name),
+      ),
+    );
+    if (responses.some((r) => !r.ok)) throw Error();
+    const [data, meta] = await Promise.all(responses.map((r) => r.json()));
     if (
       !Array.isArray(data) ||
       !data.length ||
       !data.every((d) => d.id && d.ingredients?.length && d.steps?.length)
     )
       throw Error();
-    rawDishes.value = data;
+    migrateRecipeIds(state, meta.redirects);
+    rawDishes.value = data.map((d) => ({ ...d, _meta: meta.dishes[d.id] }));
     if (state.today?.date === localDate()) {
-      menuIds.value = state.today.ids.filter((id) =>
-        dishes.value.some((d) => d.id === id),
-      );
+      menuIds.value = uniqueDishes(
+        state.today.ids
+          .map((id) => dishes.value.find((d) => d.id === id))
+          .filter(Boolean),
+      ).map((d) => d.id);
+      state.today.ids = [...menuIds.value];
       step.value = 2;
       maxStep.value = 4;
     }
@@ -132,8 +141,8 @@ export function addDish(d) {
     tell("这道菜不符合你的忌口或辣度设置，先换一道吧。");
     return;
   }
-  if (menuIds.value.includes(d.id)) {
-    tell("这道已经在今晚菜单里啦。");
+  if (menu.value.some((current) => sameDish(current, d))) {
+    tell("这道菜或同款做法已经在今晚菜单里啦。");
     return;
   }
   if (menuIds.value.length >= 10) {

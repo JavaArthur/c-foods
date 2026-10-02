@@ -1,7 +1,15 @@
 <script setup>
-import { ref, watch } from "vue";
+import { computed, ref, watch } from "vue";
 const props = defineProps({ dish: Object });
 const failed = ref(false);
+const src = computed(() =>
+  props.dish.image?.startsWith("/")
+    ? import.meta.env.BASE_URL + props.dish.image.slice(1)
+    : props.dish.image,
+);
+const illustration = computed(
+  () => props.dish._meta?.image.kind === "illustration",
+);
 watch(
   () => props.dish.image,
   () => (failed.value = false),
@@ -11,10 +19,11 @@ watch(
   <div class="dish-image" :class="{ 'veg-image': !dish.isMeat }">
     <img
       v-if="dish.image && !failed"
-      :src="dish.image"
-      :alt="dish.name + '成品'"
+      :src="src"
+      :alt="dish.name + (illustration ? '示意图' : '成品图')"
       loading="lazy"
       @error="failed = true"
     /><span v-else aria-hidden="true">{{ dish.name[0] }}</span>
+    <small v-if="illustration && !failed" class="image-label">示意图</small>
   </div>
 </template>

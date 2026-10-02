@@ -92,6 +92,10 @@ export function conflict(a, b) {
     )
   );
 }
+export const sameDish = (a, b) =>
+  a.id === b.id || (a._meta?.family || a.name) === (b._meta?.family || b.name);
+export const uniqueDishes = (list) =>
+  list.filter((d, i) => !list.slice(0, i).some((other) => sameDish(d, other)));
 export function generateMenu(
   dishes,
   counts,
@@ -115,7 +119,11 @@ export function generateMenu(
   for (let tier = 0; tier < 3; tier++) {
     // 多次随机贪心尝试，避免前一张卡片偶然挡住唯一候选。
     for (let attempt = 0; attempt < 30; attempt++) {
-      const selected = locked.filter((d) => allowed(d, settings));
+      const selected = locked.filter(
+        (d, i) =>
+          allowed(d, settings) &&
+          !locked.slice(0, i).some((s) => sameDish(s, d)),
+      );
       for (const meat of [true, false]) {
         const need =
           counts[meat ? "meat" : "veg"] -
@@ -124,7 +132,7 @@ export function generateMenu(
           const candidates = pool.filter(
             (d) =>
               d.isMeat === meat &&
-              !selected.some((s) => s.id === d.id) &&
+              !selected.some((s) => sameDish(s, d)) &&
               !exclude.includes(d.id) &&
               (tier > 0 || !recent.has(d.id)) &&
               (tier > 1 || !selected.some((s) => conflict(s, d))),
@@ -197,8 +205,21 @@ export function shoppingList(menu, servings) {
       .join(" + "),
   }));
 }
-export const estimateTime = (menu) =>
-  menu.reduce((s, d) => s + d.cookTimeMinutes, 0);
+export const dishTime = (d) =>
+  d._meta?.time
+    ? `${d._meta.time.min}–${d._meta.time.max}`
+    : `约 ${d.cookTimeMinutes}`;
+export const estimateTime = (menu) => {
+  const min = menu.reduce(
+    (s, d) => s + (d._meta?.time.min ?? d.cookTimeMinutes),
+    0,
+  );
+  const max = menu.reduce(
+    (s, d) => s + (d._meta?.time.max ?? d.cookTimeMinutes),
+    0,
+  );
+  return min === max ? `${max}` : `${min}–${max}`;
+};
 export const cookOrder = (menu) =>
   [...menu].sort((a, b) => {
     const rank = (d) =>

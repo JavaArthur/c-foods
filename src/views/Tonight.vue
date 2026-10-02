@@ -22,6 +22,7 @@ import {
   generateMenu,
   shoppingList,
   estimateTime,
+  dishTime,
   cookOrder,
   localDate,
 } from "../lib/menu";
@@ -334,7 +335,7 @@ function status(d) {
         <p>先炖煮，再快炒，凉菜最后拌。</p>
         <ol>
           <li v-for="d in cookOrder(menu)" :key="d.id">
-            {{ d.name }}<span>{{ d.cookTimeMinutes }} 分钟</span>
+            {{ d.name }}<span>{{ dishTime(d) }} 分钟</span>
           </li>
         </ol>
       </section>
@@ -373,7 +374,18 @@ function status(d) {
       </ul>
       <p class="confirm-info">
         一共要准备 <strong>{{ list.length }}</strong> 样食材，<br />大约
-        <strong>{{ time }}</strong> 分钟上桌
+        <strong>{{ time }}</strong> 分钟制作
+      </p>
+      <p class="note">
+        按依次做菜估算，可以穿插操作；提前准备所需的等待时间另算。
+      </p>
+      <p
+        v-for="d in menu.filter((d) => d._meta?.time.preparations?.length)"
+        :key="d.id"
+        class="note"
+      >
+        <strong>{{ d.name }}需提前准备：</strong
+        >{{ d._meta.time.preparations.join(" ") }}
       </p>
       <button
         class="primary full"

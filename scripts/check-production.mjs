@@ -16,16 +16,25 @@ const chip = await page.getByRole("button", { name: "自定义" }).boundingBox()
 if (chip.y + chip.height > homeActions.y)
   throw Error("首页搭配按钮被操作栏遮挡");
 await fs.mkdir("docs/screenshots", { recursive: true });
-await page.screenshot({ path: "docs/screenshots/home.png" });
+await page.screenshot({
+  path: "docs/screenshots/home.png",
+  animations: "disabled",
+});
 await page.getByRole("button", { name: "帮我配菜" }).click();
 await page.locator(".menu-cards .dish-card").nth(1).waitFor();
-await page.screenshot({ path: "docs/screenshots/menu.png" });
+await page.screenshot({
+  path: "docs/screenshots/menu.png",
+  animations: "disabled",
+});
 const bounds = await page.locator(".menu-cards").boundingBox(),
   actions = await page.locator(".action-bar").boundingBox();
 if (bounds.y + bounds.height > actions.y) throw Error("菜单被操作栏遮挡");
 await page.getByRole("button", { name: "就做这些" }).click();
 await page.getByRole("dialog").waitFor();
-await page.screenshot({ path: "docs/screenshots/confirm.png" });
+await page.screenshot({
+  path: "docs/screenshots/confirm.png",
+  animations: "disabled",
+});
 await page.getByRole("button", { name: "去看要买啥" }).click();
 const manifestHref = await page
   .locator("link[rel=manifest]")
@@ -39,6 +48,20 @@ await page.waitForFunction(() => navigator.serviceWorker.controller !== null);
 await context.setOffline(true);
 await page.reload();
 await page.locator(".menu-cards .dish-card").nth(1).waitFor();
+const offlineImages = await page.evaluate(async () => {
+  const base = location.href.split("#")[0];
+  const response = await fetch(new URL("data/dishes.json", base));
+  const dishes = await response.json();
+  for (const dish of dishes) {
+    const r = await fetch(new URL(dish.image.slice(1), base));
+    if (!r.ok) throw Error("图片加载失败：" + dish.name);
+    const bitmap = await createImageBitmap(await r.blob());
+    if (!bitmap.width) throw Error("图片不可解码：" + dish.name);
+    bitmap.close();
+  }
+  return dishes.length;
+});
+console.log(`PASS: ${offlineImages} 张图片全部离线可读取并解码`);
 console.log(
   "PASS: 375×667 菜单完整可见、manifest 和图标、离线刷新本地菜谱与今日菜单",
 );

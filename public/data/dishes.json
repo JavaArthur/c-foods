@@ -4,7 +4,7 @@
     "name": "鳊鱼炖豆腐",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E9%B3%8A%E9%B1%BC%E7%82%96%E8%B1%86%E8%85%90/%E9%B3%8A%E9%B1%BC%E7%82%96%E8%B1%86%E8%85%90.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/aquatic/%E9%B3%8A%E9%B1%BC%E7%82%96%E8%B1%86%E8%85%90/%E9%B3%8A%E9%B1%BC%E7%82%96%E8%B1%86%E8%85%90.jpg",
+    "image": "/images/dish-5f4ef14a3e9e.webp",
     "isMeat": true,
     "mainIngredients": [
       "鳊鱼",
@@ -18,7 +18,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -156,7 +156,7 @@
     "name": "蛏抱蛋",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E8%9B%8F%E6%8A%B1%E8%9B%8B/%E8%9B%8F%E6%8A%B1%E8%9B%8B.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/aquatic/%E8%9B%8F%E6%8A%B1%E8%9B%8B/1.jpeg",
+    "image": "/images/dish-2256b2c0c16a.webp",
     "isMeat": true,
     "mainIngredients": [
       "蛏子",
@@ -170,7 +170,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -248,7 +248,7 @@
     "name": "葱烧海参",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E8%91%B1%E7%83%A7%E6%B5%B7%E5%8F%82/%E8%91%B1%E7%83%A7%E6%B5%B7%E5%8F%82.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/aquatic/%E8%91%B1%E7%83%A7%E6%B5%B7%E5%8F%82/%E8%91%B1%E7%83%A7%E6%B5%B7%E5%8F%82.jpeg",
+    "image": "/images/dish-ce564879325d.webp",
     "isMeat": true,
     "mainIngredients": [
       "泡发好的海参"
@@ -260,7 +260,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -364,7 +364,7 @@
     "name": "葱油桂鱼",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E8%91%B1%E6%B2%B9%E6%A1%82%E9%B1%BC/%E8%91%B1%E6%B2%B9%E6%A1%82%E9%B1%BC.md",
-    "image": null,
+    "image": "/images/dish-d78e304b4af9.webp",
     "isMeat": true,
     "mainIngredients": [
       "桂鱼",
@@ -378,7 +378,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 4,
-    "cookTimeMinutes": 45,
+    "cookTimeMinutes": 60,
     "servings": 2,
     "ingredients": [
       {
@@ -546,7 +546,7 @@
     "name": "干煎阿根廷红虾",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E5%B9%B2%E7%85%8E%E9%98%BF%E6%A0%B9%E5%BB%B7%E7%BA%A2%E8%99%BE/%E5%B9%B2%E7%85%8E%E9%98%BF%E6%A0%B9%E5%BB%B7%E7%BA%A2%E8%99%BE.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/aquatic/%E5%B9%B2%E7%85%8E%E9%98%BF%E6%A0%B9%E5%BB%B7%E7%BA%A2%E8%99%BE/%E5%B9%B2%E7%85%8E%E9%98%BF%E6%A0%B9%E5%BB%B7%E7%BA%A2%E8%99%BE.jpg",
+    "image": "/images/dish-c6a64e9989d6.webp",
     "isMeat": true,
     "mainIngredients": [
       "阿根廷红虾",
@@ -560,7 +560,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 20,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -627,7 +627,7 @@
     "steps": [
       {
         "text": "阿根廷红虾解冻，最好是提前 1 天从速冻取出放到冷藏里自然解冻，能更好保持风味和口感。可买已经开背去虾线的，节省了不少时间",
-        "timerSeconds": null
+        "timerSeconds": 86400
       },
       {
         "text": "解冻好的红虾洗净擦干备用，注意这里一定要沥干水分，赶时间可以用厨房用纸吸干水分",
@@ -682,7 +682,7 @@
     "name": "红烧鲤鱼",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E7%BA%A2%E7%83%A7%E9%B2%A4%E9%B1%BC.md",
-    "image": null,
+    "image": "/images/dish-eebace3a0c5f.webp",
     "isMeat": true,
     "mainIngredients": [
       "鲤鱼",
@@ -695,7 +695,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -907,7 +907,7 @@
     "name": "红烧鱼",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E7%BA%A2%E7%83%A7%E9%B1%BC.md",
-    "image": null,
+    "image": "/images/dish-cd65d843e8ba.webp",
     "isMeat": true,
     "mainIngredients": [
       "姜丝",
@@ -921,7 +921,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 4,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -1071,7 +1071,7 @@
     "name": "红烧鱼头",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E7%BA%A2%E7%83%A7%E9%B1%BC%E5%A4%B4.md",
-    "image": null,
+    "image": "/images/dish-6df045c0d850.webp",
     "isMeat": true,
     "mainIngredients": [
       "美人椒",
@@ -1085,7 +1085,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 4,
-    "cookTimeMinutes": 150,
+    "cookTimeMinutes": 180,
     "servings": 2,
     "ingredients": [
       {
@@ -1349,7 +1349,7 @@
     "name": "黄油煎虾",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E9%BB%84%E6%B2%B9%E7%85%8E%E8%99%BE/%E9%BB%84%E6%B2%B9%E7%85%8E%E8%99%BE.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/aquatic/%E9%BB%84%E6%B2%B9%E7%85%8E%E8%99%BE/%E9%BB%84%E6%B2%B9%E7%85%8E%E8%99%BE.jpg",
+    "image": "/images/dish-afbdbbf6781d.webp",
     "isMeat": true,
     "mainIngredients": [
       "鲜虾"
@@ -1361,7 +1361,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -1447,7 +1447,7 @@
     "name": "烤鱼",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E6%B7%B7%E5%90%88%E7%83%A4%E9%B1%BC/%E7%83%A4%E9%B1%BC.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/aquatic/%E6%B7%B7%E5%90%88%E7%83%A4%E9%B1%BC/%E7%83%A4%E9%B1%BC.jpg",
+    "image": "/images/dish-87dd9561e5cb.webp",
     "isMeat": true,
     "mainIngredients": [
       "灯笼椒",
@@ -1461,7 +1461,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -1614,7 +1614,7 @@
       },
       {
         "text": "把鱼放到容器中，加入料酒，10g 白胡椒粉，5g 食盐抹匀腌制二十分钟入味。",
-        "timerSeconds": 600
+        "timerSeconds": 1200
       },
       {
         "text": "把半根大葱切成一块一块，大蒜粒中间切开，和八角香叶桂皮放在一个容器中",
@@ -1622,7 +1622,7 @@
       },
       {
         "text": "干辣椒段中间一分为二切开并和灯笼椒装在一个容器中",
-        "timerSeconds": null
+        "timerSeconds": 60
       },
       {
         "text": "芹菜切小段",
@@ -1693,7 +1693,7 @@
     "name": "酱炖蟹",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E9%85%B1%E7%82%96%E8%9F%B9.md",
-    "image": null,
+    "image": "/images/dish-4f0d6f03231b.webp",
     "isMeat": true,
     "mainIngredients": [
       "螃蟹",
@@ -1707,7 +1707,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -1813,7 +1813,7 @@
     "name": "芥末黄油罗氏虾",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E8%8A%A5%E6%9C%AB%E9%BB%84%E6%B2%B9%E7%BD%97%E6%B0%8F%E8%99%BE/%E8%8A%A5%E6%9C%AB%E9%BB%84%E6%B2%B9%E7%BD%97%E6%B0%8F%E8%99%BE.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/aquatic/%E8%8A%A5%E6%9C%AB%E9%BB%84%E6%B2%B9%E7%BD%97%E6%B0%8F%E8%99%BE/%E8%8A%A5%E6%9C%AB%E9%BB%84%E6%B2%B9%E7%BD%97%E6%B0%8F%E8%99%BE.jpg",
+    "image": "/images/dish-aad5297d0d4f.webp",
     "isMeat": true,
     "mainIngredients": [
       "罗氏虾",
@@ -1827,7 +1827,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -1929,7 +1929,7 @@
     "name": "鲤鱼炖白菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E9%B2%A4%E9%B1%BC%E7%82%96%E7%99%BD%E8%8F%9C/%E9%B2%A4%E9%B1%BC%E7%82%96%E7%99%BD%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/aquatic/%E9%B2%A4%E9%B1%BC%E7%82%96%E7%99%BD%E8%8F%9C/%E9%B2%A4%E9%B1%BC%E7%82%96%E7%99%BD%E8%8F%9C.jpeg",
+    "image": "/images/dish-c8ee5c3f5d0f.webp",
     "isMeat": true,
     "mainIngredients": [
       "蒜",
@@ -1943,7 +1943,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -2053,7 +2053,7 @@
     "name": "清蒸鲈鱼",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/aquatic/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC/%E6%94%B9%E5%88%80.jpg",
+    "image": "/images/dish-572e443d2b4f.webp",
     "isMeat": true,
     "mainIngredients": [
       "鲈鱼"
@@ -2065,7 +2065,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -2163,7 +2163,7 @@
     "name": "清蒸生蚝",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E6%B8%85%E8%92%B8%E7%94%9F%E8%9A%9D.md",
-    "image": null,
+    "image": "/images/dish-51b421c7dd58.webp",
     "isMeat": true,
     "mainIngredients": [
       "生蚝",
@@ -2177,7 +2177,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -2257,7 +2257,7 @@
     "name": "肉蟹煲",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E8%82%89%E8%9F%B9%E7%85%B2.md",
-    "image": null,
+    "image": "/images/dish-d4b470c23990.webp",
     "isMeat": true,
     "mainIngredients": [
       "肉蟹",
@@ -2271,7 +2271,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -2455,7 +2455,7 @@
     "name": "水煮鱼",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E6%B0%B4%E7%85%AE%E9%B1%BC.md",
-    "image": null,
+    "image": "/images/dish-4a8c017b54b2.webp",
     "isMeat": true,
     "mainIngredients": [
       "巴沙鱼",
@@ -2469,7 +2469,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 4,
-    "cookTimeMinutes": 120,
+    "cookTimeMinutes": 80,
     "servings": 2,
     "ingredients": [
       {
@@ -2605,7 +2605,7 @@
     "name": "蒜蓉虾",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E8%92%9C%E8%93%89%E8%99%BE/%E8%92%9C%E8%93%89%E8%99%BE.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/aquatic/%E8%92%9C%E8%93%89%E8%99%BE/1.jpeg",
+    "image": "/images/dish-2100ef8721d3.webp",
     "isMeat": true,
     "mainIngredients": [
       "海虾"
@@ -2617,7 +2617,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -2671,7 +2671,7 @@
     "name": "蒜香黄油虾",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E8%92%9C%E9%A6%99%E9%BB%84%E6%B2%B9%E8%99%BE/%E8%92%9C%E9%A6%99%E9%BB%84%E6%B2%B9%E8%99%BE.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/aquatic/%E8%92%9C%E9%A6%99%E9%BB%84%E6%B2%B9%E8%99%BE/1.jpg",
+    "image": "/images/dish-8e6f9fac4821.webp",
     "isMeat": true,
     "mainIngredients": [
       "大虾",
@@ -2685,7 +2685,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -2777,7 +2777,7 @@
     "name": "糖醋鲤鱼",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E7%B3%96%E9%86%8B%E9%B2%A4%E9%B1%BC/%E7%B3%96%E9%86%8B%E9%B2%A4%E9%B1%BC.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/aquatic/%E7%B3%96%E9%86%8B%E9%B2%A4%E9%B1%BC/%E8%85%8C%E5%88%B6.jpg",
+    "image": "/images/dish-270bae9a3e69.webp",
     "isMeat": true,
     "mainIngredients": [
       "鲤鱼",
@@ -2792,7 +2792,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 90,
     "servings": 2,
     "ingredients": [
       {
@@ -2923,7 +2923,7 @@
       },
       {
         "text": "用锅铲从鱼身处轻轻铲入，两个工具配合鱼翻个身。再炸两分钟，还是同样的方式（笊篱托着鱼头，锅铲托着鱼身，将鱼盛入盘中）",
-        "timerSeconds": null
+        "timerSeconds": 120
       },
       {
         "text": "将锅中的油倒入擦干的盆中，放置一边，然后将锅刷干净",
@@ -2962,7 +2962,7 @@
     "name": "微波葱姜黑鳕鱼",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E5%BE%AE%E6%B3%A2%E8%91%B1%E5%A7%9C%E9%BB%91%E9%B3%95%E9%B1%BC.md",
-    "image": null,
+    "image": "/images/dish-c2113a4d8b32.webp",
     "isMeat": true,
     "mainIngredients": [
       "黑鳕鱼",
@@ -2976,7 +2976,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -3080,7 +3080,7 @@
     "name": "香煎翘嘴鱼",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E9%A6%99%E7%85%8E%E7%BF%98%E5%98%B4%E9%B1%BC/%E9%A6%99%E7%85%8E%E7%BF%98%E5%98%B4%E9%B1%BC.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/aquatic/%E9%A6%99%E7%85%8E%E7%BF%98%E5%98%B4%E9%B1%BC/%E9%A6%99%E7%85%8E%E7%BF%98%E5%98%B4%E9%B1%BC.jpeg",
+    "image": "/images/dish-6e7cba67272a.webp",
     "isMeat": true,
     "mainIngredients": [
       "翘嘴鱼",
@@ -3094,7 +3094,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 4,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -3189,11 +3189,11 @@
       },
       {
         "text": "鱼表面用盐涂抹均匀，倒入料酒约 80ml,姜末 20g，放入冰箱保鲜层进行腌制 1-2 天",
-        "timerSeconds": null
+        "timerSeconds": 172800
       },
       {
         "text": "取出腌制好的鱼，用绳挂起晾晒至半干（约 1-2 天，具体时间需结合气温与阳光）",
-        "timerSeconds": null
+        "timerSeconds": 172800
       },
       {
         "text": "食用前请将鱼用清水清洗，沥干水分（防止水遇油飞溅）",
@@ -3236,7 +3236,7 @@
     "name": "响油鳝丝",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E5%93%8D%E6%B2%B9%E9%B3%9D%E4%B8%9D.md",
-    "image": null,
+    "image": "/images/dish-90313363367b.webp",
     "isMeat": true,
     "mainIngredients": [
       "鳝丝",
@@ -3250,7 +3250,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -3400,7 +3400,7 @@
     "name": "小龙虾",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E5%B0%8F%E9%BE%99%E8%99%BE/%E5%B0%8F%E9%BE%99%E8%99%BE.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/aquatic/%E5%B0%8F%E9%BE%99%E8%99%BE/%E6%88%90%E5%93%81.jpg",
+    "image": "/images/dish-416117464d90.webp",
     "isMeat": true,
     "mainIngredients": [
       "小龙虾",
@@ -3414,7 +3414,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 4,
-    "cookTimeMinutes": 45,
+    "cookTimeMinutes": 55,
     "servings": 2,
     "ingredients": [
       {
@@ -3546,7 +3546,7 @@
     "name": "阳朔啤酒鱼",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E9%98%B3%E6%9C%94%E5%95%A4%E9%85%92%E9%B1%BC/%E9%98%B3%E6%9C%94%E5%95%A4%E9%85%92%E9%B1%BC.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/aquatic/%E9%98%B3%E6%9C%94%E5%95%A4%E9%85%92%E9%B1%BC/%E9%98%B3%E6%9C%94%E5%95%A4%E9%85%92%E9%B1%BC.png",
+    "image": "/images/dish-6317306ff143.webp",
     "isMeat": true,
     "mainIngredients": [
       "剑骨鱼或鲤鱼",
@@ -3560,7 +3560,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 60,
     "servings": 2,
     "ingredients": [
       {
@@ -3704,7 +3704,7 @@
     "name": "油焖大虾",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE/%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/aquatic/%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE/%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE.jpg",
+    "image": "/images/dish-852f1106dd9e.webp",
     "isMeat": true,
     "mainIngredients": [
       "虾"
@@ -3716,7 +3716,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -3844,7 +3844,7 @@
     "name": "奥尔良风味烤鸡腿",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%A5%A5%E5%B0%94%E8%89%AF%E9%A3%8E%E5%91%B3%E7%83%A4%E9%B8%A1%E8%85%BF/%E5%A5%A5%E5%B0%94%E8%89%AF%E9%A3%8E%E5%91%B3%E7%83%A4%E9%B8%A1%E8%85%BF.md",
-    "image": null,
+    "image": "/images/dish-c2425b4ce4f5.webp",
     "isMeat": true,
     "mainIngredients": [
       "手枪腿鸡腿",
@@ -3857,7 +3857,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 5,
-    "cookTimeMinutes": 180,
+    "cookTimeMinutes": 90,
     "servings": 1,
     "ingredients": [
       {
@@ -3967,7 +3967,7 @@
     "name": "澳门湿版免治牛肉饭",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%BE%B3%E9%97%A8%E6%B9%BF%E7%89%88%E5%85%8D%E6%B2%BB%E7%89%9B%E8%82%89%E9%A5%AD/%E6%BE%B3%E9%97%A8%E6%B9%BF%E7%89%88%E5%85%8D%E6%B2%BB%E7%89%9B%E8%82%89%E9%A5%AD.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E6%BE%B3%E9%97%A8%E6%B9%BF%E7%89%88%E5%85%8D%E6%B2%BB%E7%89%9B%E8%82%89%E9%A5%AD/%E6%BE%B3%E9%97%A8%E6%B9%BF%E7%89%88%E5%85%8D%E6%B2%BB%E7%89%9B%E8%82%89%E9%A5%AD.jpg",
+    "image": "/images/dish-c36c0019ce76.webp",
     "isMeat": true,
     "mainIngredients": [
       "牛肉末",
@@ -3981,7 +3981,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 1,
     "ingredients": [
       {
@@ -4115,7 +4115,7 @@
     "name": "巴基斯坦牛肉咖喱",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E7%89%9B%E8%82%89%E5%92%96%E5%96%B1/%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E7%89%9B%E8%82%89%E5%92%96%E5%96%B1.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E7%89%9B%E8%82%89%E5%92%96%E5%96%B1/%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E7%89%9B%E8%82%89%E5%92%96%E5%96%B1.png",
+    "image": "/images/dish-52e83fc0ba1e.webp",
     "isMeat": true,
     "mainIngredients": [
       "番茄🍅",
@@ -4129,7 +4129,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 5,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 210,
     "servings": 5,
     "ingredients": [
       {
@@ -4210,7 +4210,7 @@
       },
       {
         "text": "将整锅材料转移到电饭煲/电炖锅，并加入 250 ml 的水，开启炖肉/慢炖档，设定时间 2-3 个小时",
-        "timerSeconds": null
+        "timerSeconds": 10800
       },
       {
         "text": "等待完成，开锅检查牛肉软糯，就可以吃了",
@@ -4225,7 +4225,7 @@
     "name": "白菜猪肉炖粉条",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%99%BD%E8%8F%9C%E7%8C%AA%E8%82%89%E7%82%96%E7%B2%89%E6%9D%A1.md",
-    "image": null,
+    "image": "/images/dish-753710e84ebf.webp",
     "isMeat": true,
     "mainIngredients": [
       "五花肉",
@@ -4239,7 +4239,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 45,
+    "cookTimeMinutes": 55,
     "servings": 2,
     "ingredients": [
       {
@@ -4351,7 +4351,7 @@
     "name": "豉汁排骨",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%B1%89%E6%B1%81%E6%8E%92%E9%AA%A8.md",
-    "image": null,
+    "image": "/images/dish-9b7527e52267.webp",
     "isMeat": true,
     "mainIngredients": [
       "肋排",
@@ -4365,7 +4365,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 90,
     "servings": 2,
     "ingredients": [
       {
@@ -4485,7 +4485,7 @@
     "name": "豉汁蒸白鱔",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%B1%89%E6%B1%81%E8%92%B8%E7%99%BD%E9%B1%94/%E8%B1%89%E6%B1%81%E8%92%B8%E7%99%BD%E9%B1%94.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E8%B1%89%E6%B1%81%E8%92%B8%E7%99%BD%E9%B1%94/%E8%B1%89%E6%B1%81%E8%92%B8%E7%99%BD%E9%B1%94.jpeg",
+    "image": "/images/dish-11791e8f98f9.webp",
     "isMeat": true,
     "mainIngredients": [
       "白鱔",
@@ -4499,7 +4499,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -4673,7 +4673,7 @@
     "name": "葱烧鸡腿",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%91%B1%E7%83%A7%E9%B8%A1%E8%85%BF.md",
-    "image": null,
+    "image": "/images/dish-883b48e24f2a.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡腿"
@@ -4685,7 +4685,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 27,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -4833,7 +4833,7 @@
     "name": "带把肘子",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%B8%A6%E6%8A%8A%E8%82%98%E5%AD%90.md",
-    "image": null,
+    "image": "/images/dish-4323fc57af18.webp",
     "isMeat": true,
     "mainIngredients": [
       "带脚、爪猪前肘",
@@ -4847,7 +4847,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 5,
-    "cookTimeMinutes": 210,
+    "cookTimeMinutes": 255,
     "servings": 2,
     "ingredients": [
       {
@@ -4969,7 +4969,7 @@
     "name": "冬瓜酿肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%86%AC%E7%93%9C%E9%85%BF%E8%82%89/%E5%86%AC%E7%93%9C%E9%85%BF%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E5%86%AC%E7%93%9C%E9%85%BF%E8%82%89/%E5%86%AC%E7%93%9C%E9%85%BF%E8%82%89%E6%88%90%E5%93%81.jpg",
+    "image": "/images/dish-b8229b8949c7.webp",
     "isMeat": true,
     "mainIngredients": [
       "猪肉末",
@@ -4983,7 +4983,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -5111,7 +5111,7 @@
     "name": "冬瓜桑拿鸡",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%86%AC%E7%93%9C%E6%A1%91%E6%8B%BF%E9%B8%A1.md",
-    "image": null,
+    "image": "/images/dish-2a766decfc82.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡肉",
@@ -5125,7 +5125,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 35,
+    "cookTimeMinutes": 55,
     "servings": 2,
     "ingredients": [
       {
@@ -5207,7 +5207,7 @@
     "name": "豆豉鲮鱼油麦菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%B1%86%E8%B1%89%E9%B2%AE%E9%B1%BC%E6%B2%B9%E9%BA%A6%E8%8F%9C/%E8%B1%86%E8%B1%89%E9%B2%AE%E9%B1%BC%E6%B2%B9%E9%BA%A6%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E8%B1%86%E8%B1%89%E9%B2%AE%E9%B1%BC%E6%B2%B9%E9%BA%A6%E8%8F%9C/%E8%B1%86%E8%B1%89%E9%B2%AE%E9%B1%BC%E6%B2%B9%E9%BA%A6%E8%8F%9C%E6%88%90%E5%93%81.jpg",
+    "image": "/images/dish-d400a76b1972.webp",
     "isMeat": true,
     "mainIngredients": [
       "油麦菜",
@@ -5221,7 +5221,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 5,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -5311,7 +5311,7 @@
     "name": "番茄红酱",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%95%AA%E8%8C%84%E7%BA%A2%E9%85%B1.md",
-    "image": null,
+    "image": "/images/dish-21cfd000630e.webp",
     "isMeat": true,
     "mainIngredients": [
       "碎牛肉",
@@ -5325,7 +5325,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -5431,7 +5431,7 @@
     "name": "粉蒸肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%B2%89%E8%92%B8%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E7%B2%89%E8%92%B8%E8%82%89.png",
+    "image": "/images/dish-2b6c17e9c54c.webp",
     "isMeat": true,
     "mainIngredients": [
       "五花肉",
@@ -5445,7 +5445,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 4,
-    "cookTimeMinutes": 90,
+    "cookTimeMinutes": 145,
     "servings": 3,
     "ingredients": [
       {
@@ -5581,7 +5581,7 @@
     "name": "腐乳肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%85%90%E4%B9%B3%E8%82%89.md",
-    "image": null,
+    "image": "/images/dish-9fcd0a23ba29.webp",
     "isMeat": true,
     "mainIngredients": [
       "带皮五花肉",
@@ -5595,7 +5595,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 5,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -5709,7 +5709,7 @@
     "name": "干煸仔鸡",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%B9%B2%E7%85%B8%E4%BB%94%E9%B8%A1/%E5%B9%B2%E7%85%B8%E4%BB%94%E9%B8%A1.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E5%B9%B2%E7%85%B8%E4%BB%94%E9%B8%A1/%E5%B9%B2%E7%85%B8%E4%BB%94%E9%B8%A1%E6%88%90%E5%93%81.jpg",
+    "image": "/images/dish-6b55206c8130.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡腿肉",
@@ -5723,7 +5723,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -5879,7 +5879,7 @@
     "name": "宫保鸡丁",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81.png",
+    "image": "/images/dish-14b71ecfefbd.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡肉",
@@ -5892,7 +5892,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 4,
-    "cookTimeMinutes": 90,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -6068,7 +6068,7 @@
     "name": "咕噜肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%92%95%E5%99%9C%E8%82%89.md",
-    "image": null,
+    "image": "/images/dish-799fb76c158a.webp",
     "isMeat": true,
     "mainIngredients": [
       "梅头猪肉",
@@ -6082,7 +6082,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 55,
     "servings": 2,
     "ingredients": [
       {
@@ -6210,7 +6210,7 @@
     "name": "广式萝卜牛腩",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%B9%BF%E5%BC%8F%E8%90%9D%E5%8D%9C%E7%89%9B%E8%85%A9/%E5%B9%BF%E5%BC%8F%E8%90%9D%E5%8D%9C%E7%89%9B%E8%85%A9.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E5%B9%BF%E5%BC%8F%E8%90%9D%E5%8D%9C%E7%89%9B%E8%85%A9/%E5%B9%BF%E5%BC%8F%E8%90%9D%E5%8D%9C%E7%89%9B%E8%85%A9.webp",
+    "image": "/images/dish-5da377822c7d.webp",
     "isMeat": true,
     "mainIngredients": [
       "牛腩",
@@ -6224,7 +6224,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 4,
-    "cookTimeMinutes": 150,
+    "cookTimeMinutes": 205,
     "servings": 2,
     "ingredients": [
       {
@@ -6351,7 +6351,7 @@
       },
       {
         "text": "将牛腩换到汤锅中，放入桂皮、八角、香叶和干辣椒，焖大概 2 个小时",
-        "timerSeconds": null
+        "timerSeconds": 7200
       },
       {
         "text": "牛腩焖到半软之后加入白萝卜继续焖 30 分钟",
@@ -6370,7 +6370,7 @@
     "name": "贵州辣子鸡",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%B4%B5%E5%B7%9E%E8%BE%A3%E5%AD%90%E9%B8%A1/%E8%B4%B5%E5%B7%9E%E8%BE%A3%E5%AD%90%E9%B8%A1.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E8%B4%B5%E5%B7%9E%E8%BE%A3%E5%AD%90%E9%B8%A1/%E8%B4%B5%E5%B7%9E%E8%BE%A3%E5%AD%90%E9%B8%A1.jpg",
+    "image": "/images/dish-99ea3f4157e5.webp",
     "isMeat": true,
     "mainIngredients": [
       "农村玉米鸡",
@@ -6384,7 +6384,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 4,
-    "cookTimeMinutes": 300,
+    "cookTimeMinutes": 80,
     "servings": 2,
     "ingredients": [
       {
@@ -6504,7 +6504,7 @@
     "name": "桂林十八酿",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%A1%82%E6%9E%97%E5%8D%81%E5%85%AB%E9%85%BF/%E6%A1%82%E6%9E%97%E5%8D%81%E5%85%AB%E9%85%BF.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E6%A1%82%E6%9E%97%E5%8D%81%E5%85%AB%E9%85%BF/arch.png",
+    "image": "/images/dish-579392d7f741.webp",
     "isMeat": true,
     "mainIngredients": [
       "青椒",
@@ -6518,7 +6518,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 90,
+    "cookTimeMinutes": 110,
     "servings": 2,
     "ingredients": [
       {
@@ -6686,7 +6686,7 @@
     "name": "荷兰豆炒腊肠",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%8D%B7%E5%85%B0%E8%B1%86%E7%82%92%E8%85%8A%E8%82%A0/%E8%8D%B7%E5%85%B0%E8%B1%86%E7%82%92%E8%85%8A%E8%82%A0.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E8%8D%B7%E5%85%B0%E8%B1%86%E7%82%92%E8%85%8A%E8%82%A0/1.png",
+    "image": "/images/dish-ba8bc67dd810.webp",
     "isMeat": true,
     "mainIngredients": [
       "荷兰豆",
@@ -6699,7 +6699,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -6761,7 +6761,7 @@
     "name": "红烧鸡翅",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E9%B8%A1%E7%BF%85.md",
-    "image": null,
+    "image": "/images/dish-a6d13f7259d3.webp",
     "isMeat": true,
     "mainIngredients": [
       "新鲜鸡翅",
@@ -6775,7 +6775,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 60,
     "servings": 2,
     "ingredients": [
       {
@@ -6955,7 +6955,7 @@
     "name": "简易红烧肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E8%82%89/%E7%AE%80%E6%98%93%E7%BA%A2%E7%83%A7%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E8%82%89/000.jpg",
+    "image": "/images/dish-c4210fe787bf.webp",
     "isMeat": true,
     "mainIngredients": [
       "猪五花肉",
@@ -6969,7 +6969,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 90,
+    "cookTimeMinutes": 130,
     "servings": 2,
     "ingredients": [
       {
@@ -7149,7 +7149,7 @@
     "name": "南派红烧肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E8%82%89/%E5%8D%97%E6%B4%BE%E7%BA%A2%E7%83%A7%E8%82%89.md",
-    "image": null,
+    "image": "/images/dish-34d824026b7c.webp",
     "isMeat": true,
     "mainIngredients": [
       "猪五花肉",
@@ -7163,7 +7163,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 90,
+    "cookTimeMinutes": 135,
     "servings": 2,
     "ingredients": [
       {
@@ -7351,7 +7351,7 @@
     "name": "红烧猪蹄",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E7%8C%AA%E8%B9%84/%E7%BA%A2%E7%83%A7%E7%8C%AA%E8%B9%84.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E7%8C%AA%E8%B9%84/%E7%BA%A2%E7%83%A7%E7%8C%AA%E8%B9%84.jpg",
+    "image": "/images/dish-9adf3a818eb5.webp",
     "isMeat": true,
     "mainIngredients": [
       "猪蹄"
@@ -7363,7 +7363,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -7481,7 +7481,7 @@
     "name": "湖南家常红烧肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%B9%96%E5%8D%97%E5%AE%B6%E5%B8%B8%E7%BA%A2%E7%83%A7%E8%82%89/%E6%B9%96%E5%8D%97%E5%AE%B6%E5%B8%B8%E7%BA%A2%E7%83%A7%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E6%B9%96%E5%8D%97%E5%AE%B6%E5%B8%B8%E7%BA%A2%E7%83%A7%E8%82%89/%E6%B9%96%E5%8D%97%E5%AE%B6%E5%B8%B8%E7%BA%A2%E7%83%A7%E8%82%89.jpeg",
+    "image": "/images/dish-5deb1037d76a.webp",
     "isMeat": true,
     "mainIngredients": [
       "五花肉"
@@ -7493,7 +7493,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -7609,7 +7609,7 @@
     "name": "虎皮肘子",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%99%8E%E7%9A%AE%E8%82%98%E5%AD%90.md",
-    "image": null,
+    "image": "/images/dish-226ef9cee720.webp",
     "isMeat": true,
     "mainIngredients": [
       "猪前肘",
@@ -7623,7 +7623,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 5,
-    "cookTimeMinutes": 150,
+    "cookTimeMinutes": 100,
     "servings": 2,
     "ingredients": [
       {
@@ -7869,7 +7869,7 @@
     "name": "黄焖鸡",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%BB%84%E7%84%96%E9%B8%A1.md",
-    "image": null,
+    "image": "/images/dish-7a9ded525498.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡腿",
@@ -7883,7 +7883,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -8025,7 +8025,7 @@
     "name": "黄油鸡",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%BB%84%E6%B2%B9%E9%B8%A1.md",
-    "image": null,
+    "image": "/images/dish-89ecebd7c114.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡腿肉",
@@ -8039,7 +8039,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 55,
     "servings": 2,
     "ingredients": [
       {
@@ -8277,7 +8277,7 @@
     "name": "徽派红烧肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%BE%BD%E6%B4%BE%E7%BA%A2%E7%83%A7%E8%82%89/%E5%BE%BD%E6%B4%BE%E7%BA%A2%E7%83%A7%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E5%BE%BD%E6%B4%BE%E7%BA%A2%E7%83%A7%E8%82%89/1.jpeg",
+    "image": "/images/dish-dd07bae9bb3b.webp",
     "isMeat": true,
     "mainIngredients": [
       "五花肉"
@@ -8289,7 +8289,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 45,
+    "cookTimeMinutes": 55,
     "servings": 2,
     "ingredients": [
       {
@@ -8403,7 +8403,7 @@
     "name": "回锅肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%9B%9E%E9%94%85%E8%82%89/%E5%9B%9E%E9%94%85%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E5%9B%9E%E9%94%85%E8%82%89/1.jpeg",
+    "image": "/images/dish-6248f88c0b96.webp",
     "isMeat": true,
     "mainIngredients": [
       "五花肉的用量为",
@@ -8417,7 +8417,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 4,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -8505,7 +8505,7 @@
     "name": "尖椒炒牛肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%B0%96%E6%A4%92%E7%82%92%E7%89%9B%E8%82%89.md",
-    "image": null,
+    "image": "/images/dish-b90030febe49.webp",
     "isMeat": true,
     "mainIngredients": [
       "牛肉用量为",
@@ -8519,7 +8519,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -8633,7 +8633,7 @@
     "name": "尖叫牛蛙",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%B0%96%E5%8F%AB%E7%89%9B%E8%9B%99/%E5%B0%96%E5%8F%AB%E7%89%9B%E8%9B%99.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E5%B0%96%E5%8F%AB%E7%89%9B%E8%9B%99/%E5%B0%96%E5%8F%AB%E7%89%9B%E8%9B%99.jpg",
+    "image": "/images/dish-fe5636493a4b.webp",
     "isMeat": true,
     "mainIngredients": [
       "牛蛙肉块",
@@ -8647,7 +8647,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 4,
-    "cookTimeMinutes": 120,
+    "cookTimeMinutes": 145,
     "servings": 2,
     "ingredients": [
       {
@@ -8803,7 +8803,7 @@
     "name": "煎烤羊排",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%85%8E%E7%83%A4%E7%BE%8A%E6%8E%92/%E7%85%8E%E7%83%A4%E7%BE%8A%E6%8E%92.md",
-    "image": null,
+    "image": "/images/dish-5fc272527c3e.webp",
     "isMeat": true,
     "mainIngredients": [
       "羊排",
@@ -8817,7 +8817,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 4,
-    "cookTimeMinutes": 90,
+    "cookTimeMinutes": 120,
     "servings": 2,
     "ingredients": [
       {
@@ -8951,7 +8951,7 @@
     "name": "姜炒鸡",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%A7%9C%E7%82%92%E9%B8%A1/%E5%A7%9C%E7%82%92%E9%B8%A1.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E5%A7%9C%E7%82%92%E9%B8%A1/%E5%A7%9C%E7%82%92%E9%B8%A1.jpg",
+    "image": "/images/dish-6db2ebad7e19.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡",
@@ -8964,7 +8964,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -9072,7 +9072,7 @@
     "name": "姜葱捞鸡",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%A7%9C%E8%91%B1%E6%8D%9E%E9%B8%A1/%E5%A7%9C%E8%91%B1%E6%8D%9E%E9%B8%A1.md",
-    "image": null,
+    "image": "/images/dish-536301a10014.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡腿"
@@ -9084,7 +9084,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 55,
     "servings": 2,
     "ingredients": [
       {
@@ -9184,7 +9184,7 @@
     "name": "酱牛肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%85%B1%E7%89%9B%E8%82%89/%E9%85%B1%E7%89%9B%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E9%85%B1%E7%89%9B%E8%82%89/%E9%85%B1%E7%89%9B%E8%82%89.jpg",
+    "image": "/images/dish-31c7da6a6027.webp",
     "isMeat": true,
     "mainIngredients": [
       "牛腱子肉"
@@ -9196,7 +9196,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 5,
-    "cookTimeMinutes": 600,
+    "cookTimeMinutes": 230,
     "servings": 2,
     "ingredients": [
       {
@@ -9324,7 +9324,7 @@
     "name": "酱排骨",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%85%B1%E6%8E%92%E9%AA%A8/%E9%85%B1%E6%8E%92%E9%AA%A8.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E9%85%B1%E6%8E%92%E9%AA%A8/1.jpeg",
+    "image": "/images/dish-4002fae1b118.webp",
     "isMeat": true,
     "mainIngredients": [
       "排骨",
@@ -9337,7 +9337,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -9441,7 +9441,7 @@
     "name": "茭白炒肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%8C%AD%E7%99%BD%E7%82%92%E8%82%89/%E8%8C%AD%E7%99%BD%E7%82%92%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E8%8C%AD%E7%99%BD%E7%82%92%E8%82%89/1.jpeg",
+    "image": "/images/dish-e5fb59ad789e.webp",
     "isMeat": true,
     "mainIngredients": [
       "茭白",
@@ -9455,7 +9455,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 20,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -9551,7 +9551,7 @@
     "name": "椒盐排条",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%A4%92%E7%9B%90%E6%8E%92%E6%9D%A1.md",
-    "image": null,
+    "image": "/images/dish-719cfc96f5bd.webp",
     "isMeat": false,
     "mainIngredients": [
       "大排",
@@ -9565,7 +9565,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -9667,163 +9667,11 @@
     "homeSubstitute": null
   },
   {
-    "id": "dish-55213df606e5",
-    "name": "芥末罗氏虾",
-    "source": "howtocook",
-    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%8A%A5%E6%9C%AB%E7%BD%97%E6%B0%8F%E8%99%BE/%E8%8A%A5%E6%9C%AB%E7%BD%97%E6%B0%8F%E8%99%BE.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E8%8A%A5%E6%9C%AB%E7%BD%97%E6%B0%8F%E8%99%BE/%E8%8A%A5%E6%9C%AB%E7%BD%97%E6%B0%8F%E8%99%BE%E6%88%90%E5%93%81.jpg",
-    "isMeat": true,
-    "mainIngredients": [
-      "罗氏虾",
-      "蒜",
-      "青芥末"
-    ],
-    "proteinType": "shrimp",
-    "cookMethod": "炒",
-    "flavorTags": [
-      "辣"
-    ],
-    "spicyLevel": 2,
-    "difficulty": 3,
-    "cookTimeMinutes": 30,
-    "servings": 2,
-    "ingredients": [
-      {
-        "name": "罗氏虾",
-        "amount": 250,
-        "unit": "g",
-        "group": "meat"
-      },
-      {
-        "name": "蒜",
-        "amount": 2,
-        "unit": "个",
-        "group": "veg"
-      },
-      {
-        "name": "青芥末",
-        "amount": 20,
-        "unit": "g",
-        "group": "veg"
-      },
-      {
-        "name": "生粉",
-        "amount": 10,
-        "unit": "g",
-        "group": "seasoning"
-      },
-      {
-        "name": "生抽",
-        "amount": 30,
-        "unit": "g",
-        "group": "pantry"
-      },
-      {
-        "name": "胡椒粉",
-        "amount": 5,
-        "unit": "g",
-        "group": "seasoning"
-      },
-      {
-        "name": "白糖",
-        "amount": 3,
-        "unit": "g",
-        "group": "pantry"
-      },
-      {
-        "name": "蚝油",
-        "amount": 15,
-        "unit": "g",
-        "group": "pantry"
-      },
-      {
-        "name": "盐",
-        "amount": 3,
-        "unit": "g",
-        "group": "pantry"
-      },
-      {
-        "name": "小米辣",
-        "amount": 2,
-        "unit": "个",
-        "group": "veg"
-      },
-      {
-        "name": "黄油",
-        "amount": 20,
-        "unit": "g",
-        "group": "pantry"
-      },
-      {
-        "name": "食用油",
-        "amount": 80,
-        "unit": "ml",
-        "group": "pantry"
-      }
-    ],
-    "steps": [
-      {
-        "text": "处理虾：",
-        "timerSeconds": null
-      },
-      {
-        "text": "将虾从背部切开，去除虾线和沙袋，也可从腹部切开，炸出来会胀开，成菜比较漂亮",
-        "timerSeconds": null
-      },
-      {
-        "text": "用清水洗干净，控干水分后可拍上生粉，也可不拍",
-        "timerSeconds": null
-      },
-      {
-        "text": "蒜蓉及碗汁处理：",
-        "timerSeconds": null
-      },
-      {
-        "text": "将 2 颗大蒜切成蒜末",
-        "timerSeconds": null
-      },
-      {
-        "text": "准备碗汁，放入生抽、蚝油、白糖、胡椒粉、盐，依据个人口味挤入芥末，加清水稀释后加入生粉化开",
-        "timerSeconds": null
-      },
-      {
-        "text": "炒制过程：",
-        "timerSeconds": null
-      },
-      {
-        "text": "锅热倒入食用油，大概能覆盖锅底",
-        "timerSeconds": null
-      },
-      {
-        "text": "放入控干水分的罗氏虾，慢慢煎制",
-        "timerSeconds": null
-      },
-      {
-        "text": "虾油煎出来后（表现为锅中出现大量气泡），加入准备好的蒜蓉及小米辣",
-        "timerSeconds": null
-      },
-      {
-        "text": "闻到蒜蓉的香味后，加入黄油",
-        "timerSeconds": null
-      },
-      {
-        "text": "黄油融化后翻拌均匀，加入准备好的碗汁",
-        "timerSeconds": null
-      },
-      {
-        "text": "盖锅盖焖煮 2 分钟汤汁浓稠后出锅",
-        "timerSeconds": 120
-      }
-    ],
-    "tips": "- 注意事项：\n  1. 黄油入锅后不宜炸制太久，融化翻拌均匀即可烹入碗汁",
-    "homeSubstitute": null
-  },
-  {
     "id": "dish-f6b56b2237ec",
     "name": "咖喱肥牛",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%92%96%E5%96%B1%E8%82%A5%E7%89%9B/%E5%92%96%E5%96%B1%E8%82%A5%E7%89%9B.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E5%92%96%E5%96%B1%E8%82%A5%E7%89%9B/%E5%92%96%E5%96%B1%E8%82%A5%E7%89%9B.jpg",
+    "image": "/images/dish-f6b56b2237ec.webp",
     "isMeat": true,
     "mainIngredients": [
       "纯牛奶",
@@ -9837,7 +9685,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -9931,7 +9779,7 @@
     "name": "烤鸡翅",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%83%A4%E9%B8%A1%E7%BF%85.md",
-    "image": null,
+    "image": "/images/dish-e9011fc0d25c.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡翅用量为",
@@ -9945,7 +9793,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 110,
     "servings": 2,
     "ingredients": [
       {
@@ -10019,7 +9867,7 @@
     "name": "可乐鸡翅",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%8F%AF%E4%B9%90%E9%B8%A1%E7%BF%85.md",
-    "image": null,
+    "image": "/images/dish-0e59f44026ad.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡翅",
@@ -10032,7 +9880,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -10132,7 +9980,7 @@
     "name": "空气炸锅脆皮现腌炸鸡",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E8%84%86%E7%9A%AE%E7%8E%B0%E8%85%8C%E7%82%B8%E9%B8%A1/%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E8%84%86%E7%9A%AE%E7%8E%B0%E8%85%8C%E7%82%B8%E9%B8%A1.md",
-    "image": null,
+    "image": "/images/dish-19cd8258b005.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡翅中",
@@ -10296,7 +10144,7 @@
     "name": "口水鸡",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%8F%A3%E6%B0%B4%E9%B8%A1/%E5%8F%A3%E6%B0%B4%E9%B8%A1.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E5%8F%A3%E6%B0%B4%E9%B8%A1.png",
+    "image": "/images/dish-a21c80058c2d.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡半只",
@@ -10310,7 +10158,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 90,
+    "cookTimeMinutes": 110,
     "servings": 2,
     "ingredients": [
       {
@@ -10462,7 +10310,7 @@
     "name": "老妈蹄花",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%80%81%E5%A6%88%E8%B9%84%E8%8A%B1/%E8%80%81%E5%A6%88%E8%B9%84%E8%8A%B1.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E8%80%81%E5%A6%88%E8%B9%84%E8%8A%B1/result3.jpg",
+    "image": "/images/dish-6135539de733.webp",
     "isMeat": true,
     "mainIngredients": [
       "猪蹄",
@@ -10476,7 +10324,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 120,
+    "cookTimeMinutes": 145,
     "servings": 2,
     "ingredients": [
       {
@@ -10591,7 +10439,7 @@
       },
       {
         "text": "高压锅中放入猪蹄、当归、白芷、白胡椒粉、姜片，上汽后压三十分钟，放入白芸豆，再压十分钟，这个时候如果汤底是奶白色，那么恭喜是正确的（如果中途需要加水，只能加热水）",
-        "timerSeconds": 600
+        "timerSeconds": 1800
       },
       {
         "text": "揭盖后加入盐、鸡精、葱花调味",
@@ -10614,7 +10462,7 @@
     "name": "老式锅包肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89.jpg",
+    "image": "/images/dish-747b0431e0da.webp",
     "isMeat": true,
     "mainIngredients": [
       "猪通脊肉",
@@ -10628,7 +10476,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 90,
+    "cookTimeMinutes": 115,
     "servings": 2,
     "ingredients": [
       {
@@ -10920,7 +10768,7 @@
     "name": "荔枝肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%8D%94%E6%9E%9D%E8%82%89/%E8%8D%94%E6%9E%9D%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E8%8D%94%E6%9E%9D%E8%82%89/1.jpeg",
+    "image": "/images/dish-b0a818c22f10.webp",
     "isMeat": true,
     "mainIngredients": [
       "蟹味菇",
@@ -10934,7 +10782,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 45,
+    "cookTimeMinutes": 55,
     "servings": 2,
     "ingredients": [
       {
@@ -11066,7 +10914,7 @@
     "name": "凉拌鸡丝",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%87%89%E6%8B%8C%E9%B8%A1%E4%B8%9D/%E5%87%89%E6%8B%8C%E9%B8%A1%E4%B8%9D.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E5%87%89%E6%8B%8C%E9%B8%A1%E4%B8%9D/%E5%87%89%E6%8B%8C%E9%B8%A1%E4%B8%9D.jpg",
+    "image": "/images/dish-172840f1ca5e.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡胸肉"
@@ -11078,7 +10926,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -11202,7 +11050,7 @@
     "name": "卤菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%8D%A4%E8%8F%9C/%E5%8D%A4%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E5%8D%A4%E8%8F%9C/%E5%8D%A4%E7%89%9B%E8%82%89.jpeg",
+    "image": "/images/dish-422b810f8633.webp",
     "isMeat": true,
     "mainIngredients": [
       "南腐乳",
@@ -11216,7 +11064,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -11410,7 +11258,7 @@
     "name": "萝卜炖羊排",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%90%9D%E5%8D%9C%E7%82%96%E7%BE%8A%E6%8E%92.md",
-    "image": null,
+    "image": "/images/dish-8bf8fa5405cb.webp",
     "isMeat": true,
     "mainIngredients": [
       "羊排",
@@ -11424,7 +11272,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 120,
     "servings": 2,
     "ingredients": [
       {
@@ -11538,7 +11386,7 @@
     "name": "麻辣香锅",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%BA%BB%E8%BE%A3%E9%A6%99%E9%94%85.md",
-    "image": null,
+    "image": "/images/dish-89f89e49cf2c.webp",
     "isMeat": false,
     "mainIngredients": [
       "青菜共需",
@@ -11552,7 +11400,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -11646,7 +11494,7 @@
     "name": "麻婆豆腐",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90.jpg",
+    "image": "/images/dish-2ee6b4355ed5.webp",
     "isMeat": true,
     "mainIngredients": [
       "内脂豆腐",
@@ -11660,7 +11508,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -11792,7 +11640,7 @@
     "name": "蚂蚁上树",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%9A%82%E8%9A%81%E4%B8%8A%E6%A0%91.md",
-    "image": null,
+    "image": "/images/dish-dde6ab027b97.webp",
     "isMeat": true,
     "mainIngredients": [
       "红薯粉丝",
@@ -11806,7 +11654,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 20,
+    "cookTimeMinutes": 45,
     "servings": 2,
     "ingredients": [
       {
@@ -11920,7 +11768,7 @@
     "name": "梅菜扣肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89/%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89.png",
+    "image": "/images/dish-581d2a67504f.webp",
     "isMeat": true,
     "mainIngredients": [
       "五花肉",
@@ -11933,7 +11781,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 150,
+    "cookTimeMinutes": 120,
     "servings": 2,
     "ingredients": [
       {
@@ -12049,7 +11897,7 @@
     "name": "奶酪培根通心粉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%A5%B6%E9%85%AA%E5%9F%B9%E6%A0%B9%E9%80%9A%E5%BF%83%E7%B2%89/%E5%A5%B6%E9%85%AA%E5%9F%B9%E6%A0%B9%E9%80%9A%E5%BF%83%E7%B2%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E5%A5%B6%E9%85%AA%E5%9F%B9%E6%A0%B9%E9%80%9A%E5%BF%83%E7%B2%89/oven.jpg",
+    "image": "/images/dish-8e92cbbdd934.webp",
     "isMeat": true,
     "mainIngredients": [
       "奶酪",
@@ -12063,7 +11911,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -12201,7 +12049,7 @@
     "name": "牛排",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%89%9B%E6%8E%92/%E7%89%9B%E6%8E%92.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E7%89%9B%E6%8E%92/%E7%89%9B%E6%8E%92.jpg",
+    "image": "/images/dish-1dad319dfd99.webp",
     "isMeat": true,
     "mainIngredients": [
       "牛排",
@@ -12215,7 +12063,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 45,
     "servings": 2,
     "ingredients": [
       {
@@ -12411,7 +12259,7 @@
     "name": "农家一碗香",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%86%9C%E5%AE%B6%E4%B8%80%E7%A2%97%E9%A6%99/%E5%86%9C%E5%AE%B6%E4%B8%80%E7%A2%97%E9%A6%99.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E5%86%9C%E5%AE%B6%E4%B8%80%E7%A2%97%E9%A6%99/%E5%86%9C%E5%AE%B6%E4%B8%80%E7%A2%97%E9%A6%99%E6%88%90%E5%93%81.jpg",
+    "image": "/images/dish-ee6b150344e5.webp",
     "isMeat": true,
     "mainIngredients": [
       "猪肉",
@@ -12425,7 +12273,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 17,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -12515,7 +12363,7 @@
     "name": "啤酒鸭",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%95%A4%E9%85%92%E9%B8%AD/%E5%95%A4%E9%85%92%E9%B8%AD.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E5%95%A4%E9%85%92%E9%B8%AD/%E5%95%A4%E9%85%92%E9%B8%AD.jpg",
+    "image": "/images/dish-d76d98c2db72.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸭肉半只",
@@ -12528,7 +12376,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -12662,7 +12510,7 @@
     "name": "黔式腊肠娃娃菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%BB%94%E5%BC%8F%E8%85%8A%E8%82%A0%E5%A8%83%E5%A8%83%E8%8F%9C/%E9%BB%94%E5%BC%8F%E8%85%8A%E8%82%A0%E5%A8%83%E5%A8%83%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E9%BB%94%E5%BC%8F%E8%85%8A%E8%82%A0%E5%A8%83%E5%A8%83%E8%8F%9C/%E9%BB%94%E5%BC%8F%E8%85%8A%E8%82%A0%E5%A8%83%E5%A8%83%E8%8F%9C.jpg",
+    "image": "/images/dish-4091a109a237.webp",
     "isMeat": true,
     "mainIngredients": [
       "黔式腊肠",
@@ -12675,7 +12523,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 1,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -12727,7 +12575,7 @@
     "name": "青椒酿",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%9D%92%E6%A4%92%E9%85%BF/%E9%9D%92%E6%A4%92%E9%85%BF.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E9%9D%92%E6%A4%92%E9%85%BF/%E6%88%90%E5%93%81.jpeg",
+    "image": "/images/dish-d073dbe515f0.webp",
     "isMeat": true,
     "mainIngredients": [
       "青椒",
@@ -12741,7 +12589,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -12861,7 +12709,7 @@
     "name": "青椒土豆炒肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%9D%92%E6%A4%92%E5%9C%9F%E8%B1%86%E7%82%92%E8%82%89/%E9%9D%92%E6%A4%92%E5%9C%9F%E8%B1%86%E7%82%92%E8%82%89.md",
-    "image": "https://user-images.githubusercontent.com/49046468/205808925-b0ab8f98-0325-4136-8094-3f2ae8c547d5.jpg",
+    "image": "/images/dish-5d2ead0fcfeb.webp",
     "isMeat": true,
     "mainIngredients": [
       "青椒",
@@ -12875,7 +12723,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -12975,7 +12823,7 @@
     "name": "清蒸鳜鱼",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%B8%85%E8%92%B8%E9%B3%9C%E9%B1%BC/%E6%B8%85%E8%92%B8%E9%B3%9C%E9%B1%BC.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E6%B8%85%E8%92%B8%E9%B3%9C%E9%B1%BC/%E6%B8%85%E8%92%B8%E9%B3%9C%E9%B1%BC%E6%88%90%E5%93%81%E5%9B%BE.jpg",
+    "image": "/images/dish-7b106cf47303.webp",
     "isMeat": true,
     "mainIngredients": [
       "鳜鱼"
@@ -12987,7 +12835,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -13091,7 +12939,7 @@
     "name": "肉饼炖蛋",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%82%89%E9%A5%BC%E7%82%96%E8%9B%8B.md",
-    "image": null,
+    "image": "/images/dish-f13647a78548.webp",
     "isMeat": true,
     "mainIngredients": [
       "猪肉末",
@@ -13104,7 +12952,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 20,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -13166,7 +13014,7 @@
     "name": "杀猪菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%9D%80%E7%8C%AA%E8%8F%9C.md",
-    "image": null,
+    "image": "/images/dish-88a9608d24a2.webp",
     "isMeat": true,
     "mainIngredients": [
       "血肠",
@@ -13180,7 +13028,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 80,
     "servings": 2,
     "ingredients": [
       {
@@ -13322,7 +13170,7 @@
     "name": "山西过油肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%B1%B1%E8%A5%BF%E8%BF%87%E6%B2%B9%E8%82%89.md",
-    "image": null,
+    "image": "/images/dish-12311f225bc1.webp",
     "isMeat": true,
     "mainIngredients": [
       "猪里脊",
@@ -13336,7 +13184,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -13474,7 +13322,7 @@
     "name": "商芝肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%95%86%E8%8A%9D%E8%82%89.md",
-    "image": null,
+    "image": "/images/dish-cb4748d03c22.webp",
     "isMeat": true,
     "mainIngredients": [
       "带皮猪五花肉",
@@ -13488,7 +13336,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 5,
-    "cookTimeMinutes": 150,
+    "cookTimeMinutes": 180,
     "servings": 2,
     "ingredients": [
       {
@@ -13589,7 +13437,7 @@
       },
       {
         "text": "炒锅内放入熟猪油，用旺火烧至八成熟（约 200 度，油表有大量青烟，油状平静），将肉块皮朝下投入，炸至呈金红色时，捞入凉肉煮锅（之前煮完的煮锅）中泡软，放在案板上，切成三寸(10 cm)长、两分(0.6 cm)厚的片，仍然皮朝下，整齐装入蒸碗内。",
-        "timerSeconds": null
+        "timerSeconds": 120
       },
       {
         "text": "将 5 克大葱切成 2.4 cm 长的段，5 克切成 2.4 cm 长的斜形片。姜去皮洗净，1.5 克切成片，5 克切成末，摊的鸡蛋皮切成 2.4 cm 长的等腰三角形片。",
@@ -13597,7 +13445,7 @@
       },
       {
         "text": "商芝入沸水锅中煮软捞出，去除老茎、杂质，淘洗干净，切成 3 cm 长的段，放入碗中,加酱油（5 克）、精盐（1 克）、熟猪油（10 克）拌匀，盖在肉片上，另将鸡汤（100 克）放入一小碗中，加酱油（5 克）、精盐（0.5 克）、料酒（15 克）搅匀，浇入蒸碗，再放入姜片、葱段、八角上笼用旺火蒸约半小时后，转用小火继续蒸约一小时三十分钟，熟烂后取出，拣去姜、葱、八角，倒、过滤原汁，将肉扣入汤盘。",
-        "timerSeconds": 3600
+        "timerSeconds": 5400
       },
       {
         "text": "炒锅内，放入鸡汤（100 克），加入原汁，用旺火烧沸，下入姜末、葱片、味精后搅匀，投入摊鸡蛋皮，淋芝麻油，浇入汤盘即成。",
@@ -13612,7 +13460,7 @@
     "name": "瘦肉土豆片",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%98%A6%E8%82%89%E5%9C%9F%E8%B1%86%E7%89%87/%E7%98%A6%E8%82%89%E5%9C%9F%E8%B1%86%E7%89%87.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E7%98%A6%E8%82%89%E5%9C%9F%E8%B1%86%E7%89%87/%E7%98%A6%E8%82%89%E5%9C%9F%E8%B1%86%E7%89%87.jpg",
+    "image": "/images/dish-536e6245d34e.webp",
     "isMeat": true,
     "mainIngredients": [
       "纯瘦肉",
@@ -13626,7 +13474,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -13720,7 +13568,7 @@
     "name": "水煮牛肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/sznr1.jpg",
+    "image": "/images/dish-0f1fa883607f.webp",
     "isMeat": true,
     "mainIngredients": [
       "牛肉",
@@ -13734,7 +13582,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -13864,7 +13712,7 @@
     "name": "水煮肉片",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E8%82%89%E7%89%87.md",
-    "image": null,
+    "image": "/images/dish-5ae4f200f4ec.webp",
     "isMeat": true,
     "mainIngredients": [
       "里脊肉的用量为",
@@ -13878,7 +13726,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 5,
-    "cookTimeMinutes": 120,
+    "cookTimeMinutes": 145,
     "servings": 2,
     "ingredients": [
       {
@@ -14098,7 +13946,7 @@
     "name": "蒜苔炒肉末",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%92%9C%E8%8B%94%E7%82%92%E8%82%89%E6%9C%AB.md",
-    "image": null,
+    "image": "/images/dish-28499e879e96.webp",
     "isMeat": true,
     "mainIngredients": [
       "蒜苔",
@@ -14111,7 +13959,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -14203,7 +14051,7 @@
     "name": "台式卤肉饭",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%8F%B0%E5%BC%8F%E5%8D%A4%E8%82%89%E9%A5%AD/%E5%8F%B0%E5%BC%8F%E5%8D%A4%E8%82%89%E9%A5%AD.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E5%8F%B0%E5%BC%8F%E5%8D%A4%E8%82%89%E9%A5%AD/1.jpg",
+    "image": "/images/dish-58435b16a682.webp",
     "isMeat": true,
     "mainIngredients": [
       "红葱头",
@@ -14217,7 +14065,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 90,
+    "cookTimeMinutes": 110,
     "servings": 2,
     "ingredients": [
       {
@@ -14379,7 +14227,7 @@
     "name": "糖醋里脊",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%B3%96%E9%86%8B%E9%87%8C%E8%84%8A.md",
-    "image": null,
+    "image": "/images/dish-447097124d9a.webp",
     "isMeat": true,
     "mainIngredients": [
       "里脊肉",
@@ -14393,7 +14241,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -14507,7 +14355,7 @@
     "name": "糖醋排骨",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8.jpg",
+    "image": "/images/dish-6278e4f4c804.webp",
     "isMeat": true,
     "mainIngredients": [
       "排骨",
@@ -14521,7 +14369,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 45,
+    "cookTimeMinutes": 55,
     "servings": 2,
     "ingredients": [
       {
@@ -14635,7 +14483,7 @@
     "name": "田螺酿",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%94%B0%E8%9E%BA%E9%85%BF/%E7%94%B0%E8%9E%BA%E9%85%BF.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E7%94%B0%E8%9E%BA%E9%85%BF/%E6%88%90%E5%93%81.jpeg",
+    "image": "/images/dish-e29b14f0c0f7.webp",
     "isMeat": true,
     "mainIngredients": [
       "大田螺",
@@ -14649,7 +14497,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 4,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 60,
     "servings": 2,
     "ingredients": [
       {
@@ -14851,7 +14699,7 @@
     "name": "甜辣烤全翅",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%94%9C%E8%BE%A3%E7%83%A4%E5%85%A8%E7%BF%85.md",
-    "image": null,
+    "image": "/images/dish-5533ea15a6b2.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡全翅"
@@ -14863,7 +14711,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 183,
+    "cookTimeMinutes": 80,
     "servings": 2,
     "ingredients": [
       {
@@ -14979,7 +14827,7 @@
     "name": "土豆炖排骨",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%9C%9F%E8%B1%86%E7%82%96%E6%8E%92%E9%AA%A8/%E5%9C%9F%E8%B1%86%E7%82%96%E6%8E%92%E9%AA%A8.md",
-    "image": null,
+    "image": "/images/dish-b4144475fa33.webp",
     "isMeat": true,
     "mainIngredients": [
       "肋排",
@@ -14992,7 +14840,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 90,
+    "cookTimeMinutes": 130,
     "servings": 2,
     "ingredients": [
       {
@@ -15172,7 +15020,7 @@
     "name": "无骨鸡爪",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%97%A0%E9%AA%A8%E9%B8%A1%E7%88%AA/%E6%97%A0%E9%AA%A8%E9%B8%A1%E7%88%AA.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E6%97%A0%E9%AA%A8%E9%B8%A1%E7%88%AA/%E6%97%A0%E9%AA%A8%E9%B8%A1%E7%88%AA.jpg",
+    "image": "/images/dish-861c2ec338fb.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡爪",
@@ -15186,7 +15034,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 5,
-    "cookTimeMinutes": 480,
+    "cookTimeMinutes": 150,
     "servings": 2,
     "ingredients": [
       {
@@ -15367,7 +15215,7 @@
       },
       {
         "text": "放入冰箱一个晚上（6 个小时）",
-        "timerSeconds": null
+        "timerSeconds": 21600
       },
       {
         "text": "调配好后全部放入准备好的鸡爪",
@@ -15382,7 +15230,7 @@
     "name": "西红柿牛腩",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%89%9B%E8%85%A9/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%89%9B%E8%85%A9.md",
-    "image": null,
+    "image": "/images/dish-95722bbda883.webp",
     "isMeat": true,
     "mainIngredients": [
       "番茄",
@@ -15396,7 +15244,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 5,
-    "cookTimeMinutes": 90,
+    "cookTimeMinutes": 110,
     "servings": 2,
     "ingredients": [
       {
@@ -15496,7 +15344,7 @@
     "name": "西红柿土豆炖牛肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89/abaaba_1.png",
+    "image": "/images/dish-a8e9b9bbf287.webp",
     "isMeat": true,
     "mainIngredients": [
       "牛肉",
@@ -15510,7 +15358,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 90,
+    "cookTimeMinutes": 120,
     "servings": 2,
     "ingredients": [
       {
@@ -15684,209 +15532,11 @@
     "homeSubstitute": null
   },
   {
-    "id": "dish-f7deb5460730",
-    "name": "乡村啤酒鸭",
-    "source": "howtocook",
-    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E4%B9%A1%E6%9D%91%E5%95%A4%E9%85%92%E9%B8%AD.md",
-    "image": null,
-    "isMeat": true,
-    "mainIngredients": [
-      "鸭肉",
-      "青椒",
-      "小米辣"
-    ],
-    "proteinType": "duck",
-    "cookMethod": "炒",
-    "flavorTags": [
-      "辣"
-    ],
-    "spicyLevel": 2,
-    "difficulty": 4,
-    "cookTimeMinutes": 60,
-    "servings": 2,
-    "ingredients": [
-      {
-        "name": "鸭肉",
-        "amount": 1000,
-        "unit": "g",
-        "group": "meat"
-      },
-      {
-        "name": "啤酒",
-        "amount": 1000,
-        "unit": "ml",
-        "group": "seasoning"
-      },
-      {
-        "name": "青椒",
-        "amount": 2,
-        "unit": "条",
-        "group": "veg"
-      },
-      {
-        "name": "大蒜",
-        "amount": 4,
-        "unit": "颗",
-        "group": "seasoning"
-      },
-      {
-        "name": "小米辣",
-        "amount": 3,
-        "unit": "颗",
-        "group": "veg"
-      },
-      {
-        "name": "蒜苗",
-        "amount": 2,
-        "unit": "根",
-        "group": "veg"
-      },
-      {
-        "name": "大葱",
-        "amount": 2,
-        "unit": "根",
-        "group": "seasoning"
-      },
-      {
-        "name": "八角",
-        "amount": 3,
-        "unit": "颗",
-        "group": "seasoning"
-      },
-      {
-        "name": "香叶",
-        "amount": 3,
-        "unit": "片",
-        "group": "seasoning"
-      },
-      {
-        "name": "干辣椒",
-        "amount": 6,
-        "unit": "条",
-        "group": "seasoning"
-      },
-      {
-        "name": "红椒",
-        "amount": null,
-        "unit": "适量",
-        "group": "veg"
-      },
-      {
-        "name": "姜",
-        "amount": null,
-        "unit": "适量",
-        "group": "seasoning"
-      },
-      {
-        "name": "小米椒",
-        "amount": null,
-        "unit": "适量",
-        "group": "seasoning"
-      },
-      {
-        "name": "草果",
-        "amount": null,
-        "unit": "适量",
-        "group": "veg"
-      },
-      {
-        "name": "桂皮",
-        "amount": null,
-        "unit": "适量",
-        "group": "seasoning"
-      }
-    ],
-    "steps": [
-      {
-        "text": "鸭肉清洗一遍放进锅中",
-        "timerSeconds": null
-      },
-      {
-        "text": "加清水淹没鸭肉",
-        "timerSeconds": null
-      },
-      {
-        "text": "加 20 ml 料酒",
-        "timerSeconds": null
-      },
-      {
-        "text": "加备用的 1 根 大葱",
-        "timerSeconds": null
-      },
-      {
-        "text": "加生姜 ,拍散的 2 厘米",
-        "timerSeconds": null
-      },
-      {
-        "text": "开火烧滚",
-        "timerSeconds": null
-      },
-      {
-        "text": "捞出浮沫",
-        "timerSeconds": null
-      },
-      {
-        "text": "鸭肉捞出，清水洗干净备用",
-        "timerSeconds": null
-      },
-      {
-        "text": "锅清洗干净烧热，加 60ml 的花生油",
-        "timerSeconds": null
-      },
-      {
-        "text": "油温到 60 度的时候，加一把花椒（ 30 颗）",
-        "timerSeconds": null
-      },
-      {
-        "text": "加鸭肉翻炒 4 分钟",
-        "timerSeconds": 240
-      },
-      {
-        "text": "2 分钟后加入所有的香料",
-        "timerSeconds": 120
-      },
-      {
-        "text": "3 分钟的时候加入所有的料头（生姜，大蒜，小米辣）",
-        "timerSeconds": 180
-      },
-      {
-        "text": "加入 1000 ml 的啤酒",
-        "timerSeconds": null
-      },
-      {
-        "text": "烧鸭肉 30 分钟",
-        "timerSeconds": 1800
-      },
-      {
-        "text": "10 分钟的时候加 盐 （3 克） 生抽( 10 ml ) 老抽( 5 ml)",
-        "timerSeconds": 600
-      },
-      {
-        "text": "20 分钟 加入所有的辅料 （青椒和红椒段）",
-        "timerSeconds": 1200
-      },
-      {
-        "text": "29 分钟加入 蒜苗段 和 大葱段",
-        "timerSeconds": 1740
-      },
-      {
-        "text": "翻炒 1 分钟",
-        "timerSeconds": 60
-      },
-      {
-        "text": "出锅",
-        "timerSeconds": null
-      }
-    ],
-    "tips": "- 操作时，需要注意观察沸腾的水位线，如发现低于 2/3 的食材应加热水或者加啤酒。\n\n- 厨师长：用土灶烧“乡村啤酒鸭”，味道安逸得不摆了",
-    "homeSubstitute": null
-  },
-  {
     "id": "dish-a5b1e37ad84b",
     "name": "香干芹菜炒肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%A6%99%E5%B9%B2%E8%8A%B9%E8%8F%9C%E7%82%92%E8%82%89/%E9%A6%99%E5%B9%B2%E8%8A%B9%E8%8F%9C%E7%82%92%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E9%A6%99%E5%B9%B2%E8%8A%B9%E8%8F%9C%E7%82%92%E8%82%89/%E9%A6%99%E5%B9%B2%E8%8A%B9%E8%8F%9C%E7%82%92%E8%82%89.jpg",
+    "image": "/images/dish-a5b1e37ad84b.webp",
     "isMeat": true,
     "mainIngredients": [
       "豆干",
@@ -15900,7 +15550,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -16024,7 +15674,7 @@
     "name": "香菇滑鸡",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%A6%99%E8%8F%87%E6%BB%91%E9%B8%A1/%E9%A6%99%E8%8F%87%E6%BB%91%E9%B8%A1.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E9%A6%99%E8%8F%87%E6%BB%91%E9%B8%A1/%E9%A6%99%E8%8F%87%E6%BB%91%E9%B8%A1.jpg",
+    "image": "/images/dish-ec37c5b55597.webp",
     "isMeat": true,
     "mainIngredients": [
       "大鸡腿",
@@ -16038,7 +15688,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -16129,7 +15779,7 @@
       },
       {
         "text": "泡发的香菇一分为四，香菇水留着备用",
-        "timerSeconds": null
+        "timerSeconds": 60
       },
       {
         "text": "鸡腿肉焯水 1 分钟，去除血沫和杂质",
@@ -16164,7 +15814,7 @@
     "name": "香煎五花肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%A6%99%E7%85%8E%E4%BA%94%E8%8A%B1%E8%82%89/%E9%A6%99%E7%85%8E%E4%BA%94%E8%8A%B1%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E9%A6%99%E7%85%8E%E4%BA%94%E8%8A%B1%E8%82%89/%E9%A6%99%E7%85%8E%E4%BA%94%E8%8A%B1%E8%82%89.jpg",
+    "image": "/images/dish-9858b2916716.webp",
     "isMeat": true,
     "mainIngredients": [
       "五花肉条",
@@ -16178,7 +15828,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 1,
     "ingredients": [
       {
@@ -16270,7 +15920,7 @@
     "name": "香辣鸡爪煲",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%A6%99%E8%BE%A3%E9%B8%A1%E7%88%AA%E7%85%B2/%E9%A6%99%E8%BE%A3%E9%B8%A1%E7%88%AA%E7%85%B2.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E9%A6%99%E8%BE%A3%E9%B8%A1%E7%88%AA%E7%85%B2/result2.jpg",
+    "image": "/images/dish-4a917541ec8d.webp",
     "isMeat": true,
     "mainIngredients": [
       "姜末",
@@ -16283,7 +15933,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 4,
-    "cookTimeMinutes": 45,
+    "cookTimeMinutes": 55,
     "servings": 2,
     "ingredients": [
       {
@@ -16388,7 +16038,7 @@
       },
       {
         "text": "加入香叶、八角、生抽、老抽，盖盖小火慢煮三十分钟。",
-        "timerSeconds": 600
+        "timerSeconds": 1800
       },
       {
         "text": "捞出鸡爪，留一碗鸡汤备用。",
@@ -16400,7 +16050,7 @@
       },
       {
         "text": "放入鸡爪，放一点盐调味，翻炒一两分钟，再倒入鸡汤，边炒边搅动。",
-        "timerSeconds": null
+        "timerSeconds": 120
       },
       {
         "text": "放入鸡精提鲜，撒入葱段搅拌均匀即可出锅。 注：如果需要加入配菜，请在放入鸡爪之前，底料炒香之后执行。",
@@ -16415,7 +16065,7 @@
     "name": "湘祁米夫鸭",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%B9%98%E7%A5%81%E7%B1%B3%E5%A4%AB%E9%B8%AD/%E6%B9%98%E7%A5%81%E7%B1%B3%E5%A4%AB%E9%B8%AD.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E6%B9%98%E7%A5%81%E7%B1%B3%E5%A4%AB%E9%B8%AD/%E6%B9%98%E7%A5%81%E7%B1%B3%E5%A4%AB%E9%B8%AD.jpg",
+    "image": "/images/dish-2adc4b98a4a7.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸭子",
@@ -16429,7 +16079,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -16537,7 +16187,7 @@
     "name": "小炒黄牛肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%B0%8F%E7%82%92%E9%BB%84%E7%89%9B%E8%82%89/%E5%B0%8F%E7%82%92%E9%BB%84%E7%89%9B%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E5%B0%8F%E7%82%92%E9%BB%84%E7%89%9B%E8%82%89%EF%BC%88%E9%9D%92%E8%92%9C%E6%AE%B5%E7%89%88%EF%BC%89.png",
+    "image": "/images/dish-d1ec1ae99e15.webp",
     "isMeat": true,
     "mainIngredients": [
       "牛里脊",
@@ -16551,7 +16201,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -16643,7 +16293,7 @@
     "name": "小炒鸡肝",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%B0%8F%E7%82%92%E9%B8%A1%E8%82%9D/%E5%B0%8F%E7%82%92%E9%B8%A1%E8%82%9D.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E5%B0%8F%E7%82%92%E9%B8%A1%E8%82%9D/%E6%88%90%E5%93%81.jpg",
+    "image": "/images/dish-88a9c10768cd.webp",
     "isMeat": true,
     "mainIngredients": [
       "生鸡肝",
@@ -16657,7 +16307,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -16831,7 +16481,7 @@
     "name": "小炒肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%B0%8F%E7%82%92%E8%82%89.md",
-    "image": null,
+    "image": "/images/dish-fdca766bb4a0.webp",
     "isMeat": true,
     "mainIngredients": [
       "五花肉",
@@ -16845,7 +16495,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -16969,7 +16619,7 @@
     "name": "小米辣炒肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%B0%8F%E7%B1%B3%E8%BE%A3%E7%82%92%E8%82%89.md",
-    "image": null,
+    "image": "/images/dish-3c3ebe2eadb2.webp",
     "isMeat": true,
     "mainIngredients": [
       "五花肉/瘦肉",
@@ -16983,7 +16633,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 25,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -17085,7 +16735,7 @@
     "name": "小酥肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%B0%8F%E9%85%A5%E8%82%89.md",
-    "image": null,
+    "image": "/images/dish-87893dd05358.webp",
     "isMeat": true,
     "mainIngredients": [
       "猪肉",
@@ -17099,7 +16749,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 110,
     "servings": 2,
     "ingredients": [
       {
@@ -17279,7 +16929,7 @@
     "name": "新疆大盘鸡",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%96%B0%E7%96%86%E5%A4%A7%E7%9B%98%E9%B8%A1/%E6%96%B0%E7%96%86%E5%A4%A7%E7%9B%98%E9%B8%A1.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E6%96%B0%E7%96%86%E5%A4%A7%E7%9B%98%E9%B8%A1/%E5%A4%A7%E7%9B%98%E9%B8%A1.jpeg",
+    "image": "/images/dish-52b51631256e.webp",
     "isMeat": true,
     "mainIngredients": [
       "两个火枪腿的鸡肉",
@@ -17293,7 +16943,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 75,
     "servings": 2,
     "ingredients": [
       {
@@ -17423,7 +17073,7 @@
     "name": "血浆鸭",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%A1%80%E6%B5%86%E9%B8%AD/%E8%A1%80%E6%B5%86%E9%B8%AD.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E8%A1%80%E6%B5%86%E9%B8%AD/%E8%A1%80%E6%B5%86%E9%B8%AD(%E7%89%B9%E8%BE%A3",
+    "image": "/images/dish-83f2963bdecf.webp",
     "isMeat": true,
     "mainIngredients": [
       "鲜仔鸭肉",
@@ -17437,7 +17087,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 5,
-    "cookTimeMinutes": 120,
+    "cookTimeMinutes": 145,
     "servings": 2,
     "ingredients": [
       {
@@ -17563,7 +17213,7 @@
     "name": "羊排焖面",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%BE%8A%E6%8E%92%E7%84%96%E9%9D%A2/%E7%BE%8A%E6%8E%92%E7%84%96%E9%9D%A2.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E7%BE%8A%E6%8E%92%E7%84%96%E9%9D%A2/%E7%BE%8A%E6%8E%92%E7%84%96%E9%9D%A2.jpg",
+    "image": "/images/dish-0b14d3c784d7.webp",
     "isMeat": true,
     "mainIngredients": [
       "带皮羊排",
@@ -17577,7 +17227,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 4,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 110,
     "servings": 2,
     "ingredients": [
       {
@@ -17685,7 +17335,7 @@
     "name": "洋葱炒猪肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%B4%8B%E8%91%B1%E7%82%92%E7%8C%AA%E8%82%89.md",
-    "image": null,
+    "image": "/images/dish-16cc00dd784b.webp",
     "isMeat": true,
     "mainIngredients": [
       "猪肉",
@@ -17698,7 +17348,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -17802,7 +17452,7 @@
     "name": "意式烤鸡",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%84%8F%E5%BC%8F%E7%83%A4%E9%B8%A1.md",
-    "image": null,
+    "image": "/images/dish-5d05cf2d8ef4.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡腿肉用量通常来说为",
@@ -17816,7 +17466,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 65,
     "servings": 2,
     "ingredients": [
       {
@@ -17896,7 +17546,7 @@
     "name": "鱼香茄子",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%B1%BC%E9%A6%99%E8%8C%84%E5%AD%90/%E9%B1%BC%E9%A6%99%E8%8C%84%E5%AD%90.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E9%B1%BC%E9%A6%99%E8%8C%84%E5%AD%90/yxqz1.jpg",
+    "image": "/images/dish-335fe4e71281.webp",
     "isMeat": true,
     "mainIngredients": [
       "茄子",
@@ -17909,7 +17559,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 1,
     "ingredients": [
       {
@@ -17994,7 +17644,7 @@
       },
       {
         "text": "锅中倒入 300ml 油，开小火（小火容易掌控），等油温七成热（小火大约 40 秒，有烟冒出）放入茄子炸两分钟，当茄子边缘微黄就捞出。多出的油可以盛出以后炒菜用。",
-        "timerSeconds": 40
+        "timerSeconds": 120
       },
       {
         "text": "锅中留 15-30ml 油，倒入肉沫炒至颜色变白就盛出来。",
@@ -18017,7 +17667,7 @@
     "name": "鱼香肉丝",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%B1%BC%E9%A6%99%E8%82%89%E4%B8%9D.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%B1%BC%E9%A6%99%E8%82%89%E4%B8%9D.png",
+    "image": "/images/dish-7e6f0c60d2d9.webp",
     "isMeat": true,
     "mainIngredients": [
       "里脊肉",
@@ -18031,7 +17681,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 4,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 55,
     "servings": 2,
     "ingredients": [
       {
@@ -18184,7 +17834,7 @@
       },
       {
         "text": "干木耳泡 4 个小时，洗净，切成小块。",
-        "timerSeconds": null
+        "timerSeconds": 14400
       },
       {
         "text": "青椒洗净，去蒂，切成丝。",
@@ -18243,7 +17893,7 @@
     "name": "枝竹羊腩煲",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%9E%9D%E7%AB%B9%E7%BE%8A%E8%85%A9%E7%85%B2/%E6%9E%9D%E7%AB%B9%E7%BE%8A%E8%85%A9%E7%85%B2.md",
-    "image": null,
+    "image": "/images/dish-276cb4e55c1b.webp",
     "isMeat": true,
     "mainIngredients": [
       "羊腩",
@@ -18257,7 +17907,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 5,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 165,
     "servings": 2,
     "ingredients": [
       {
@@ -18475,7 +18125,7 @@
     "name": "猪皮冻",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%8C%AA%E7%9A%AE%E5%86%BB/%E7%8C%AA%E7%9A%AE%E5%86%BB.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E7%8C%AA%E7%9A%AE%E5%86%BB/%E7%8C%AA%E7%9A%AE%E5%86%BB.jpg",
+    "image": "/images/dish-74c3e5ca3c1d.webp",
     "isMeat": true,
     "mainIngredients": [
       "主料",
@@ -18489,7 +18139,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 1440,
+    "cookTimeMinutes": 160,
     "servings": 2,
     "ingredients": [
       {
@@ -18593,7 +18243,7 @@
     "name": "猪肉烩酸菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%8C%AA%E8%82%89%E7%83%A9%E9%85%B8%E8%8F%9C.md",
-    "image": null,
+    "image": "/images/dish-5a5f860bfe9c.webp",
     "isMeat": true,
     "mainIngredients": [
       "猪排骨或者五花肉",
@@ -18607,7 +18257,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 5,
-    "cookTimeMinutes": 180,
+    "cookTimeMinutes": 220,
     "servings": 2,
     "ingredients": [
       {
@@ -18739,7 +18389,7 @@
     "name": "柱候牛腩",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%9F%B1%E5%80%99%E7%89%9B%E8%85%A9/%E6%9F%B1%E5%80%99%E7%89%9B%E8%85%A9.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E6%9F%B1%E5%80%99%E7%89%9B%E8%85%A9/%E6%9F%B1%E5%80%99%E7%89%9B%E8%85%A9.jpeg",
+    "image": "/images/dish-ee51d3cdce26.webp",
     "isMeat": true,
     "mainIngredients": [
       "牛腩",
@@ -18753,7 +18403,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 4,
-    "cookTimeMinutes": 180,
+    "cookTimeMinutes": 240,
     "servings": 2,
     "ingredients": [
       {
@@ -18954,7 +18604,7 @@
       },
       {
         "text": "a. 普通炖煮锅：小火炖煮 3 个小时",
-        "timerSeconds": null
+        "timerSeconds": 10800
       },
       {
         "text": "b. 高压锅：压 40 分钟",
@@ -18989,7 +18639,7 @@
     "name": "孜然牛肉",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%AD%9C%E7%84%B6%E7%89%9B%E8%82%89.md",
-    "image": null,
+    "image": "/images/dish-9043d01603b6.webp",
     "isMeat": true,
     "mainIngredients": [
       "牛肉用量为",
@@ -19003,7 +18653,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 45,
+    "cookTimeMinutes": 55,
     "servings": 2,
     "ingredients": [
       {
@@ -19115,7 +18765,7 @@
     "name": "淄博烧烤",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%B7%84%E5%8D%9A%E7%83%A7%E7%83%A4/%E6%B7%84%E5%8D%9A%E7%83%A7%E7%83%A4.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E6%B7%84%E5%8D%9A%E7%83%A7%E7%83%A4/%E6%B7%84%E5%8D%9A%E7%83%A7%E7%83%A4.jpg",
+    "image": "/images/dish-ee3fd3ed08a5.webp",
     "isMeat": true,
     "mainIngredients": [
       "猪五花肉",
@@ -19129,7 +18779,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -19217,7 +18867,7 @@
     "name": "醉排骨",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%86%89%E6%8E%92%E9%AA%A8/%E9%86%89%E6%8E%92%E9%AA%A8.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/meat_dish/%E9%86%89%E6%8E%92%E9%AA%A8/1.jpeg",
+    "image": "/images/dish-473daabe1e6c.webp",
     "isMeat": true,
     "mainIngredients": [
       "排骨",
@@ -19231,7 +18881,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 4,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -19339,7 +18989,7 @@
     "name": "拔丝土豆",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%8B%94%E4%B8%9D%E5%9C%9F%E8%B1%86/%E6%8B%94%E4%B8%9D%E5%9C%9F%E8%B1%86.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E6%8B%94%E4%B8%9D%E5%9C%9F%E8%B1%86/1.jpeg",
+    "image": "/images/dish-aa3241c160a3.webp",
     "isMeat": false,
     "mainIngredients": [
       "土豆",
@@ -19352,7 +19002,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -19426,7 +19076,7 @@
     "name": "白灼菜心",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%99%BD%E7%81%BC%E8%8F%9C%E5%BF%83/%E7%99%BD%E7%81%BC%E8%8F%9C%E5%BF%83.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E7%99%BD%E7%81%BC%E8%8F%9C%E5%BF%83/%E7%99%BD%E7%81%BC%E8%8F%9C%E5%BF%83.jpg",
+    "image": "/images/dish-8fbb82d41231.webp",
     "isMeat": false,
     "mainIngredients": [
       "新鲜菜心",
@@ -19439,7 +19089,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -19535,7 +19185,7 @@
     "name": "包菜炒鸡蛋粉丝",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%8C%85%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B%E7%B2%89%E4%B8%9D/%E5%8C%85%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B%E7%B2%89%E4%B8%9D.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E5%8C%85%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B%E7%B2%89%E4%B8%9D/1.jpg",
+    "image": "/images/dish-654810c131b9.webp",
     "isMeat": false,
     "mainIngredients": [
       "鸡蛋",
@@ -19549,7 +19199,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 60,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -19673,7 +19323,7 @@
     "name": "菠菜炒鸡蛋",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%8F%A0%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B/%E8%8F%A0%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E8%8F%A0%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B/%E8%8F%A0%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+    "image": "/images/dish-17ef9ac3e39d.webp",
     "isMeat": false,
     "mainIngredients": [
       "菠菜",
@@ -19686,7 +19336,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -19768,7 +19418,7 @@
     "name": "炒滑蛋",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%82%92%E6%BB%91%E8%9B%8B/%E7%82%92%E6%BB%91%E8%9B%8B.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E7%82%92%E6%BB%91%E8%9B%8B/%E7%82%92%E6%BB%91%E8%9B%8B.jpg",
+    "image": "/images/dish-036bbd7e8b1d.webp",
     "isMeat": false,
     "mainIngredients": [
       "鸡蛋",
@@ -19781,7 +19431,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 1,
-    "cookTimeMinutes": 5,
+    "cookTimeMinutes": 10,
     "servings": 2,
     "ingredients": [
       {
@@ -19833,7 +19483,7 @@
     "name": "炒土豆和胡萝卜蒸菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%82%92%E5%9C%9F%E8%B1%86%E5%92%8C%E8%83%A1%E8%90%9D%E5%8D%9C%E8%92%B8%E8%8F%9C.md",
-    "image": null,
+    "image": "/images/dish-a4714e6e12f5.webp",
     "isMeat": false,
     "mainIngredients": [
       "土豆",
@@ -19847,7 +19497,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 1,
-    "cookTimeMinutes": 20,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -19945,7 +19595,7 @@
     "name": "脆皮豆腐",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%84%86%E7%9A%AE%E8%B1%86%E8%85%90.md",
-    "image": null,
+    "image": "/images/dish-b16b22dee990.webp",
     "isMeat": false,
     "mainIngredients": [
       "老豆腐",
@@ -19958,7 +19608,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -20058,7 +19708,7 @@
     "name": "地三鲜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%9C%B0%E4%B8%89%E9%B2%9C/%E5%9C%B0%E4%B8%89%E9%B2%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E5%9C%B0%E4%B8%89%E9%B2%9C/%E5%9C%B0%E4%B8%89%E9%B2%9C.jpg",
+    "image": "/images/dish-2ebaec2562eb.webp",
     "isMeat": false,
     "mainIngredients": [
       "茄子",
@@ -20072,7 +19722,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -20236,7 +19886,7 @@
     "name": "干锅花菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C.jpg",
+    "image": "/images/dish-a524ac2cd293.webp",
     "isMeat": true,
     "mainIngredients": [
       "花菜",
@@ -20249,7 +19899,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -20347,7 +19997,7 @@
     "name": "蚝油三鲜菇",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%9A%9D%E6%B2%B9%E4%B8%89%E9%B2%9C%E8%8F%87/%E8%9A%9D%E6%B2%B9%E4%B8%89%E9%B2%9C%E8%8F%87.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E8%9A%9D%E6%B2%B9%E4%B8%89%E9%B2%9C%E8%8F%87/1.jpeg",
+    "image": "/images/dish-d30de0405e48.webp",
     "isMeat": false,
     "mainIngredients": [
       "蟹味菇",
@@ -20361,7 +20011,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -20511,7 +20161,7 @@
     "name": "蚝油生菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%9A%9D%E6%B2%B9%E7%94%9F%E8%8F%9C.md",
-    "image": null,
+    "image": "/images/dish-19e72a1ce0e1.webp",
     "isMeat": false,
     "mainIngredients": [
       "生菜"
@@ -20523,7 +20173,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -20617,7 +20267,7 @@
     "name": "红烧冬瓜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C/%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C/1.jpeg",
+    "image": "/images/dish-6b2f7287871f.webp",
     "isMeat": false,
     "mainIngredients": [
       "冬瓜",
@@ -20630,7 +20280,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 25,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -20736,7 +20386,7 @@
     "name": "虎皮青椒",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92.jpg",
+    "image": "/images/dish-c6d120c60078.webp",
     "isMeat": false,
     "mainIngredients": [
       "青椒"
@@ -20748,7 +20398,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -20840,7 +20490,7 @@
     "name": "话梅煮毛豆",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%AF%9D%E6%A2%85%E7%85%AE%E6%AF%9B%E8%B1%86/%E8%AF%9D%E6%A2%85%E7%85%AE%E6%AF%9B%E8%B1%86.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E8%AF%9D%E6%A2%85%E7%85%AE%E6%AF%9B%E8%B1%86/1.jpeg",
+    "image": "/images/dish-075083422a21.webp",
     "isMeat": false,
     "mainIngredients": [
       "毛豆",
@@ -20853,7 +20503,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 45,
+    "cookTimeMinutes": 70,
     "servings": 2,
     "ingredients": [
       {
@@ -20897,7 +20547,7 @@
     "name": "鸡蛋羹",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E9%B8%A1%E8%9B%8B%E7%BE%B9/%E9%B8%A1%E8%9B%8B%E7%BE%B9.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E9%B8%A1%E8%9B%8B%E7%BE%B9/%E9%B8%A1%E8%9B%8B%E7%BE%B9.jpg",
+    "image": "/images/dish-9492795d23a2.webp",
     "isMeat": false,
     "mainIngredients": [
       "鸡蛋",
@@ -20910,7 +20560,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -21038,125 +20688,11 @@
     "homeSubstitute": null
   },
   {
-    "id": "dish-e7adc18ec8d7",
-    "name": "蒸箱鸡蛋羹",
-    "source": "howtocook",
-    "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E9%B8%A1%E8%9B%8B%E7%BE%B9/%E8%92%B8%E7%AE%B1%E9%B8%A1%E8%9B%8B%E7%BE%B9.md",
-    "image": null,
-    "isMeat": false,
-    "mainIngredients": [
-      "鸡蛋",
-      "生抽/味极鲜",
-      "蒸箱"
-    ],
-    "proteinType": "egg",
-    "cookMethod": "蒸",
-    "flavorTags": [
-      "清淡"
-    ],
-    "spicyLevel": 0,
-    "difficulty": 3,
-    "cookTimeMinutes": 15,
-    "servings": 2,
-    "ingredients": [
-      {
-        "name": "鸡蛋",
-        "amount": 1,
-        "unit": "个",
-        "group": "meat"
-      },
-      {
-        "name": "食用盐",
-        "amount": 1,
-        "unit": "g",
-        "group": "pantry"
-      },
-      {
-        "name": "食用油",
-        "amount": 5,
-        "unit": "ml",
-        "group": "pantry"
-      },
-      {
-        "name": "生抽/味极鲜",
-        "amount": 6,
-        "unit": "ml",
-        "group": "veg"
-      },
-      {
-        "name": "蒸箱",
-        "amount": null,
-        "unit": "适量",
-        "group": "veg"
-      }
-    ],
-    "steps": [
-      {
-        "text": "一个鸡蛋放入碗中打散",
-        "timerSeconds": null
-      },
-      {
-        "text": "向碗中加入鸡蛋体积 1.0-1.5 倍 60 度纯净水，并且搅拌均匀",
-        "timerSeconds": null
-      },
-      {
-        "text": "正确范围内水越少弹，水越多越嫩",
-        "timerSeconds": null
-      },
-      {
-        "text": "注意：超出范围后，水越少会口感变得太弹，水越多会变得太稀",
-        "timerSeconds": null
-      },
-      {
-        "text": "加入食用盐 1g",
-        "timerSeconds": null
-      },
-      {
-        "text": "盐起到了重要的增加底味和凝固作用",
-        "timerSeconds": null
-      },
-      {
-        "text": "加入食用油 5ml",
-        "timerSeconds": null
-      },
-      {
-        "text": "过滤蛋液，去掉蛋液中的浮沫（可选，不过滤蒸出来的蛋会有气泡导致不好看）",
-        "timerSeconds": null
-      },
-      {
-        "text": "确认蒸箱的水源已经补充至足够（若不确定，可把水槽补满）",
-        "timerSeconds": null
-      },
-      {
-        "text": "将已经完全搅拌均匀的鸡蛋液碗放入蒸箱",
-        "timerSeconds": null
-      },
-      {
-        "text": "调节至100摄氏度蒸 10 分钟",
-        "timerSeconds": 600
-      },
-      {
-        "text": "打开蒸箱 （注意：蒸箱在开启时会有蒸气瞬间喷出，注意缓慢开启）",
-        "timerSeconds": null
-      },
-      {
-        "text": "出锅（可加入生抽调味）",
-        "timerSeconds": null
-      },
-      {
-        "text": "享用",
-        "timerSeconds": null
-      }
-    ],
-    "tips": "",
-    "homeSubstitute": null
-  },
-  {
     "id": "dish-c6bc911a286b",
     "name": "鸡蛋花",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E9%B8%A1%E8%9B%8B%E8%8A%B1/%E9%B8%A1%E8%9B%8B%E8%8A%B1.md",
-    "image": null,
+    "image": "/images/dish-c6bc911a286b.webp",
     "isMeat": false,
     "mainIngredients": [
       "鸡蛋",
@@ -21170,7 +20706,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 1,
-    "cookTimeMinutes": 5,
+    "cookTimeMinutes": 10,
     "servings": 1,
     "ingredients": [
       {
@@ -21238,7 +20774,7 @@
     "name": "鸡蛋火腿炒黄瓜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E9%B8%A1%E8%9B%8B%E7%81%AB%E8%85%BF%E7%82%92%E9%BB%84%E7%93%9C.md",
-    "image": null,
+    "image": "/images/dish-9c0a468f715e.webp",
     "isMeat": true,
     "mainIngredients": [
       "黄瓜",
@@ -21252,7 +20788,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 20,
     "servings": 1,
     "ingredients": [
       {
@@ -21344,7 +20880,7 @@
     "name": "家常日本豆腐",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%AE%B6%E5%B8%B8%E6%97%A5%E6%9C%AC%E8%B1%86%E8%85%90.md",
-    "image": null,
+    "image": "/images/dish-f61e31ce36ed.webp",
     "isMeat": true,
     "mainIngredients": [
       "日本豆腐",
@@ -21358,7 +20894,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -21498,7 +21034,7 @@
     "name": "椒盐玉米",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%A4%92%E7%9B%90%E7%8E%89%E7%B1%B3/%E6%A4%92%E7%9B%90%E7%8E%89%E7%B1%B3.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E6%A4%92%E7%9B%90%E7%8E%89%E7%B1%B3/%E6%A4%92%E7%9B%90%E7%8E%89%E7%B1%B3.jpeg",
+    "image": "/images/dish-4f8d89bee641.webp",
     "isMeat": false,
     "mainIngredients": [
       "玉米粒",
@@ -21512,7 +21048,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -21618,7 +21154,7 @@
     "name": "金钱蛋",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E9%87%91%E9%92%B1%E8%9B%8B.md",
-    "image": null,
+    "image": "/images/dish-19343eb19cb8.webp",
     "isMeat": false,
     "mainIngredients": [
       "鸡蛋",
@@ -21632,7 +21168,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -21752,7 +21288,7 @@
     "name": "金针菇日本豆腐煲",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E9%87%91%E9%92%88%E8%8F%87%E6%97%A5%E6%9C%AC%E8%B1%86%E8%85%90%E7%85%B2.md",
-    "image": null,
+    "image": "/images/dish-e41d828883bb.webp",
     "isMeat": false,
     "mainIngredients": [
       "金针菇",
@@ -21766,7 +21302,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -21852,7 +21388,7 @@
     "name": "烤茄子",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%83%A4%E8%8C%84%E5%AD%90/%E7%83%A4%E8%8C%84%E5%AD%90.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E7%83%A4%E8%8C%84%E5%AD%90/%E7%83%A4%E8%8C%84%E5%AD%90.jpg",
+    "image": "/images/dish-283156efe836.webp",
     "isMeat": false,
     "mainIngredients": [
       "茄子",
@@ -21866,7 +21402,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 45,
     "servings": 2,
     "ingredients": [
       {
@@ -21972,7 +21508,7 @@
     "name": "榄菜肉末四季豆",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%A6%84%E8%8F%9C%E8%82%89%E6%9C%AB%E5%9B%9B%E5%AD%A3%E8%B1%86/%E6%A6%84%E8%8F%9C%E8%82%89%E6%9C%AB%E5%9B%9B%E5%AD%A3%E8%B1%86.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E6%A6%84%E8%8F%9C%E8%82%89%E6%9C%AB%E5%9B%9B%E5%AD%A3%E8%B1%86/%E6%A6%84%E8%8F%9C%E8%82%89%E6%9C%AB%E5%9B%9B%E5%AD%A3%E8%B1%86.JPG",
+    "image": "/images/dish-5b904656de5e.webp",
     "isMeat": true,
     "mainIngredients": [
       "四季豆",
@@ -21986,7 +21522,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -22049,7 +21585,7 @@
       },
       {
         "text": "如果家里没有晾油瓶的话，也可以不用滑锅，放入油之后，直接加入肉末开始煸炒，小火煸炒两分钟，炒出猪油。",
-        "timerSeconds": null
+        "timerSeconds": 120
       },
       {
         "text": "肉末炒香之后加入蒜末，橄榄菜和小米辣，炒出香味。",
@@ -22080,7 +21616,7 @@
     "name": "雷椒皮蛋",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E9%9B%B7%E6%A4%92%E7%9A%AE%E8%9B%8B.md",
-    "image": null,
+    "image": "/images/dish-7ad95753e2ee.webp",
     "isMeat": false,
     "mainIngredients": [
       "皮蛋",
@@ -22094,7 +21630,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -22220,7 +21756,7 @@
     "name": "凉拌豆腐",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E8%B1%86%E8%85%90.md",
-    "image": null,
+    "image": "/images/dish-712a971fa8e3.webp",
     "isMeat": false,
     "mainIngredients": [
       "豆腐"
@@ -22232,7 +21768,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 2,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 20,
     "servings": 1,
     "ingredients": [
       {
@@ -22352,7 +21888,7 @@
     "name": "凉拌金针菇",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E9%87%91%E9%92%88%E8%8F%87.md",
-    "image": null,
+    "image": "/images/dish-bf75c52063f0.webp",
     "isMeat": false,
     "mainIngredients": [
       "金针菇"
@@ -22364,7 +21900,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 2,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 20,
     "servings": 1,
     "ingredients": [
       {
@@ -22484,7 +22020,7 @@
     "name": "凉拌木耳",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E6%9C%A8%E8%80%B3/%E5%87%89%E6%8B%8C%E6%9C%A8%E8%80%B3.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E6%9C%A8%E8%80%B3/1.jpg",
+    "image": "/images/dish-824d32829edb.webp",
     "isMeat": false,
     "mainIngredients": [
       "干木耳",
@@ -22498,7 +22034,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 2,
-    "cookTimeMinutes": 57,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -22590,7 +22126,7 @@
     "name": "凉拌莴笋",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E8%8E%B4%E7%AC%8B/%E5%87%89%E6%8B%8C%E8%8E%B4%E7%AC%8B.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E5%87%89%E6%8B%8C%E8%8E%B4%E7%AC%8B/1.jpeg",
+    "image": "/images/dish-4068106ca5ad.webp",
     "isMeat": false,
     "mainIngredients": [
       "莴笋",
@@ -22604,7 +22140,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 2,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -22680,7 +22216,7 @@
     "name": "皮蛋豆腐",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%9A%AE%E8%9B%8B%E8%B1%86%E8%85%90.md",
-    "image": null,
+    "image": "/images/dish-a5c463be5bbc.webp",
     "isMeat": false,
     "mainIngredients": [
       "皮蛋",
@@ -22694,7 +22230,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 1,
-    "cookTimeMinutes": 5,
+    "cookTimeMinutes": 10,
     "servings": 1,
     "ingredients": [
       {
@@ -22784,7 +22320,7 @@
     "name": "蒲烧茄子",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%92%B2%E7%83%A7%E8%8C%84%E5%AD%90.md",
-    "image": null,
+    "image": "/images/dish-b6df17f4fb25.webp",
     "isMeat": false,
     "mainIngredients": [
       "茄子",
@@ -22798,7 +22334,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -22896,7 +22432,7 @@
     "name": "乾隆白菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E4%B9%BE%E9%9A%86%E7%99%BD%E8%8F%9C/%E4%B9%BE%E9%9A%86%E7%99%BD%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E4%B9%BE%E9%9A%86%E7%99%BD%E8%8F%9C/%E4%B9%BE%E9%9A%86%E7%99%BD%E8%8F%9C.jpg",
+    "image": "/images/dish-e9412f79e65a.webp",
     "isMeat": false,
     "mainIngredients": [
       "大白菜嫩叶",
@@ -22909,7 +22445,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -22989,7 +22525,7 @@
     "name": "芹菜拌茶树菇",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%8A%B9%E8%8F%9C%E6%8B%8C%E8%8C%B6%E6%A0%91%E8%8F%87/%E8%8A%B9%E8%8F%9C%E6%8B%8C%E8%8C%B6%E6%A0%91%E8%8F%87.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E8%8A%B9%E8%8F%9C%E6%8B%8C%E8%8C%B6%E6%A0%91%E8%8F%87/%E8%8A%B9%E8%8F%9C%E6%8B%8C%E8%8C%B6%E6%A0%91%E8%8F%87.jpg",
+    "image": "/images/dish-56d348d33b1f.webp",
     "isMeat": false,
     "mainIngredients": [
       "闽星茶树菇",
@@ -23003,7 +22539,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -23093,7 +22629,7 @@
     "name": "清炒花菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%B8%85%E7%82%92%E8%8A%B1%E8%8F%9C.md",
-    "image": null,
+    "image": "/images/dish-a6ca987f0c7d.webp",
     "isMeat": false,
     "mainIngredients": [
       "花菜"
@@ -23105,7 +22641,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -23193,7 +22729,7 @@
     "name": "清蒸南瓜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%B8%85%E8%92%B8%E5%8D%97%E7%93%9C.md",
-    "image": null,
+    "image": "/images/dish-5e98a61bbf97.webp",
     "isMeat": false,
     "mainIngredients": [
       "南瓜"
@@ -23205,7 +22741,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 1,
-    "cookTimeMinutes": 20,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -23259,7 +22795,7 @@
     "name": "陕北熬豆角",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E9%99%95%E5%8C%97%E7%86%AC%E8%B1%86%E8%A7%92.md",
-    "image": null,
+    "image": "/images/dish-57216e517d6f.webp",
     "isMeat": false,
     "mainIngredients": [
       "豆角",
@@ -23273,7 +22809,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 2,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -23397,7 +22933,7 @@
     "name": "上汤娃娃菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.png",
+    "image": "/images/dish-6c3c664e4159.webp",
     "isMeat": false,
     "mainIngredients": [
       "娃娃菜",
@@ -23411,7 +22947,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 20,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -23535,7 +23071,7 @@
     "name": "手撕包菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C/%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E6%89%8B%E6%92%95%E5%8C%85%E8%8F%9C/1.jpeg",
+    "image": "/images/dish-2191a08ce88b.webp",
     "isMeat": true,
     "mainIngredients": [
       "包菜",
@@ -23549,7 +23085,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 20,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -23667,7 +23203,7 @@
     "name": "水油焖蔬菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%B0%B4%E6%B2%B9%E7%84%96%E8%94%AC%E8%8F%9C.md",
-    "image": null,
+    "image": "/images/dish-b4f2f53b27ff.webp",
     "isMeat": false,
     "mainIngredients": [
       "叶菜类蔬菜"
@@ -23679,7 +23215,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -23745,7 +23281,7 @@
     "name": "松仁玉米",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%9D%BE%E4%BB%81%E7%8E%89%E7%B1%B3.md",
-    "image": null,
+    "image": "/images/dish-dfe5a882445f.webp",
     "isMeat": false,
     "mainIngredients": [
       "玉米粒",
@@ -23759,7 +23295,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 5,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -23845,7 +23381,7 @@
     "name": "素炒豆角",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%B4%A0%E7%82%92%E8%B1%86%E8%A7%92.md",
-    "image": null,
+    "image": "/images/dish-5ddc266f40fc.webp",
     "isMeat": false,
     "mainIngredients": [
       "豆角",
@@ -23858,7 +23394,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 20,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -23960,7 +23496,7 @@
     "name": "酸辣土豆丝",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D.jpg",
+    "image": "/images/dish-2f5d30a0810b.webp",
     "isMeat": false,
     "mainIngredients": [
       "土豆",
@@ -23974,7 +23510,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 2,
-    "cookTimeMinutes": 20,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -24076,7 +23612,7 @@
     "name": "蒜蓉炒芹菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E7%82%92%E8%8A%B9%E8%8F%9C/%E8%92%9C%E8%93%89%E7%82%92%E8%8A%B9%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E7%82%92%E8%8A%B9%E8%8F%9C/%E8%92%9C%E8%93%89%E7%82%92%E8%8A%B9%E8%8F%9C.jpg",
+    "image": "/images/dish-40552b54f402.webp",
     "isMeat": false,
     "mainIngredients": [
       "香芹",
@@ -24090,7 +23626,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -24162,7 +23698,7 @@
     "name": "蒜蓉空心菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E7%A9%BA%E5%BF%83%E8%8F%9C/%E8%92%9C%E8%93%89%E7%A9%BA%E5%BF%83%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E7%A9%BA%E5%BF%83%E8%8F%9C/1.JPG",
+    "image": "/images/dish-97ed025a03b5.webp",
     "isMeat": false,
     "mainIngredients": [
       "新鲜空心菜",
@@ -24175,7 +23711,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -24255,7 +23791,7 @@
     "name": "蒜蓉西兰花",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E8%A5%BF%E5%85%B0%E8%8A%B1.md",
-    "image": null,
+    "image": "/images/dish-bb921a0a7723.webp",
     "isMeat": false,
     "mainIngredients": [
       "西兰花"
@@ -24267,7 +23803,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -24359,7 +23895,7 @@
     "name": "糖拌西红柿",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%B3%96%E6%8B%8C%E8%A5%BF%E7%BA%A2%E6%9F%BF/%E7%B3%96%E6%8B%8C%E8%A5%BF%E7%BA%A2%E6%9F%BF.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E7%B3%96%E6%8B%8C%E8%A5%BF%E7%BA%A2%E6%9F%BF/%E7%81%AB%E5%B1%B1%E9%A3%98%E9%9B%AA.jpg",
+    "image": "/images/dish-bfb9b74ffa8e.webp",
     "isMeat": false,
     "mainIngredients": [
       "番茄",
@@ -24372,7 +23908,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -24436,7 +23972,7 @@
     "name": "莴笋叶煎饼",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%8E%B4%E7%AC%8B%E5%8F%B6%E7%85%8E%E9%A5%BC/%E8%8E%B4%E7%AC%8B%E5%8F%B6%E7%85%8E%E9%A5%BC.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E8%8E%B4%E7%AC%8B%E5%8F%B6%E7%85%8E%E9%A5%BC/1.jpeg",
+    "image": "/images/dish-ca376a4897e4.webp",
     "isMeat": false,
     "mainIngredients": [
       "莴笋叶",
@@ -24449,7 +23985,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -24511,7 +24047,7 @@
     "name": "西红柿炒鸡蛋",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%82%92%E9%B8%A1%E8%9B%8B.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+    "image": "/images/dish-e154b5b48437.webp",
     "isMeat": false,
     "mainIngredients": [
       "番茄",
@@ -24524,7 +24060,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -24638,7 +24174,7 @@
     "name": "西红柿豆腐汤羹",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E8%B1%86%E8%85%90%E6%B1%A4%E7%BE%B9/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E8%B1%86%E8%85%90%E6%B1%A4%E7%BE%B9.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E8%B1%86%E8%85%90%E6%B1%A4%E7%BE%B9/1.jpeg",
+    "image": "/images/dish-5dd92a985962.webp",
     "isMeat": false,
     "mainIngredients": [
       "番茄",
@@ -24652,7 +24188,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -24746,7 +24282,7 @@
     "name": "西葫芦炒鸡蛋",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%A5%BF%E8%91%AB%E8%8A%A6%E7%82%92%E9%B8%A1%E8%9B%8B/%E8%A5%BF%E8%91%AB%E8%8A%A6%E7%82%92%E9%B8%A1%E8%9B%8B.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E8%A5%BF%E8%91%AB%E8%8A%A6%E7%82%92%E9%B8%A1%E8%9B%8B/%E8%A5%BF%E8%91%AB%E8%8A%A6%E7%82%92%E9%B8%A1%E8%9B%8B.jpeg",
+    "image": "/images/dish-19715afd5528.webp",
     "isMeat": false,
     "mainIngredients": [
       "西葫芦",
@@ -24760,7 +24296,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -24840,7 +24376,7 @@
     "name": "小炒藕丁",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%B0%8F%E7%82%92%E8%97%95%E4%B8%81/%E5%B0%8F%E7%82%92%E8%97%95%E4%B8%81.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E5%B0%8F%E7%82%92%E8%97%95%E4%B8%81/%E5%B0%8F%E7%82%92%E8%97%95%E4%B8%81.jpg",
+    "image": "/images/dish-bb7fdc686dda.webp",
     "isMeat": false,
     "mainIngredients": [
       "小米辣",
@@ -24853,7 +24389,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 20,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -24945,7 +24481,7 @@
     "name": "洋葱炒鸡蛋",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%B4%8B%E8%91%B1%E7%82%92%E9%B8%A1%E8%9B%8B/%E6%B4%8B%E8%91%B1%E7%82%92%E9%B8%A1%E8%9B%8B.md",
-    "image": "https://cdn.jsdelivr.net/gh/Anduin2017/HowToCook@master/dishes/vegetable_dish/%E6%B4%8B%E8%91%B1%E7%82%92%E9%B8%A1%E8%9B%8B/1.jpeg",
+    "image": "/images/dish-d2b3b5355782.webp",
     "isMeat": false,
     "mainIngredients": [
       "鸡蛋",
@@ -24958,7 +24494,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 5,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -25014,7 +24550,7 @@
     "name": "印度葫芦丸子",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%8D%B0%E5%BA%A6%E8%91%AB%E8%8A%A6%E4%B8%B8%E5%AD%90.md",
-    "image": null,
+    "image": "/images/dish-c19cb388bc3f.webp",
     "isMeat": false,
     "mainIngredients": [
       "瓠瓜",
@@ -25028,7 +24564,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 4,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 55,
     "servings": 2,
     "ingredients": [
       {
@@ -25210,7 +24746,7 @@
     "name": "印度土豆花菜",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E5%8D%B0%E5%BA%A6%E5%9C%9F%E8%B1%86%E8%8A%B1%E8%8F%9C.md",
-    "image": null,
+    "image": "/images/dish-829d71f9c069.webp",
     "isMeat": false,
     "mainIngredients": [
       "土豆",
@@ -25224,7 +24760,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 25,
+    "cookTimeMinutes": 50,
     "servings": 2,
     "ingredients": [
       {
@@ -25388,7 +24924,7 @@
     "name": "油醋爆蛋",
     "source": "howtocook",
     "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%B2%B9%E9%86%8B%E7%88%86%E8%9B%8B.md",
-    "image": null,
+    "image": "/images/dish-98a32cdfeb7f.webp",
     "isMeat": false,
     "mainIngredients": [
       "鸡蛋",
@@ -25402,7 +24938,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 2,
-    "cookTimeMinutes": 10,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -25494,7 +25030,7 @@
     "name": "鹌鹑蛋红烧肉",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E9%B9%8C%E9%B9%91%E8%9B%8B%E7%BA%A2%E7%83%A7%E8%82%89.md",
-    "image": null,
+    "image": "/images/dish-38163b53be00.webp",
     "isMeat": true,
     "mainIngredients": [
       "五花肉块",
@@ -25508,7 +25044,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 60,
     "servings": 2,
     "ingredients": [
       {
@@ -25586,7 +25122,7 @@
     "name": "包菜炒鸡蛋",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E5%8C%85%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B.md",
-    "image": null,
+    "image": "/images/dish-dcef94290a14.webp",
     "isMeat": false,
     "mainIngredients": [
       "圆包菜",
@@ -25600,7 +25136,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -25680,7 +25216,7 @@
     "name": "爆炒牛肉",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E7%88%86%E7%82%92%E7%89%9B%E8%82%89.md",
-    "image": null,
+    "image": "/images/dish-142295c1bd2b.webp",
     "isMeat": true,
     "mainIngredients": [
       "调理牛肉片",
@@ -25693,7 +25229,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -25761,7 +25297,7 @@
     "name": "菠萝咕咾肉",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%8F%A0%E8%90%9D%E5%92%95%E5%92%BE%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E8%8F%A0%E8%90%9D%E5%92%95%E5%92%BE%E8%82%89.png",
+    "image": "/images/dish-e074a3b6b852.webp",
     "isMeat": true,
     "mainIngredients": [
       "咕咾肉",
@@ -25774,7 +25310,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -25824,7 +25360,7 @@
     "name": "蚕豆炒鸡蛋",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%9A%95%E8%B1%86%E7%82%92%E9%B8%A1%E8%9B%8B.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E8%9A%95%E8%B1%86%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+    "image": "/images/dish-31313e448819.webp",
     "isMeat": false,
     "mainIngredients": [
       "蚕豆",
@@ -25838,7 +25374,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -25900,7 +25436,7 @@
     "name": "蚕豆炒虾仁",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%9A%95%E8%B1%86%E7%82%92%E8%99%BE%E4%BB%81.md",
-    "image": null,
+    "image": "/images/dish-29a52fb0e3c6.webp",
     "isMeat": true,
     "mainIngredients": [
       "蚕豆",
@@ -25914,7 +25450,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -25986,7 +25522,7 @@
     "name": "剁椒木耳炒鸡蛋",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E5%89%81%E6%A4%92%E6%9C%A8%E8%80%B3%E7%82%92%E9%B8%A1%E8%9B%8B.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E5%89%81%E6%A4%92%E6%9C%A8%E8%80%B3%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+    "image": "/images/dish-d9038226cd88.webp",
     "isMeat": false,
     "mainIngredients": [
       "木耳",
@@ -25999,7 +25535,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -26062,7 +25598,7 @@
       },
       {
         "text": "下入 20g 菜籽油、175g 木耳、15g 蒜子、5g 盐、5g 鸡精，大火爆炒 1 分 10 秒；",
-        "timerSeconds": 10
+        "timerSeconds": 70
       },
       {
         "text": "最后下入鸡蛋片、15g 葱段，大火爆炒 30 秒出品。",
@@ -26073,73 +25609,11 @@
     "homeSubstitute": null
   },
   {
-    "id": "dish-ce3cc92ed417",
-    "name": "贵州风味辣子鸡",
-    "source": "cooklikehoc",
-    "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%B4%B5%E5%B7%9E%E9%A3%8E%E5%91%B3%E8%BE%A3%E5%AD%90%E9%B8%A1.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E8%B4%B5%E5%B7%9E%E9%A3%8E%E5%91%B3%E8%BE%A3%E5%AD%90%E9%B8%A1.png",
-    "isMeat": true,
-    "mainIngredients": [
-      "炸制鸡块"
-    ],
-    "proteinType": "chicken",
-    "cookMethod": "炒",
-    "flavorTags": [
-      "清淡"
-    ],
-    "spicyLevel": 0,
-    "difficulty": 2,
-    "cookTimeMinutes": 15,
-    "servings": 2,
-    "ingredients": [
-      {
-        "name": "炸制鸡块",
-        "amount": 350,
-        "unit": "g",
-        "group": "meat"
-      },
-      {
-        "name": "辣子鸡酱料（来自四川新雅轩、重庆聚慧）",
-        "amount": 165,
-        "unit": "g",
-        "group": "seasoning"
-      },
-      {
-        "name": "蒜子",
-        "amount": 30,
-        "unit": "g",
-        "group": "seasoning"
-      },
-      {
-        "name": "菜籽油",
-        "amount": 60,
-        "unit": "g",
-        "group": "pantry"
-      }
-    ],
-    "steps": [
-      {
-        "text": "60g 菜籽油烧至180℃；",
-        "timerSeconds": null
-      },
-      {
-        "text": "下入165g 辣子鸡酱料和30g 蒜子，炒至酱料沸腾；",
-        "timerSeconds": null
-      },
-      {
-        "text": "加入350g 炸制鸡块，翻炒4 分钟。",
-        "timerSeconds": 240
-      }
-    ],
-    "tips": "",
-    "homeSubstitute": "家庭替代建议：商用复合调味料可按口味尝试用生抽、醋、糖等家常调料少量调配；番茄口味可加番茄酱。此为家庭建议，不是原报告配方，也无法保证还原风味。"
-  },
-  {
     "id": "dish-d4f8f0792145",
     "name": "胡萝卜炒鸡蛋",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%83%A1%E8%90%9D%E5%8D%9C%E7%82%92%E9%B8%A1%E8%9B%8B.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E8%83%A1%E8%90%9D%E5%8D%9C%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+    "image": "/images/dish-d4f8f0792145.webp",
     "isMeat": false,
     "mainIngredients": [
       "胡萝卜",
@@ -26152,7 +25626,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -26203,7 +25677,7 @@
       },
       {
         "text": "最后下入鸡蛋片，大火爆炒 1 分 40 秒，最后下入 5g 葱段，翻炒均匀出品。",
-        "timerSeconds": 40
+        "timerSeconds": 100
       }
     ],
     "tips": "",
@@ -26214,7 +25688,7 @@
     "name": "黄瓜炒红肠",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E9%BB%84%E7%93%9C%E7%82%92%E7%BA%A2%E8%82%A0.md",
-    "image": null,
+    "image": "/images/dish-40467303cc00.webp",
     "isMeat": true,
     "mainIngredients": [
       "黄瓜",
@@ -26227,7 +25701,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -26299,7 +25773,7 @@
     "name": "农家小炒肉（鸡蛋干版本）",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E5%86%9C%E5%AE%B6%E5%B0%8F%E7%82%92%E8%82%89%EF%BC%88%E9%B8%A1%E8%9B%8B%E5%B9%B2%EF%BC%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E5%86%9C%E5%AE%B6%E5%B0%8F%E7%82%92%E8%82%89(%E9%B8%A1%E8%9B%8B%E5%B9%B2%E7%89%88%E6%9C%AC",
+    "image": "/images/dish-32504e153a7d.webp",
     "isMeat": true,
     "mainIngredients": [
       "肉片",
@@ -26313,7 +25787,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -26385,7 +25859,7 @@
     "name": "农家小炒肉（玉耳版本）",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E5%86%9C%E5%AE%B6%E5%B0%8F%E7%82%92%E8%82%89%EF%BC%88%E7%8E%89%E8%80%B3%EF%BC%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E5%86%9C%E5%AE%B6%E5%B0%8F%E7%82%92%E8%82%89%EF%BC%88%E7%8E%89%E8%80%B3%E7%89%88%E6%9C%AC%EF%BC%89.png",
+    "image": "/images/dish-fcc087fe3c8d.webp",
     "isMeat": true,
     "mainIngredients": [
       "肉片",
@@ -26399,7 +25873,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -26475,7 +25949,7 @@
     "name": "芹菜炒香干",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%8A%B9%E8%8F%9C%E7%82%92%E9%A6%99%E5%B9%B2.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E8%8A%B9%E8%8F%9C%E7%82%92%E9%A6%99%E5%B9%B2.jpg",
+    "image": "/images/dish-d817479fdc1f.webp",
     "isMeat": false,
     "mainIngredients": [
       "芹菜",
@@ -26489,7 +25963,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -26543,99 +26017,11 @@
     "homeSubstitute": null
   },
   {
-    "id": "dish-61084bbddf78",
-    "name": "芹菜香干炒肉丝",
-    "source": "cooklikehoc",
-    "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%8A%B9%E8%8F%9C%E9%A6%99%E5%B9%B2%E7%82%92%E8%82%89%E4%B8%9D.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E8%8A%B9%E8%8F%9C%E9%A6%99%E5%B9%B2%E7%82%92%E8%82%89%E4%B8%9D.jpg",
-    "isMeat": true,
-    "mainIngredients": [
-      "芹菜",
-      "香干",
-      "调理肉丝"
-    ],
-    "proteinType": "pork",
-    "cookMethod": "炒",
-    "flavorTags": [
-      "清淡"
-    ],
-    "spicyLevel": 0,
-    "difficulty": 2,
-    "cookTimeMinutes": 15,
-    "servings": 2,
-    "ingredients": [
-      {
-        "name": "芹菜",
-        "amount": 185,
-        "unit": "g",
-        "group": "veg"
-      },
-      {
-        "name": "香干",
-        "amount": 90,
-        "unit": "g",
-        "group": "veg"
-      },
-      {
-        "name": "调理肉丝（后座肉、盐、老抽、大豆油等）（老乡鸡中央厨房分切、滚揉，详细成分与配比老乡鸡官方未公布，请依据个人口味适量调整）",
-        "amount": 65,
-        "unit": "g",
-        "group": "meat"
-      },
-      {
-        "name": "红椒",
-        "amount": 10,
-        "unit": "g",
-        "group": "veg"
-      },
-      {
-        "name": "大豆油",
-        "amount": 25,
-        "unit": "g",
-        "group": "pantry"
-      },
-      {
-        "name": "盐",
-        "amount": 5,
-        "unit": "g",
-        "group": "pantry"
-      },
-      {
-        "name": "老抽",
-        "amount": 5,
-        "unit": "g",
-        "group": "pantry"
-      },
-      {
-        "name": "鸡精",
-        "amount": 5,
-        "unit": "g",
-        "group": "pantry"
-      }
-    ],
-    "steps": [
-      {
-        "text": "下入 25g 大豆油、65g 调理肉丝，炒至肉丝变色；",
-        "timerSeconds": null
-      },
-      {
-        "text": "下入 5g 老抽，炒至肉丝上色；",
-        "timerSeconds": null
-      },
-      {
-        "text": "最后下入 185g 芹菜、90g 香干、10g 红椒、5g 盐、5g 鸡精，大火爆炒 2 分钟出品。",
-        "timerSeconds": 120
-      }
-    ],
-    "tips": "",
-    "homeSubstitute": null
-  },
-  {
     "id": "dish-95aa5e15d370",
     "name": "青椒炒豆芽",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E9%9D%92%E6%A4%92%E7%82%92%E8%B1%86%E8%8A%BD.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%9D%92%E6%A4%92%E7%82%92%E8%B1%86%E8%8A%BD.jpg",
+    "image": "/images/dish-95aa5e15d370.webp",
     "isMeat": false,
     "mainIngredients": [
       "绿豆芽",
@@ -26648,7 +26034,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -26696,7 +26082,7 @@
     "name": "青椒炒鸡蛋",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E9%9D%92%E6%A4%92%E7%82%92%E9%B8%A1%E8%9B%8B.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%9D%92%E6%A4%92%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+    "image": "/images/dish-b1fd3d363ff9.webp",
     "isMeat": false,
     "mainIngredients": [
       "鸡蛋",
@@ -26709,7 +26095,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -26771,7 +26157,7 @@
     "name": "青椒毛豆米",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E9%9D%92%E6%A4%92%E6%AF%9B%E8%B1%86%E7%B1%B3.md",
-    "image": null,
+    "image": "/images/dish-1308acad107d.webp",
     "isMeat": false,
     "mainIngredients": [
       "青椒",
@@ -26784,7 +26170,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -26860,7 +26246,7 @@
     "name": "清炒菜心",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E8%8F%9C%E5%BF%83.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E6%B8%85%E7%82%92%E8%8F%9C%E5%BF%83.jpg",
+    "image": "/images/dish-ff0a9c789742.webp",
     "isMeat": false,
     "mainIngredients": [
       "菜心"
@@ -26872,7 +26258,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -26936,7 +26322,7 @@
     "name": "清炒春菜",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E6%98%A5%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E6%B8%85%E7%82%92%E6%98%A5%E8%8F%9C.jpg",
+    "image": "/images/dish-1c66ba8e3f41.webp",
     "isMeat": false,
     "mainIngredients": [
       "春菜"
@@ -26948,7 +26334,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -27018,7 +26404,7 @@
     "name": "清炒毛白菜",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E6%AF%9B%E7%99%BD%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E6%B8%85%E7%82%92%E6%AF%9B%E7%99%BD%E8%8F%9C.jpg",
+    "image": "/images/dish-c6e38eafbfc6.webp",
     "isMeat": false,
     "mainIngredients": [
       "毛白菜"
@@ -27030,7 +26416,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -27098,7 +26484,7 @@
     "name": "清炒青菜",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E9%9D%92%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E6%B8%85%E7%82%92%E9%9D%92%E8%8F%9C.jpg",
+    "image": "/images/dish-6cb3e5005e3b.webp",
     "isMeat": false,
     "mainIngredients": [
       "青菜"
@@ -27110,7 +26496,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -27168,7 +26554,7 @@
     "name": "清炒莴笋片",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E8%8E%B4%E7%AC%8B%E7%89%87.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E6%B8%85%E7%82%92%E8%8E%B4%E7%AC%8B%E7%89%87.jpg",
+    "image": "/images/dish-7fdd3c85d57c.webp",
     "isMeat": false,
     "mainIngredients": [
       "莴笋",
@@ -27181,7 +26567,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -27257,7 +26643,7 @@
     "name": "清炒西兰花",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E8%A5%BF%E5%85%B0%E8%8A%B1.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E6%B8%85%E7%82%92%E8%A5%BF%E5%85%B0%E8%8A%B1.jpg",
+    "image": "/images/dish-2225a7ec897e.webp",
     "isMeat": false,
     "mainIngredients": [
       "西兰花"
@@ -27269,7 +26655,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -27310,7 +26696,7 @@
       },
       {
         "text": "下入 350g 西兰花、5g 盐、5g 鸡精，大火爆炒 1 分 30 秒出品。",
-        "timerSeconds": 30
+        "timerSeconds": 90
       }
     ],
     "tips": "",
@@ -27321,7 +26707,7 @@
     "name": "清炒油麦菜",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E6%B2%B9%E9%BA%A6%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E6%B8%85%E7%82%92%E6%B2%B9%E9%BA%A6%E8%8F%9C.jpg",
+    "image": "/images/dish-1c1b1068a1ad.webp",
     "isMeat": false,
     "mainIngredients": [
       "油麦菜"
@@ -27333,7 +26719,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -27385,7 +26771,7 @@
     "name": "生炒上海青",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E7%94%9F%E7%82%92%E4%B8%8A%E6%B5%B7%E9%9D%92.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E7%94%9F%E7%82%92%E4%B8%8A%E6%B5%B7%E9%9D%92.jpg",
+    "image": "/images/dish-b48d348f6cf9.webp",
     "isMeat": false,
     "mainIngredients": [
       "上海青"
@@ -27397,7 +26783,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -27455,7 +26841,7 @@
     "name": "酸辣包菜",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E9%85%B8%E8%BE%A3%E5%8C%85%E8%8F%9C.md",
-    "image": null,
+    "image": "/images/dish-e288b3e8e891.webp",
     "isMeat": false,
     "mainIngredients": [
       "圆包菜"
@@ -27467,7 +26853,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -27526,7 +26912,7 @@
       },
       {
         "text": "下入350g包菜丝、5g盐、5g鸡精、5g白砂糖，炒制3分40秒；",
-        "timerSeconds": 40
+        "timerSeconds": 220
       },
       {
         "text": "最后下入5g陈醋，翻炒均匀出品。",
@@ -27541,7 +26927,7 @@
     "name": "酸辣大白菜",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E9%85%B8%E8%BE%A3%E5%A4%A7%E7%99%BD%E8%8F%9C.md",
-    "image": null,
+    "image": "/images/dish-4c2c3875ae7b.webp",
     "isMeat": false,
     "mainIngredients": [
       "大白菜"
@@ -27553,7 +26939,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -27618,7 +27004,7 @@
       },
       {
         "text": "下入350g大白菜、5g鸡精、5g盐、5g生抽，炒制3分20秒；",
-        "timerSeconds": 20
+        "timerSeconds": 200
       },
       {
         "text": "最后下入5g陈醋，翻炒均匀出品。",
@@ -27633,7 +27019,7 @@
     "name": "蒜黄炒鸡蛋",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%92%9C%E9%BB%84%E7%82%92%E9%B8%A1%E8%9B%8B.md",
-    "image": null,
+    "image": "/images/dish-d2b9febdf41e.webp",
     "isMeat": false,
     "mainIngredients": [
       "蒜黄",
@@ -27647,7 +27033,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -27709,7 +27095,7 @@
     "name": "蒜泥菠菜",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%92%9C%E6%B3%A5%E8%8F%A0%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E8%92%9C%E6%B3%A5%E8%8F%A0%E8%8F%9C.jpg",
+    "image": "/images/dish-86b6c94fad36.webp",
     "isMeat": false,
     "mainIngredients": [
       "菠菜"
@@ -27721,7 +27107,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -27783,7 +27169,7 @@
     "name": "蒜苔炒香干",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%92%9C%E8%8B%94%E7%82%92%E9%A6%99%E5%B9%B2.md",
-    "image": null,
+    "image": "/images/dish-1c66f92a8716.webp",
     "isMeat": false,
     "mainIngredients": [
       "蒜苔",
@@ -27797,7 +27183,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -27846,7 +27232,7 @@
     "steps": [
       {
         "text": "下入25g菜籽油、10g熟猪油、205g蒜苔、5g盐、5g鸡精，大火炒制1分40秒；",
-        "timerSeconds": 40
+        "timerSeconds": 100
       },
       {
         "text": "再下入105g香干、40g红椒，炒制1分钟出品。",
@@ -27861,7 +27247,7 @@
     "name": "外婆菜炒鸡蛋",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E5%A4%96%E5%A9%86%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E5%A4%96%E5%A9%86%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B.png",
+    "image": "/images/dish-d9b012fd4d3d.webp",
     "isMeat": false,
     "mainIngredients": [
       "外婆菜",
@@ -27875,7 +27261,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -27947,7 +27333,7 @@
     "name": "莴笋丝炒鸡蛋",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%8E%B4%E7%AC%8B%E4%B8%9D%E7%82%92%E9%B8%A1%E8%9B%8B.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E8%8E%B4%E7%AC%8B%E4%B8%9D%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+    "image": "/images/dish-fa4343701f04.webp",
     "isMeat": false,
     "mainIngredients": [
       "莴笋",
@@ -27960,7 +27346,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -28016,7 +27402,7 @@
     "name": "西兰花炒鸡胸肉",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%A5%BF%E5%85%B0%E8%8A%B1%E7%82%92%E9%B8%A1%E8%83%B8%E8%82%89.md",
-    "image": null,
+    "image": "/images/dish-89b283241971.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡胸肉片",
@@ -28030,7 +27416,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -28092,7 +27478,7 @@
     "name": "西芹炒虾仁",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%A5%BF%E8%8A%B9%E7%82%92%E8%99%BE%E4%BB%81.md",
-    "image": null,
+    "image": "/images/dish-1a0cf72cd9c0.webp",
     "isMeat": true,
     "mainIngredients": [
       "西芹段",
@@ -28106,7 +27492,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -28186,7 +27572,7 @@
     "name": "香椿炒鸡蛋",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E9%A6%99%E6%A4%BF%E7%82%92%E9%B8%A1%E8%9B%8B.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%A6%99%E6%A4%BF%E7%82%92%E9%B8%A1%E8%9B%8B.jpg",
+    "image": "/images/dish-a1feb014f5f6.webp",
     "isMeat": false,
     "mainIngredients": [
       "鸡蛋",
@@ -28200,7 +27586,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -28258,7 +27644,7 @@
     "name": "香菇青菜",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E9%A6%99%E8%8F%87%E9%9D%92%E8%8F%9C.md",
-    "image": null,
+    "image": "/images/dish-c3d1622b1d6c.webp",
     "isMeat": false,
     "mainIngredients": [
       "青菜",
@@ -28271,7 +27657,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -28320,7 +27706,7 @@
     "steps": [
       {
         "text": "下入15g大豆油、10g熟猪油、315g青菜、35g香菇片、5g盐、5g鸡精、5g白砂糖，大火爆炒2分20秒出品。",
-        "timerSeconds": 20
+        "timerSeconds": 140
       }
     ],
     "tips": "",
@@ -28331,7 +27717,7 @@
     "name": "小炒脆笋",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E5%B0%8F%E7%82%92%E8%84%86%E7%AC%8B.md",
-    "image": null,
+    "image": "/images/dish-1f8cde1e69dc.webp",
     "isMeat": true,
     "mainIngredients": [
       "五花肉",
@@ -28345,7 +27731,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 2,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -28413,7 +27799,7 @@
     "name": "红烧鱼块",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%96%E8%8F%9C/%E7%BA%A2%E7%83%A7%E9%B1%BC%E5%9D%97.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E7%BA%A2%E7%83%A7%E9%B1%BC%E5%9D%97.png",
+    "image": "/images/dish-130fac0265ac.webp",
     "isMeat": true,
     "mainIngredients": [
       "炸制鱼块",
@@ -28426,7 +27812,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 60,
     "servings": 2,
     "ingredients": [
       {
@@ -28484,7 +27870,7 @@
     "name": "鸡血汤",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%96%E8%8F%9C/%E9%B8%A1%E8%A1%80%E6%B1%A4.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%B8%A1%E8%A1%80%E6%B1%A4.png",
+    "image": "/images/dish-6507a71923dd.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡血",
@@ -28498,7 +27884,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -28544,7 +27930,7 @@
     "name": "梅干菜凤爪翅",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%96%E8%8F%9C/%E6%A2%85%E5%B9%B2%E8%8F%9C%E5%87%A4%E7%88%AA%E7%BF%85.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E6%A2%85%E5%B9%B2%E8%8F%9C%E5%87%A4%E7%88%AA%E7%BF%85.jpg",
+    "image": "/images/dish-5371836cccb7.webp",
     "isMeat": true,
     "mainIngredients": [
       "炸制梅菜",
@@ -28558,7 +27944,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 40,
+    "cookTimeMinutes": 60,
     "servings": 2,
     "ingredients": [
       {
@@ -28610,86 +27996,11 @@
     "homeSubstitute": null
   },
   {
-    "id": "dish-5b964b36db2b",
-    "name": "凉拌莴笋丝",
-    "source": "cooklikehoc",
-    "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E5%87%89%E6%8B%8C/%E5%87%89%E6%8B%8C%E8%8E%B4%E7%AC%8B%E4%B8%9D.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E5%87%89%E6%8B%8C%E8%8E%B4%E7%AC%8B%E4%B8%9D.jpg",
-    "isMeat": false,
-    "mainIngredients": [
-      "莴笋",
-      "红椒"
-    ],
-    "proteinType": "vegetable",
-    "cookMethod": "凉拌",
-    "flavorTags": [
-      "清淡"
-    ],
-    "spicyLevel": 0,
-    "difficulty": 3,
-    "cookTimeMinutes": 20,
-    "servings": 2,
-    "ingredients": [
-      {
-        "name": "莴笋",
-        "amount": 345,
-        "unit": "g",
-        "group": "veg"
-      },
-      {
-        "name": "红椒",
-        "amount": 5,
-        "unit": "g",
-        "group": "veg"
-      },
-      {
-        "name": "芝麻香油",
-        "amount": 10,
-        "unit": "g",
-        "group": "pantry"
-      },
-      {
-        "name": "盐",
-        "amount": 5,
-        "unit": "g",
-        "group": "pantry"
-      },
-      {
-        "name": "鸡精",
-        "amount": 5,
-        "unit": "g",
-        "group": "pantry"
-      },
-      {
-        "name": "白砂糖",
-        "amount": 5,
-        "unit": "g",
-        "group": "pantry"
-      }
-    ],
-    "steps": [
-      {
-        "text": "将345g 莴笋丝，清洗干净后用纯净水再次冲洗，沥干水分备用；",
-        "timerSeconds": null
-      },
-      {
-        "text": "冲洗后的莴笋丝加入5g 盐腌制10 分钟；",
-        "timerSeconds": 600
-      },
-      {
-        "text": "将腌制后的莴笋丝沥干水分，加入5g 红椒、10g 芝麻香油、5g 鸡精、5g 白砂糖，翻拌均匀出品。",
-        "timerSeconds": null
-      }
-    ],
-    "tips": "",
-    "homeSubstitute": null
-  },
-  {
     "id": "dish-2d2b3bef19eb",
     "name": "西芹花生米",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E5%87%89%E6%8B%8C/%E8%A5%BF%E8%8A%B9%E8%8A%B1%E7%94%9F%E7%B1%B3.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E8%A5%BF%E8%8A%B9%E8%8A%B1%E7%94%9F%E7%B1%B3.jpg",
+    "image": "/images/dish-2d2b3bef19eb.webp",
     "isMeat": false,
     "mainIngredients": [
       "西芹",
@@ -28703,7 +28014,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -28765,7 +28076,7 @@
     "name": "砂锅牛杂煲",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%A0%82%E9%94%85%E8%8F%9C/%E7%A0%82%E9%94%85%E7%89%9B%E6%9D%82%E7%85%B2.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E7%A0%82%E9%94%85%E7%89%9B%E6%9D%82%E7%85%B2.png",
+    "image": "/images/dish-a36a517ee6ba.webp",
     "isMeat": true,
     "mainIngredients": [
       "牛杂",
@@ -28779,7 +28090,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -28819,7 +28130,7 @@
     "name": "老鸡汤",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E6%B1%A4/%E8%80%81%E9%B8%A1%E6%B1%A4.md",
-    "image": null,
+    "image": "/images/dish-37b7e61ba43e.webp",
     "isMeat": true,
     "mainIngredients": [
       "老母鸡"
@@ -28831,7 +28142,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 90,
+    "cookTimeMinutes": 110,
     "servings": 2,
     "ingredients": [
       {
@@ -28877,7 +28188,7 @@
     "name": "菠菜蛋皮丝",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%83%AB%E8%8F%9C/%E8%8F%A0%E8%8F%9C%E8%9B%8B%E7%9A%AE%E4%B8%9D.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E8%8F%A0%E8%8F%9C%E8%9B%8B%E7%9A%AE%E4%B8%9D.jpg",
+    "image": "/images/dish-56b8c1c7aafd.webp",
     "isMeat": false,
     "mainIngredients": [
       "菠菜",
@@ -28891,7 +28202,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -28961,7 +28272,7 @@
     "name": "葱油菜苔",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%83%AB%E8%8F%9C/%E8%91%B1%E6%B2%B9%E8%8F%9C%E8%8B%94.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E8%91%B1%E6%B2%B9%E8%8F%9C%E8%8B%94.png",
+    "image": "/images/dish-2926a72511b2.webp",
     "isMeat": false,
     "mainIngredients": [
       "菜苔",
@@ -28974,7 +28285,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -29008,7 +28319,7 @@
     "name": "葱油菜心",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%83%AB%E8%8F%9C/%E8%91%B1%E6%B2%B9%E8%8F%9C%E5%BF%83.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E8%91%B1%E6%B2%B9%E8%8F%9C%E5%BF%83.jpg",
+    "image": "/images/dish-0ad6bf72078b.webp",
     "isMeat": false,
     "mainIngredients": [
       "菜心",
@@ -29021,7 +28332,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -29055,7 +28366,7 @@
     "name": "鸡汤娃娃菜",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%83%AB%E8%8F%9C/%E9%B8%A1%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%B8%A1%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.jpg",
+    "image": "/images/dish-74b0558a7a5f.webp",
     "isMeat": true,
     "mainIngredients": [
       "娃娃菜",
@@ -29068,7 +28379,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -29087,7 +28398,7 @@
     "steps": [
       {
         "text": "取 140g 娃娃菜，在沸水汆烫 2 分 30 秒；",
-        "timerSeconds": 30
+        "timerSeconds": 150
       },
       {
         "text": "将烫好的娃娃菜放入餐具中，加入 210g 老鸡汤出品。",
@@ -29102,7 +28413,7 @@
     "name": "浇汁西兰花",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%83%AB%E8%8F%9C/%E6%B5%87%E6%B1%81%E8%A5%BF%E5%85%B0%E8%8A%B1.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E6%B5%87%E6%B1%81%E8%A5%BF%E5%85%B0%E8%8A%B1.jpg",
+    "image": "/images/dish-246bc65e378a.webp",
     "isMeat": false,
     "mainIngredients": [
       "西兰花",
@@ -29115,7 +28426,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -29149,7 +28460,7 @@
     "name": "香脆木耳",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%83%AB%E8%8F%9C/%E9%A6%99%E8%84%86%E6%9C%A8%E8%80%B3.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%A6%99%E8%84%86%E6%9C%A8%E8%80%B3.jpg",
+    "image": "/images/dish-717ac9a6b004.webp",
     "isMeat": false,
     "mainIngredients": [
       "木耳",
@@ -29163,7 +28474,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 20,
     "servings": 2,
     "ingredients": [
       {
@@ -29243,7 +28554,7 @@
     "name": "风干牛肉蒸白干",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E9%A3%8E%E5%B9%B2%E7%89%9B%E8%82%89%E8%92%B8%E7%99%BD%E5%B9%B2.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%A3%8E%E5%B9%B2%E7%89%9B%E8%82%89%E8%92%B8%E7%99%BD%E5%B9%B2.jpg",
+    "image": "/images/dish-e5f424bf9d76.webp",
     "isMeat": true,
     "mainIngredients": [
       "风干牛肉",
@@ -29256,7 +28567,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 35,
+    "cookTimeMinutes": 45,
     "servings": 2,
     "ingredients": [
       {
@@ -29310,7 +28621,7 @@
     "name": "胡萝卜牛肉",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E8%83%A1%E8%90%9D%E5%8D%9C%E7%89%9B%E8%82%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E8%83%A1%E8%90%9D%E5%8D%9C%E7%89%9B%E8%82%89.png",
+    "image": "/images/dish-472080d1e35f.webp",
     "isMeat": true,
     "mainIngredients": [
       "红烧牛肉",
@@ -29323,7 +28634,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 35,
+    "cookTimeMinutes": 45,
     "servings": 2,
     "ingredients": [
       {
@@ -29367,7 +28678,7 @@
     "name": "酱椒蒜香片片鱼",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E9%85%B1%E6%A4%92%E8%92%9C%E9%A6%99%E7%89%87%E7%89%87%E9%B1%BC.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%85%B1%E6%A4%92%E8%92%9C%E9%A6%99%E7%89%87%E7%89%87%E9%B1%BC.png",
+    "image": "/images/dish-226ff4c9ee5b.webp",
     "isMeat": true,
     "mainIngredients": [
       "黑鱼片",
@@ -29381,7 +28692,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 17,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -29447,7 +28758,7 @@
     "name": "酱香小河虾",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E9%85%B1%E9%A6%99%E5%B0%8F%E6%B2%B3%E8%99%BE.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%85%B1%E9%A6%99%E5%B0%8F%E6%B2%B3%E8%99%BE.jpg",
+    "image": "/images/dish-fca2e69d17c1.webp",
     "isMeat": true,
     "mainIngredients": [
       "河虾",
@@ -29460,7 +28771,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 22,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -29508,7 +28819,7 @@
     "name": "酱蒸白干",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E9%85%B1%E8%92%B8%E7%99%BD%E5%B9%B2.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%85%B1%E8%92%B8%E7%99%BD%E5%B9%B2.png",
+    "image": "/images/dish-5be5eb4467ee.webp",
     "isMeat": false,
     "mainIngredients": [
       "白干"
@@ -29520,7 +28831,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -29554,7 +28865,7 @@
     "name": "酱蒸豆腐",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E9%85%B1%E8%92%B8%E8%B1%86%E8%85%90.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%85%B1%E8%92%B8%E8%B1%86%E8%85%90.jpg",
+    "image": "/images/dish-e8c69d110535.webp",
     "isMeat": false,
     "mainIngredients": [
       "豆腐"
@@ -29566,7 +28877,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -29600,7 +28911,7 @@
     "name": "蜜汁南瓜",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E8%9C%9C%E6%B1%81%E5%8D%97%E7%93%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E8%9C%9C%E6%B1%81%E5%8D%97%E7%93%9C.jpg",
+    "image": "/images/dish-878db570afa6.webp",
     "isMeat": false,
     "mainIngredients": [
       "南瓜"
@@ -29612,7 +28923,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -29648,89 +28959,11 @@
     "homeSubstitute": null
   },
   {
-    "id": "dish-acd323857c0f",
-    "name": "农家蒸蛋",
-    "source": "cooklikehoc",
-    "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E5%86%9C%E5%AE%B6%E8%92%B8%E8%9B%8B.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E5%86%9C%E5%AE%B6%E8%92%B8%E8%9B%8B.jpg",
-    "isMeat": false,
-    "mainIngredients": [
-      "鸡蛋"
-    ],
-    "proteinType": "egg",
-    "cookMethod": "蒸",
-    "flavorTags": [
-      "清淡"
-    ],
-    "spicyLevel": 0,
-    "difficulty": 3,
-    "cookTimeMinutes": 15,
-    "servings": 2,
-    "ingredients": [
-      {
-        "name": "鸡蛋",
-        "amount": 350,
-        "unit": "g",
-        "group": "meat"
-      },
-      {
-        "name": "鸡油",
-        "amount": 15,
-        "unit": "g",
-        "group": "pantry"
-      },
-      {
-        "name": "清酱汁",
-        "amount": 5,
-        "unit": "g",
-        "group": "seasoning"
-      },
-      {
-        "name": "蚕豆酱",
-        "amount": 15,
-        "unit": "g",
-        "group": "seasoning"
-      },
-      {
-        "name": "盐",
-        "amount": 10,
-        "unit": "g",
-        "group": "pantry"
-      },
-      {
-        "name": "水",
-        "amount": 970,
-        "unit": "g",
-        "group": "pantry"
-      }
-    ],
-    "steps": [
-      {
-        "text": "将鸡蛋打成蛋液",
-        "timerSeconds": null
-      },
-      {
-        "text": "将 350g 鸡蛋液、15g鸡油、5g清酱汁、10g盐、970g水、15g蚕豆酱混合，并用打蛋器搅拌均匀，直至蛋清、蛋黄完全打散；",
-        "timerSeconds": null
-      },
-      {
-        "text": "过滤：用过滤网滤出蚕豆酱残渣；",
-        "timerSeconds": null
-      },
-      {
-        "text": "蒸制：蒸柜上汽后，蒸 5 分钟，焖 1 分钟。",
-        "timerSeconds": 300
-      }
-    ],
-    "tips": "",
-    "homeSubstitute": null
-  },
-  {
     "id": "dish-c1caa461d2b9",
     "name": "青椒蒸豆米",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E9%9D%92%E6%A4%92%E8%92%B8%E8%B1%86%E7%B1%B3.md",
-    "image": null,
+    "image": "/images/dish-c1caa461d2b9.webp",
     "isMeat": false,
     "mainIngredients": [
       "豆米",
@@ -29743,7 +28976,7 @@
     ],
     "spicyLevel": 1,
     "difficulty": 3,
-    "cookTimeMinutes": 22,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -29795,7 +29028,7 @@
     "name": "蒜蓉娃娃菜",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E8%92%9C%E8%93%89%E5%A8%83%E5%A8%83%E8%8F%9C.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E8%92%9C%E8%93%89%E5%A8%83%E5%A8%83%E8%8F%9C.jpg",
+    "image": "/images/dish-2f36186fda3b.webp",
     "isMeat": false,
     "mainIngredients": [
       "娃娃菜"
@@ -29807,7 +29040,7 @@
     ],
     "spicyLevel": 2,
     "difficulty": 3,
-    "cookTimeMinutes": 18,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -29875,7 +29108,7 @@
     "name": "豌豆肉末",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E8%B1%8C%E8%B1%86%E8%82%89%E6%9C%AB.md",
-    "image": null,
+    "image": "/images/dish-379461ae81d2.webp",
     "isMeat": true,
     "mainIngredients": [
       "甜青豌豆",
@@ -29889,7 +29122,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -29925,7 +29158,7 @@
     "name": "香肠蒸豆干",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E9%A6%99%E8%82%A0%E8%92%B8%E8%B1%86%E5%B9%B2.md",
-    "image": null,
+    "image": "/images/dish-5debb34e7928.webp",
     "isMeat": true,
     "mainIngredients": [
       "香肠",
@@ -29938,7 +29171,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 20,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -29994,7 +29227,7 @@
     "name": "香辣血旺",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E9%A6%99%E8%BE%A3%E8%A1%80%E6%97%BA.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%A6%99%E8%BE%A3%E8%A1%80%E6%97%BA.png",
+    "image": "/images/dish-f1b950ee7e86.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡血",
@@ -30007,7 +29240,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 20,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -30041,7 +29274,7 @@
     "name": "香芋蒸排骨",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E9%A6%99%E8%8A%8B%E8%92%B8%E6%8E%92%E9%AA%A8.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%A6%99%E8%8A%8B%E8%92%B8%E6%8E%92%E9%AA%A8.png",
+    "image": "/images/dish-782f5e089d1a.webp",
     "isMeat": true,
     "mainIngredients": [
       "香芋块",
@@ -30054,7 +29287,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 28,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -30108,7 +29341,7 @@
     "name": "蒸嫩豆腐",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E8%92%B8%E5%AB%A9%E8%B1%86%E8%85%90.md",
-    "image": null,
+    "image": "/images/dish-3e9b20edb3da.webp",
     "isMeat": false,
     "mainIngredients": [
       "嫩豆腐",
@@ -30121,7 +29354,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 22,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -30173,7 +29406,7 @@
     "name": "竹笋蒸鸡翅",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E7%AB%B9%E7%AC%8B%E8%92%B8%E9%B8%A1%E7%BF%85.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E7%AB%B9%E7%AC%8B%E8%92%B8%E9%B8%A1%E7%BF%85.jpg",
+    "image": "/images/dish-600d554e551f.webp",
     "isMeat": true,
     "mainIngredients": [
       "鸡翅",
@@ -30186,7 +29419,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 30,
+    "cookTimeMinutes": 40,
     "servings": 2,
     "ingredients": [
       {
@@ -30234,7 +29467,7 @@
     "name": "嗨嗨锅（鲜蔬锅）",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%85%AE%E9%94%85/%E5%97%A8%E5%97%A8%E9%94%85%EF%BC%88%E9%B2%9C%E8%94%AC%E9%94%85%EF%BC%89.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E5%97%A8%E5%97%A8%E9%94%85%EF%BC%88%E9%B2%9C%E8%94%AC%E9%94%85%EF%BC%89.png",
+    "image": "/images/dish-43be0d1d0bc6.webp",
     "isMeat": false,
     "mainIngredients": [
       "娃娃菜",
@@ -30248,7 +29481,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -30316,7 +29549,7 @@
     "name": "金汤酸菜鱼",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%85%AE%E9%94%85/%E9%87%91%E6%B1%A4%E9%85%B8%E8%8F%9C%E9%B1%BC.md",
-    "image": "https://cdn.jsdelivr.net/gh/Gar-b-age/CookLikeHOC@main/images/%E9%87%91%E6%B1%A4%E9%85%B8%E8%8F%9C%E9%B1%BC.png",
+    "image": "/images/dish-b316243af5ea.webp",
     "isMeat": true,
     "mainIngredients": [
       "小叶酸菜",
@@ -30330,7 +29563,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 17,
+    "cookTimeMinutes": 25,
     "servings": 2,
     "ingredients": [
       {
@@ -30390,7 +29623,7 @@
     "name": "铜锅番茄虾滑",
     "source": "cooklikehoc",
     "sourceUrl": "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%85%AE%E9%94%85/%E9%93%9C%E9%94%85%E7%95%AA%E8%8C%84%E8%99%BE%E6%BB%91.md",
-    "image": null,
+    "image": "/images/dish-135e0dead55a.webp",
     "isMeat": true,
     "mainIngredients": [
       "虾滑",
@@ -30404,7 +29637,7 @@
     ],
     "spicyLevel": 0,
     "difficulty": 3,
-    "cookTimeMinutes": 15,
+    "cookTimeMinutes": 30,
     "servings": 2,
     "ingredients": [
       {
@@ -30469,7 +29702,7 @@
       },
       {
         "text": "铜锅番茄虾滑煮制：锅中加入500g番茄汤底、120g虾滑、75g西红柿片、60g金针菇、60g娃娃菜、30g青菜烧开煮约1分30秒，倒入铜锅中撒入5g葱花出品。",
-        "timerSeconds": 30
+        "timerSeconds": 90
       }
     ],
     "tips": "",

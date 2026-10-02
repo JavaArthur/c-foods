@@ -1,6 +1,7 @@
 <script setup>
 import Icon from "./Icon.vue";
 import DishImage from "./DishImage.vue";
+import { dishTime } from "../lib/menu";
 defineProps({ dish: Object, locked: Boolean, compact: Boolean });
 const emit = defineEmits(["open", "replace", "lock"]);
 let start = null,
@@ -56,11 +57,22 @@ function open() {
       <DishImage :dish="dish" />
       <div class="dish-copy">
         <h2>{{ dish.name }}</h2>
-        <p>{{ dish.mainIngredients.slice(0, 2).join(" · ") || "家常食材" }}</p>
+        <p>
+          <b v-if="dish._meta?.time.preparations?.length">需提前准备 · </b
+          >{{ dish.mainIngredients.slice(0, 2).join(" · ") || "家常食材" }}
+        </p>
       </div>
     </button>
     <div class="dish-meta">
-      <span>{{ dish.cookTimeMinutes }} 分钟</span
+      <span
+        :title="
+          dish._meta?.time.preparations?.length
+            ? '需提前准备，点开查看详情'
+            : '家庭预计用时'
+        "
+        >{{ dishTime(dish) }} 分钟{{
+          dish._meta?.time.preparations?.length ? "*" : ""
+        }}</span
       ><span :aria-label="'难度' + dish.difficulty + '星'">{{
         "★".repeat(dish.difficulty)
       }}</span

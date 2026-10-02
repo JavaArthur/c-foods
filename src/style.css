@@ -551,6 +551,7 @@ input[type="checkbox"] {
   min-height: 78px;
 }
 .dish-image {
+  position: relative;
   height: 78px;
   width: 88px;
   flex: none;
@@ -560,6 +561,28 @@ input[type="checkbox"] {
   display: grid;
   place-items: center;
   color: #a9653e;
+}
+.dish-image .image-label {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  padding: 2px 7px;
+  border-radius: 8px;
+  background: #fff8f0ed;
+  color: #5c4435;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.time-explanation {
+  background: #fff3e5;
+  padding: 14px;
+  border-radius: 14px;
+  margin: 12px 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.time-explanation p {
+  margin: 6px 0;
 }
 .dish-image span {
   font-size: 38px;

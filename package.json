@@ -21,6 +21,7 @@
     "@tailwindcss/vite": "^4.1.13",
     "@vitejs/plugin-vue": "^5.2.4",
     "prettier": "^3.9.9",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4.1.13",
     "vite": "^6.4.1",
     "vite-plugin-pwa": "^1.0.3"

@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { parseRecipe, sourceImage, clean } from "./recipe-parser.mjs";
+import { timeAudit } from "./recipe-time.mjs";
 const sources = [
   {
     key: "a",
@@ -19,6 +20,18 @@ const sources = [
   },
 ];
 const overlays = JSON.parse(await fs.readFile("data/overlays.json", "utf8"));
+const aliases = JSON.parse(
+  await fs.readFile("data/recipe-aliases.json", "utf8"),
+).names;
+const timeOverrides = JSON.parse(
+  await fs.readFile("data/time-overrides.json", "utf8"),
+);
+const images = JSON.parse(
+  await fs.readFile("data/image-manifest.json", "utf8"),
+);
+const families = JSON.parse(
+  await fs.readFile("data/recipe-families.json", "utf8"),
+);
 await fs.mkdir(".cache/md", { recursive: true });
 await fs.mkdir("public/data", { recursive: true });
 const report = {
@@ -111,7 +124,13 @@ for (const s of sources) {
             if (primaryNames.has(name) && !output.has(name))
               throw Error("主库同名做法待修正，不用补充库替代");
           }
-          results.push(parseRecipe(md, s.source, f.path, overlays));
+          const parsed = parseRecipe(md, s.source, f.path, overlays);
+          parsed.audit.time = timeAudit(
+            parsed.dish,
+            md,
+            timeOverrides[parsed.dish.name],
+          );
+          results.push(parsed);
         } catch (e) {
           report.skipped.push({ path: f.path, reason: e.message });
         }
@@ -133,7 +152,35 @@ for (const s of sources) {
 }
 for (const [name, image] of supplementalImages)
   if (output.has(name)) output.get(name).image = image;
+const redirects = {};
+for (const [alias, name] of Object.entries(aliases)) {
+  const duplicate = output.get(alias),
+    kept = output.get(name);
+  if (!duplicate || !kept) throw Error(`去重映射失效：${alias} → ${name}`);
+  redirects[duplicate.id] = kept.id;
+  output.delete(alias);
+  report.merged.push({ alias, name, reason: "已核对的同菜别名或设备版本" });
+}
 const dishes = [...output.values()];
+const meta = { redirects, dishes: {} };
+for (const dish of dishes) {
+  const audit = report.included.find(
+    (x) => x.name === dish.name && x.source === dish.source,
+  );
+  const image = images[dish.id];
+  if (!image)
+    throw Error(
+      `缺少图片记录：${dish.name}。请补充 data/image-manifest.json。`,
+    );
+  await fs.access("public" + image.file);
+  dish.image = image.file;
+  dish.cookTimeMinutes = audit.time.max;
+  const family =
+    Object.entries(families).find(([, names]) =>
+      names.includes(dish.name),
+    )?.[0] || dish.name;
+  meta.dishes[dish.id] = { time: audit.time, image, family };
+}
 if (
   dishes.filter((x) => x.isMeat).length < 30 ||
   dishes.filter((x) => !x.isMeat).length < 30
@@ -146,6 +193,10 @@ await fs.writeFile(
 await fs.writeFile(
   "data/build-report.json",
   JSON.stringify(report, null, 2) + "\n",
+);
+await fs.writeFile(
+  "public/data/dish-meta.json",
+  JSON.stringify(meta, null, 2) + "\n",
 );
 console.log(
   `完成：${dishes.length} 道，荤 ${dishes.filter((x) => x.isMeat).length} / 素 ${dishes.filter((x) => !x.isMeat).length}；跳过 ${report.skipped.length}，详情见 data/build-report.json`,

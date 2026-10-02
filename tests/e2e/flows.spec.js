@@ -136,3 +136,36 @@ test("加载错误兜底、重试与空状态", async ({ page }) => {
     page.getByRole("heading", { name: "留个位置给喜欢的菜" }),
   ).toBeVisible();
 });
+
+test("示意图片、估时依据、前置准备和旧收藏迁移", async ({ page }) => {
+  const meta = JSON.parse(
+    fs.readFileSync("public/data/dish-meta.json", "utf8"),
+  );
+  const [old, current] = Object.entries(meta.redirects)[0];
+  await page.addInitScript(
+    ({ old }) =>
+      localStorage.setItem("dinner-v1", JSON.stringify({ favorites: [old] })),
+    { old },
+  );
+  await page.goto("/#/favorites");
+  await expect(page.locator(".dish-grid")).toContainText(
+    dishes.find((d) => d.id === current).name,
+  );
+  await page.getByRole("link", { name: "菜谱库", exact: true }).click();
+  await page.getByRole("button", { name: /素菜库/ }).click();
+  await page.getByRole("textbox", { name: "按菜名搜索" }).fill("蒜蓉西兰花");
+  await expect(page.locator(".dish-grid .image-label")).toHaveText("示意图");
+  const img = page.locator(".dish-grid img");
+  await expect
+    .poll(() => img.evaluate((el) => el.complete && el.naturalWidth > 0))
+    .toBe(true);
+  await page.getByRole("button", { name: "查看蒜蓉西兰花" }).click();
+  await expect(page.locator(".time-explanation")).toContainText("预计");
+  await expect(page.getByRole("dialog")).toContainText("AI 生成");
+  await page.getByRole("button", { name: "关闭", exact: true }).click();
+  await page.getByRole("button", { name: /荤菜库/ }).click();
+  await page.getByRole("textbox", { name: "按菜名搜索" }).fill("枝竹羊腩煲");
+  await page.getByRole("button", { name: "查看枝竹羊腩煲" }).click();
+  await expect(page.locator(".time-explanation")).toContainText("140–165");
+  await expect(page.locator(".time-explanation")).toContainText("泡发香菇");
+});
