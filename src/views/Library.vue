@@ -1,11 +1,124 @@
 <script setup>
-import {ref,computed} from 'vue'
-import {dishes} from '../lib/store'
-import DishCard from '../components/DishCard.vue'
-import DishDetails from '../components/DishDetails.vue'
-import Icon from '../components/Icon.vue'
-const meat=ref(true),query=ref(''),ingredient=ref(''),flavor=ref(''),preview=ref(null)
-const options={'猪':/猪|五花|排骨|里脊|肉丝|肉片/,'牛':/牛/,'羊':/羊/,'鸡':/鸡(?!蛋|精)|手枪腿/,'鸭':/鸭/,'鱼虾':/鱼|虾|鲈|鲤|蟹|蚝|蛤|鳝/,'蛋':/蛋/,'豆制品':/豆腐|豆干|香干|腐竹|豆皮|千张/,'菌菇':/菇|蘑|木耳/,'叶菜':/菜|菠菜|生菜|油麦|空心/,'根茎':/土豆|萝卜|山药|藕|笋|芋/,'瓜果':/瓜|番茄|西红柿|茄子/}
-const filtered=computed(()=>dishes.value.filter(d=>d.isMeat===meat.value&&d.name.includes(query.value.trim())&&(!ingredient.value||options[ingredient.value].test(d.mainIngredients.join(' ')))&&(!flavor.value||(flavor.value==='辣'?d.spicyLevel>0:flavor.value==='不辣'?d.spicyLevel===0:d.flavorTags.includes(flavor.value)))))
+import { ref, computed } from "vue";
+import { dishes } from "../lib/store";
+import DishCard from "../components/DishCard.vue";
+import DishDetails from "../components/DishDetails.vue";
+import Icon from "../components/Icon.vue";
+const meat = ref(true),
+  query = ref(""),
+  ingredient = ref(""),
+  flavor = ref(""),
+  preview = ref(null);
+const options = {
+  猪: /猪|五花|排骨|里脊|肉丝|肉片/,
+  牛: /牛/,
+  羊: /羊/,
+  鸡: /鸡(?!蛋|精)|手枪腿/,
+  鸭: /鸭/,
+  鱼虾: /鱼|虾|鲈|鲤|蟹|蚝|蛤|鳝/,
+  蛋: /蛋/,
+  豆制品: /豆腐|豆干|香干|腐竹|豆皮|千张/,
+  菌菇: /菇|蘑|木耳/,
+  叶菜: /菜|菠菜|生菜|油麦|空心/,
+  根茎: /土豆|萝卜|山药|藕|笋|芋/,
+  瓜果: /瓜|番茄|西红柿|茄子/,
+};
+const filtered = computed(() =>
+  dishes.value.filter(
+    (d) =>
+      d.isMeat === meat.value &&
+      d.name.includes(query.value.trim()) &&
+      (!ingredient.value ||
+        options[ingredient.value].test(d.mainIngredients.join(" "))) &&
+      (!flavor.value ||
+        (flavor.value === "辣"
+          ? d.spicyLevel > 0
+          : flavor.value === "不辣"
+            ? d.spicyLevel === 0
+            : d.flavorTags.includes(flavor.value))),
+  ),
+);
 </script>
-<template><div class="page library"><p class="eyebrow">寻常食材，也有好多种好吃</p><h1>家常菜谱库</h1><div class="segmented"><button :class="{selected:meat}" :aria-pressed="meat" @click="meat=true">荤菜库 · {{dishes.filter(d=>d.isMeat).length}}</button><button :class="{selected:!meat}" :aria-pressed="!meat" @click="meat=false">素菜库 · {{dishes.filter(d=>!d.isMeat).length}}</button></div><label class="search-input"><Icon name="search"/><input v-model="query" placeholder="搜搜想吃的菜" aria-label="按菜名搜索"></label><div class="filter-row"><label>主料<select v-model="ingredient"><option value="">全部主料</option><option v-for="(_,k) in options" :key="k">{{k}}</option></select></label><label>口味<select v-model="flavor"><option value="">全部口味</option><option v-for="f in ['辣','不辣','酸甜','清淡']" :key="f">{{f}}</option></select></label></div><p class="result-count">找到 {{filtered.length}} 道家常好味道</p><div v-if="filtered.length" class="dish-grid"><DishCard v-for="d in filtered" :key="d.id" :dish="d" compact @open="preview=d"/></div><div v-else class="empty"><Icon name="bowl" :size="54"/><h2>还没找到这道菜</h2><p>换个名字，或者少选一个筛选条件试试。</p><button class="secondary" @click="query='';ingredient='';flavor=''">看看全部菜谱</button></div><footer class="source">菜谱来自 <a href="https://github.com/Anduin2017/HowToCook" target="_blank" rel="noopener noreferrer">HowToCook</a><br>做法整理自 <a href="https://github.com/Gar-b-age/CookLikeHOC" target="_blank" rel="noopener noreferrer">CookLikeHOC（老乡鸡菜品溯源报告）</a><br>仅供非商业学习 · 个人数据只存在这台设备</footer><DishDetails v-if="preview" :dish="preview" @close="preview=null"/></div></template>
+<template>
+  <div class="page library">
+    <p class="eyebrow">寻常食材，也有好多种好吃</p>
+    <h1>家常菜谱库</h1>
+    <div class="segmented">
+      <button
+        :class="{ selected: meat }"
+        :aria-pressed="meat"
+        @click="meat = true"
+      >
+        荤菜库 · {{ dishes.filter((d) => d.isMeat).length }}</button
+      ><button
+        :class="{ selected: !meat }"
+        :aria-pressed="!meat"
+        @click="meat = false"
+      >
+        素菜库 · {{ dishes.filter((d) => !d.isMeat).length }}
+      </button>
+    </div>
+    <label class="search-input"
+      ><Icon name="search" /><input
+        v-model="query"
+        placeholder="搜搜想吃的菜"
+        aria-label="按菜名搜索"
+    /></label>
+    <div class="filter-row">
+      <label
+        >主料<select v-model="ingredient">
+          <option value="">全部主料</option>
+          <option v-for="(_, k) in options" :key="k">{{ k }}</option>
+        </select></label
+      ><label
+        >口味<select v-model="flavor">
+          <option value="">全部口味</option>
+          <option v-for="f in ['辣', '不辣', '酸甜', '清淡']" :key="f">
+            {{ f }}
+          </option>
+        </select></label
+      >
+    </div>
+    <p class="result-count">找到 {{ filtered.length }} 道家常好味道</p>
+    <div v-if="filtered.length" class="dish-grid">
+      <DishCard
+        v-for="d in filtered"
+        :key="d.id"
+        :dish="d"
+        compact
+        @open="preview = d"
+      />
+    </div>
+    <div v-else class="empty">
+      <Icon name="bowl" :size="54" />
+      <h2>还没找到这道菜</h2>
+      <p>换个名字，或者少选一个筛选条件试试。</p>
+      <button
+        class="secondary"
+        @click="
+          query = '';
+          ingredient = '';
+          flavor = '';
+        "
+      >
+        看看全部菜谱
+      </button>
+    </div>
+    <footer class="source">
+      菜谱来自
+      <a
+        href="https://github.com/Anduin2017/HowToCook"
+        target="_blank"
+        rel="noopener noreferrer"
+        >HowToCook</a
+      ><br />做法整理自
+      <a
+        href="https://github.com/Gar-b-age/CookLikeHOC"
+        target="_blank"
+        rel="noopener noreferrer"
+        >CookLikeHOC（老乡鸡菜品溯源报告）</a
+      ><br />仅供非商业学习 · 个人数据只存在这台设备
+    </footer>
+    <DishDetails v-if="preview" :dish="preview" @close="preview = null" />
+  </div>
+</template>
