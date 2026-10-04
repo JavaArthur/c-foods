@@ -34,7 +34,7 @@ export function numberValue(raw) {
 }
 const num = "(?:\\d+(?:\\.\\d+)?|[零〇一二两三四五六七八九十百]+)(?:个?半)?|半";
 const re = new RegExp(
-  `(${num})\\s*(?:[-–—~～到至]\\s*(${num}))?\\s*(?:个)?\\s*(小时|分钟|秒钟|天|分(?!之|熟)|秒|min\\b|[sS]\\b)`,
+  `(${num})\\s*(?:[-–—~～到至]\\s*(${num}))?\\s*(?:个)?\\s*(小时|分钟|秒钟|天|分(?!之|熟|为|成)|秒|min\\b|[sS]\\b)`,
   "g",
 );
 export function durations(text) {

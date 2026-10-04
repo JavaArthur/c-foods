@@ -1,3 +1,5 @@
+import { familyCatalog } from "./family-data.mjs";
+import { stimulusReasons } from "../src/lib/nutrition.js";
 import fs from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { parseRecipe, sourceImage, clean } from "./recipe-parser.mjs";
@@ -161,12 +163,13 @@ for (const [alias, name] of Object.entries(aliases)) {
   output.delete(alias);
   report.merged.push({ alias, name, reason: "已核对的同菜别名或设备版本" });
 }
-const dishes = [...output.values()];
-const meta = { redirects, dishes: {} };
+let dishes = [...output.values()];
+let meta = { redirects, dishes: {} };
 for (const dish of dishes) {
   const audit = report.included.find(
     (x) => x.name === dish.name && x.source === dish.source,
   );
+  if (stimulusReasons(dish).length) continue;
   const image = images[dish.id];
   if (!image)
     throw Error(
@@ -181,11 +184,14 @@ for (const dish of dishes) {
     )?.[0] || dish.name;
   meta.dishes[dish.id] = { time: audit.time, image, family };
 }
-if (
-  dishes.filter((x) => x.isMeat).length < 30 ||
-  dishes.filter((x) => !x.isMeat).length < 30
-)
-  throw Error("荤素菜数量不足 30，保留旧数据");
+const family = await familyCatalog(dishes, meta, images);
+dishes = family.dishes;
+meta = family.meta;
+report.family = family.changes;
+await fs.writeFile(
+  "data/family-report.json",
+  JSON.stringify(family.changes, null, 2) + "\n",
+);
 await fs.writeFile(
   "public/data/dishes.json",
   JSON.stringify(dishes, null, 2) + "\n",

@@ -1,0 +1,1063 @@
+{
+  "reviewedAt": "2026-10-04",
+  "removed": [
+    {
+      "id": "dish-5f4ef14a3e9e",
+      "name": "鳊鱼炖豆腐",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-d78e304b4af9",
+      "name": "葱油桂鱼",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-c6a64e9989d6",
+      "name": "干煎阿根廷红虾",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-eebace3a0c5f",
+      "name": "红烧鲤鱼",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-cd65d843e8ba",
+      "name": "红烧鱼",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-6df045c0d850",
+      "name": "红烧鱼头",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-afbdbbf6781d",
+      "name": "黄油煎虾",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-87dd9561e5cb",
+      "name": "烤鱼",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-4f0d6f03231b",
+      "name": "酱炖蟹",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-aad5297d0d4f",
+      "name": "芥末黄油罗氏虾",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-c8ee5c3f5d0f",
+      "name": "鲤鱼炖白菜",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-d4b470c23990",
+      "name": "肉蟹煲",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-4a8c017b54b2",
+      "name": "水煮鱼",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-2100ef8721d3",
+      "name": "蒜蓉虾",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-6e7cba67272a",
+      "name": "香煎翘嘴鱼",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-90313363367b",
+      "name": "响油鳝丝",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-416117464d90",
+      "name": "小龙虾",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-6317306ff143",
+      "name": "阳朔啤酒鱼",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-852f1106dd9e",
+      "name": "油焖大虾",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-c2425b4ce4f5",
+      "name": "奥尔良风味烤鸡腿",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-c36c0019ce76",
+      "name": "澳门湿版免治牛肉饭",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-52e83fc0ba1e",
+      "name": "巴基斯坦牛肉咖喱",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-753710e84ebf",
+      "name": "白菜猪肉炖粉条",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-11791e8f98f9",
+      "name": "豉汁蒸白鱔",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-883b48e24f2a",
+      "name": "葱烧鸡腿",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-b8229b8949c7",
+      "name": "冬瓜酿肉",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-21cfd000630e",
+      "name": "番茄红酱",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-2b6c17e9c54c",
+      "name": "粉蒸肉",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-6b55206c8130",
+      "name": "干煸仔鸡",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-14b71ecfefbd",
+      "name": "宫保鸡丁",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-799fb76c158a",
+      "name": "咕噜肉",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-5da377822c7d",
+      "name": "广式萝卜牛腩",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-99ea3f4157e5",
+      "name": "贵州辣子鸡",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-579392d7f741",
+      "name": "桂林十八酿",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-a6d13f7259d3",
+      "name": "红烧鸡翅",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-34d824026b7c",
+      "name": "南派红烧肉",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-5deb1037d76a",
+      "name": "湖南家常红烧肉",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-226ef9cee720",
+      "name": "虎皮肘子",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-7a9ded525498",
+      "name": "黄焖鸡",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-89ecebd7c114",
+      "name": "黄油鸡",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-dd07bae9bb3b",
+      "name": "徽派红烧肉",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-6248f88c0b96",
+      "name": "回锅肉",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-b90030febe49",
+      "name": "尖椒炒牛肉",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-fe5636493a4b",
+      "name": "尖叫牛蛙",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-5fc272527c3e",
+      "name": "煎烤羊排",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-6db2ebad7e19",
+      "name": "姜炒鸡",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-536301a10014",
+      "name": "姜葱捞鸡",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-31c7da6a6027",
+      "name": "酱牛肉",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-4002fae1b118",
+      "name": "酱排骨",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-719cfc96f5bd",
+      "name": "椒盐排条",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-f6b56b2237ec",
+      "name": "咖喱肥牛",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-e9011fc0d25c",
+      "name": "烤鸡翅",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-19cd8258b005",
+      "name": "空气炸锅脆皮现腌炸鸡",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-a21c80058c2d",
+      "name": "口水鸡",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-6135539de733",
+      "name": "老妈蹄花",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-172840f1ca5e",
+      "name": "凉拌鸡丝",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-422b810f8633",
+      "name": "卤菜",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-8bf8fa5405cb",
+      "name": "萝卜炖羊排",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-89f89e49cf2c",
+      "name": "麻辣香锅",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-2ee6b4355ed5",
+      "name": "麻婆豆腐",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-dde6ab027b97",
+      "name": "蚂蚁上树",
+      "reason": "含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-581d2a67504f",
+      "name": "梅菜扣肉",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-1dad319dfd99",
+      "name": "牛排",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-ee6b150344e5",
+      "name": "农家一碗香",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-d76d98c2db72",
+      "name": "啤酒鸭",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-d073dbe515f0",
+      "name": "青椒酿",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-5d2ead0fcfeb",
+      "name": "青椒土豆炒肉",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-7b106cf47303",
+      "name": "清蒸鳜鱼",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-f13647a78548",
+      "name": "肉饼炖蛋",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-88a9608d24a2",
+      "name": "杀猪菜",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-12311f225bc1",
+      "name": "山西过油肉",
+      "reason": "含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-0f1fa883607f",
+      "name": "水煮牛肉",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-5ae4f200f4ec",
+      "name": "水煮肉片",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-58435b16a682",
+      "name": "台式卤肉饭",
+      "reason": "含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-447097124d9a",
+      "name": "糖醋里脊",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-6278e4f4c804",
+      "name": "糖醋排骨",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-e29b14f0c0f7",
+      "name": "田螺酿",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-5533ea15a6b2",
+      "name": "甜辣烤全翅",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-b4144475fa33",
+      "name": "土豆炖排骨",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-861c2ec338fb",
+      "name": "无骨鸡爪",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-95722bbda883",
+      "name": "西红柿牛腩",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-a8e9b9bbf287",
+      "name": "西红柿土豆炖牛肉",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-a5b1e37ad84b",
+      "name": "香干芹菜炒肉",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-9858b2916716",
+      "name": "香煎五花肉",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-4a917541ec8d",
+      "name": "香辣鸡爪煲",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-2adc4b98a4a7",
+      "name": "湘祁米夫鸭",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-d1ec1ae99e15",
+      "name": "小炒黄牛肉",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-88a9c10768cd",
+      "name": "小炒鸡肝",
+      "reason": "含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-fdca766bb4a0",
+      "name": "小炒肉",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-3c3ebe2eadb2",
+      "name": "小米辣炒肉",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-87893dd05358",
+      "name": "小酥肉",
+      "reason": "含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-52b51631256e",
+      "name": "新疆大盘鸡",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-83f2963bdecf",
+      "name": "血浆鸭",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-0b14d3c784d7",
+      "name": "羊排焖面",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-16cc00dd784b",
+      "name": "洋葱炒猪肉",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-5d05cf2d8ef4",
+      "name": "意式烤鸡",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-335fe4e71281",
+      "name": "鱼香茄子",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-7e6f0c60d2d9",
+      "name": "鱼香肉丝",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-276cb4e55c1b",
+      "name": "枝竹羊腩煲",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-74c3e5ca3c1d",
+      "name": "猪皮冻",
+      "reason": "含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-5a5f860bfe9c",
+      "name": "猪肉烩酸菜",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-ee51d3cdce26",
+      "name": "柱候牛腩",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-9043d01603b6",
+      "name": "孜然牛肉",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-8fbb82d41231",
+      "name": "白灼菜心",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-654810c131b9",
+      "name": "包菜炒鸡蛋粉丝",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-036bbd7e8b1d",
+      "name": "炒滑蛋",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-a4714e6e12f5",
+      "name": "炒土豆和胡萝卜蒸菜",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-2ebaec2562eb",
+      "name": "地三鲜",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-a524ac2cd293",
+      "name": "干锅花菜",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-d30de0405e48",
+      "name": "蚝油三鲜菇",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-c6d120c60078",
+      "name": "虎皮青椒",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-9492795d23a2",
+      "name": "鸡蛋羹",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-9c0a468f715e",
+      "name": "鸡蛋火腿炒黄瓜",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-f61e31ce36ed",
+      "name": "家常日本豆腐",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-4f8d89bee641",
+      "name": "椒盐玉米",
+      "reason": "含刺激性调味"
+    },
+    {
+      "id": "dish-19343eb19cb8",
+      "name": "金钱蛋",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-e41d828883bb",
+      "name": "金针菇日本豆腐煲",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-283156efe836",
+      "name": "烤茄子",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-5b904656de5e",
+      "name": "榄菜肉末四季豆",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-7ad95753e2ee",
+      "name": "雷椒皮蛋",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-712a971fa8e3",
+      "name": "凉拌豆腐",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-bf75c52063f0",
+      "name": "凉拌金针菇",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-824d32829edb",
+      "name": "凉拌木耳",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味"
+    },
+    {
+      "id": "dish-4068106ca5ad",
+      "name": "凉拌莴笋",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-a5c463be5bbc",
+      "name": "皮蛋豆腐",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-b6df17f4fb25",
+      "name": "蒲烧茄子",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-57216e517d6f",
+      "name": "陕北熬豆角",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-2191a08ce88b",
+      "name": "手撕包菜",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-5ddc266f40fc",
+      "name": "素炒豆角",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-2f5d30a0810b",
+      "name": "酸辣土豆丝",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-bb7fdc686dda",
+      "name": "小炒藕丁",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-c19cb388bc3f",
+      "name": "印度葫芦丸子",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-829d71f9c069",
+      "name": "印度土豆花菜",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-98a32cdfeb7f",
+      "name": "油醋爆蛋",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-38163b53be00",
+      "name": "鹌鹑蛋红烧肉",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-142295c1bd2b",
+      "name": "爆炒牛肉",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-e074a3b6b852",
+      "name": "菠萝咕咾肉",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-31313e448819",
+      "name": "蚕豆炒鸡蛋",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-29a52fb0e3c6",
+      "name": "蚕豆炒虾仁",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-d9038226cd88",
+      "name": "剁椒木耳炒鸡蛋",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-32504e153a7d",
+      "name": "农家小炒肉（鸡蛋干版本）",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-fcc087fe3c8d",
+      "name": "农家小炒肉（玉耳版本）",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-d817479fdc1f",
+      "name": "芹菜炒香干",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-95aa5e15d370",
+      "name": "青椒炒豆芽",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-b1fd3d363ff9",
+      "name": "青椒炒鸡蛋",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-1308acad107d",
+      "name": "青椒毛豆米",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-7fdd3c85d57c",
+      "name": "清炒莴笋片",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-e288b3e8e891",
+      "name": "酸辣包菜",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-4c2c3875ae7b",
+      "name": "酸辣大白菜",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-d2b9febdf41e",
+      "name": "蒜黄炒鸡蛋",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-1c66f92a8716",
+      "name": "蒜苔炒香干",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-d9b012fd4d3d",
+      "name": "外婆菜炒鸡蛋",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-89b283241971",
+      "name": "西兰花炒鸡胸肉",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-a1feb014f5f6",
+      "name": "香椿炒鸡蛋",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-1f8cde1e69dc",
+      "name": "小炒脆笋",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-130fac0265ac",
+      "name": "红烧鱼块",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-5371836cccb7",
+      "name": "梅干菜凤爪翅",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-2d2b3bef19eb",
+      "name": "西芹花生米",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-56b8c1c7aafd",
+      "name": "菠菜蛋皮丝",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-2926a72511b2",
+      "name": "葱油菜苔",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-0ad6bf72078b",
+      "name": "葱油菜心",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-246bc65e378a",
+      "name": "浇汁西兰花",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-717ac9a6b004",
+      "name": "香脆木耳",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-e5f424bf9d76",
+      "name": "风干牛肉蒸白干",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-472080d1e35f",
+      "name": "胡萝卜牛肉",
+      "reason": "含辣椒或无法确认无辣的椒类；含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-226ff4c9ee5b",
+      "name": "酱椒蒜香片片鱼",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-fca2e69d17c1",
+      "name": "酱香小河虾",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-5be5eb4467ee",
+      "name": "酱蒸白干",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-e8c69d110535",
+      "name": "酱蒸豆腐",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-c1caa461d2b9",
+      "name": "青椒蒸豆米",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-2f36186fda3b",
+      "name": "蒜蓉娃娃菜",
+      "reason": "含辣椒或无法确认无辣的椒类；复合调味成分未确认"
+    },
+    {
+      "id": "dish-5debb34e7928",
+      "name": "香肠蒸豆干",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-f1b950ee7e86",
+      "name": "香辣血旺",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-782f5e089d1a",
+      "name": "香芋蒸排骨",
+      "reason": "含刺激性调味；复合调味成分未确认"
+    },
+    {
+      "id": "dish-3e9b20edb3da",
+      "name": "蒸嫩豆腐",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-600d554e551f",
+      "name": "竹笋蒸鸡翅",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-43be0d1d0bc6",
+      "name": "嗨嗨锅（鲜蔬锅）",
+      "reason": "复合调味成分未确认"
+    },
+    {
+      "id": "dish-b316243af5ea",
+      "name": "金汤酸菜鱼",
+      "reason": "含辣椒或无法确认无辣的椒类"
+    },
+    {
+      "id": "dish-135e0dead55a",
+      "name": "铜锅番茄虾滑",
+      "reason": "复合调味成分未确认"
+    }
+  ],
+  "added": [
+    {
+      "id": "dish-7ccc1e361529",
+      "name": "土豆胡萝卜烧肉",
+      "sourceUrl": "https://m.xiachufang.com/recipe/105977585/",
+      "author": "GNITNIXIL"
+    },
+    {
+      "id": "dish-8352744b98fa",
+      "name": "香菇烧肉（家庭无辣版）",
+      "sourceUrl": "https://www.wecook123.com/6pjdkuw3f3s/",
+      "author": "黄米泽／料理123"
+    },
+    {
+      "id": "dish-0eb1db8409d9",
+      "name": "番茄土豆炖牛肉（家庭无辣版）",
+      "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89.md",
+      "author": "HowToCook 贡献者"
+    },
+    {
+      "id": "dish-00050641b3fe",
+      "name": "香菇胡萝卜炖鸡",
+      "sourceUrl": "https://www.sohu.com/a/720923026_121119253",
+      "author": "当地小灵通／食味思语"
+    },
+    {
+      "id": "dish-3dc16b377dd1",
+      "name": "冬瓜肉丸汤",
+      "sourceUrl": "https://home.meishichina.com/recipe-523547.html",
+      "author": "hb俗人／美食天下"
+    },
+    {
+      "id": "dish-9a01cc496dcc",
+      "name": "山药蒸肉饼（家庭无辣版）",
+      "sourceUrl": "https://m.xiachufang.com/recipe/107244778/",
+      "author": "龙宝宝陈诺"
+    },
+    {
+      "id": "dish-2046a2ea390e",
+      "name": "虾仁蒸豆腐",
+      "sourceUrl": "https://home.meishichina.com/recipe-420754.html",
+      "author": "苹果的萍／美食天下"
+    },
+    {
+      "id": "dish-6e4089b00b73",
+      "name": "鱼片豆腐汤（家庭无辣版）",
+      "sourceUrl": "https://m.xiachufang.com/recipe/104594334/",
+      "author": "爱吃炸鸡的寻雪"
+    },
+    {
+      "id": "dish-9c21480b55fb",
+      "name": "清炒茼蒿",
+      "sourceUrl": "https://m.xiachufang.com/recipe/107515120/",
+      "author": "S爷"
+    },
+    {
+      "id": "dish-553db321a0f3",
+      "name": "蒜蓉芥蓝",
+      "sourceUrl": "https://m.xiachufang.com/recipe/100001114/",
+      "author": "margueritefrance"
+    }
+  ],
+  "corrected": [
+    {
+      "name": "蛏抱蛋",
+      "from": {
+        "isMeat": true,
+        "proteinType": "fish"
+      },
+      "to": {
+        "isMeat": true,
+        "proteinType": "shrimp"
+      }
+    },
+    {
+      "name": "葱烧海参",
+      "from": {
+        "isMeat": true,
+        "proteinType": "fish"
+      },
+      "to": {
+        "isMeat": true,
+        "proteinType": "shrimp"
+      }
+    },
+    {
+      "name": "清蒸生蚝",
+      "from": {
+        "isMeat": true,
+        "proteinType": "fish"
+      },
+      "to": {
+        "isMeat": true,
+        "proteinType": "shrimp"
+      }
+    },
+    {
+      "name": "豉汁排骨",
+      "from": {
+        "isMeat": true,
+        "proteinType": "vegetable"
+      },
+      "to": {
+        "isMeat": true,
+        "proteinType": "pork"
+      }
+    },
+    {
+      "name": "荷兰豆炒腊肠",
+      "from": {
+        "isMeat": true,
+        "proteinType": "vegetable"
+      },
+      "to": {
+        "isMeat": true,
+        "proteinType": "pork"
+      }
+    },
+    {
+      "name": "荔枝肉",
+      "from": {
+        "isMeat": true,
+        "proteinType": "fish"
+      },
+      "to": {
+        "isMeat": true,
+        "proteinType": "pork"
+      }
+    },
+    {
+      "name": "黔式腊肠娃娃菜",
+      "from": {
+        "isMeat": true,
+        "proteinType": "vegetable"
+      },
+      "to": {
+        "isMeat": true,
+        "proteinType": "pork"
+      }
+    },
+    {
+      "name": "醉排骨",
+      "from": {
+        "isMeat": true,
+        "proteinType": "fish"
+      },
+      "to": {
+        "isMeat": true,
+        "proteinType": "pork"
+      }
+    },
+    {
+      "name": "上汤娃娃菜",
+      "from": {
+        "isMeat": false,
+        "proteinType": "egg"
+      },
+      "to": {
+        "isMeat": true,
+        "proteinType": "pork"
+      }
+    }
+  ]
+}

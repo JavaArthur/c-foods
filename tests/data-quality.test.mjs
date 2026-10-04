@@ -4,6 +4,7 @@ import fs from "node:fs";
 import sharp from "sharp";
 import { timer } from "../scripts/recipe-time.mjs";
 import { migrateRecipeIds } from "../src/lib/migrate.js";
+import { isLeafDish } from "../src/lib/nutrition.js";
 import { generateMenu, sameDish } from "../src/lib/menu.js";
 const dishes = JSON.parse(fs.readFileSync("public/data/dishes.json", "utf8"));
 const meta = JSON.parse(fs.readFileSync("public/data/dish-meta.json", "utf8"));
@@ -53,7 +54,10 @@ test("同菜别名从库中移除，旧 ID 可迁移", () => {
   ).names;
   for (const [alias, name] of Object.entries(aliases)) {
     assert(!dishes.some((x) => x.name === alias));
-    assert(dishes.some((x) => x.name === name));
+    assert(
+      dishes.some((x) => x.name === name) ||
+        Object.values(meta.removed).some((x) => x.name === name),
+    );
   }
   const [old, current] = Object.entries(meta.redirects)[0];
   const state = {
@@ -80,11 +84,11 @@ test("菜谱变体在主料放宽阶段也不重复上桌", () => {
     .filter((d) => meta.dishes[d.id].family === "红烧肉");
   assert(pool.length > 1);
   const result = generateMenu(
-    pool,
-    { meat: 2, veg: 0 },
+    [...pool, dishes.find(isLeafDish)],
+    { meat: 2, veg: 1 },
     { avoids: [], blacklist: [], spicy: 3 },
   );
-  assert.equal(result.menu.length, 1);
+  assert.equal(result.menu.filter((d) => d.isMeat).length, 1);
   assert(sameDish(pool[0], pool[1]));
 });
 test("估时有依据，关键误读和提前准备已修正", () => {
@@ -95,15 +99,17 @@ test("估时有依据，关键误读和提前准备已修正", () => {
   }
   for (const [name, min] of [
     ["清蒸鲈鱼", 30],
-    ["水煮牛肉", 40],
-    ["意式烤鸡", 50],
-    ["枝竹羊腩煲", 140],
+    ["香菇滑鸡", 60],
+    ["香菇烧肉（家庭无辣版）", 55],
   ])
     assert.equal(
       meta.dishes[dishes.find((d) => d.name === name).id].time.min,
       min,
     );
-  const beef = meta.dishes[dishes.find((d) => d.name === "酱牛肉").id].time;
-  assert(beef.max < 300);
-  assert(beef.preparations.length);
+  for (const name of ["水煮牛肉", "意式烤鸡", "枝竹羊腩煲", "酱牛肉"])
+    assert(Object.values(meta.removed).some((d) => d.name === name));
+  assert(
+    meta.dishes[dishes.find((d) => d.name === "香菇烧肉（家庭无辣版）").id].time
+      .preparations.length,
+  );
 });
