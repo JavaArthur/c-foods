@@ -1,8 +1,16 @@
 <script setup>
 import { computed, ref, onMounted, onBeforeUnmount } from "vue";
 import { useRoute, useRouter } from "vue-router";
-import { dishes, state, tell, goStep } from "../lib/store";
+import {
+  dishById,
+  catalogMeta,
+  portionLabel,
+  state,
+  tell,
+  goStep,
+} from "../lib/store";
 import { portionText } from "../lib/menu";
+import { isCustomDish } from "../lib/custom-dishes";
 import Icon from "../components/Icon.vue";
 import DishDetails from "../components/DishDetails.vue";
 const route = useRoute(),
@@ -10,7 +18,7 @@ const route = useRoute(),
   showIngredients = ref(false),
   now = ref(Date.now()),
   timerDone = ref(false);
-const dish = computed(() => dishes.value.find((d) => d.id === route.params.id));
+const dish = computed(() => dishById.value.get(route.params.id));
 const index = computed(() =>
   Math.min(
     state.progress[dish.value?.id]?.step || 0,
@@ -84,6 +92,7 @@ function move(delta) {
   timerDone.value = false;
 }
 function finish() {
+  if (state.settings.blacklist.includes(dish.value.id)) return;
   state.progress[dish.value.id] = { step: index.value, done: true };
   tell("这道完成啦 🎉 辛苦了，真香！");
   goStep(4);
@@ -98,7 +107,8 @@ function up(e) {
   swipe = null;
 }
 onMounted(() => {
-  if (dish.value && !state.progress[dish.value.id])
+  if (!dish.value || state.settings.blacklist.includes(dish.value.id)) return;
+  if (!state.progress[dish.value.id])
     state.progress[dish.value.id] = { step: 0, done: false };
   acquireWake();
   document.addEventListener("visibilitychange", onVisibility);
@@ -119,7 +129,10 @@ onBeforeUnmount(() => {
 });
 </script>
 <template>
-  <main v-if="dish" class="cooking">
+  <main
+    v-if="dish && !state.settings.blacklist.includes(dish.id)"
+    class="cooking"
+  >
     <header class="cooking-header">
       <button
         class="icon-button"
@@ -131,78 +144,106 @@ onBeforeUnmount(() => {
       >
         <Icon name="left" /></button
       ><strong>{{ dish.name }}</strong
-      ><button class="text-button" @click="showIngredients = true">食材</button>
-    </header>
-    <div class="cooking-progress">
-      <p>
-        第 <strong>{{ index + 1 }}</strong> / {{ dish.steps.length }} 步<span
-          >{{ state.settings.servings }} 人份</span
-        >
-      </p>
-      <div class="progress-track">
-        <div
-          :style="{ width: ((index + 1) / dish.steps.length) * 100 + '%' }"
-        ></div>
-      </div>
-    </div>
-    <div
-      class="cooking-stage"
-      @pointerdown="(e) => (swipe = { x: e.clientX, y: e.clientY })"
-      @pointerup="up"
-      @pointercancel="swipe = null"
-    >
-      <span class="step-number">{{ String(index + 1).padStart(2, "0") }}</span>
-      <p class="step-text">
-        {{ portionText(current.text, state.settings.servings / dish.servings) }}
-      </p>
-      <div v-if="current.timerSeconds" class="timer-box">
-        <button
-          class="timer-button"
-          @click="startTimer"
-          :disabled="activeTimer && remaining > 0"
-        >
-          ⏱
-          {{
-            activeTimer && remaining > 0
-              ? "剩余"
-              : timerDone || (activeTimer && remaining === 0)
-                ? "再计时"
-                : "开始计时"
-          }}
-          {{ clock }}</button
-        ><button
-          v-if="activeTimer && remaining > 0"
-          class="text-button"
-          @click="delete state.timers[key]"
-        >
-          取消计时
-        </button>
-        <p v-if="timerDone || (activeTimer && remaining === 0)" role="status">
-          时间到啦，看看锅里的菜 🔔
-        </p>
-      </div>
-    </div>
-    <p class="kitchen-hint">左右轻轻滑动，也可以切换步骤</p>
-    <div class="cooking-actions">
-      <button class="secondary" :disabled="index === 0" @click="move(-1)">
-        上一步</button
       ><button
-        v-if="index < dish.steps.length - 1"
-        class="primary"
-        @click="move(1)"
+        v-if="!isCustomDish(dish)"
+        class="text-button"
+        @click="showIngredients = true"
       >
-        下一步 →</button
-      ><button v-else class="primary" @click="finish">这道完成啦 🎉</button>
+        食材
+      </button>
+    </header>
+    <div v-if="isCustomDish(dish)" class="custom-cooking">
+      <span class="badge custom">自家菜 · 详情待补</span>
+      <h1>{{ dish.name }}</h1>
+      <p>做法待补</p>
+      <p class="note">按你家的习惯做，做好后记一下就行。</p>
+      <button class="primary full" @click="finish">这道完成啦 🎉</button>
     </div>
-    <DishDetails
-      v-if="showIngredients"
-      :dish="dish"
-      ingredients-only
-      @close="showIngredients = false"
-    />
+    <template v-else>
+      <div class="cooking-progress">
+        <p>
+          第 <strong>{{ index + 1 }}</strong> /
+          {{ dish.steps.length }} 步<span>{{ portionLabel }}</span>
+        </p>
+        <div class="progress-track">
+          <div
+            :style="{ width: ((index + 1) / dish.steps.length) * 100 + '%' }"
+          ></div>
+        </div>
+      </div>
+      <div
+        class="cooking-stage"
+        @pointerdown="(e) => (swipe = { x: e.clientX, y: e.clientY })"
+        @pointerup="up"
+        @pointercancel="swipe = null"
+      >
+        <span class="step-number">{{
+          String(index + 1).padStart(2, "0")
+        }}</span>
+        <p class="step-text">
+          {{
+            portionText(current.text, state.settings.servings / dish.servings)
+          }}
+        </p>
+        <div v-if="current.timerSeconds" class="timer-box">
+          <button
+            class="timer-button"
+            @click="startTimer"
+            :disabled="activeTimer && remaining > 0"
+          >
+            ⏱
+            {{
+              activeTimer && remaining > 0
+                ? "剩余"
+                : timerDone || (activeTimer && remaining === 0)
+                  ? "再计时"
+                  : "开始计时"
+            }}
+            {{ clock }}</button
+          ><button
+            v-if="activeTimer && remaining > 0"
+            class="text-button"
+            @click="delete state.timers[key]"
+          >
+            取消计时
+          </button>
+          <p v-if="timerDone || (activeTimer && remaining === 0)" role="status">
+            时间到啦，看看锅里的菜 🔔
+          </p>
+        </div>
+      </div>
+      <p class="kitchen-hint">左右轻轻滑动，也可以切换步骤</p>
+      <div class="cooking-actions">
+        <button class="secondary" :disabled="index === 0" @click="move(-1)">
+          上一步</button
+        ><button
+          v-if="index < dish.steps.length - 1"
+          class="primary"
+          @click="move(1)"
+        >
+          下一步 →</button
+        ><button v-else class="primary" @click="finish">这道完成啦 🎉</button>
+      </div>
+      <DishDetails
+        v-if="showIngredients"
+        :dish="dish"
+        ingredients-only
+        @close="showIngredients = false"
+      />
+    </template>
   </main>
   <main v-else class="page empty">
-    <h1>这道菜暂时找不到啦</h1>
+    <h1>
+      {{
+        dish
+          ? "这道菜已拉黑"
+          : catalogMeta.removed[route.params.id]?.name || "这道菜暂时找不到啦"
+      }}
+    </h1>
+    <p v-if="dish">可在「我的 → 已拉黑菜品」恢复。</p>
+    <p v-if="catalogMeta.removed[route.params.id]">
+      已下架：{{ catalogMeta.removed[route.params.id].reason }}
+    </p>
     <router-link to="/" class="primary">回今晚菜单</router-link>
   </main>
 </template>

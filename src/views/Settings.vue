@@ -1,6 +1,13 @@
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from "vue";
-import { state, dishes, resetAll, tell } from "../lib/store";
+import {
+  state,
+  familyLabel,
+  dishes,
+  restoreDish,
+  resetAll,
+  tell,
+} from "../lib/store";
 import Sheet from "../components/Sheet.vue";
 const extra = ref(""),
   clear = ref(false),
@@ -65,18 +72,20 @@ onBeforeUnmount(() =>
     <p class="eyebrow">多懂你一点，配得更合心意</p>
     <h1>我家的口味</h1>
     <section class="setting-card">
-      <h2>今晚几个人吃？</h2>
-      <p>清单和步骤用量都会跟着换算。</p>
+      <h2>{{ familyLabel }}</h2>
+      <p>
+        以两人份配方为备菜起点，按食量调整；宝宝不直接折算为成人。清单和步骤同步换算。
+      </p>
       <div class="servings">
         <button
-          aria-label="减少用餐人数"
+          aria-label="减少备菜份量"
           :disabled="state.settings.servings === 1"
           @click="state.settings.servings--"
         >
           −</button
-        ><strong>{{ state.settings.servings }} <small>人</small></strong
+        ><strong>{{ state.settings.servings }} <small>份</small></strong
         ><button
-          aria-label="增加用餐人数"
+          aria-label="增加备菜份量"
           :disabled="state.settings.servings === 6"
           @click="state.settings.servings++"
         >
@@ -107,18 +116,8 @@ onBeforeUnmount(() =>
       </form>
     </section>
     <section class="setting-card">
-      <h2>能吃多辣？</h2>
-      <div class="chips small">
-        <button
-          v-for="(label, i) in ['不辣', '微辣', '中辣', '都可以']"
-          :key="i"
-          :class="{ selected: state.settings.spicy === i }"
-          :aria-pressed="state.settings.spicy === i"
-          @click="state.settings.spicy = i"
-        >
-          {{ label }}
-        </button>
-      </div>
+      <h2>全家无辣</h2>
+      <p>已排除辣椒、花椒、胡椒、芥末等刺激调味。每餐保留一道绿叶菜。</p>
     </section>
     <details class="setting-card">
       <summary>鸡蛋、豆腐算荤还是素？</summary>
@@ -142,19 +141,16 @@ onBeforeUnmount(() =>
       >
     </details>
     <details class="setting-card">
-      <summary>暂时不想吃的菜 · {{ blacklisted.length }}</summary>
+      <summary>已拉黑菜品 · {{ blacklisted.length }}</summary>
       <p v-if="!blacklisted.length">还没有屏蔽的菜。在菜谱详情里可以添加。</p>
       <div v-for="d in blacklisted" :key="d.id" class="class-row">
         <span>{{ d.name }}</span
         ><button
           class="text-button"
-          @click="
-            state.settings.blacklist = state.settings.blacklist.filter(
-              (x) => x !== d.id,
-            )
-          "
+          :aria-label="'恢复' + d.name"
+          @click="restoreDish(d.id)"
         >
-          移出
+          恢复
         </button>
       </div>
     </details>
@@ -175,7 +171,9 @@ onBeforeUnmount(() =>
       ><br />仅供非商业学习
     </footer>
     <Sheet v-if="clear" title="和旧记录说再见？" @close="clear = false"
-      ><p>会清空这台设备上的偏好、收藏、历史菜单和做菜进度。</p>
+      ><p>
+        会清空这台设备上的偏好、收藏、自录菜品、黑名单、历史菜单和做菜进度。
+      </p>
       <button
         class="primary full"
         @click="

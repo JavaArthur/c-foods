@@ -3,14 +3,16 @@ import { ref, computed } from "vue";
 import { useRouter } from "vue-router";
 import {
   state,
-  dishes,
+  dishById,
+  catalogMeta,
+  visibleDishes as dishes,
   menuIds,
   lockedIds,
   goStep,
   invalidate,
   tell,
 } from "../lib/store";
-import { allowed, uniqueDishes } from "../lib/menu";
+import { canAddToMenu, uniqueDishes } from "../lib/menu";
 import DishCard from "../components/DishCard.vue";
 import DishDetails from "../components/DishDetails.vue";
 const tab = ref("saved"),
@@ -19,16 +21,23 @@ const tab = ref("saved"),
 const saved = computed(() =>
   dishes.value.filter((d) => state.favorites.includes(d.id)),
 );
-function names(ids) {
-  return ids
-    .map((id) => dishes.value.find((d) => d.id === id)?.name)
+function names(h) {
+  return h.ids
+    .map(
+      (id) =>
+        dishById.value.get(id)?.name ||
+        (h.removed?.[id]?.name ||
+          catalogMeta.value.removed[id]?.name ||
+          "未知菜谱") +
+          (h.removed?.[id]?.deleted ? "（已删除）" : "（已下架）"),
+    )
     .filter(Boolean);
 }
 function again(h) {
   const valid = uniqueDishes(
     h.ids
-      .map((id) => dishes.value.find((d) => d.id === id))
-      .filter((d) => d && allowed(d, state.settings)),
+      .map((id) => dishById.value.get(id))
+      .filter((d) => d && canAddToMenu(d, state.settings)),
   );
   if (!valid.length) {
     tell("这桌不符合现在的忌口，重新配一桌吧。");
@@ -80,8 +89,8 @@ function again(h) {
         :key="i"
         class="history-card"
       >
-        <p class="eyebrow">{{ h.date }} · {{ h.servings }} 人份</p>
-        <h2>{{ names(h.ids).join("、") }}</h2>
+        <p class="eyebrow">{{ h.date }} · 备菜约 {{ h.servings || 2 }} 份</p>
+        <h2>{{ names(h).join("、") }}</h2>
         <button class="secondary" @click="again(h)">再做一次这桌 →</button>
       </article>
       <div v-if="!state.history.length" class="empty">

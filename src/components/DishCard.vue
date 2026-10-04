@@ -2,11 +2,18 @@
 import Icon from "./Icon.vue";
 import DishImage from "./DishImage.vue";
 import { dishTime } from "../lib/menu";
-defineProps({ dish: Object, locked: Boolean, compact: Boolean });
-const emit = defineEmits(["open", "replace", "lock"]);
+import { isCustomDish } from "../lib/custom-dishes";
+const props = defineProps({
+  dish: Object,
+  locked: Boolean,
+  compact: Boolean,
+  eager: Boolean,
+});
+const emit = defineEmits(["open", "replace", "lock", "remove"]);
 let start = null,
   swiped = false;
 function down(e) {
+  if (isCustomDish(props.dish)) return;
   if (e.target.closest("button")) return;
   start = { x: e.clientX, y: e.clientY };
   swiped = false;
@@ -26,16 +33,26 @@ function open() {
 <template>
   <article
     class="dish-card"
-    :class="{ compact }"
+    :class="{ compact, 'custom-dish-card': isCustomDish(dish) }"
     @pointerdown="down"
     @pointerup="up"
     @pointercancel="start = null"
   >
     <div class="card-top">
-      <span class="badge" :class="dish.isMeat ? 'meat' : 'veg'">{{
-        dish.isMeat ? "荤" : "素"
-      }}</span>
-      <div v-if="!compact" class="card-controls">
+      <span
+        class="badge"
+        :class="isCustomDish(dish) ? 'custom' : dish.isMeat ? 'meat' : 'veg'"
+        >{{ isCustomDish(dish) ? "自家菜" : dish.isMeat ? "荤" : "素" }}</span
+      >
+      <button
+        v-if="!compact && isCustomDish(dish)"
+        class="text-button"
+        :aria-label="'移出今晚：' + dish.name"
+        @click.stop="emit('remove')"
+      >
+        移出今晚
+      </button>
+      <div v-else-if="!compact" class="card-controls">
         <button
           class="icon-button"
           :class="{ selected: locked }"
@@ -54,16 +71,23 @@ function open() {
       </div>
     </div>
     <button class="dish-open" @click="open" :aria-label="'查看' + dish.name">
-      <DishImage :dish="dish" />
+      <DishImage :dish="dish" :eager="eager" />
       <div class="dish-copy">
         <h2>{{ dish.name }}</h2>
         <p>
           <b v-if="dish._meta?.time.preparations?.length">需提前准备 · </b
-          >{{ dish.mainIngredients.slice(0, 2).join(" · ") || "家常食材" }}
+          >{{
+            isCustomDish(dish)
+              ? "自家菜 · 详情待补"
+              : dish.mainIngredients.slice(0, 2).join(" · ") || "家常食材"
+          }}
         </p>
       </div>
     </button>
-    <div class="dish-meta">
+    <div v-if="isCustomDish(dish)" class="dish-meta">
+      <span>食材、做法和用时待补</span>
+    </div>
+    <div v-else class="dish-meta">
       <span
         :title="
           dish._meta?.time.preparations?.length

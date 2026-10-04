@@ -1240,8 +1240,8 @@ input[type="checkbox"] {
 .page-enter-active,
 .page-leave-active {
   transition:
-    opacity 0.22s ease,
-    translate 0.22s ease;
+    opacity 0.12s ease,
+    translate 0.12s ease;
 }
 .page-enter-from {
   opacity: 0;
@@ -1308,7 +1308,7 @@ input[type="checkbox"] {
     margin-top: 14px;
   }
   .menu-heading {
-    margin-bottom: 10px;
+    margin-bottom: 6px;
   }
   .menu-heading .eyebrow {
     display: none;
@@ -1436,4 +1436,107 @@ input[type="checkbox"] {
   .step-1:has(.custom-count) .choose {
     margin-top: 10px;
   }
+}
+
+.meal-balance {
+  margin-top: 0;
+  color: var(--ink);
+  font-size: 14px;
+}
+.meal-balance summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #526447;
+}
+.meal-balance summary::after {
+  content: "＋";
+  margin-left: auto;
+}
+.meal-balance[open] summary::after {
+  content: "−";
+}
+.meal-balance p {
+  margin: 8px 0;
+}
+.meal-balance[open] {
+  padding: 0 12px 12px;
+  border: 1px solid #dfdacd;
+  border-radius: 12px;
+}
+.two-dishes .dish-meta {
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+
+.library-actions,
+.dish-management {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 12px 0;
+}
+.library-actions > button {
+  flex: 1;
+  white-space: nowrap;
+}
+.custom-dish-form {
+  display: grid;
+  gap: 10px;
+}
+.custom-dish-form label {
+  font-weight: 700;
+}
+.custom-dish-form input {
+  width: 100%;
+  min-height: 48px;
+  font-size: 16px;
+}
+.custom-dish-form p {
+  margin: 0;
+}
+.form-error {
+  color: #a23729;
+  min-height: 20px;
+  font-size: 14px;
+}
+.badge.custom {
+  width: auto;
+  padding: 0 8px;
+  white-space: nowrap;
+  color: #665442;
+  background: #eee7dc;
+}
+.dish-image.custom-image {
+  color: #665442;
+  background: #eee7dc;
+}
+.custom-dish-card:not(.compact) .card-top {
+  height: 44px;
+}
+.custom-detail,
+.custom-cooking {
+  overflow-wrap: anywhere;
+}
+.custom-cooking {
+  padding: 28px 20px;
+}
+.custom-cooking > p:not(.note) {
+  font-size: 22px;
+}
+.custom-cooking .primary {
+  margin-top: 24px;
+}
+.pending-ingredients {
+  padding: 12px;
+  background: #f4eee3;
+  border-radius: 12px;
+}
+.dish-copy h2,
+.cook-list-row strong,
+.confirm-dishes li,
+.class-row span,
+.sheet h2 {
+  overflow-wrap: anywhere;
 }

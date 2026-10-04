@@ -36,16 +36,20 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ["**/*.{js,css,html,json,png,svg,webp}"],
+        globPatterns: ["**/*.{js,css,html,json}", "icons/*.png"],
+        importScripts: ["sw-cleanup.js"],
+        cleanupOutdatedCaches: true,
         maximumFileSizeToCacheInBytes: 6 * 1024 * 1024,
         runtimeCaching: [
           {
-            urlPattern: /^https:\/\/cdn\.jsdelivr\.net\/.+\.(png|jpe?g|webp)$/i,
+            urlPattern: ({ url }) =>
+              url.origin === self.location.origin &&
+              /\/images\/dish-[a-f0-9]+\.webp$/.test(url.pathname),
             handler: "CacheFirst",
             options: {
-              cacheName: "dish-images",
-              expiration: { maxEntries: 80, maxAgeSeconds: 2592000 },
-              cacheableResponse: { statuses: [0, 200] },
+              cacheName: "dish-images-family-v2",
+              expiration: { maxEntries: 150, maxAgeSeconds: 2592000 },
+              cacheableResponse: { statuses: [200] },
             },
           },
         ],

@@ -61,9 +61,9 @@ test("锁定与换菜、收藏、筛选、自定义、人数和忌口", async ({
   await page.getByRole("link", { name: "收藏", exact: true }).click();
   await expect(page.locator(".dish-grid")).toContainText("蒜蓉西兰花");
   await page.getByRole("link", { name: "我的", exact: true }).click();
-  await page.getByRole("button", { name: "增加用餐人数" }).click();
+  await page.getByRole("button", { name: "增加备菜份量" }).click();
   await page.getByRole("button", { name: "花生", exact: true }).click();
-  await page.getByRole("button", { name: "不辣", exact: true }).click();
+  await expect(page.getByRole("heading", { name: "全家无辣" })).toBeVisible();
   await page.reload();
   await expect(page.locator(".servings")).toContainText("3");
   await expect(
@@ -148,9 +148,9 @@ test("示意图片、估时依据、前置准备和旧收藏迁移", async ({ pa
     { old },
   );
   await page.goto("/#/favorites");
-  await expect(page.locator(".dish-grid")).toContainText(
-    dishes.find((d) => d.id === current).name,
-  );
+  await expect(
+    page.getByRole("heading", { name: "留个位置给喜欢的菜" }),
+  ).toBeVisible();
   await page.getByRole("link", { name: "菜谱库", exact: true }).click();
   await page.getByRole("button", { name: /素菜库/ }).click();
   await page.getByRole("textbox", { name: "按菜名搜索" }).fill("蒜蓉西兰花");
@@ -164,8 +164,12 @@ test("示意图片、估时依据、前置准备和旧收藏迁移", async ({ pa
   await expect(page.getByRole("dialog")).toContainText("AI 生成");
   await page.getByRole("button", { name: "关闭", exact: true }).click();
   await page.getByRole("button", { name: /荤菜库/ }).click();
-  await page.getByRole("textbox", { name: "按菜名搜索" }).fill("枝竹羊腩煲");
-  await page.getByRole("button", { name: "查看枝竹羊腩煲" }).click();
-  await expect(page.locator(".time-explanation")).toContainText("140–165");
-  await expect(page.locator(".time-explanation")).toContainText("泡发香菇");
+  await page
+    .getByRole("textbox", { name: "按菜名搜索" })
+    .fill("香菇烧肉（家庭无辣版）");
+  await page
+    .getByRole("button", { name: "查看香菇烧肉（家庭无辣版）" })
+    .click();
+  await expect(page.locator(".time-explanation")).toContainText("55–70");
+  await expect(page.locator(".time-explanation")).toContainText("香菇");
 });

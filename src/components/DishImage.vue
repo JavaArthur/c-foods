@@ -1,6 +1,6 @@
 <script setup>
 import { computed, ref, watch } from "vue";
-const props = defineProps({ dish: Object });
+const props = defineProps({ dish: Object, eager: Boolean });
 const failed = ref(false);
 const src = computed(() =>
   props.dish.image?.startsWith("/")
@@ -16,12 +16,21 @@ watch(
 );
 </script>
 <template>
-  <div class="dish-image" :class="{ 'veg-image': !dish.isMeat }">
+  <div
+    class="dish-image"
+    :class="{
+      'veg-image': dish.isMeat === false,
+      'custom-image': dish.source === 'custom',
+    }"
+  >
     <img
       v-if="dish.image && !failed"
       :src="src"
       :alt="dish.name + (illustration ? '示意图' : '成品图')"
-      loading="lazy"
+      :loading="eager ? 'eager' : 'lazy'"
+      decoding="async"
+      width="640"
+      height="640"
       @error="failed = true"
     /><span v-else aria-hidden="true">{{ dish.name[0] }}</span>
     <small v-if="illustration && !failed" class="image-label">示意图</small>

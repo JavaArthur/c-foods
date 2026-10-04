@@ -11,16 +11,23 @@ import {
 } from "../src/lib/menu.js";
 import { parseRecipe, timer, canonical } from "../scripts/recipe-parser.mjs";
 const dishes = JSON.parse(fs.readFileSync("public/data/dishes.json", "utf8"));
+import { isLeafDish } from "../src/lib/nutrition.js";
+const meta = JSON.parse(fs.readFileSync("public/data/dish-meta.json", "utf8"));
 const settings = { servings: 2, spicy: 1, avoids: [], blacklist: [] };
 test("两库真实来源、唯一 ID、荤素数量和必要字段", () => {
   assert(dishes.filter((d) => d.isMeat).length >= 30);
   assert(dishes.filter((d) => !d.isMeat).length >= 30);
   assert.equal(new Set(dishes.map((d) => d.id)).size, dishes.length);
   for (const d of dishes) {
-    assert.match(
-      d.sourceUrl,
-      /^https:\/\/github.com\/(Anduin2017\/HowToCook|Gar-b-age\/CookLikeHOC)\/blob\//,
-    );
+    if (d.source === "family") {
+      assert.match(d.sourceUrl, /^https:\/\//);
+      assert(meta.dishes[d.id].recipe.author);
+      assert(meta.dishes[d.id].recipe.adaptation);
+    } else
+      assert.match(
+        d.sourceUrl,
+        /^https:\/\/github.com\/(Anduin2017\/HowToCook|Gar-b-age\/CookLikeHOC)\/blob\//,
+      );
     assert(d.steps.length);
     assert(d.ingredients.length);
     assert(d.servings > 0);
@@ -46,11 +53,11 @@ test("200 桌不重复菜和主料，并遵守忌口、辣度、黑名单", () =
   }
 });
 test("锁定保留；近期、主料按顺序放宽；硬约束永不放宽", () => {
-  const one = dishes.find((d) => !d.isMeat && d.spicyLevel === 0),
+  const one = dishes.find(isLeafDish),
     history = [{ date: localDate(), ids: [one.id] }];
   const r = generateMenu([one], { meat: 0, veg: 1 }, settings, history);
   assert.equal(r.menu.length, 1);
-  assert.match(r.note, /最近/);
+  assert.match(r.note, /近期/);
   const r2 = generateMenu([one], { meat: 1, veg: 1 }, settings, [], [], [one]);
   assert.equal(r2.menu.length, 1);
   assert.match(r2.note, /少/);
@@ -97,7 +104,7 @@ test("嵌套供应商括号不会污染名称；时间支持中文、范围和�
 });
 test("老乡鸡配料、步骤同步缩放，合计主料为家庭份量", () => {
   const b = dishes.filter((d) => d.source === "cooklikehoc");
-  assert(b.length > 30);
+  assert(b.length >= 15);
   for (const d of b) {
     assert.equal(d.servings, 2);
     const mass = d.ingredients

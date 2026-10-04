@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-04",
+  "baselineCommit": "cc6861a",
+  "environment": "10 Mbps, 40 ms latency; 375×667 Chromium; cold context, SW blocked",
+  "measurement": "本机同一设备与网络条件，三次冷启动取中位数。首页计时为按钮可操作时间；下载量未压缩，不代表线上实测。",
+  "before": {
+    "runs": [
+      {
+        "readyMs": 1754,
+        "generateMs": 828,
+        "libraryMs": 326,
+        "initialBytes": 1317585
+      },
+      {
+        "readyMs": 1728,
+        "generateMs": 818,
+        "libraryMs": 334,
+        "initialBytes": 1317585
+      },
+      {
+        "readyMs": 1704,
+        "generateMs": 841,
+        "libraryMs": 320,
+        "initialBytes": 1317585
+      }
+    ],
+    "median": {
+      "readyMs": 1728,
+      "generateMs": 828,
+      "libraryMs": 326,
+      "initialBytes": 1317585
+    },
+    "precacheKiB": 12800.07
+  },
+  "after": {
+    "runs": [
+      {
+        "readyMs": 1211,
+        "generateMs": 17,
+        "libraryMs": 245,
+        "initialBytes": 602249
+      },
+      {
+        "readyMs": 1191,
+        "generateMs": 16,
+        "libraryMs": 322,
+        "initialBytes": 602249
+      },
+      {
+        "readyMs": 1213,
+        "generateMs": 15,
+        "libraryMs": 295,
+        "initialBytes": 602249
+      }
+    ],
+    "median": {
+      "readyMs": 1211,
+      "generateMs": 16,
+      "libraryMs": 295,
+      "initialBytes": 602249
+    },
+    "precacheKiB": 613.71
+  },
+  "catalog": {
+    "previous": 249,
+    "removed": 179,
+    "added": 10,
+    "published": 80,
+    "meat": 43,
+    "vegetarian": 37,
+    "leafIngredientLabels": 14,
+    "photos": 47,
+    "illustrations": 33
+  },
+  "validation": {
+    "unitAndDataTests": 19,
+    "mobileFlowTests": 9,
+    "productionBuild": "passed",
+    "imageDecodeAndAttribution": "all 80 passed",
+    "rebuildOutput": "dishes.json and dish-meta.json SHA256 identical",
+    "upgradeFromBaseline": "passed under /c-foods/ with the old production service worker installed",
+    "offline": [
+      "reload",
+      "confirmed menu images",
+      "shopping list",
+      "cooking",
+      "details",
+      "retired recipe link"
+    ],
+    "layout": [
+      "375×667 two dishes and collapsed nutrition summary visible",
+      "no horizontal overflow",
+      "landscape",
+      "desktop max-width 480px",
+      "reduced motion"
+    ]
+  },
+  "changes": "../data/family-report.json",
+  "newRecipes": "../data/family-recipes.json",
+  "deployment": "本次只完成本地实现和验证，未发布"
+}

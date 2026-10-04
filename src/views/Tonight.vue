@@ -4,10 +4,14 @@ import { useRouter } from "vue-router";
 import Icon from "../components/Icon.vue";
 import DishCard from "../components/DishCard.vue";
 import DishDetails from "../components/DishDetails.vue";
+import MealBalance from "../components/MealBalance.vue";
 import Sheet from "../components/Sheet.vue";
 import {
   state,
-  dishes,
+  familyLabel,
+  portionLabel,
+  dishById,
+  recommendationDishes as dishes,
   menu,
   menuIds,
   lockedIds,
@@ -17,7 +21,9 @@ import {
   confirmMenu,
   invalidate,
   tell,
+  removeFromMenu,
 } from "../lib/store";
+import { isCustomDish } from "../lib/custom-dishes";
 import {
   generateMenu,
   shoppingList,
@@ -25,6 +31,7 @@ import {
   dishTime,
   cookOrder,
   localDate,
+  sameDish,
 } from "../lib/menu";
 const router = useRouter(),
   counts = ref({ meat: 1, veg: 1 }),
@@ -65,17 +72,32 @@ const list = computed(() => shoppingList(menu.value, state.settings.servings)),
 const done = computed(
   () => list.value.filter((i) => state.checks[i.key]).length,
 );
+const customDishes = computed(() => menu.value.filter(isCustomDish));
+const recipes = computed(() => menu.value.filter((d) => !isCustomDish(d)));
+const pendingIngredients = computed(() =>
+  customDishes.value.length
+    ? "以下自家菜的食材待补：" +
+      customDishes.value.map((d) => d.name).join("、")
+    : "",
+);
+const timeLabel = computed(() =>
+  recipes.value.length
+    ? `预计 ${time.value} 分钟${customDishes.value.length ? "（不含自录菜）" : ""}`
+    : "用时待补",
+);
 const menuSummary = computed(
   () =>
-    `${menu.value.filter((d) => d.isMeat).length} 荤 ${menu.value.filter((d) => !d.isMeat).length} 素 · 预计 ${time.value} 分钟 · ${state.settings.servings} 人份`,
+    `${recipes.value.filter((d) => d.isMeat).length} 荤 ${recipes.value.filter((d) => !d.isMeat).length} 素${customDishes.value.length ? " + " + customDishes.value.length + " 道自家菜" : ""} · ${timeLabel.value} · 备菜约 ${state.settings.servings} 份`,
 );
 function adjust(key, n) {
-  counts.value[key] = Math.max(0, Math.min(5, counts.value[key] + n));
+  counts.value[key] = Math.max(
+    key === "veg" ? 1 : 0,
+    Math.min(5, counts.value[key] + n),
+  );
   if (counts.value.meat + counts.value.veg === 0) counts.value[key] = 1;
 }
-async function generate() {
+function generate() {
   busy.value = true;
-  await new Promise((r) => setTimeout(r, 600));
   const r = generateMenu(
     dishes.value,
     counts.value,
@@ -93,21 +115,28 @@ async function generate() {
     return;
   }
   goStep(2);
+  if (r.note) tell(r.note);
 }
 function replace(id) {
+  if (!recipes.value.length) {
+    tell("自家菜会为你保留，可以去菜谱库再加一道绿叶菜。");
+    return;
+  }
   if (id && lockedIds.value.includes(id)) {
     tell("这道已锁住，先解锁再换吧。");
     return;
   }
-  const keep = menu.value.filter((d) =>
+  const keep = recipes.value.filter((d) =>
     id ? d.id !== id : lockedIds.value.includes(d.id),
   );
   const target = {
-    meat: menu.value.filter((d) => d.isMeat).length,
-    veg: menu.value.filter((d) => !d.isMeat).length,
+    meat: recipes.value.filter((d) => d.isMeat).length,
+    veg: recipes.value.filter((d) => !d.isMeat).length,
   };
   const r = generateMenu(
-    dishes.value,
+    dishes.value.filter(
+      (d) => !customDishes.value.some((other) => sameDish(d, other)),
+    ),
     target,
     state.settings,
     state.history,
@@ -115,8 +144,12 @@ function replace(id) {
     keep,
     menu.value.filter((d) => !keep.includes(d)).map((d) => d.id),
   );
-  if (r.menu.length < menu.value.length) {
-    tell("暂时找不到更合适的菜，帮你留住这一桌啦。");
+  if (
+    !r.valid ||
+    r.menu.length < recipes.value.length ||
+    r.menu.length + customDishes.value.length > 10
+  ) {
+    tell(r.note || "暂时找不到更合适的菜，帮你留住这一桌啦。");
     return;
   }
   menuIds.value = id
@@ -125,9 +158,10 @@ function replace(id) {
           ? r.menu.find((x) => !keep.some((k) => k.id === x.id)).id
           : d.id,
       )
-    : r.menu.map((d) => d.id);
+    : [...r.menu, ...customDishes.value].map((d) => d.id);
   menuNote.value = r.note;
   invalidate();
+  if (r.note) tell(r.note);
 }
 function toggleLock(id) {
   lockedIds.value = lockedIds.value.includes(id)
@@ -139,7 +173,7 @@ function confirmNow() {
 }
 async function copy() {
   const text =
-    `今晚的买菜清单（${state.settings.servings} 人份）\n${menu.value.map((d) => d.name).join("、")}\n\n` +
+    `今晚的买菜清单（备菜约 ${state.settings.servings} 份）\n${menu.value.map((d) => d.name).join("、")}\n\n` +
     groups
       .map(
         ([g, title]) =>
@@ -151,7 +185,8 @@ async function copy() {
             )
             .join("\n")}`,
       )
-      .join("\n\n");
+      .join("\n\n") +
+    (pendingIngredients.value ? "\n\n" + pendingIngredients.value : "");
   try {
     await navigator.clipboard.writeText(text);
     tell("清单复制好啦，发到微信就能用。");
@@ -163,9 +198,11 @@ function status(d) {
   const p = state.progress[d.id];
   return p?.done
     ? "已完成 ✅"
-    : p
-      ? `第 ${p.step + 1}/${d.steps.length} 步`
-      : "未开始";
+    : isCustomDish(d)
+      ? "做法待补 · 可直接标记完成"
+      : p
+        ? `第 ${p.step + 1}/${d.steps.length} 步`
+        : "未开始";
 }
 </script>
 <template>
@@ -176,7 +213,7 @@ function status(d) {
         <h1>
           {{ greeting }}～<br />今晚想吃点啥<span class="orange">？</span>
         </h1>
-        <p>选个搭配，把晚饭的小纠结交给我。</p>
+        <p>{{ familyLabel }} · 无辣家常菜</p>
       </div>
       <div v-show="!custom" class="meal-illustration" aria-hidden="true">
         <div class="leaf-deco">✳</div>
@@ -191,10 +228,7 @@ function status(d) {
         <div class="section-heading">
           <h2>今晚，想做几道？</h2>
           <router-link to="/me" class="people-link"
-            ><Icon name="users" :size="18" />{{
-              state.settings.servings
-            }}
-            人吃</router-link
+            ><Icon name="users" :size="18" />两大一小</router-link
           >
         </div>
         <div class="chips">
@@ -230,7 +264,7 @@ function status(d) {
             <span>{{ label }}</span
             ><button
               :aria-label="'减少' + label"
-              :disabled="counts[key] === 0 || counts.meat + counts.veg === 1"
+              :disabled="counts[key] === (key === 'veg' ? 1 : 0)"
               @click="adjust(key, -1)"
             >
               −</button
@@ -246,7 +280,7 @@ function status(d) {
         </div>
       </section>
       <p class="gentle-line">
-        <Icon name="leaf" :size="18" />荤素搭着吃，日子有滋有味。
+        <Icon name="leaf" :size="18" />每餐一道绿叶菜，荤菜也多搭点食材。
       </p>
       <div class="action-bar single">
         <button class="primary" :disabled="busy" @click="generate">
@@ -259,7 +293,7 @@ function status(d) {
       ><div class="menu-heading">
         <p class="eyebrow">
           {{
-            state.today?.date === localDate()
+            state.today?.date === localDate() && !state.today.needsConfirmation
               ? "今日菜单 · 已为你记好"
               : "搭配刚刚好，美味不重样"
           }}
@@ -267,19 +301,20 @@ function status(d) {
         <h1>今晚的菜单</h1>
         <p>{{ menuSummary }}</p>
       </div>
-      <p v-if="menuNote" class="note small-note">{{ menuNote }}</p>
       <div class="menu-cards" :class="{ 'two-dishes': menu.length === 2 }">
         <DishCard
-          v-for="d in menu"
+          v-for="(d, i) in menu"
+          :eager="i < 2"
           :key="d.id"
           :dish="d"
           :locked="lockedIds.includes(d.id)"
           @open="preview = d"
           @lock="toggleLock(d.id)"
           @replace="replace(d.id)"
+          @remove="removeFromMenu(d.id)"
         />
       </div>
-      <p class="swipe-hint">← 左滑换道菜 · 点开看做法 · 锁住喜欢的</p>
+      <MealBalance :menu="menu" :note="menuNote" />
       <div class="action-bar">
         <button class="secondary" @click="replace()">
           <Icon name="refresh" :size="18" />整桌换一换</button
@@ -289,12 +324,14 @@ function status(d) {
     <template v-else-if="step === 3"
       ><p class="eyebrow">带上清单，顺路买齐</p>
       <h1>今天要买这些</h1>
-      <p>
-        {{ state.settings.servings }} 人份 · 已备好 {{ done }} /
-        {{ list.length }} 样
+      <p>{{ portionLabel }} · 已备好 {{ done }} / {{ list.length }} 样</p>
+      <p v-if="pendingIngredients" class="note pending-ingredients">
+        {{ pendingIngredients }}
       </p>
       <div class="progress-track">
-        <div :style="{ width: (done / list.length) * 100 + '%' }"></div>
+        <div
+          :style="{ width: (list.length ? done / list.length : 0) * 100 + '%' }"
+        ></div>
       </div>
       <template v-for="[g, title] in groups" :key="g"
         ><details
@@ -330,11 +367,11 @@ function status(d) {
       ><p class="eyebrow">围裙系好，美味就要上桌</p>
       <h1>一起做顿热乎饭</h1>
       <p>一道一道来，慢慢做也没关系。</p>
-      <section v-if="menu.length > 1" class="order-note">
+      <section v-if="recipes.length > 1" class="order-note">
         <h2><Icon name="clock" :size="20" />推荐做菜顺序</h2>
         <p>先炖煮，再快炒，凉菜最后拌。</p>
         <ol>
-          <li v-for="d in cookOrder(menu)" :key="d.id">
+          <li v-for="d in cookOrder(recipes)" :key="d.id">
             {{ d.name }}<span>{{ dishTime(d) }} 分钟</span>
           </li>
         </ol>
@@ -345,9 +382,10 @@ function status(d) {
         class="cook-list-row"
         @click="router.push('/cook/' + d.id)"
       >
-        <span class="badge" :class="d.isMeat ? 'meat' : 'veg'">{{
-          d.isMeat ? "荤" : "素"
-        }}</span
+        <span
+          class="badge"
+          :class="isCustomDish(d) ? 'custom' : d.isMeat ? 'meat' : 'veg'"
+          >{{ isCustomDish(d) ? "自家菜" : d.isMeat ? "荤" : "素" }}</span
         ><span
           ><strong>{{ d.name }}</strong
           ><small>{{ status(d) }}</small></span
@@ -369,13 +407,15 @@ function status(d) {
       <h2 class="confirm-title">今晚就做这 {{ menu.length }} 道啦 👇</h2>
       <ul class="confirm-dishes">
         <li v-for="d in menu" :key="d.id">
-          {{ d.isMeat ? "🍖" : "🥬" }} {{ d.name }}
+          {{ isCustomDish(d) ? "自家菜 ·" : d.isMeat ? "🍖" : "🥬" }}
+          {{ d.name }}
         </li>
       </ul>
       <p class="confirm-info">
-        一共要准备 <strong>{{ list.length }}</strong> 样食材，<br />大约
-        <strong>{{ time }}</strong> 分钟制作
+        已记录 <strong>{{ list.length }}</strong> 样食材，<br />
+        <strong>{{ timeLabel }}</strong>
       </p>
+      <p v-if="pendingIngredients" class="note">{{ pendingIngredients }}</p>
       <p class="note">
         按依次做菜估算，可以穿插操作；提前准备所需的等待时间另算。
       </p>

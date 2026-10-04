@@ -1,9 +1,16 @@
 <script setup>
-import { ref, computed } from "vue";
-import { dishes } from "../lib/store";
+import { ref, computed, watch } from "vue";
+import { isLeafDish } from "../lib/nutrition";
+import { visibleDishes as dishes } from "../lib/store";
+import { isCustomDish } from "../lib/custom-dishes";
+import Sheet from "../components/Sheet.vue";
+import CustomDishForm from "../components/CustomDishForm.vue";
 import DishCard from "../components/DishCard.vue";
 import DishDetails from "../components/DishDetails.vue";
 import Icon from "../components/Icon.vue";
+const limit = ref(24);
+const customTab = ref(false),
+  creating = ref(false);
 const meat = ref(true),
   query = ref(""),
   ingredient = ref(""),
@@ -26,11 +33,17 @@ const options = {
 const filtered = computed(() =>
   dishes.value.filter(
     (d) =>
-      d.isMeat === meat.value &&
+      (customTab.value
+        ? isCustomDish(d)
+        : !isCustomDish(d) && d.isMeat === meat.value) &&
       d.name.includes(query.value.trim()) &&
-      (!ingredient.value ||
-        options[ingredient.value].test(d.mainIngredients.join(" "))) &&
-      (!flavor.value ||
+      (customTab.value ||
+        !ingredient.value ||
+        (ingredient.value === "叶菜"
+          ? isLeafDish(d)
+          : options[ingredient.value].test(d.mainIngredients.join(" ")))) &&
+      (customTab.value ||
+        !flavor.value ||
         (flavor.value === "辣"
           ? d.spicyLevel > 0
           : flavor.value === "不辣"
@@ -38,12 +51,30 @@ const filtered = computed(() =>
             : d.flavorTags.includes(flavor.value))),
   ),
 );
+const visible = computed(() => filtered.value.slice(0, limit.value));
+watch([meat, customTab, query, ingredient, flavor], () => {
+  limit.value = 24;
+});
 </script>
 <template>
   <div class="page library">
     <p class="eyebrow">寻常食材，也有好多种好吃</p>
     <h1>家常菜谱库</h1>
-    <div class="segmented">
+    <div class="library-actions">
+      <button class="primary" @click="creating = true">＋ 录入菜品</button>
+      <button
+        class="secondary"
+        :aria-pressed="customTab"
+        @click="customTab = !customTab"
+      >
+        {{
+          customTab
+            ? "返回菜谱库"
+            : "我录入的 · " + dishes.filter(isCustomDish).length
+        }}
+      </button>
+    </div>
+    <div v-if="!customTab" class="segmented">
       <button
         :class="{ selected: meat }"
         :aria-pressed="meat"
@@ -55,7 +86,7 @@ const filtered = computed(() =>
         :aria-pressed="!meat"
         @click="meat = false"
       >
-        素菜库 · {{ dishes.filter((d) => !d.isMeat).length }}
+        素菜库 · {{ dishes.filter((d) => d.isMeat === false).length }}
       </button>
     </div>
     <label class="search-input"
@@ -64,7 +95,7 @@ const filtered = computed(() =>
         placeholder="搜搜想吃的菜"
         aria-label="按菜名搜索"
     /></label>
-    <div class="filter-row">
+    <div v-if="!customTab" class="filter-row">
       <label
         >主料<select v-model="ingredient">
           <option value="">全部主料</option>
@@ -73,16 +104,23 @@ const filtered = computed(() =>
       ><label
         >口味<select v-model="flavor">
           <option value="">全部口味</option>
-          <option v-for="f in ['辣', '不辣', '酸甜', '清淡']" :key="f">
+          <option v-for="f in ['不辣', '酸甜']" :key="f">
             {{ f }}
           </option>
         </select></label
       >
     </div>
-    <p class="result-count">找到 {{ filtered.length }} 道家常好味道</p>
+    <p class="result-count">
+      {{
+        customTab
+          ? "我录入的 · " + filtered.length + " 道"
+          : "找到 " + filtered.length + " 道家常好味道"
+      }}
+    </p>
     <div v-if="filtered.length" class="dish-grid">
       <DishCard
-        v-for="d in filtered"
+        v-for="(d, i) in visible"
+        :eager="i < 2"
         :key="d.id"
         :dish="d"
         compact
@@ -92,18 +130,32 @@ const filtered = computed(() =>
     <div v-else class="empty">
       <Icon name="bowl" :size="54" />
       <h2>还没找到这道菜</h2>
-      <p>换个名字，或者少选一个筛选条件试试。</p>
+      <p>
+        {{
+          customTab
+            ? "把你家的拿手菜先记个名字吧。"
+            : "换个名字，或者少选一个筛选条件试试。"
+        }}
+      </p>
       <button
         class="secondary"
         @click="
           query = '';
           ingredient = '';
           flavor = '';
+          customTab = false;
         "
       >
         看看全部菜谱
       </button>
     </div>
+    <button
+      v-if="limit < filtered.length"
+      class="secondary full"
+      @click="limit += 24"
+    >
+      再看 24 道（已显示 {{ visible.length }} / {{ filtered.length }}）
+    </button>
     <footer class="source">
       菜谱来自
       <a
@@ -117,8 +169,23 @@ const filtered = computed(() =>
         target="_blank"
         rel="noopener noreferrer"
         >CookLikeHOC（老乡鸡菜品溯源报告）</a
-      ><br />仅供非商业学习 · 个人数据只存在这台设备
+      ><br />新增家庭做法按菜谱详情注明公开来源、作者及改编内容。<br />仅供非商业学习
+      · 个人数据只存在这台设备
     </footer>
     <DishDetails v-if="preview" :dish="preview" @close="preview = null" />
+    <Sheet v-if="creating" title="录入菜品" @close="creating = false">
+      <CustomDishForm
+        @cancel="creating = false"
+        @saved="
+          creating = false;
+          customTab = true;
+          query = '';
+        "
+        @existing="
+          creating = false;
+          preview = $event;
+        "
+      />
+    </Sheet>
   </div>
 </template>
