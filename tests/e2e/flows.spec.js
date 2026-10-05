@@ -38,11 +38,12 @@ test("375×667 主流程、确认、清单持久化、做菜", async ({ page, co
   await expect(page.locator(".shopping-row input").first()).toBeChecked();
   await page.getByRole("button", { name: "买好了，开做" }).click();
   await page.locator(".cook-list-row").first().click();
-  await expect(page.locator(".step-text")).toHaveCount(1);
-  await page.getByRole("button", { name: "下一步" }).click();
-  await expect(page.locator(".cooking-progress")).toContainText("2");
-  await page.getByRole("button", { name: "食材", exact: true }).click();
-  await expect(page.getByRole("dialog")).toContainText("备好这些");
+  const cooked = dishes.find((d) => d.name === names[0]);
+  await expect(page.locator(".step-text")).toHaveCount(cooked.steps.length);
+  await expect(page.locator(".cooking-ingredients")).toContainText("备好这些");
+  await page.locator(".mark-step").nth(1).click();
+  await expect(page.locator(".cooking-progress")).toContainText("当前 2");
+  await expect(page.getByRole("navigation")).toBeVisible();
   expect(errors).toEqual([]);
 });
 test("锁定与换菜、收藏、筛选、自定义、人数和忌口", async ({ page }) => {
@@ -78,7 +79,7 @@ test("锁定与换菜、收藏、筛选、自定义、人数和忌口", async ({
     .isDisabled()
     .then((x) => expect(x).toBeTruthy());
 });
-test("厨房手势、计时结束、常亮申请与释放", async ({ page }) => {
+test("完整步骤、计时结束、常亮申请与释放", async ({ page }) => {
   const dish = dishes.find((d) => d.name === "蒜蓉西兰花");
   const timed = dish.steps.findIndex((s) => s.timerSeconds);
   await page.addInitScript(
@@ -107,17 +108,19 @@ test("厨房手势、计时结束、常亮申请与释放", async ({ page }) => 
     { id: dish.id, step: timed },
   );
   await page.goto("/#/cook/" + dish.id);
-  await expect(page.getByRole("button", { name: /开始计时/ })).toBeVisible();
+  const step = page.locator(".cooking-step").nth(timed);
+  await expect(step.getByRole("button", { name: /开始计时/ })).toBeVisible();
   await expect.poll(() => page.evaluate(() => window.wakeCalls)).toBe(1);
-  await page.getByRole("button", { name: /开始计时/ }).click();
-  await expect(page.getByRole("button", { name: /剩余/ })).toBeVisible();
+  await step.getByRole("button", { name: /开始计时/ }).click();
+  await expect(step.getByLabel("剩余时间")).toBeVisible();
   await page.clock.install();
-  await page.clock.fastForward(181000);
-  await expect(page.getByRole("status").first()).toContainText("时间到");
+  await page.clock.fastForward((dish.steps[timed].timerSeconds + 1) * 1000);
+  await expect(step.getByRole("status")).toContainText("时间到");
   expect(await page.evaluate(() => window.vibrated)).toBeTruthy();
-  const stage = page.locator(".cooking-stage");
-  await stage.dispatchEvent("pointerdown", { clientX: 290, clientY: 250 });
-  await stage.dispatchEvent("pointerup", { clientX: 90, clientY: 250 });
+  await page
+    .locator(".mark-step")
+    .nth(timed + 1)
+    .click();
   await expect(page.locator(".cooking-progress")).toContainText(
     String(timed + 2),
   );

@@ -9,6 +9,7 @@ const router = createRouter({
     { path: "/", component: Tonight },
     { path: "/recipes", component: () => import("./views/Library.vue") },
     { path: "/favorites", component: () => import("./views/Favorites.vue") },
+    { path: "/timers", component: () => import("./views/Timers.vue") },
     { path: "/me", component: () => import("./views/Settings.vue") },
     { path: "/cook/:id", component: () => import("./views/Cooking.vue") },
   ],

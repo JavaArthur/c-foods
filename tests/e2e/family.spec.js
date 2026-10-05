@@ -69,12 +69,10 @@ test("调份量后清空旧购物勾选，详情、购物和做菜用量保持�
     page.locator(".shopping-row").filter({ hasText: expected.name }).first(),
   ).toContainText(expected.quantity);
   await page.getByRole("button", { name: "买好了，开做" }).click();
-  await page
-    .getByRole("button", {
-      name: new RegExp(pork.name.replace(/[（）]/g, ".")),
-    })
-    .click();
-  await expect(page.locator(".cooking-progress")).toContainText("备菜约 3 份");
+  await page.locator(".cook-list-row").filter({ hasText: pork.name }).click();
+  await expect(page.locator(".cooking-ingredients")).toContainText(
+    "备菜约 3 份",
+  );
   await page.getByRole("button", { name: "返回今晚做菜列表" }).click();
   await page.getByRole("link", { name: "我的", exact: true }).click();
   await page.getByRole("button", { name: "猪肉", exact: true }).click();
@@ -106,15 +104,13 @@ test("菜库分批展示，切换筛选重置批次；营养说明在小屏折�
   await page.getByRole("link", { name: "菜谱库", exact: true }).click();
   await expect(page.locator(".library .dish-card")).toHaveCount(24);
   await page.getByRole("button", { name: /再看 24 道/ }).click();
-  await expect(page.locator(".library .dish-card")).toHaveCount(
-    dishes.filter((d) => d.isMeat).length,
-  );
+  await expect(page.locator(".library .dish-card")).toHaveCount(48);
   await page.getByRole("button", { name: /素菜库/ }).click();
   await expect(page.locator(".library .dish-card")).toHaveCount(24);
-  await page.getByRole("textbox", { name: "按菜名搜索" }).fill("茼蒿");
+  await page.getByRole("textbox", { name: "按菜名搜索" }).fill("清炒茼蒿");
   await expect(page.locator(".library .dish-card")).toHaveCount(1);
   await page.getByRole("button", { name: "查看清炒茼蒿" }).click();
-  await expect(page.getByRole("dialog")).toContainText("整理日期：2026-10-04");
+  await expect(page.getByRole("dialog")).toContainText("整理日期：2026-10-05");
   await page.screenshot({
     path: "test-results/family-detail-375.png",
     fullPage: true,
@@ -141,14 +137,18 @@ test("存储损坏可恢复；刷新后倒计时保留原截止时间", async ({
   );
   await page.goto("/#/cook/" + d.id);
   await page.reload();
-  await page.getByRole("button", { name: /开始计时/ }).click();
-  await expect(page.getByRole("button", { name: /剩余/ })).toBeVisible();
+  await page
+    .locator(".cooking-step")
+    .nth(step)
+    .getByRole("button", { name: /开始计时/ })
+    .click();
+  await expect(page.getByLabel("剩余时间")).toBeVisible();
   const end = await page.evaluate(
     (key) => JSON.parse(localStorage.getItem("dinner-v1")).timers[key].end,
     d.id + ":" + step,
   );
   await page.reload();
-  await expect(page.getByRole("button", { name: /剩余/ })).toBeVisible();
+  await expect(page.getByLabel("剩余时间")).toBeVisible();
   expect(
     await page.evaluate(
       (key) => JSON.parse(localStorage.getItem("dinner-v1")).timers[key].end,

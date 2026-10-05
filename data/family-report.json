@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-10-04",
+  "reviewedAt": "2026-10-05",
   "removed": [
     {
       "id": "dish-5f4ef14a3e9e",
@@ -957,6 +957,306 @@
       "name": "蒜蓉芥蓝",
       "sourceUrl": "https://m.xiachufang.com/recipe/100001114/",
       "author": "margueritefrance"
+    },
+    {
+      "id": "dish-2df8eaac30ea",
+      "name": "香菇蒸鸡胸肉",
+      "sourceUrl": "https://m.xiachufang.com/recipe/104562077/",
+      "author": "Yakkkking"
+    },
+    {
+      "id": "dish-a249a63cebe9",
+      "name": "蒜蓉蒸丝瓜",
+      "sourceUrl": "https://m.xiachufang.com/recipe/106399820/",
+      "author": "高冷鱼大人"
+    },
+    {
+      "id": "dish-9af494575628",
+      "name": "金针菇蒸娃娃菜",
+      "sourceUrl": "https://m.xiachufang.com/recipe/107198146/",
+      "author": "娜妈妈厨房"
+    },
+    {
+      "id": "dish-58f476124d3f",
+      "name": "冬瓜蒸虾仁",
+      "sourceUrl": "https://m.xiachufang.com/recipe/107172886/",
+      "author": "-粒蚜"
+    },
+    {
+      "id": "dish-c9ca2b61ad39",
+      "name": "清蒸鳕鱼",
+      "sourceUrl": "https://m.xiachufang.com/recipe/106986436/",
+      "author": "风轻云不语"
+    },
+    {
+      "id": "dish-2a050b9836dd",
+      "name": "鸡蛋蒸豆腐",
+      "sourceUrl": "https://m.xiachufang.com/recipe/106216628/",
+      "author": "下厨房用户_muk4"
+    },
+    {
+      "id": "dish-725fbb1bd5c4",
+      "name": "清蒸去皮鸡腿",
+      "sourceUrl": "https://m.xiachufang.com/recipe/104109940/",
+      "author": "是减肥的少女"
+    },
+    {
+      "id": "dish-ceefe2806ebe",
+      "name": "蒸胡萝卜丝",
+      "sourceUrl": "https://m.xiachufang.com/recipe/106422175/",
+      "author": "我是大吃货洋y"
+    },
+    {
+      "id": "dish-8e5ad9a9a574",
+      "name": "西兰花蒸虾",
+      "sourceUrl": "https://m.xiachufang.com/recipe/102953881/",
+      "author": "老板电器"
+    },
+    {
+      "id": "dish-556b0af704b0",
+      "name": "清煮冬瓜汤",
+      "sourceUrl": "https://m.xiachufang.com/recipe/106972264/",
+      "author": "哀家皮太厚"
+    },
+    {
+      "id": "dish-6a2608046a47",
+      "name": "清蒸芦笋龙利鱼",
+      "sourceUrl": "https://m.xiachufang.com/recipe/101796736/",
+      "author": "生活因美食而精彩"
+    },
+    {
+      "id": "dish-33464a665374",
+      "name": "原味蒸山药",
+      "sourceUrl": "https://m.xiachufang.com/recipe/264711/",
+      "author": "玉池桃红"
+    },
+    {
+      "id": "dish-c764326acfd2",
+      "name": "蒜醋蒸茄子",
+      "sourceUrl": "https://m.xiachufang.com/recipe/106868561/",
+      "author": "大米的厨房笔记"
+    },
+    {
+      "id": "dish-a6751028bc8d",
+      "name": "清蒸杏鲍菇",
+      "sourceUrl": "https://m.xiachufang.com/recipe/100634156/",
+      "author": "丁一桌"
+    },
+    {
+      "id": "dish-c2dac38e97f6",
+      "name": "蒸油麦菜",
+      "sourceUrl": "https://m.xiachufang.com/recipe/103028795/",
+      "author": "手机用户1882_nmi5"
+    },
+    {
+      "id": "dish-d386f0b8380e",
+      "name": "菠菜蒸蛋",
+      "sourceUrl": "https://m.xiachufang.com/recipe/106699910/",
+      "author": "厨房新手培培"
+    },
+    {
+      "id": "dish-2a6417d627e0",
+      "name": "丝瓜蒸蛋盅",
+      "sourceUrl": "https://m.xiachufang.com/recipe/105914267/",
+      "author": "丸丸不玩"
+    },
+    {
+      "id": "dish-ea98b06d03d4",
+      "name": "清蒸蛏子",
+      "sourceUrl": "https://m.xiachufang.com/recipe/107008310/",
+      "author": "Charlotte下厨房"
+    },
+    {
+      "id": "dish-5162e447c2cb",
+      "name": "清蒸扇贝",
+      "sourceUrl": "https://m.xiachufang.com/recipe/100379832/",
+      "author": "悠哈厨房"
+    },
+    {
+      "id": "dish-f20368a9ee48",
+      "name": "清蒸鱿鱼",
+      "sourceUrl": "https://m.xiachufang.com/recipe/103812708/",
+      "author": "郝钟娜"
+    },
+    {
+      "id": "dish-5f5ba7d2b793",
+      "name": "番茄香菇蒸牛肉",
+      "sourceUrl": "https://m.xiachufang.com/recipe/107671664/",
+      "author": "Elainepan潘（整理自日食记）"
+    },
+    {
+      "id": "dish-44566a49cbbb",
+      "name": "西兰花蒸鸡胸肉",
+      "sourceUrl": "https://m.xiachufang.com/recipe/100434689/",
+      "author": "maraschino"
+    },
+    {
+      "id": "dish-5868edf7e202",
+      "name": "葱油蒸豆腐",
+      "sourceUrl": "https://m.xiachufang.com/recipe/104354300/",
+      "author": "我家的小饭桌"
+    },
+    {
+      "id": "dish-ca76a7eeb4dc",
+      "name": "蒸毛豆仁",
+      "sourceUrl": "https://m.xiachufang.com/recipe/100579567/",
+      "author": "草等花开"
+    },
+    {
+      "id": "dish-daa19bc14d06",
+      "name": "蒸茼蒿",
+      "sourceUrl": "https://m.xiachufang.com/recipe/107683344/",
+      "author": "果妈家常菜"
+    },
+    {
+      "id": "dish-744e34e7c47e",
+      "name": "白萝卜蒸肉圆",
+      "sourceUrl": "https://m.xiachufang.com/recipe/106035036/",
+      "author": "鑫淼七"
+    },
+    {
+      "id": "dish-53980caa8237",
+      "name": "蛤蜊蒸蛋",
+      "sourceUrl": "https://m.xiachufang.com/recipe/106678016/",
+      "author": "艺术家妈妈"
+    },
+    {
+      "id": "dish-797b0b0524b5",
+      "name": "原味蒸芋头",
+      "sourceUrl": "https://m.xiachufang.com/recipe/107225750/",
+      "author": "厨来乍到_"
+    },
+    {
+      "id": "dish-9c0ce5f63009",
+      "name": "蒸牛肉饼",
+      "sourceUrl": "https://m.xiachufang.com/recipe/104108926/",
+      "author": "林花花不吃糖"
+    },
+    {
+      "id": "dish-1154ce6bf5e3",
+      "name": "清蒸巴沙鱼",
+      "sourceUrl": "https://m.xiachufang.com/recipe/106175719/",
+      "author": "罗小黑-大脸妹"
+    },
+    {
+      "id": "dish-45aed921e8c6",
+      "name": "清蒸鲳鱼",
+      "sourceUrl": "https://m.xiachufang.com/recipe/110646/",
+      "author": "咕咚姥姥"
+    },
+    {
+      "id": "dish-3abc76d98154",
+      "name": "洋葱蔬菜炖鸡胸",
+      "sourceUrl": "https://m.xiachufang.com/recipe/100591332/",
+      "author": "鸢沅远愿"
+    },
+    {
+      "id": "dish-5be2aa4c367b",
+      "name": "裙带菜瘦肉豆腐汤",
+      "sourceUrl": "https://m.xiachufang.com/recipe/106952709/",
+      "author": "大只乐豆"
+    },
+    {
+      "id": "dish-ef80be39c4f7",
+      "name": "黄瓜豆芽拌鸡丝",
+      "sourceUrl": "https://m.xiachufang.com/recipe/103748458/",
+      "author": "东君东宝"
+    },
+    {
+      "id": "dish-eb5893a0acdf",
+      "name": "番茄金针菇汤",
+      "sourceUrl": "https://m.xiachufang.com/recipe/105842352/",
+      "author": "心灵手巧常"
+    },
+    {
+      "id": "dish-22bce272245e",
+      "name": "白灼虾",
+      "sourceUrl": "https://m.xiachufang.com/recipe/106101593/",
+      "author": "茹絮的美食生活"
+    },
+    {
+      "id": "dish-bbdda146cce4",
+      "name": "白灼芦笋尖",
+      "sourceUrl": "https://m.xiachufang.com/recipe/1087421/",
+      "author": "呤儿"
+    },
+    {
+      "id": "dish-53ae72136dde",
+      "name": "葱姜蒜拌木耳",
+      "sourceUrl": "https://m.xiachufang.com/recipe/104715089/",
+      "author": "小徐立志做大厨"
+    },
+    {
+      "id": "dish-6d0b36c4cd67",
+      "name": "小白菜虾皮豆腐汤",
+      "sourceUrl": "https://m.xiachufang.com/recipe/102914583/",
+      "author": "蓓儿baby"
+    },
+    {
+      "id": "dish-5dcedf55b62f",
+      "name": "蘑菇冻豆腐虾汤",
+      "sourceUrl": "https://m.xiachufang.com/recipe/103991305/",
+      "author": "Soud的家常菜馆儿"
+    },
+    {
+      "id": "dish-766cbb5342c1",
+      "name": "菌菇清汤",
+      "sourceUrl": "https://m.xiachufang.com/recipe/107370435/",
+      "author": "慈心茹素"
+    },
+    {
+      "id": "dish-017c0a098ae7",
+      "name": "山药胡萝卜煲",
+      "sourceUrl": "https://m.xiachufang.com/recipe/107370435/",
+      "author": "慈心茹素"
+    },
+    {
+      "id": "dish-e379f7cae453",
+      "name": "冬瓜虾皮蛋汤",
+      "sourceUrl": "https://m.xiachufang.com/recipe/104773221/",
+      "author": "小兵的饭桌"
+    },
+    {
+      "id": "dish-6bebe14527ee",
+      "name": "番茄鸡蛋清汤",
+      "sourceUrl": "https://m.xiachufang.com/recipe/107592951/",
+      "author": "Erin1225"
+    },
+    {
+      "id": "dish-ed8716dd47f9",
+      "name": "丝瓜毛豆蛤蜊汤",
+      "sourceUrl": "https://m.xiachufang.com/recipe/101880936/",
+      "author": "小荷悠悠清莲语"
+    },
+    {
+      "id": "dish-04dc2114d290",
+      "name": "蒜香拌豆腐",
+      "sourceUrl": "https://m.xiachufang.com/recipe/106787698/",
+      "author": "南屿儿"
+    },
+    {
+      "id": "dish-f6e4cc4274b1",
+      "name": "海带虾仁豆腐汤",
+      "sourceUrl": "https://m.xiachufang.com/recipe/106277913/",
+      "author": "金珠玛瑙"
+    },
+    {
+      "id": "dish-4e79e6a94726",
+      "name": "玉米海带虾汤",
+      "sourceUrl": "https://m.xiachufang.com/recipe/102343902/",
+      "author": "悠悠芳草碧连天"
+    },
+    {
+      "id": "dish-c15043556584",
+      "name": "黄瓜金针菇拌三丝",
+      "sourceUrl": "https://m.xiachufang.com/recipe/105895548/",
+      "author": "心峥"
+    },
+    {
+      "id": "dish-f5ca6de622ca",
+      "name": "荷塘小炒",
+      "sourceUrl": "https://m.xiachufang.com/recipe/106176862/",
+      "author": "木子李_520"
     }
   ],
   "corrected": [

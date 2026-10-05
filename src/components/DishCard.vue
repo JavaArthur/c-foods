@@ -1,6 +1,7 @@
 <script setup>
 import Icon from "./Icon.vue";
 import DishImage from "./DishImage.vue";
+import DishActions from "./DishActions.vue";
 import { dishTime } from "../lib/menu";
 import { isCustomDish } from "../lib/custom-dishes";
 const props = defineProps({
@@ -69,6 +70,7 @@ function open() {
           <Icon name="refresh" :size="19" />
         </button>
       </div>
+      <DishActions :dish="dish" blacklist-only />
     </div>
     <button class="dish-open" @click="open" :aria-label="'查看' + dish.name">
       <DishImage :dish="dish" :eager="eager" />

@@ -805,7 +805,18 @@
           "虾蟹去壳，切成方便咀嚼的小块。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蛏抱蛋",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原做法含油炸或较多油糖，不纳入减脂友好精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E8%9B%8F%E6%8A%B1%E8%9B%8B/%E8%9B%8F%E6%8A%B1%E8%9B%8B.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-ce564879325d": {
       "time": {
@@ -869,7 +880,18 @@
           "虾蟹去壳，切成方便咀嚼的小块。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "葱烧海参",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E8%91%B1%E7%83%A7%E6%B5%B7%E5%8F%82/%E8%91%B1%E7%83%A7%E6%B5%B7%E5%8F%82.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-572e443d2b4f": {
       "time": {
@@ -906,7 +928,18 @@
           "鱼肉上桌前逐块检查并去净鱼刺。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清蒸鲈鱼",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+        "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-51b421c7dd58": {
       "time": {
@@ -957,7 +990,18 @@
           "虾蟹去壳，切成方便咀嚼的小块。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清蒸生蚝",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "生蚝清蒸，原方未另加烹调油或糖。",
+        "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E6%B8%85%E8%92%B8%E7%94%9F%E8%9A%9D.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-8e6f9fac4821": {
       "time": {
@@ -1015,7 +1059,18 @@
           "虾蟹去壳，切成方便咀嚼的小块。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蒜香黄油虾",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E8%92%9C%E9%A6%99%E9%BB%84%E6%B2%B9%E8%99%BE/%E8%92%9C%E9%A6%99%E9%BB%84%E6%B2%B9%E8%99%BE.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-270bae9a3e69": {
       "time": {
@@ -1072,7 +1127,18 @@
           "鱼肉上桌前逐块检查并去净鱼刺。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "糖醋鲤鱼",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原做法含油炸或较多油糖，不纳入减脂友好精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E7%B3%96%E9%86%8B%E9%B2%A4%E9%B1%BC/%E7%B3%96%E9%86%8B%E9%B2%A4%E9%B1%BC.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-c2113a4d8b32": {
       "time": {
@@ -1119,7 +1185,18 @@
           "鱼肉上桌前逐块检查并去净鱼刺。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "微波葱姜黑鳕鱼",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E5%BE%AE%E6%B3%A2%E8%91%B1%E5%A7%9C%E9%BB%91%E9%B3%95%E9%B1%BC.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-9b7527e52267": {
       "time": {
@@ -1186,7 +1263,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "豉汁排骨",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+        "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%B1%89%E6%B1%81%E6%8E%92%E9%AA%A8.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-4323fc57af18": {
       "time": {
@@ -1232,7 +1320,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "带把肘子",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+        "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%B8%A6%E6%8A%8A%E8%82%98%E5%AD%90.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-2a766decfc82": {
       "time": {
@@ -1288,7 +1387,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "冬瓜桑拿鸡",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "肉类部位、脂肪比例或预加工配料信息不足，保守不入选。",
+        "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%86%AC%E7%93%9C%E6%A1%91%E6%8B%BF%E9%B8%A1.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-d400a76b1972": {
       "time": {
@@ -1336,7 +1446,18 @@
           "鱼肉上桌前逐块检查并去净鱼刺。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "豆豉鲮鱼油麦菜",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "含腊肠、培根、午餐肉或油制罐头，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%B1%86%E8%B1%89%E9%B2%AE%E9%B1%BC%E6%B2%B9%E9%BA%A6%E8%8F%9C/%E8%B1%86%E8%B1%89%E9%B2%AE%E9%B1%BC%E6%B2%B9%E9%BA%A6%E8%8F%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-9fcd0a23ba29": {
       "time": {
@@ -1383,7 +1504,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "腐乳肉",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%85%90%E4%B9%B3%E8%82%89.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-ba8bc67dd810": {
       "time": {
@@ -1440,7 +1572,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "荷兰豆炒腊肠",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "含腊肠、培根、午餐肉或油制罐头，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%8D%B7%E5%85%B0%E8%B1%86%E7%82%92%E8%85%8A%E8%82%A0/%E8%8D%B7%E5%85%B0%E8%B1%86%E7%82%92%E8%85%8A%E8%82%A0.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-c4210fe787bf": {
       "time": {
@@ -1504,7 +1647,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "简易红烧肉",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E8%82%89/%E7%AE%80%E6%98%93%E7%BA%A2%E7%83%A7%E8%82%89.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-9adf3a818eb5": {
       "time": {
@@ -1570,7 +1724,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "红烧猪蹄",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E7%8C%AA%E8%B9%84/%E7%BA%A2%E7%83%A7%E7%8C%AA%E8%B9%84.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-e5fb59ad789e": {
       "time": {
@@ -1629,7 +1794,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "茭白炒肉",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%8C%AD%E7%99%BD%E7%82%92%E8%82%89/%E8%8C%AD%E7%99%BD%E7%82%92%E8%82%89.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-0e59f44026ad": {
       "time": {
@@ -1682,7 +1858,18 @@
           "给宝宝分餐前去净骨头。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "可乐鸡翅",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方有较多添加糖、油或浓稠调味酱，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%8F%AF%E4%B9%90%E9%B8%A1%E7%BF%85.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-747b0431e0da": {
       "time": {
@@ -1757,7 +1944,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "老式锅包肉",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原做法含油炸或较多油糖，不纳入减脂友好精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-b0a818c22f10": {
       "time": {
@@ -1816,7 +2014,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "荔枝肉",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原做法含油炸或较多油糖，不纳入减脂友好精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%8D%94%E6%9E%9D%E8%82%89/%E8%8D%94%E6%9E%9D%E8%82%89.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-8e92cbbdd934": {
       "time": {
@@ -1879,7 +2088,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "奶酪培根通心粉",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "含腊肠、培根、午餐肉或油制罐头，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%A5%B6%E9%85%AA%E5%9F%B9%E6%A0%B9%E9%80%9A%E5%BF%83%E7%B2%89/%E5%A5%B6%E9%85%AA%E5%9F%B9%E6%A0%B9%E9%80%9A%E5%BF%83%E7%B2%89.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-4091a109a237": {
       "time": {
@@ -1932,7 +2152,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "黔式腊肠娃娃菜",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "含腊肠、培根、午餐肉或油制罐头，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%BB%94%E5%BC%8F%E8%85%8A%E8%82%A0%E5%A8%83%E5%A8%83%E8%8F%9C/%E9%BB%94%E5%BC%8F%E8%85%8A%E8%82%A0%E5%A8%83%E5%A8%83%E8%8F%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-cb4748d03c22": {
       "time": {
@@ -1989,7 +2220,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "商芝肉",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+        "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%95%86%E8%8A%9D%E8%82%89.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-536e6245d34e": {
       "time": {
@@ -2057,7 +2299,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "瘦肉土豆片",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%98%A6%E8%82%89%E5%9C%9F%E8%B1%86%E7%89%87/%E7%98%A6%E8%82%89%E5%9C%9F%E8%B1%86%E7%89%87.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-28499e879e96": {
       "time": {
@@ -2127,7 +2380,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蒜苔炒肉末",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%92%9C%E8%8B%94%E7%82%92%E8%82%89%E6%9C%AB.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-ec37c5b55597": {
       "time": {
@@ -2188,7 +2452,18 @@
           "给宝宝分餐前去净骨头。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "香菇滑鸡",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "肉类部位、脂肪比例或预加工配料信息不足，保守不入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%A6%99%E8%8F%87%E6%BB%91%E9%B8%A1/%E9%A6%99%E8%8F%87%E6%BB%91%E9%B8%A1.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-ee3fd3ed08a5": {
       "time": {
@@ -2237,7 +2512,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "淄博烧烤",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%B7%84%E5%8D%9A%E7%83%A7%E7%83%A4/%E6%B7%84%E5%8D%9A%E7%83%A7%E7%83%A4.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-473daabe1e6c": {
       "time": {
@@ -2288,7 +2574,18 @@
           "给宝宝分餐前去净骨头。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "醉排骨",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原做法含油炸或较多油糖，不纳入减脂友好精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%86%89%E6%8E%92%E9%AA%A8/%E9%86%89%E6%8E%92%E9%AA%A8.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-aa3241c160a3": {
       "time": {
@@ -2336,7 +2633,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "拔丝土豆",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原做法含油炸或较多油糖，不纳入减脂友好精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%8B%94%E4%B8%9D%E5%9C%9F%E8%B1%86/%E6%8B%94%E4%B8%9D%E5%9C%9F%E8%B1%86.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-17ef9ac3e39d": {
       "time": {
@@ -2395,7 +2703,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "菠菜炒鸡蛋",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%8F%A0%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B/%E8%8F%A0%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-b16b22dee990": {
       "time": {
@@ -2449,7 +2768,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "脆皮豆腐",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%84%86%E7%9A%AE%E8%B1%86%E8%85%90.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-19e72a1ce0e1": {
       "time": {
@@ -2498,7 +2828,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蚝油生菜",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%9A%9D%E6%B2%B9%E7%94%9F%E8%8F%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-6b2f7287871f": {
       "time": {
@@ -2556,7 +2897,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "红烧冬瓜",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C/%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-075083422a21": {
       "time": {
@@ -2605,7 +2957,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "话梅煮毛豆",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "含加工配料，油糖实际用量不明确，保守不入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%AF%9D%E6%A2%85%E7%85%AE%E6%AF%9B%E8%B1%86/%E8%AF%9D%E6%A2%85%E7%85%AE%E6%AF%9B%E8%B1%86.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-c6bc911a286b": {
       "time": {
@@ -2643,7 +3006,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "鸡蛋花",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方有较多添加糖、油或浓稠调味酱，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E9%B8%A1%E8%9B%8B%E8%8A%B1/%E9%B8%A1%E8%9B%8B%E8%8A%B1.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-e9412f79e65a": {
       "time": {
@@ -2689,7 +3063,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "乾隆白菜",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方有较多添加糖、油或浓稠调味酱，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E4%B9%BE%E9%9A%86%E7%99%BD%E8%8F%9C/%E4%B9%BE%E9%9A%86%E7%99%BD%E8%8F%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-56d348d33b1f": {
       "time": {
@@ -2735,7 +3120,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "芹菜拌茶树菇",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "含加工配料，油糖实际用量不明确，保守不入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%8A%B9%E8%8F%9C%E6%8B%8C%E8%8C%B6%E6%A0%91%E8%8F%87/%E8%8A%B9%E8%8F%9C%E6%8B%8C%E8%8C%B6%E6%A0%91%E8%8F%87.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-a6ca987f0c7d": {
       "time": {
@@ -2789,7 +3185,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清炒花菜",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%B8%85%E7%82%92%E8%8A%B1%E8%8F%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-5e98a61bbf97": {
       "time": {
@@ -2837,7 +3244,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清蒸南瓜",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "南瓜原味蒸熟，不额外加油糖；南瓜应计入本餐主食安排。",
+        "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%B8%85%E8%92%B8%E5%8D%97%E7%93%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-6c3c664e4159": {
       "time": {
@@ -2894,7 +3312,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "上汤娃娃菜",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "含腊肠、培根、午餐肉或油制罐头，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-b4f2f53b27ff": {
       "time": {
@@ -2936,7 +3365,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "水油焖蔬菜",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "300g叶菜采用水油焖法，步骤记录约2ml油。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%B0%B4%E6%B2%B9%E7%84%96%E8%94%AC%E8%8F%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-dfe5a882445f": {
       "time": {
@@ -2986,7 +3426,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "松仁玉米",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方有较多添加糖、油或浓稠调味酱，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%9D%BE%E4%BB%81%E7%8E%89%E7%B1%B3.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-40552b54f402": {
       "time": {
@@ -3034,7 +3485,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蒜蓉炒芹菜",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E7%82%92%E8%8A%B9%E8%8F%9C/%E8%92%9C%E8%93%89%E7%82%92%E8%8A%B9%E8%8F%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-97ed025a03b5": {
       "time": {
@@ -3091,7 +3553,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蒜蓉空心菜",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E7%A9%BA%E5%BF%83%E8%8F%9C/%E8%92%9C%E8%93%89%E7%A9%BA%E5%BF%83%E8%8F%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-bb921a0a7723": {
       "time": {
@@ -3136,7 +3609,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蒜蓉西兰花",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E8%A5%BF%E5%85%B0%E8%8A%B1.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-bfb9b74ffa8e": {
       "time": {
@@ -3186,7 +3670,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "糖拌西红柿",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方有较多添加糖、油或浓稠调味酱，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%B3%96%E6%8B%8C%E8%A5%BF%E7%BA%A2%E6%9F%BF/%E7%B3%96%E6%8B%8C%E8%A5%BF%E7%BA%A2%E6%9F%BF.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-ca376a4897e4": {
       "time": {
@@ -3236,7 +3731,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "莴笋叶煎饼",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%8E%B4%E7%AC%8B%E5%8F%B6%E7%85%8E%E9%A5%BC/%E8%8E%B4%E7%AC%8B%E5%8F%B6%E7%85%8E%E9%A5%BC.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-e154b5b48437": {
       "time": {
@@ -3285,7 +3791,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "西红柿炒鸡蛋",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%82%92%E9%B8%A1%E8%9B%8B.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-5dd92a985962": {
       "time": {
@@ -3344,7 +3861,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "西红柿豆腐汤羹",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "番茄、豆腐和鸡蛋煮汤，记录用油5ml。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E8%B1%86%E8%85%90%E6%B1%A4%E7%BE%B9/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E8%B1%86%E8%85%90%E6%B1%A4%E7%BE%B9.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-19715afd5528": {
       "time": {
@@ -3398,7 +3926,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "西葫芦炒鸡蛋",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%A5%BF%E8%91%AB%E8%8A%A6%E7%82%92%E9%B8%A1%E8%9B%8B/%E8%A5%BF%E8%91%AB%E8%8A%A6%E7%82%92%E9%B8%A1%E8%9B%8B.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-d2b3b5355782": {
       "time": {
@@ -3449,7 +3988,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "洋葱炒鸡蛋",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%B4%8B%E8%91%B1%E7%82%92%E9%B8%A1%E8%9B%8B/%E6%B4%8B%E8%91%B1%E7%82%92%E9%B8%A1%E8%9B%8B.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-dcef94290a14": {
       "time": {
@@ -3505,7 +4055,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "包菜炒鸡蛋",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E5%8C%85%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-d4f8f0792145": {
       "time": {
@@ -3558,7 +4119,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "胡萝卜炒鸡蛋",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%83%A1%E8%90%9D%E5%8D%9C%E7%82%92%E9%B8%A1%E8%9B%8B.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-40467303cc00": {
       "time": {
@@ -3602,7 +4174,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "黄瓜炒红肠",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "含腊肠、培根、午餐肉或油制罐头，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E9%BB%84%E7%93%9C%E7%82%92%E7%BA%A2%E8%82%A0.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-ff0a9c789742": {
       "time": {
@@ -3650,7 +4233,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清炒菜心",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E8%8F%9C%E5%BF%83.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-1c66ba8e3f41": {
       "time": {
@@ -3691,7 +4285,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清炒春菜",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E6%98%A5%E8%8F%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-c6e38eafbfc6": {
       "time": {
@@ -3732,7 +4337,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清炒毛白菜",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E6%AF%9B%E7%99%BD%E8%8F%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-6cb3e5005e3b": {
       "time": {
@@ -3780,7 +4396,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清炒青菜",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E9%9D%92%E8%8F%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-2225a7ec897e": {
       "time": {
@@ -3822,7 +4449,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清炒西兰花",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E8%A5%BF%E5%85%B0%E8%8A%B1.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-1c1b1068a1ad": {
       "time": {
@@ -3870,7 +4508,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清炒油麦菜",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E6%B2%B9%E9%BA%A6%E8%8F%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-b48d348f6cf9": {
       "time": {
@@ -3914,7 +4563,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "生炒上海青",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E7%94%9F%E7%82%92%E4%B8%8A%E6%B5%B7%E9%9D%92.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-86b6c94fad36": {
       "time": {
@@ -3962,7 +4622,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蒜泥菠菜",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%92%9C%E6%B3%A5%E8%8F%A0%E8%8F%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-fa4343701f04": {
       "time": {
@@ -4004,7 +4675,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "莴笋丝炒鸡蛋",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%8E%B4%E7%AC%8B%E4%B8%9D%E7%82%92%E9%B8%A1%E8%9B%8B.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-1a0cf72cd9c0": {
       "time": {
@@ -4055,7 +4737,18 @@
           "虾蟹去壳，切成方便咀嚼的小块。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "西芹炒虾仁",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%A5%BF%E8%8A%B9%E7%82%92%E8%99%BE%E4%BB%81.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-c3d1622b1d6c": {
       "time": {
@@ -4107,7 +4800,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "香菇青菜",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E9%A6%99%E8%8F%87%E9%9D%92%E8%8F%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-6507a71923dd": {
       "time": {
@@ -4165,7 +4869,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "鸡血汤",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "使用鸡油或脂肪量不明的鸡汤，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%96%E8%8F%9C/%E9%B8%A1%E8%A1%80%E6%B1%A4.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-a36a517ee6ba": {
       "time": {
@@ -4214,7 +4929,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "砂锅牛杂煲",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "肉类部位、脂肪比例或预加工配料信息不足，保守不入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%A0%82%E9%94%85%E8%8F%9C/%E7%A0%82%E9%94%85%E7%89%9B%E6%9D%82%E7%85%B2.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-37b7e61ba43e": {
       "time": {
@@ -4264,7 +4990,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "老鸡汤",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "使用鸡油或脂肪量不明的鸡汤，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E6%B1%A4/%E8%80%81%E9%B8%A1%E6%B1%A4.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-74b0558a7a5f": {
       "time": {
@@ -4313,7 +5050,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "鸡汤娃娃菜",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "使用鸡油或脂肪量不明的鸡汤，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%83%AB%E8%8F%9C/%E9%B8%A1%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-878db570afa6": {
       "time": {
@@ -4359,7 +5107,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蜜汁南瓜",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "原配方有较多添加糖、油或浓稠调味酱，未纳入精选。",
+        "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E8%9C%9C%E6%B1%81%E5%8D%97%E7%93%9C.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-379461ae81d2": {
       "time": {
@@ -4412,7 +5171,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "豌豆肉末",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "肉类部位、脂肪比例或预加工配料信息不足，保守不入选。",
+        "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+        "sources": [
+          "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E8%B1%8C%E8%B1%86%E8%82%89%E6%9C%AB.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-7ccc1e361529": {
       "family": "红烧肉",
@@ -4426,7 +5196,7 @@
       "recipe": {
         "author": "GNITNIXIL",
         "sourceUrl": "https://m.xiachufang.com/recipe/105977585/",
-        "reviewedAt": "2026-10-04",
+        "reviewedAt": "2026-10-05",
         "adaptation": "家庭改编：省去另加黄糖，白糖保留适量；酱油、生抽、老抽按原文选用，先少放，收汁前再尝味。原文五花肉用量不明确，未猜测克数。",
         "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
       },
@@ -4465,7 +5235,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "土豆胡萝卜烧肉",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/105977585/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-8352744b98fa": {
       "family": "红烧肉",
@@ -4481,7 +5262,7 @@
       "recipe": {
         "author": "黄米泽／料理123",
         "sourceUrl": "https://www.wecook123.com/6pjdkuw3f3s/",
-        "reviewedAt": "2026-10-04",
+        "reviewedAt": "2026-10-05",
         "adaptation": "家庭改编：去掉原方白胡椒、豆瓣酱和辣椒装饰；使用普通生抽，保留香菇和烧肉主体做法。调味先少放，不额外加盐。",
         "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
       },
@@ -4514,7 +5295,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "香菇烧肉（家庭无辣版）",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://www.wecook123.com/6pjdkuw3f3s/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-0eb1db8409d9": {
       "family": "番茄炖牛肉",
@@ -4528,7 +5320,7 @@
       "recipe": {
         "author": "HowToCook 贡献者",
         "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89.md",
-        "reviewedAt": "2026-10-04",
+        "reviewedAt": "2026-10-05",
         "adaptation": "家庭改编：去掉花椒和黑胡椒；把原文步骤中出现的洋葱、番茄酱、生抽补入清单。原文未写明土豆、番茄和洋葱的克数，保留适量。高压锅按自家设备要求操作、泄压后开盖。",
         "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
       },
@@ -4568,7 +5360,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "番茄土豆炖牛肉（家庭无辣版）",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "肉类部位、脂肪比例或预加工配料信息不足，保守不入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89.md"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-00050641b3fe": {
       "family": "香菇炖鸡",
@@ -4584,7 +5387,7 @@
       "recipe": {
         "author": "当地小灵通／食味思语",
         "sourceUrl": "https://www.sohu.com/a/720923026_121119253",
-        "reviewedAt": "2026-10-04",
+        "reviewedAt": "2026-10-05",
         "adaptation": "家庭整理：省去原文可选的最后勾芡，补入步骤中明确使用但配料表漏列的食用油和水。酱油和盐先少放。",
         "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
       },
@@ -4622,7 +5425,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "香菇胡萝卜炖鸡",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "肉类部位、脂肪比例或预加工配料信息不足，保守不入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://www.sohu.com/a/720923026_121119253"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-3dc16b377dd1": {
       "family": "冬瓜肉丸",
@@ -4636,7 +5450,7 @@
       "recipe": {
         "author": "hb俗人／美食天下",
         "sourceUrl": "https://home.meishichina.com/recipe-523547.html",
-        "reviewedAt": "2026-10-04",
+        "reviewedAt": "2026-10-05",
         "adaptation": "家庭整理：概括原方操作，保留鸡蛋和虾；未核实的食材用量保持适量。丸子浮起仍需检查中心熟透。",
         "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
       },
@@ -4674,7 +5488,18 @@
           "虾蟹去壳，切成方便咀嚼的小块。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "冬瓜肉丸汤",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "肉类部位、脂肪比例或预加工配料信息不足，保守不入选。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://home.meishichina.com/recipe-523547.html"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-9a01cc496dcc": {
       "family": "山药蒸肉饼",
@@ -4688,7 +5513,7 @@
       "recipe": {
         "author": "龙宝宝陈诺",
         "sourceUrl": "https://m.xiachufang.com/recipe/107244778/",
-        "reviewedAt": "2026-10-04",
+        "reviewedAt": "2026-10-05",
         "adaptation": "家庭改编：去掉白胡椒粉，保留山药拌肉蒸制的方法。原文半斤瘦肉换算为250g，1/3根山药保留原单位；调味先少放。",
         "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
       },
@@ -4721,7 +5546,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "山药蒸肉饼（家庭无辣版）",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+        "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/107244778/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-2046a2ea390e": {
       "family": "虾仁蒸豆腐",
@@ -4735,7 +5571,7 @@
       "recipe": {
         "author": "苹果的萍／美食天下",
         "sourceUrl": "https://home.meishichina.com/recipe-420754.html",
-        "reviewedAt": "2026-10-04",
+        "reviewedAt": "2026-10-05",
         "adaptation": "家庭整理：沿用日本豆腐（含蛋）与虾的做法，省去装饰用枸杞及葱花；不要把日本豆腐当作纯大豆豆腐。蒸制时间按原文列出，以实际熟透为准。",
         "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
       },
@@ -4768,7 +5604,18 @@
           "虾蟹去壳，切成方便咀嚼的小块。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "虾仁蒸豆腐",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "虾仁和豆腐蒸熟，原方只用少许油。",
+        "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+        "sources": [
+          "https://home.meishichina.com/recipe-420754.html"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-6e4089b00b73": {
       "family": "鱼片豆腐汤",
@@ -4782,7 +5629,7 @@
       "recipe": {
         "author": "爱吃炸鸡的寻雪",
         "sourceUrl": "https://m.xiachufang.com/recipe/104594334/",
-        "reviewedAt": "2026-10-04",
+        "reviewedAt": "2026-10-05",
         "adaptation": "家庭改编：原文使用成品火锅鱼片，改选无腌料的原切巴沙鱼片；采用原文示例平菇，补入步骤用到的油、水、盐和葱。鱼片原文为一袋但未给重量，保留未知克数。",
         "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
       },
@@ -4817,7 +5664,18 @@
           "鱼肉上桌前逐块检查并去净鱼刺。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "鱼片豆腐汤（家庭无辣版）",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "鱼片搭配豆腐煮汤，做法只用少量油。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/104594334/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-9c21480b55fb": {
       "family": "清炒茼蒿",
@@ -4831,7 +5689,7 @@
       "recipe": {
         "author": "S爷",
         "sourceUrl": "https://m.xiachufang.com/recipe/107515120/",
-        "reviewedAt": "2026-10-04",
+        "reviewedAt": "2026-10-05",
         "adaptation": "家庭改编：省去鸡精或味精，油盐从少量开始；原文未给食材克数，保留适量。",
         "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
       },
@@ -4864,7 +5722,18 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清炒茼蒿",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "以绿叶菜为主，原方步骤使用少量油。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/107515120/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     },
     "dish-553db321a0f3": {
       "family": "蒜蓉芥蓝",
@@ -4878,7 +5747,7 @@
       "recipe": {
         "author": "margueritefrance",
         "sourceUrl": "https://m.xiachufang.com/recipe/100001114/",
-        "reviewedAt": "2026-10-04",
+        "reviewedAt": "2026-10-05",
         "adaptation": "家庭改编：按原文可选说明省去糖和鸡粉，盐改为少量按口味；大蒜原方为3–4瓣，清单取上限4瓣。",
         "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
       },
@@ -4911,8 +5780,3039 @@
           "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
         ]
       },
-      "reviewedAt": "2026-10-04"
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蒜蓉芥蓝",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "以芥蓝为主，整理后的做法只用少量油。",
+        "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/100001114/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-2df8eaac30ea": {
+      "family": "香菇蒸鸡胸肉",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 30,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": [
+          "香菇提前泡发，鸡肉与香菇腌制30分钟"
+        ]
+      },
+      "recipe": {
+        "author": "Yakkkking",
+        "sourceUrl": "https://m.xiachufang.com/recipe/104562077/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去原文可选的辣椒酱；保留不另加油的蒸制方式。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "香菇蒸鸡胸肉",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-2df8eaac30ea.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square gouache recipe illustration: steamed chicken breast strips with sliced shiitake mushrooms and thin ginger slivers in an ivory plate, cream background, no chili or pepper, no text."
+      },
+      "nutrition": {
+        "foods": [
+          "鸡肉",
+          "香菇",
+          "生抽"
+        ],
+        "proteins": [
+          "chicken"
+        ],
+        "leaves": [],
+        "vegetables": [
+          "香菇"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": true,
+        "isMeat": true,
+        "proteinType": "chicken",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "香菇蒸鸡胸肉",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "鸡胸肉配香菇清蒸，原方不另加烹调油。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/104562077/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-a249a63cebe9": {
+      "family": "蒜蓉蒸丝瓜",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "高冷鱼大人",
+        "sourceUrl": "https://m.xiachufang.com/recipe/106399820/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "按公开做法摘要整理，未注明的用量保留未知；调味品选择无刺激配料的产品。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "蒜蓉蒸丝瓜",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-a249a63cebe9.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: square recipe illustration for a Chinese family dinner PWA. Subject: 蒜蓉蒸丝瓜, steamed luffa gourd cylinders topped with golden minced garlic. Hand-painted gouache with visible brush texture, not photography. Shallow ivory ceramic plate, warm cream #FFF8F0 background, natural appetizing colors, soft daylight, overhead three-quarter view, entire plate rim visible and centered generous margins. No chili, pepper, text, watermark, side dishes. App labels it 示意图. Return generated file for local project."
+      },
+      "nutrition": {
+        "foods": [
+          "丝瓜",
+          "生抽"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [
+          "丝瓜"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蒜蓉蒸丝瓜",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "蒜蓉先用油炒制，原方油量未明确，保守不入选。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/106399820/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-9af494575628": {
+      "family": "金针菇蒸娃娃菜",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "娜妈妈厨房",
+        "sourceUrl": "https://m.xiachufang.com/recipe/107198146/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "按公开做法摘要整理，未注明的用量保留未知；调味品选择无刺激配料的产品。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "金针菇蒸娃娃菜",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-9af494575628.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: square recipe illustration for a Chinese family dinner PWA. Subject: 金针菇蒸娃娃菜, steamed pale baby napa cabbage with slender enoki mushrooms and garlic. Hand-painted gouache with visible brush texture, not photography. Shallow ivory ceramic plate, warm cream #FFF8F0 background, natural appetizing colors, soft daylight, overhead three-quarter view, entire plate rim visible and centered generous margins. No chili, pepper, text, watermark, side dishes. App labels it 示意图. Return generated file for local project."
+      },
+      "nutrition": {
+        "foods": [
+          "娃娃菜",
+          "金针菇",
+          "生抽"
+        ],
+        "proteins": [],
+        "leaves": [
+          "娃娃菜"
+        ],
+        "vegetables": [
+          "娃娃菜",
+          "金针菇"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "金针菇蒸娃娃菜",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "调味汁用油量未明确，不因蒸蔬菜自动入选。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/107198146/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-58f476124d3f": {
+      "family": "冬瓜蒸虾仁",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "原方蒸冬瓜10分钟、加虾蒸2分钟，再微波1分30秒；加上洗切和烧水估计20—35分钟。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "-粒蚜",
+        "sourceUrl": "https://m.xiachufang.com/recipe/107172886/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "保留原方蒸后微波的完整流程，需同时备有蒸锅和微波炉；不另加油。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "冬瓜蒸虾仁",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-58f476124d3f.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: square recipe illustration for a Chinese family dinner PWA. Subject: 冬瓜蒸虾仁, steamed translucent winter melon slices with peeled shrimp and ginger. Hand-painted gouache with visible brush texture, not photography. Shallow ivory ceramic plate, warm cream #FFF8F0 background, natural appetizing colors, soft daylight, overhead three-quarter view, entire plate rim visible and centered generous margins. No chili, pepper, text, watermark, side dishes. App labels it 示意图. Return generated file for local project."
+      },
+      "nutrition": {
+        "foods": [
+          "冬瓜",
+          "虾",
+          "生抽"
+        ],
+        "proteins": [
+          "shrimp"
+        ],
+        "leaves": [],
+        "vegetables": [
+          "冬瓜"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": true,
+        "isMeat": true,
+        "proteinType": "shrimp",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "虾蟹去壳，切成方便咀嚼的小块。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "冬瓜蒸虾仁",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "冬瓜和虾仁蒸熟后按原方补充加热，不另加油。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/107172886/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-c9ca2b61ad39": {
+      "family": "清蒸鳕鱼",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 25,
+        "max": 40,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": [
+          "冷冻鳕鱼提前解冻，腌制15分钟"
+        ]
+      },
+      "recipe": {
+        "author": "风轻云不语",
+        "sourceUrl": "https://m.xiachufang.com/recipe/106986436/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "按公开做法摘要整理，未注明的用量保留未知；调味品选择无刺激配料的产品。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "清蒸鳕鱼",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-c9ca2b61ad39.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: square recipe illustration for a Chinese family dinner PWA. Subject: 清蒸鳕鱼, steamed thick white cod fillet with ginger and scallion. Hand-painted gouache with visible brush texture, not photography. Shallow ivory ceramic plate, warm cream #FFF8F0 background, natural appetizing colors, soft daylight, overhead three-quarter view, entire plate rim visible and centered generous margins. No chili, pepper, text, watermark, side dishes. App labels it 示意图. Return generated file for local project."
+      },
+      "nutrition": {
+        "foods": [
+          "鳕鱼",
+          "生抽"
+        ],
+        "proteins": [
+          "fish"
+        ],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": true,
+        "proteinType": "fish",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "鱼肉上桌前逐块检查并去净鱼刺。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清蒸鳕鱼",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "鱼肉清蒸，只淋少许油，不使用甜味酱汁。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/106986436/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-2a050b9836dd": {
+      "family": "鸡蛋蒸豆腐",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "下厨房用户_muk4",
+        "sourceUrl": "https://m.xiachufang.com/recipe/106216628/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "按公开做法摘要整理，未注明的用量保留未知；调味品选择无刺激配料的产品。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "鸡蛋蒸豆腐",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-2a050b9836dd.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 鸡蛋蒸豆腐, pale yellow steamed egg custard containing soft white tofu cubes. Hand-painted gouache with brush texture, ivory ceramic plate or bowl, cream #FFF8F0 backdrop, appetizing natural colors, soft daylight, overhead three-quarter view, full rim centered with margins. No chili, pepper, text, watermark or unrelated food."
+      },
+      "nutrition": {
+        "foods": [
+          "鸡蛋",
+          "豆腐",
+          "生抽"
+        ],
+        "proteins": [
+          "egg",
+          "tofu"
+        ],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "egg",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "鸡蛋蒸豆腐",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "鸡蛋搭配豆腐蒸熟，最后只淋少许香油。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/106216628/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-725fbb1bd5c4": {
+      "family": "清蒸去皮鸡腿",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 55,
+        "max": 70,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "是减肥的少女",
+        "sourceUrl": "https://m.xiachufang.com/recipe/104109940/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "原方去皮、不加油；家庭版本省去小米辣和黑胡椒。勺指原作者说明的调味罐小勺，不换算为毫升。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "清蒸去皮鸡腿",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-725fbb1bd5c4.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 清蒸去皮鸡腿, a skinless steamed chicken drumstick with sliced ginger garlic in light soy broth. Hand-painted gouache with brush texture, ivory ceramic plate or bowl, cream #FFF8F0 backdrop, appetizing natural colors, soft daylight, overhead three-quarter view, full rim centered with margins. No chili, pepper, text, watermark or unrelated food."
+      },
+      "nutrition": {
+        "foods": [
+          "鸡肉",
+          "生抽"
+        ],
+        "proteins": [
+          "chicken"
+        ],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": true,
+        "proteinType": "chicken",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "给宝宝分餐前去净骨头。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清蒸去皮鸡腿",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "鸡腿去皮后蒸熟，原方不另加烹调油。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/104109940/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-ceefe2806ebe": {
+      "family": "蒸胡萝卜丝",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "我是大吃货洋y",
+        "sourceUrl": "https://m.xiachufang.com/recipe/106422175/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "按公开做法摘要整理，未注明的用量保留未知；调味品选择无刺激配料的产品。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "蒸胡萝卜丝",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-ceefe2806ebe.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 蒸胡萝卜丝, steamed orange carrot shreds lightly coated in cornmeal and flour. Hand-painted gouache with brush texture, ivory ceramic plate or bowl, cream #FFF8F0 backdrop, appetizing natural colors, soft daylight, overhead three-quarter view, full rim centered with margins. No chili, pepper, text, watermark or unrelated food."
+      },
+      "nutrition": {
+        "foods": [
+          "胡萝卜",
+          "玉米面",
+          "面粉",
+          "生抽"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [
+          "胡萝卜"
+        ],
+        "darkVegetables": [
+          "胡萝卜"
+        ],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蒸胡萝卜丝",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "裹玉米面和面粉，并加香油；调味油量未明确。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/106422175/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-8e5ad9a9a574": {
+      "family": "西兰花蒸虾",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "老板电器",
+        "sourceUrl": "https://m.xiachufang.com/recipe/102953881/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "按原方电蒸箱版本整理，省去红尖椒；不增加油或糖。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "西兰花蒸虾",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-8e5ad9a9a574.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 西兰花蒸虾, steamed whole peeled shrimp surrounded by broccoli florets. Hand-painted gouache with brush texture, ivory ceramic plate or bowl, cream #FFF8F0 backdrop, appetizing natural colors, soft daylight, overhead three-quarter view, full rim centered with margins. No chili, pepper, text, watermark or unrelated food."
+      },
+      "nutrition": {
+        "foods": [
+          "西兰花",
+          "虾"
+        ],
+        "proteins": [
+          "shrimp"
+        ],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": true,
+        "proteinType": "shrimp",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "虾蟹去壳，切成方便咀嚼的小块。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "西兰花蒸虾",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "西兰花和虾采用蒸制，原方不另加油，淀粉10g。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/102953881/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-556b0af704b0": {
+      "family": "清煮冬瓜汤",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 10,
+        "max": 20,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "哀家皮太厚",
+        "sourceUrl": "https://m.xiachufang.com/recipe/106972264/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "保留原方不加油的做法；不沿用原菜名中的降脂功效措辞。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "清煮冬瓜汤",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-556b0af704b0.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 清煮冬瓜汤, a bowl of clear soup containing translucent winter melon slices. Hand-painted gouache with brush texture, ivory ceramic plate or bowl, cream #FFF8F0 backdrop, appetizing natural colors, soft daylight, overhead three-quarter view, full rim centered with margins. No chili, pepper, text, watermark or unrelated food."
+      },
+      "nutrition": {
+        "foods": [
+          "冬瓜"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [
+          "冬瓜"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清煮冬瓜汤",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "冬瓜清水煮汤，原方不另加烹调油或糖。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/106972264/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-6a2608046a47": {
+      "family": "清蒸芦笋龙利鱼",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": [
+          "鱼肉提前腌15—20分钟。"
+        ]
+      },
+      "recipe": {
+        "author": "生活因美食而精彩",
+        "sourceUrl": "https://m.xiachufang.com/recipe/101796736/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去白胡椒及原方可选白糖；选择原方允许的清水调汁。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "清蒸芦笋龙利鱼",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-6a2608046a47.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 清蒸芦笋龙利鱼, steamed white sole fish fillet over asparagus segments. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "芦笋",
+          "龙利鱼",
+          "生抽"
+        ],
+        "proteins": [
+          "fish"
+        ],
+        "leaves": [],
+        "vegetables": [
+          "芦笋"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": true,
+        "isMeat": true,
+        "proteinType": "fish",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "鱼肉上桌前逐块检查并去净鱼刺。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清蒸芦笋龙利鱼",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "鱼肉搭配芦笋蒸熟，只用少许香油。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/101796736/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-33464a665374": {
+      "family": "原味蒸山药",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "玉池桃红",
+        "sourceUrl": "https://m.xiachufang.com/recipe/264711/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "采用原方原味吃法，不加可选的果酱、白糖或蜂蜜。山药属于薯类，可替换部分主食。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "原味蒸山药",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-33464a665374.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 原味蒸山药, plain steamed Chinese yam segments with brown thin skin and white cut ends. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "铁棍山药"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [
+          "山药"
+        ],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "原味蒸山药",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "山药原味蒸熟，不加油糖；应替代本餐部分主食。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/264711/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-c764326acfd2": {
+      "family": "蒜醋蒸茄子",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "大米的厨房笔记",
+        "sourceUrl": "https://m.xiachufang.com/recipe/106868561/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去原方同蒸的辣椒；保留不加油的热浇汁。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "蒜醋蒸茄子",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-c764326acfd2.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 蒜醋蒸茄子, steamed purple eggplant strips with minced garlic and light soy vinegar dressing. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "茄子",
+          "生抽"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [
+          "茄子"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蒜醋蒸茄子",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "茄子蒸软后用蒜醋汁调味，原方不另加油。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/106868561/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-a6751028bc8d": {
+      "family": "清蒸杏鲍菇",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "丁一桌",
+        "sourceUrl": "https://m.xiachufang.com/recipe/100634156/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去原方红尖椒，保留其他调味；油量未标明，因此不纳入减脂精选。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "清蒸杏鲍菇",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-a6751028bc8d.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 清蒸杏鲍菇, steamed king oyster mushroom slices with ginger and scallion. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "杏鲍菇",
+          "生抽"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [
+          "杏鲍菇"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清蒸杏鲍菇",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "蒸后需要淋热油，但油量未明确，保守不入选。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/100634156/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-c2dac38e97f6": {
+      "family": "蒸油麦菜",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "手机用户1882_nmi5",
+        "sourceUrl": "https://m.xiachufang.com/recipe/103028795/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "采用原方香油蒜泥版本，不采用辣椒油或大酱替代；油量不明，不纳入减脂精选。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "蒸油麦菜",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-c2dac38e97f6.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 蒸油麦菜, steamed chopped green lettuce lightly coated with flour. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "油麦菜",
+          "面粉"
+        ],
+        "proteins": [],
+        "leaves": [
+          "油麦菜"
+        ],
+        "vegetables": [
+          "油麦菜"
+        ],
+        "darkVegetables": [
+          "油麦菜"
+        ],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蒸油麦菜",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "菜叶裹面粉并用香油拌食，面粉及油量不够明确。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/103028795/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-d386f0b8380e": {
+      "family": "菠菜蒸蛋",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "厨房新手培培",
+        "sourceUrl": "https://m.xiachufang.com/recipe/106699910/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "按原方整理，不额外加油或糖。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "菠菜蒸蛋",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-d386f0b8380e.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 菠菜蒸蛋, pale yellow firm steamed egg custard with chopped spinach cut into rectangles. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "菠菜",
+          "鸡蛋"
+        ],
+        "proteins": [
+          "egg"
+        ],
+        "leaves": [
+          "菠菜"
+        ],
+        "vegetables": [
+          "菠菜"
+        ],
+        "darkVegetables": [
+          "菠菜"
+        ],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "egg",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "菠菜蒸蛋",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "菠菜与蛋液蒸熟，原方不另加烹调油，淀粉3g。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/106699910/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-2a6417d627e0": {
+      "family": "丝瓜蒸蛋盅",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "丸丸不玩",
+        "sourceUrl": "https://m.xiachufang.com/recipe/105914267/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "保留原方不加调味的做法；名称仅描述菜品，不宣称营养功效。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "丝瓜蒸蛋盅",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-2a6417d627e0.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 丝瓜蒸蛋盅, green luffa cylinders hollowed and filled with cooked yellow egg. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "鸡蛋",
+          "丝瓜"
+        ],
+        "proteins": [
+          "egg"
+        ],
+        "leaves": [],
+        "vegetables": [
+          "丝瓜"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "egg",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "丝瓜蒸蛋盅",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "丝瓜和鸡蛋直接蒸熟，原方不另加油糖。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/105914267/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-ea98b06d03d4": {
+      "family": "清蒸蛏子",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": [
+          "蛏子提前用盐水吐沙至少1小时。"
+        ]
+      },
+      "recipe": {
+        "author": "Charlotte下厨房",
+        "sourceUrl": "https://m.xiachufang.com/recipe/107008310/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "选择原文不加其他蘸料的吃法，省去可选芥末酱油。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "清蒸蛏子",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-ea98b06d03d4.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 清蒸蛏子, steamed razor clams with long thin shells and ginger in a deep bowl. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "蛏子"
+        ],
+        "proteins": [
+          "shrimp"
+        ],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": true,
+        "proteinType": "shrimp",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "虾蟹去壳，切成方便咀嚼的小块。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清蒸蛏子",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "蛏子配姜丝清蒸，原方不另加烹调油。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/107008310/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-5162e447c2cb": {
+      "family": "清蒸扇贝",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "悠哈厨房",
+        "sourceUrl": "https://m.xiachufang.com/recipe/100379832/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "保留清蒸及姜醋蘸汁，不额外加油、糖；食用前清理贝肉内脏。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "清蒸扇贝",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-5162e447c2cb.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 清蒸扇贝, steamed scallops in open fan shaped shells with ginger. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "活扇贝"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清蒸扇贝",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "扇贝清蒸，搭配姜醋汁，原方不另加油。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/100379832/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-f20368a9ee48": {
+      "family": "清蒸鱿鱼",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "郝钟娜",
+        "sourceUrl": "https://m.xiachufang.com/recipe/103812708/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去原文可选的辣椒和生蒜；保留少量油与生抽调味。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "清蒸鱿鱼",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-f20368a9ee48.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 清蒸鱿鱼, steamed white squid rings and tentacles with ginger and scallion. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "鱿鱼",
+          "生抽"
+        ],
+        "proteins": [
+          "shrimp"
+        ],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": true,
+        "proteinType": "shrimp",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "虾蟹去壳，切成方便咀嚼的小块。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清蒸鱿鱼",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "鱿鱼清蒸，原方明确只淋少量热油。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/103812708/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-5f5ba7d2b793": {
+      "family": "番茄香菇蒸牛肉",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": [
+          "牛肉提前腌15分钟。"
+        ]
+      },
+      "recipe": {
+        "author": "Elainepan潘（整理自日食记）",
+        "sourceUrl": "https://m.xiachufang.com/recipe/107671664/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去白胡椒和额外添加的成分未明番茄汤底。原文淀粉清单与步骤不一致，保留1/3—1/2勺范围。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "番茄香菇蒸牛肉",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-5f5ba7d2b793.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 番茄香菇蒸牛肉, steamed lean beef slices over red tomato chunks and shiitake mushrooms. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "牛肉",
+          "生抽",
+          "番茄",
+          "香菇"
+        ],
+        "proteins": [
+          "pork"
+        ],
+        "leaves": [],
+        "vegetables": [
+          "番茄",
+          "香菇"
+        ],
+        "darkVegetables": [
+          "番茄"
+        ],
+        "tubers": [],
+        "mixed": true,
+        "isMeat": true,
+        "proteinType": "pork",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "番茄香菇蒸牛肉",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "150g牛里脊配番茄香菇蒸熟，用油半勺。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/107671664/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-44566a49cbbb": {
+      "family": "西兰花蒸鸡胸肉",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": [
+          "鸡胸肉提前腌约1小时。"
+        ]
+      },
+      "recipe": {
+        "author": "maraschino",
+        "sourceUrl": "https://m.xiachufang.com/recipe/100434689/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "按原方摘要整理，鸡胸肉原文给出113—170g范围，保留范围；不另加油。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "西兰花蒸鸡胸肉",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-44566a49cbbb.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 西兰花蒸鸡胸肉, steamed chicken breast stuffed with mushroom slices and broccoli florets beside it. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "鸡肉",
+          "西兰花",
+          "蘑菇",
+          "生抽"
+        ],
+        "proteins": [
+          "chicken"
+        ],
+        "leaves": [],
+        "vegetables": [
+          "蘑菇"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": true,
+        "isMeat": true,
+        "proteinType": "chicken",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "西兰花蒸鸡胸肉",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "鸡胸肉搭配蘑菇和西兰花蒸熟，不另加油。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/100434689/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-5868edf7e202": {
+      "family": "葱油蒸豆腐",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "我家的小饭桌",
+        "sourceUrl": "https://m.xiachufang.com/recipe/104354300/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "选择原方普通酱油与食用油版本，不加可选藤椒油或花椒油。添加油2勺，不纳入减脂精选。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "葱油蒸豆腐",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-5868edf7e202.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 葱油蒸豆腐, one block of soft white tofu topped with scallion ginger minced garlic and soy sauce. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "豆腐",
+          "生抽"
+        ],
+        "proteins": [
+          "tofu"
+        ],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "tofu",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "葱油蒸豆腐",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "一盒豆腐淋2勺热油，不纳入少油精选。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/104354300/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-ca76a7eeb4dc": {
+      "family": "蒸毛豆仁",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 35,
+        "max": 45,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "草等花开",
+        "sourceUrl": "https://m.xiachufang.com/recipe/100579567/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "按原方保留1勺香油；毛豆须完全熟透，宝宝分餐压碎。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "蒸毛豆仁",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-ca76a7eeb4dc.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 蒸毛豆仁, a bowl of shelled green steamed edamame beans. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "毛豆仁"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蒸毛豆仁",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "250g毛豆加1勺香油，本次不纳入少油精选。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/100579567/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-daa19bc14d06": {
+      "family": "蒸茼蒿",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "果妈家常菜",
+        "sourceUrl": "https://m.xiachufang.com/recipe/107683344/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去原方可选辣椒；宝宝分餐不加生蒜。油量和面粉份量不适合直接判断减脂，不纳入精选。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "蒸茼蒿",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-daa19bc14d06.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 蒸茼蒿, chopped steamed garland chrysanthemum greens lightly flour coated. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "茼蒿",
+          "面粉",
+          "鸡蛋",
+          "生抽"
+        ],
+        "proteins": [
+          "egg"
+        ],
+        "leaves": [
+          "茼蒿"
+        ],
+        "vegetables": [
+          "茼蒿"
+        ],
+        "darkVegetables": [
+          "茼蒿"
+        ],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "egg",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蒸茼蒿",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "菜叶裹一碗面粉，拌汁香油量未明确。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/107683344/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-744e34e7c47e": {
+      "family": "白萝卜蒸肉圆",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 30,
+        "max": 45,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "鑫淼七",
+        "sourceUrl": "https://m.xiachufang.com/recipe/106035036/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去白胡椒、黑胡椒及全部辣椒装饰；肉糜肥瘦未知，不纳入减脂精选。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "白萝卜蒸肉圆",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-744e34e7c47e.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 白萝卜蒸肉圆, translucent white radish slices folded around ground pork filling in a circle. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "白萝卜",
+          "猪肉",
+          "生抽"
+        ],
+        "proteins": [
+          "pork"
+        ],
+        "leaves": [],
+        "vegetables": [
+          "白萝卜"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": true,
+        "isMeat": true,
+        "proteinType": "pork",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "白萝卜蒸肉圆",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "肉糜肥瘦比例未明确，另含白糖及勾芡，不入选。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/106035036/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-53980caa8237": {
+      "family": "蛤蜊蒸蛋",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "艺术家妈妈",
+        "sourceUrl": "https://m.xiachufang.com/recipe/106678016/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "按公开做法摘要整理，未注明的用量保留未知；调味品选择无刺激配料的产品。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "蛤蜊蒸蛋",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-53980caa8237.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 蛤蜊蒸蛋, steamed smooth yellow egg custard with open clam shells. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "蛤蜊",
+          "鸡蛋",
+          "生抽"
+        ],
+        "proteins": [
+          "shrimp",
+          "egg"
+        ],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": true,
+        "proteinType": "shrimp",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "虾蟹去壳，切成方便咀嚼的小块。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蛤蜊蒸蛋",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "调汁使用猪油且总份量未明确，保守不入选。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/106678016/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-797b0b0524b5": {
+      "family": "原味蒸芋头",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 40,
+        "max": 55,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "厨来乍到_",
+        "sourceUrl": "https://m.xiachufang.com/recipe/107225750/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "保留不加油糖的原味做法；芋头属于薯类，可替换部分主食。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "原味蒸芋头",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-797b0b0524b5.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 原味蒸芋头, steamed small taro corms some peeled revealing pale white flesh. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "芋头"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [
+          "芋头"
+        ],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "原味蒸芋头",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "芋头原味蒸熟，不加油糖；应替代本餐部分主食。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/107225750/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-9c0ce5f63009": {
+      "family": "蒸牛肉饼",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": [
+          "肉馅提前腌20分钟。"
+        ]
+      },
+      "recipe": {
+        "author": "林花花不吃糖",
+        "sourceUrl": "https://m.xiachufang.com/recipe/104108926/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "原方含油但未给用量，不纳入减脂精选；不采用未列用量的可选蔬菜变体。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "蒸牛肉饼",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-9c0ce5f63009.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 蒸牛肉饼, a steamed thin round ground beef patty with scallion. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "牛肉",
+          "蛋清",
+          "生抽"
+        ],
+        "proteins": [
+          "beef"
+        ],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": true,
+        "proteinType": "beef",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蒸牛肉饼",
+        "steamed": true,
+        "weightFriendly": false,
+        "reason": "牛肉部位及腌料油量未明确，保守不入选。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/104108926/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-1154ce6bf5e3": {
+      "family": "清蒸巴沙鱼",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "罗小黑-大脸妹",
+        "sourceUrl": "https://m.xiachufang.com/recipe/106175719/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "取原文第一道菜完整做法整理，不沿用特定调味品牌；用量未明确的保留未知。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "清蒸巴沙鱼",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-1154ce6bf5e3.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 清蒸巴沙鱼, steamed white basa fish fillet pieces with ginger and scallion. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "巴沙鱼",
+          "生抽"
+        ],
+        "proteins": [
+          "fish"
+        ],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": true,
+        "proteinType": "fish",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "鱼肉上桌前逐块检查并去净鱼刺。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清蒸巴沙鱼",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "鱼肉清蒸，只淋少许热油和生抽。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/106175719/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-45aed921e8c6": {
+      "family": "清蒸鲳鱼",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "咕咚姥姥",
+        "sourceUrl": "https://m.xiachufang.com/recipe/110646/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去红椒装饰，保留少许橄榄油；蒸鱼豉油须确认无刺激配料。原方按鱼大小给总熟制5—12分钟，实际须检查鱼肉熟透。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "清蒸鲳鱼",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-45aed921e8c6.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Square recipe illustration: 清蒸鲳鱼, one whole flat silver pomfret fish steamed with scallion ginger. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+      },
+      "nutrition": {
+        "foods": [
+          "鲳鱼"
+        ],
+        "proteins": [
+          "fish"
+        ],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": true,
+        "proteinType": "fish",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "鱼肉上桌前逐块检查并去净鱼刺。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "清蒸鲳鱼",
+        "steamed": true,
+        "weightFriendly": true,
+        "reason": "鲳鱼清蒸，原方只用少许橄榄油。",
+        "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/110646/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-3abc76d98154": {
+      "family": "洋葱蔬菜炖鸡胸",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 50,
+        "max": 65,
+        "basis": "采用原方普通锅约40分钟炖制，加上切配与收汁；不采用需数小时的慢炖锅程序。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "鸢沅远愿",
+        "sourceUrl": "https://m.xiachufang.com/recipe/100591332/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "采用原方允许的普通锅方法，不加可选照烧酱油和额外鸡蛋；原方标为4人份，保留原量，应用两人份仅为可调整备菜基准。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "洋葱蔬菜炖鸡胸",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-3abc76d98154.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 洋葱蔬菜炖鸡胸, pale braised chicken breast chunks with onion tomato and cabbage. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "鸡肉",
+          "洋葱",
+          "包菜",
+          "口蘑",
+          "生抽"
+        ],
+        "proteins": [
+          "chicken"
+        ],
+        "leaves": [
+          "包菜"
+        ],
+        "vegetables": [
+          "洋葱",
+          "包菜"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": true,
+        "isMeat": true,
+        "proteinType": "chicken",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "洋葱蔬菜炖鸡胸",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "鸡胸肉与多种蔬菜炖熟，原方不另加烹调油。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/100591332/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-5be2aa4c367b": {
+      "family": "裙带菜瘦肉豆腐汤",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": [
+          "裙带菜提前泡发。"
+        ]
+      },
+      "recipe": {
+        "author": "大只乐豆",
+        "sourceUrl": "https://m.xiachufang.com/recipe/106952709/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去胡椒粉；保留原方3g添加油，芹菜及瘦肉均煮熟。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "裙带菜瘦肉豆腐汤",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-5be2aa4c367b.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 裙带菜瘦肉豆腐汤, clear soup with wakame seaweed thin lean pork slices and white tofu cubes. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "干裙带菜",
+          "豆腐",
+          "猪肉",
+          "芹菜"
+        ],
+        "proteins": [
+          "pork",
+          "tofu"
+        ],
+        "leaves": [],
+        "vegetables": [
+          "干裙带菜",
+          "芹菜"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": true,
+        "isMeat": true,
+        "proteinType": "pork",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "裙带菜瘦肉豆腐汤",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "100g瘦肉搭配裙带菜和豆腐煮汤，用油3g。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/106952709/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-ef80be39c4f7": {
+      "family": "黄瓜豆芽拌鸡丝",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 30,
+        "max": 45,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "东君东宝",
+        "sourceUrl": "https://m.xiachufang.com/recipe/103748458/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去白胡椒及辣椒粉，选原方可不加糟卤的版本；全程不加油，不沿用热量或减重声明。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "黄瓜豆芽拌鸡丝",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-ef80be39c4f7.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 黄瓜豆芽拌鸡丝, shredded poached chicken cucumber matchsticks and bean sprouts salad. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "鸡小胸",
+          "绿豆芽",
+          "黄瓜",
+          "生抽",
+          "干罗勒叶",
+          "青柠檬"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [
+          "黄瓜"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "黄瓜豆芽拌鸡丝",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "鸡小胸水煮后与蔬菜拌食，原方不另加油。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/103748458/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-eb5893a0acdf": {
+      "family": "番茄金针菇汤",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "心灵手巧常",
+        "sourceUrl": "https://m.xiachufang.com/recipe/105842352/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去胡椒粉。原文生抽清单写1勺、步骤写1小勺，先少量调味；番茄酱选择无刺激配料产品。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "番茄金针菇汤",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-eb5893a0acdf.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 番茄金针菇汤, light tomato soup with red tomato wedges and white enoki mushrooms. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "金针菇",
+          "番茄",
+          "生抽"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [
+          "金针菇",
+          "番茄"
+        ],
+        "darkVegetables": [
+          "番茄"
+        ],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "番茄金针菇汤",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "加入番茄酱，添加糖量不明确，本次保守不入选。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/105842352/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-22bce272245e": {
+      "family": "白灼虾",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 30,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "茹絮的美食生活",
+        "sourceUrl": "https://m.xiachufang.com/recipe/106101593/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "调味品按原方类别保留，不指定品牌；全程不另加油糖。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "白灼虾",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-22bce272245e.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 白灼虾, a plate of poached whole pink prawns. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "虾",
+          "生抽"
+        ],
+        "proteins": [
+          "shrimp"
+        ],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": true,
+        "proteinType": "shrimp",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "虾蟹去壳，切成方便咀嚼的小块。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "白灼虾",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "大虾水煮，配葱蒜生抽汁，原方不另加油。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/106101593/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-bbdda146cce4": {
+      "family": "白灼芦笋尖",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 10,
+        "max": 20,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "呤儿",
+        "sourceUrl": "https://m.xiachufang.com/recipe/1087421/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "将原文品牌酱油统一写作生抽；仅数滴油和少许糖，不采用其他可选酱汁。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "白灼芦笋尖",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-bbdda146cce4.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 白灼芦笋尖, a plate of blanched fresh green asparagus tips. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "芦笋尖",
+          "生抽"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [
+          "芦笋尖"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "白灼芦笋尖",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "芦笋焯水只用数滴油；调汁的少许糖仍应计入调味。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/1087421/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-53ae72136dde": {
+      "family": "葱姜蒜拌木耳",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 15,
+        "max": 25,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": [
+          "木耳提前泡发约1小时。"
+        ]
+      },
+      "recipe": {
+        "author": "小徐立志做大厨",
+        "sourceUrl": "https://m.xiachufang.com/recipe/104715089/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去单山蘸水及可选麻辣鲜、十三香等复合调味；不加可选芝麻油。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "葱姜蒜拌木耳",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-53ae72136dde.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 葱姜蒜拌木耳, black wood ear mushroom salad with scallion ginger and minced garlic. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "木耳",
+          "老抽",
+          "生抽"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [
+          "木耳"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "葱姜蒜拌木耳",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "木耳煮熟后用葱姜蒜和醋拌食，原方不另加油。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/104715089/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-6d0b36c4cd67": {
+      "family": "小白菜虾皮豆腐汤",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "蓓儿baby",
+        "sourceUrl": "https://m.xiachufang.com/recipe/102914583/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去白胡椒，保留少许芝麻香油；不增加煎炒步骤。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "小白菜虾皮豆腐汤",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-6d0b36c4cd67.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 小白菜虾皮豆腐汤, light soup with bok choy tiny dried shrimp and tofu cubes. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "小白菜",
+          "豆腐",
+          "虾"
+        ],
+        "proteins": [
+          "shrimp",
+          "tofu"
+        ],
+        "leaves": [
+          "小白菜"
+        ],
+        "vegetables": [
+          "小白菜"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": true,
+        "isMeat": true,
+        "proteinType": "shrimp",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "虾蟹去壳，切成方便咀嚼的小块。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "小白菜虾皮豆腐汤",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "小白菜、虾皮、豆腐清煮，只用少许香油。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/102914583/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-5dcedf55b62f": {
+      "family": "蘑菇冻豆腐虾汤",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 30,
+        "max": 45,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": [
+          "干蘑菇提前泡发。"
+        ]
+      },
+      "recipe": {
+        "author": "Soud的家常菜馆儿",
+        "sourceUrl": "https://m.xiachufang.com/recipe/103991305/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去胡椒和未明确的其他调味料，不沿用消脂功效措辞；保留无添加油方式。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "蘑菇冻豆腐虾汤",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-5dcedf55b62f.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 蘑菇冻豆腐虾汤, clear soup with button mushrooms porous frozen tofu cubes and peeled shrimp. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "干蘑菇",
+          "鸡蛋",
+          "冻豆腐",
+          "虾"
+        ],
+        "proteins": [
+          "shrimp",
+          "egg",
+          "tofu"
+        ],
+        "leaves": [],
+        "vegetables": [
+          "干蘑菇"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": true,
+        "isMeat": true,
+        "proteinType": "shrimp",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "虾蟹去壳，切成方便咀嚼的小块。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蘑菇冻豆腐虾汤",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "菌菇、冻豆腐、虾和鸡蛋煮汤，原方不另加油。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/103991305/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-766cbb5342c1": {
+      "family": "菌菇清汤",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 40,
+        "max": 55,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "慈心茹素",
+        "sourceUrl": "https://m.xiachufang.com/recipe/107370435/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "摘录原文第14道菌菇汤，按食材事实重新整理；未给用量的全部保留未知，不加油糖。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "菌菇清汤",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-766cbb5342c1.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 菌菇清汤, clear mixed mushroom soup with shiitake enoki and oyster mushrooms. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "香菇",
+          "松茸菇",
+          "蟹味菇",
+          "虫草菇",
+          "白玉菇"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [
+          "香菇",
+          "松茸菇",
+          "蟹味菇",
+          "虫草菇",
+          "白玉菇"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "菌菇清汤",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "多种菌菇清水炖汤，原方不另加油糖。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/107370435/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-017c0a098ae7": {
+      "family": "山药胡萝卜煲",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 30,
+        "max": 45,
+        "basis": "原文第33道未给熟制分钟数；30—45分钟为家庭切配和炖熟规划估算，不作单步倒计时。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "慈心茹素",
+        "sourceUrl": "https://m.xiachufang.com/recipe/107370435/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "摘录原文第33道做法；盐的勺大小不明且主料量未知，实际从少量调味开始。山药替换部分主食。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "山药胡萝卜煲",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-017c0a098ae7.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 山药胡萝卜煲, yam carrot and shiitake mushroom soup. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "山药",
+          "胡萝卜",
+          "生抽"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [
+          "胡萝卜"
+        ],
+        "darkVegetables": [
+          "胡萝卜"
+        ],
+        "tubers": [
+          "山药"
+        ],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "山药胡萝卜煲",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "山药和胡萝卜清水炖熟，不另加油；山药计入主食安排。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/107370435/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-e379f7cae453": {
+      "family": "冬瓜虾皮蛋汤",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 15,
+        "max": 25,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "小兵的饭桌",
+        "sourceUrl": "https://m.xiachufang.com/recipe/104773221/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "保留原方步骤中“一点香油”的用法，用量未知不擅自换算。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "冬瓜虾皮蛋汤",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-e379f7cae453.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 冬瓜虾皮蛋汤, clear winter melon soup with tiny dried shrimp and egg ribbons. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "冬瓜",
+          "虾",
+          "鸡蛋"
+        ],
+        "proteins": [
+          "shrimp",
+          "egg"
+        ],
+        "leaves": [],
+        "vegetables": [
+          "冬瓜"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": true,
+        "isMeat": true,
+        "proteinType": "shrimp",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "虾蟹去壳，切成方便咀嚼的小块。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "冬瓜虾皮蛋汤",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "冬瓜、虾皮与鸡蛋煮汤，最后只用少许香油。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/104773221/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-6bebe14527ee": {
+      "family": "番茄鸡蛋清汤",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 15,
+        "max": 25,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "Erin1225",
+        "sourceUrl": "https://m.xiachufang.com/recipe/107592951/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "保持原方不加油的做法。数量未给出，保留未知。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "番茄鸡蛋清汤",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-6bebe14527ee.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 番茄鸡蛋清汤, clear soup with tomatoes and egg ribbons. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "番茄",
+          "鸡蛋"
+        ],
+        "proteins": [
+          "egg"
+        ],
+        "leaves": [],
+        "vegetables": [
+          "番茄"
+        ],
+        "darkVegetables": [
+          "番茄"
+        ],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "egg",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "番茄鸡蛋清汤",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "番茄与鸡蛋直接煮汤，原方不另加烹调油。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/107592951/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-ed8716dd47f9": {
+      "family": "丝瓜毛豆蛤蜊汤",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": [
+          "选已吐净沙的蛤蜊；否则按原方先用淡盐水吐沙2小时。"
+        ]
+      },
+      "recipe": {
+        "author": "小荷悠悠清莲语",
+        "sourceUrl": "https://m.xiachufang.com/recipe/101880936/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去胡椒粉，保留不加油做法；毛豆须完全熟透再出锅。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "丝瓜毛豆蛤蜊汤",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-ed8716dd47f9.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 丝瓜毛豆蛤蜊汤, clear soup with green loofah chunks edamame beans and clams in shells. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "蛤蜊",
+          "丝瓜",
+          "毛豆仁"
+        ],
+        "proteins": [
+          "shrimp"
+        ],
+        "leaves": [],
+        "vegetables": [
+          "丝瓜"
+        ],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": true,
+        "isMeat": true,
+        "proteinType": "shrimp",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "虾蟹去壳，切成方便咀嚼的小块。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "丝瓜毛豆蛤蜊汤",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "丝瓜、毛豆和蛤蜊清煮，原方不另加油。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/101880936/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-04dc2114d290": {
+      "family": "蒜香拌豆腐",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 15,
+        "max": 25,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "南屿儿",
+        "sourceUrl": "https://m.xiachufang.com/recipe/106787698/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去小米辣和辣椒面；保留少许热油激香。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "蒜香拌豆腐",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-04dc2114d290.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 蒜香拌豆腐, white tofu cubes with finely minced garlic and a little light soy sauce. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "豆腐",
+          "生抽"
+        ],
+        "proteins": [
+          "tofu"
+        ],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "tofu",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "蒜香拌豆腐",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "豆腐焯水后拌汁，原方只用少许油；芝麻也计入本餐用量。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/106787698/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-f6e4cc4274b1": {
+      "family": "海带虾仁豆腐汤",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "金珠玛瑙",
+        "sourceUrl": "https://m.xiachufang.com/recipe/106277913/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去白胡椒和可选鸡蛋；使用原作者说明可直接煮的干海带苗，普通干海带需按包装先泡发。油量不明，不纳入精选。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "海带虾仁豆腐汤",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-f6e4cc4274b1.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 海带虾仁豆腐汤, clear soup with dark kelp peeled shrimp and white tofu cubes. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "干海带苗",
+          "豆腐",
+          "虾"
+        ],
+        "proteins": [
+          "shrimp",
+          "tofu"
+        ],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": true,
+        "isMeat": true,
+        "proteinType": "shrimp",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "虾蟹去壳，切成方便咀嚼的小块。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "海带虾仁豆腐汤",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "调味香油用量未明确，本次保守不入选。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/106277913/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-4e79e6a94726": {
+      "family": "玉米海带虾汤",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 30,
+        "max": 45,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": [
+          "海带提前泡发。"
+        ]
+      },
+      "recipe": {
+        "author": "悠悠芳草碧连天",
+        "sourceUrl": "https://m.xiachufang.com/recipe/102343902/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "保留原方数滴香油；玉米计入主食搭配，不沿用原文健康功效措辞。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "玉米海带虾汤",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-4e79e6a94726.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 玉米海带虾汤, clear soup with yellow corn cob rounds kelp knots and pink prawns. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "玉米",
+          "海带结",
+          "虾"
+        ],
+        "proteins": [
+          "shrimp"
+        ],
+        "leaves": [],
+        "vegetables": [],
+        "darkVegetables": [],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": true,
+        "proteinType": "shrimp",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。",
+          "虾蟹去壳，切成方便咀嚼的小块。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "玉米海带虾汤",
+        "steamed": false,
+        "weightFriendly": true,
+        "reason": "玉米、海带与虾仁清煮，只滴数滴香油；玉米计入主食安排。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/102343902/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-c15043556584": {
+      "family": "黄瓜金针菇拌三丝",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 30,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": []
+      },
+      "recipe": {
+        "author": "心峥",
+        "sourceUrl": "https://m.xiachufang.com/recipe/105895548/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "省去花椒、小米椒和可选白糖；保留玉米油，用量未知，不纳入减脂精选。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "黄瓜金针菇拌三丝",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-c15043556584.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 黄瓜金针菇拌三丝, cucumber carrot matchsticks and enoki mushroom salad. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "黄瓜",
+          "金针菇",
+          "胡萝卜",
+          "生抽"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [
+          "黄瓜",
+          "金针菇",
+          "胡萝卜"
+        ],
+        "darkVegetables": [
+          "胡萝卜"
+        ],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "黄瓜金针菇拌三丝",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "拌汁用油量未明确，不因凉拌蔬菜自动入选。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/105895548/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
+    },
+    "dish-f5ca6de622ca": {
+      "family": "荷塘小炒",
+      "time": {
+        "kind": "reviewed-estimate",
+        "min": 20,
+        "max": 35,
+        "basis": "家庭规划估时：包含洗切、烧水和原方熟制；实际以食材厚度及熟透状态为准。",
+        "preparations": [
+          "干木耳提前泡发。"
+        ]
+      },
+      "recipe": {
+        "author": "木子李_520",
+        "sourceUrl": "https://m.xiachufang.com/recipe/106176862/",
+        "reviewedAt": "2026-10-05",
+        "adaptation": "按原方摘要整理；炒制用油未明确，不因菜名或作者减脂描述自动入选。",
+        "portionBasis": "公开配方的事实摘要，用自己的表述整理。原方未标份数时，servings=2 仅作可调备菜基准，不代表两大一小的营养定量。未知用量保留 null。家庭改编与原文分开记录，不转载原图。"
+      },
+      "image": {
+        "name": "荷塘小炒",
+        "kind": "illustration",
+        "sourceUrl": null,
+        "file": "/images/dish-f5ca6de622ca.webp",
+        "generator": "image_gen",
+        "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 荷塘小炒, lotus root slices snow peas carrot slices and black wood ear mushroom stir fry. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+      },
+      "nutrition": {
+        "foods": [
+          "莲藕",
+          "胡萝卜",
+          "荷兰豆",
+          "干木耳"
+        ],
+        "proteins": [],
+        "leaves": [],
+        "vegetables": [
+          "莲藕",
+          "胡萝卜",
+          "荷兰豆",
+          "干木耳"
+        ],
+        "darkVegetables": [
+          "胡萝卜"
+        ],
+        "tubers": [],
+        "mixed": false,
+        "isMeat": false,
+        "proteinType": "vegetable",
+        "occasional": false,
+        "childNotes": [
+          "共餐时把食材切小、做软，按宝宝食量分取；清淡调味。"
+        ]
+      },
+      "reviewedAt": "2026-10-05",
+      "discovery": {
+        "name": "荷塘小炒",
+        "steamed": false,
+        "weightFriendly": false,
+        "reason": "炒制用油量未明确，不因蔬菜搭配自动入选。",
+        "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+        "sources": [
+          "https://m.xiachufang.com/recipe/106176862/"
+        ],
+        "reviewedAt": "2026-10-05"
+      }
     }
   },
-  "guidelineUrl": "https://dg.cnsoc.org/imgnewslist_0602_2.htm"
+  "guidelineUrl": "https://dg.cnsoc.org/imgnewslist_0602_2.htm",
+  "discoveryPolicy": {
+    "label": "减脂友好",
+    "scope": "仅供成人选菜参考；不是热量计算、减重保证或宝宝减重建议。两大一小同桌时，宝宝仍按成长需要正常吃饭。",
+    "criteria": "人工核对原料和完整做法：优先蔬菜、豆制品、明确瘦肉或鱼虾，且不额外加油、只用少许油或有较低用油记录；不因蒸、煮、清淡菜名直接入选。油糖、肉类脂肪或加工配料不明时保守排除。薯类和玉米计入主食。",
+    "sources": [
+      "https://www.nhc.gov.cn/cms-search/downFiles/6d7f12d8c8da45f0859c1c6be6f99726.pdf"
+    ]
+  }
 }

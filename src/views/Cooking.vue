@@ -1,5 +1,5 @@
-<script setup>
-import { computed, ref, onMounted, onBeforeUnmount } from "vue";
+﻿<script setup>
+import { computed, onMounted, onBeforeUnmount } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import {
   dishById,
@@ -9,228 +9,179 @@ import {
   tell,
   goStep,
 } from "../lib/store";
-import { portionText } from "../lib/menu";
+import { portionText, shoppingList } from "../lib/menu";
 import { isCustomDish } from "../lib/custom-dishes";
+import { startStepTimer, formatClock } from "../lib/timers";
 import Icon from "../components/Icon.vue";
-import DishDetails from "../components/DishDetails.vue";
+import DishActions from "../components/DishActions.vue";
+import TimerControls from "../components/TimerControls.vue";
 const route = useRoute(),
-  router = useRouter(),
-  showIngredients = ref(false),
-  now = ref(Date.now()),
-  timerDone = ref(false);
+  router = useRouter();
 const dish = computed(() => dishById.value.get(route.params.id));
+const available = computed(
+  () => dish.value && !state.settings.blacklist.includes(dish.value.id),
+);
 const index = computed(() =>
   Math.min(
     state.progress[dish.value?.id]?.step || 0,
     (dish.value?.steps.length || 1) - 1,
   ),
 );
-const current = computed(() => dish.value?.steps[index.value]),
-  key = computed(() => dish.value?.id + ":" + index.value);
-const activeTimer = computed(() => state.timers[key.value]),
-  remaining = computed(() =>
-    activeTimer.value
-      ? Math.max(0, Math.ceil((activeTimer.value.end - now.value) / 1000))
-      : current.value?.timerSeconds || 0,
-  );
-const clock = computed(
-  () =>
-    `${Math.floor(remaining.value / 60)
-      .toString()
-      .padStart(2, "0")}:${(remaining.value % 60).toString().padStart(2, "0")}`,
-);
 let wake = null,
-  ticker = null,
-  audio = null,
-  swipe = null;
+  disposed = false;
 async function acquireWake() {
   try {
-    if ("wakeLock" in navigator && document.visibilityState === "visible")
-      wake = await navigator.wakeLock.request("screen");
+    if (
+      !disposed &&
+      !wake &&
+      "wakeLock" in navigator &&
+      document.visibilityState === "visible"
+    ) {
+      const acquired = await navigator.wakeLock.request("screen");
+      if (disposed) {
+        await acquired.release();
+        return;
+      }
+      wake = acquired;
+      acquired.addEventListener?.("release", () => {
+        if (wake === acquired) wake = null;
+      });
+    }
   } catch {}
 }
-function onVisibility() {
-  now.value = Date.now();
-  if (document.visibilityState === "visible") acquireWake();
+function markStep(i) {
+  state.progress[dish.value.id] = { step: i, done: false };
 }
-function alarm() {
-  navigator.vibrate?.([300, 150, 300]);
-  try {
-    const o = audio.createOscillator(),
-      g = audio.createGain();
-    o.connect(g);
-    g.connect(audio.destination);
-    o.frequency.value = 880;
-    g.gain.setValueAtTime(0.15, audio.currentTime);
-    g.gain.exponentialRampToValueAtTime(0.001, audio.currentTime + 0.9);
-    o.start();
-    o.stop(audio.currentTime + 1);
-  } catch {}
-  timerDone.value = true;
-  tell("时间到啦，看看锅里的菜。");
-}
-function startTimer() {
-  try {
-    audio ||= new (window.AudioContext || window.webkitAudioContext)();
-    audio.resume();
-  } catch {}
-  state.timers[key.value] = {
-    end: Date.now() + current.value.timerSeconds * 1000,
-    notified: false,
-  };
-  timerDone.value = false;
-}
-function move(delta) {
-  if (!dish.value) return;
-  state.progress[dish.value.id] = {
-    step: Math.max(
-      0,
-      Math.min(dish.value.steps.length - 1, index.value + delta),
-    ),
-    done: false,
-  };
-  timerDone.value = false;
-}
-function finish() {
-  if (state.settings.blacklist.includes(dish.value.id)) return;
-  state.progress[dish.value.id] = { step: index.value, done: true };
-  tell("这道完成啦 🎉 辛苦了，真香！");
+function back() {
   goStep(4);
   router.push("/");
 }
-function up(e) {
-  if (swipe) {
-    const dx = e.clientX - swipe.x;
-    if (Math.abs(dx) > 65 && Math.abs(e.clientY - swipe.y) < 70)
-      move(dx < 0 ? 1 : -1);
-  }
-  swipe = null;
+function blocked() {
+  router.push("/");
+}
+function finish() {
+  if (!available.value) return;
+  state.progress[dish.value.id] = { step: index.value, done: true };
+  tell("这道完成啦，辛苦了！");
+  back();
+}
+function entry(i) {
+  const id = dish.value.id + ":" + i;
+  return { id, kind: "step", timer: state.timers[id] };
 }
 onMounted(() => {
-  if (!dish.value || state.settings.blacklist.includes(dish.value.id)) return;
-  if (!state.progress[dish.value.id])
-    state.progress[dish.value.id] = { step: 0, done: false };
+  if (!available.value) return;
+  if (!state.progress[dish.value.id]) markStep(0);
   acquireWake();
-  document.addEventListener("visibilitychange", onVisibility);
-  ticker = setInterval(() => {
-    now.value = Date.now();
-    for (const t of Object.values(state.timers))
-      if (!t.notified && t.end <= now.value) {
-        t.notified = true;
-        alarm();
-      }
-  }, 250);
+  document.addEventListener("visibilitychange", acquireWake);
 });
 onBeforeUnmount(() => {
-  clearInterval(ticker);
-  document.removeEventListener("visibilitychange", onVisibility);
+  disposed = true;
+  document.removeEventListener("visibilitychange", acquireWake);
   wake?.release().catch(() => {});
-  audio?.close().catch(() => {});
 });
 </script>
 <template>
-  <main
-    v-if="dish && !state.settings.blacklist.includes(dish.id)"
-    class="cooking"
-  >
+  <main v-if="available" class="cooking cooking-flat">
     <header class="cooking-header">
-      <button
-        class="icon-button"
-        aria-label="返回今晚做菜列表"
-        @click="
-          goStep(4);
-          router.push('/');
-        "
-      >
-        <Icon name="left" /></button
-      ><strong>{{ dish.name }}</strong
-      ><button
-        v-if="!isCustomDish(dish)"
-        class="text-button"
-        @click="showIngredients = true"
-      >
-        食材
+      <button class="icon-button" aria-label="返回今晚做菜列表" @click="back">
+        <Icon name="left" />
       </button>
+      <h1>{{ dish.name }}</h1>
     </header>
+    <DishActions :dish="dish" @blocked="blocked" />
     <div v-if="isCustomDish(dish)" class="custom-cooking">
       <span class="badge custom">自家菜 · 详情待补</span>
-      <h1>{{ dish.name }}</h1>
       <p>做法待补</p>
       <p class="note">按你家的习惯做，做好后记一下就行。</p>
-      <button class="primary full" @click="finish">这道完成啦 🎉</button>
     </div>
     <template v-else>
-      <div class="cooking-progress">
-        <p>
-          第 <strong>{{ index + 1 }}</strong> /
-          {{ dish.steps.length }} 步<span>{{ portionLabel }}</span>
-        </p>
-        <div class="progress-track">
-          <div
-            :style="{ width: ((index + 1) / dish.steps.length) * 100 + '%' }"
-          ></div>
+      <section class="cooking-ingredients">
+        <div class="section-heading">
+          <h2>备好这些</h2>
+          <span>{{ portionLabel }}</span>
         </div>
-      </div>
-      <div
-        class="cooking-stage"
-        @pointerdown="(e) => (swipe = { x: e.clientX, y: e.clientY })"
-        @pointerup="up"
-        @pointercancel="swipe = null"
-      >
-        <span class="step-number">{{
-          String(index + 1).padStart(2, "0")
-        }}</span>
-        <p class="step-text">
-          {{
-            portionText(current.text, state.settings.servings / dish.servings)
-          }}
-        </p>
-        <div v-if="current.timerSeconds" class="timer-box">
-          <button
-            class="timer-button"
-            @click="startTimer"
-            :disabled="activeTimer && remaining > 0"
+        <ul class="ingredient-detail">
+          <li
+            v-for="item in shoppingList([dish], state.settings.servings)"
+            :key="item.key"
           >
-            ⏱
-            {{
-              activeTimer && remaining > 0
-                ? "剩余"
-                : timerDone || (activeTimer && remaining === 0)
-                  ? "再计时"
-                  : "开始计时"
-            }}
-            {{ clock }}</button
-          ><button
-            v-if="activeTimer && remaining > 0"
-            class="text-button"
-            @click="delete state.timers[key]"
-          >
-            取消计时
-          </button>
-          <p v-if="timerDone || (activeTimer && remaining === 0)" role="status">
-            时间到啦，看看锅里的菜 🔔
-          </p>
-        </div>
-      </div>
-      <p class="kitchen-hint">左右轻轻滑动，也可以切换步骤</p>
-      <div class="cooking-actions">
-        <button class="secondary" :disabled="index === 0" @click="move(-1)">
-          上一步</button
-        ><button
-          v-if="index < dish.steps.length - 1"
-          class="primary"
-          @click="move(1)"
+            <span>{{ item.name }}</span
+            ><strong>{{ item.quantity }}</strong>
+          </li>
+        </ul>
+      </section>
+      <section v-if="dish._meta?.time" class="cooking-preparation">
+        <strong
+          >预计 {{ dish._meta.time.min }}–{{ dish._meta.time.max }} 分钟</strong
         >
-          下一步 →</button
-        ><button v-else class="primary" @click="finish">这道完成啦 🎉</button>
+        <p>{{ dish._meta.time.basis }}</p>
+        <p v-for="text in dish._meta.time.preparations" :key="text">
+          <strong>提前准备：</strong>{{ text }}
+        </p>
+        <p v-if="dish._meta.time.note">{{ dish._meta.time.note }}</p>
+      </section>
+      <div class="section-heading cooking-progress">
+        <h2>跟着这样做</h2>
+        <span>当前 {{ index + 1 }} / {{ dish.steps.length }} 步</span>
       </div>
-      <DishDetails
-        v-if="showIngredients"
-        :dish="dish"
-        ingredients-only
-        @close="showIngredients = false"
-      />
+      <ol class="cooking-steps">
+        <li
+          v-for="(step, i) in dish.steps"
+          :key="i"
+          class="cooking-step"
+          :class="{ 'current-step': i === index }"
+          :aria-current="i === index ? 'step' : undefined"
+        >
+          <div class="step-heading">
+            <strong>步骤 {{ String(i + 1).padStart(2, "0") }}</strong
+            ><button
+              class="secondary mark-step"
+              :aria-pressed="i === index"
+              @click="markStep(i)"
+            >
+              {{ i === index ? "正在做这步" : "做到这步" }}
+            </button>
+          </div>
+          <p class="step-text">
+            {{
+              portionText(step.text, state.settings.servings / dish.servings)
+            }}
+          </p>
+          <template v-if="step.timerSeconds">
+            <TimerControls
+              v-if="state.timers[dish.id + ':' + i]"
+              :entry="entry(i)"
+              compact
+            />
+            <button
+              v-else
+              class="secondary step-timer"
+              @click="startStepTimer(dish, i)"
+            >
+              <Icon name="clock" :size="20" />开始计时
+              {{ formatClock(step.timerSeconds) }}
+            </button>
+          </template>
+        </li>
+      </ol>
+      <p v-if="dish.tips" class="note">{{ dish.tips }}</p>
+      <p v-if="dish.homeSubstitute" class="note">{{ dish.homeSubstitute }}</p>
+      <section class="child-notes">
+        <h2>给宝宝分餐</h2>
+        <p v-for="text in dish._meta?.nutrition.childNotes" :key="text">
+          {{ text }}
+        </p>
+      </section>
+      <p class="source">
+        <a :href="dish.sourceUrl" target="_blank" rel="noopener noreferrer"
+          >查看原做法 ↗</a
+        >
+      </p>
     </template>
+    <button class="primary full cooking-finish" @click="finish">
+      这道完成啦
+    </button>
   </main>
   <main v-else class="page empty">
     <h1>

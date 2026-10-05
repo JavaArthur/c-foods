@@ -2,17 +2,9 @@
 import { computed, ref } from "vue";
 import Sheet from "./Sheet.vue";
 import DishImage from "./DishImage.vue";
+import DishActions from "./DishActions.vue";
 import CustomDishForm from "./CustomDishForm.vue";
-import {
-  state,
-  dishById,
-  portionLabel,
-  favorite,
-  addDish,
-  blacklistDish,
-  restoreDish,
-  deleteCustomDish,
-} from "../lib/store";
+import { state, dishById, portionLabel, deleteCustomDish } from "../lib/store";
 import { isCustomDish } from "../lib/custom-dishes";
 import { shoppingList, portionText } from "../lib/menu";
 const props = defineProps({ dish: Object, ingredientsOnly: Boolean });
@@ -21,9 +13,6 @@ const mode = ref("view"),
   other = ref(null);
 const dish = computed(
   () => dishById.value.get(other.value?.id || props.dish.id) || props.dish,
-);
-const blocked = computed(() =>
-  state.settings.blacklist.includes(dish.value.id),
 );
 </script>
 <template>
@@ -58,33 +47,14 @@ const blocked = computed(() =>
     <template v-else>
       <template v-if="!ingredientsOnly"
         ><DishImage :dish="dish" eager />
-        <div class="detail-actions">
-          <button class="secondary" @click="favorite(dish.id)">
-            {{
-              state.favorites.includes(dish.id) ? "♥ 已收藏" : "♡ 想再吃"
-            }}</button
-          ><button class="primary" @click="if (addDish(dish)) $emit('close');">
-            加入今晚菜单
-          </button>
-        </div>
+      </template>
+      <DishActions
+        :dish="dish"
+        @blocked="emit('close')"
+        @added="emit('close')"
+      />
+      <template v-if="!ingredientsOnly">
         <div class="dish-management">
-          <button
-            v-if="blocked"
-            class="text-button"
-            @click="restoreDish(dish.id)"
-          >
-            恢复菜品
-          </button>
-          <button
-            v-else
-            class="text-button"
-            @click="
-              blacklistDish(dish.id);
-              emit('close');
-            "
-          >
-            拉黑菜品
-          </button>
           <template v-if="isCustomDish(dish)">
             <button class="text-button" @click="mode = 'edit'">修改菜名</button>
             <button class="text-button danger" @click="mode = 'delete'">
@@ -101,6 +71,14 @@ const blocked = computed(() =>
         </p>
       </div>
       <template v-else>
+        <div
+          v-if="!ingredientsOnly && dish._meta?.discovery?.weightFriendly"
+          class="discovery-note"
+        >
+          <strong>减脂友好</strong>
+          <p>{{ dish._meta.discovery.reason }}</p>
+          <p class="note">供成人选菜参考；宝宝仍按家庭分餐建议进食。</p>
+        </div>
         <h3>{{ portionLabel }} · 备好这些</h3>
         <ul class="ingredient-detail">
           <li
@@ -115,6 +93,7 @@ const blocked = computed(() =>
           ><details
             v-if="dish.source === 'cooklikehoc'"
             class="original-seasonings"
+            open
           >
             <summary class="text-button">原文配料及供应商标注</summary>
             <p v-for="i in dish.ingredients" :key="i.name">{{ i.name }}</p>

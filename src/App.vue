@@ -1,5 +1,11 @@
 <script setup>
-import { onMounted, ref } from "vue";
+import { onMounted, onBeforeUnmount } from "vue";
+import {
+  startTimerService,
+  runningTimers,
+  nearestTimer,
+  doneTimers,
+} from "./lib/timers.js";
 import { useRoute } from "vue-router";
 import Icon from "./components/Icon.vue";
 import {
@@ -15,10 +21,16 @@ const route = useRoute();
 const tabs = [
   ["/", "pot", "今晚吃啥"],
   ["/recipes", "book", "菜谱库"],
+  ["/timers", "clock", "计时器"],
   ["/favorites", "heart", "收藏"],
   ["/me", "user", "我的"],
 ];
-onMounted(loadDishes);
+let stopTimers;
+onMounted(() => {
+  stopTimers = startTimerService();
+  loadDishes();
+});
+onBeforeUnmount(() => stopTimers?.());
 </script>
 <template>
   <div class="app-shell">
@@ -63,17 +75,24 @@ onMounted(loadDishes);
       ><Transition name="page" mode="out-in"
         ><component :is="Component" :key="route.path" /></Transition
     ></router-view>
-    <nav
-      v-if="!route.path.startsWith('/cook/')"
-      class="bottom-nav"
-      aria-label="主导航"
-    >
+    <nav class="bottom-nav" aria-label="主导航">
       <router-link
         v-for="[url, icon, label] in tabs"
         :key="url"
         :to="url"
         :class="{ active: route.path === url }"
-        ><Icon :name="icon" /><span>{{ label }}</span></router-link
+        ><Icon :name="icon" /><span
+          >{{ label
+          }}{{
+            url === "/timers" && runningTimers.length
+              ? " · " + runningTimers.length
+              : ""
+          }}</span
+        ><small
+          v-if="url === '/timers' && (nearestTimer || doneTimers.length)"
+          class="nav-timer"
+          >{{ nearestTimer || "时间到" }}</small
+        ></router-link
       >
     </nav>
     <Transition name="page"

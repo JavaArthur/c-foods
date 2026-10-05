@@ -7963,5 +7963,3798 @@
     ],
     "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
     "homeSubstitute": null
+  },
+  {
+    "id": "dish-2df8eaac30ea",
+    "name": "香菇蒸鸡胸肉",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/104562077/",
+    "image": "/images/dish-2df8eaac30ea.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "鸡肉",
+      "香菇",
+      "生抽"
+    ],
+    "proteinType": "chicken",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "鸡胸肉",
+        "amount": 0.5,
+        "unit": "块",
+        "group": "meat"
+      },
+      {
+        "name": "干香菇",
+        "amount": 4,
+        "unit": "朵",
+        "group": "veg"
+      },
+      {
+        "name": "姜",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": 1,
+        "unit": "小勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "蚝油",
+        "amount": 1,
+        "unit": "小勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "鸡胸肉切条、沥水，加生抽、蚝油、少量水和姜丝拌匀。",
+        "timerSeconds": null
+      },
+      {
+        "text": "干香菇泡发后切片，与鸡肉混合腌制30分钟。",
+        "timerSeconds": 1800
+      },
+      {
+        "text": "锅内水烧开，放入装好鸡肉和香菇的盘子，蒸10分钟至鸡肉熟透。",
+        "timerSeconds": 600
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-a249a63cebe9",
+    "name": "蒜蓉蒸丝瓜",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/106399820/",
+    "image": "/images/dish-a249a63cebe9.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "丝瓜",
+      "生抽"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "丝瓜",
+        "amount": 1,
+        "unit": "根",
+        "group": "veg"
+      },
+      {
+        "name": "蒜",
+        "amount": null,
+        "unit": "较多",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": 1,
+        "unit": "小勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "食用油",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "丝瓜削去部分硬皮后切成段，蒜切碎。",
+        "timerSeconds": null
+      },
+      {
+        "text": "锅里放油，将一半蒜末炒至金黄，再拌入剩余蒜末和盐。",
+        "timerSeconds": null
+      },
+      {
+        "text": "蒜蓉铺在丝瓜上，淋生抽；水开后上锅蒸5分钟，至丝瓜熟软。",
+        "timerSeconds": 300
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-9af494575628",
+    "name": "金针菇蒸娃娃菜",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/107198146/",
+    "image": "/images/dish-9af494575628.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "娃娃菜",
+      "金针菇",
+      "生抽"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "娃娃菜",
+        "amount": 0.5,
+        "unit": "棵",
+        "group": "veg"
+      },
+      {
+        "name": "金针菇",
+        "amount": 250,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "蒜",
+        "amount": 1,
+        "unit": "头",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "蚝油",
+        "amount": null,
+        "unit": "适量（调汁1勺，另少量铺底）",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "食用油",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "娃娃菜洗净铺盘，底部放少量蚝油；金针菇去根洗净，铺在上面。",
+        "timerSeconds": null
+      },
+      {
+        "text": "蒜切末，与生抽、1勺蚝油、盐和油拌成调味汁，均匀淋上。",
+        "timerSeconds": null
+      },
+      {
+        "text": "锅内水烧开后放入盘子，蒸5分钟至食材熟透。",
+        "timerSeconds": 300
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-58f476124d3f",
+    "name": "冬瓜蒸虾仁",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/107172886/",
+    "image": "/images/dish-58f476124d3f.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "冬瓜",
+      "虾",
+      "生抽"
+    ],
+    "proteinType": "shrimp",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "冬瓜",
+        "amount": 250,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "虾仁",
+        "amount": 100,
+        "unit": "g",
+        "group": "meat"
+      },
+      {
+        "name": "姜",
+        "amount": 2,
+        "unit": "片",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "葱",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "冬瓜去皮去籽切片，铺在盘中；虾仁清理干净。",
+        "timerSeconds": null
+      },
+      {
+        "text": "水烧开后放入冬瓜，蒸10分钟。",
+        "timerSeconds": 600
+      },
+      {
+        "text": "加姜片和虾仁，再蒸2分钟；依原方继续放微波炉加热1分30秒，确认虾仁完全熟透。",
+        "timerSeconds": 120
+      },
+      {
+        "text": "撒葱花，淋适量生抽即可。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-c9ca2b61ad39",
+    "name": "清蒸鳕鱼",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/106986436/",
+    "image": "/images/dish-c9ca2b61ad39.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "鳕鱼",
+      "生抽"
+    ],
+    "proteinType": "fish",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 40,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "鳕鱼",
+        "amount": 1,
+        "unit": "块",
+        "group": "meat"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "姜",
+        "amount": 1,
+        "unit": "块",
+        "group": "seasoning"
+      },
+      {
+        "name": "葱",
+        "amount": 1,
+        "unit": "根",
+        "group": "seasoning"
+      },
+      {
+        "name": "料酒",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "食用油",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "鳕鱼解冻后清理干净，加少许盐、料酒、姜片和葱段腌15分钟。",
+        "timerSeconds": 900
+      },
+      {
+        "text": "倒去腌汁，清理鱼块，换上新的葱姜，淋少许生抽，蒸15分钟至熟透。",
+        "timerSeconds": 900
+      },
+      {
+        "text": "倒去蒸出的汁，换上葱姜丝，淋少许热油和生抽。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-2a050b9836dd",
+    "name": "鸡蛋蒸豆腐",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/106216628/",
+    "image": "/images/dish-2a050b9836dd.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "鸡蛋",
+      "豆腐",
+      "生抽"
+    ],
+    "proteinType": "egg",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "鸡蛋",
+        "amount": 2,
+        "unit": "个",
+        "group": "meat"
+      },
+      {
+        "name": "内酯豆腐",
+        "amount": 1,
+        "unit": "盒",
+        "group": "veg"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "香油",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "豆腐取出，划成小块，放进较深的耐热容器。",
+        "timerSeconds": null
+      },
+      {
+        "text": "鸡蛋加盐打散，按蛋液与清水1∶1混合，搅匀后倒在豆腐上。",
+        "timerSeconds": null
+      },
+      {
+        "text": "放蒸锅中小火蒸15分钟，确认蛋液凝固。",
+        "timerSeconds": 900
+      },
+      {
+        "text": "取出后淋生抽和少许香油。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-725fbb1bd5c4",
+    "name": "清蒸去皮鸡腿",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/104109940/",
+    "image": "/images/dish-725fbb1bd5c4.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "鸡肉",
+      "生抽"
+    ],
+    "proteinType": "chicken",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 70,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "鸡腿",
+        "amount": 1,
+        "unit": "只",
+        "group": "meat"
+      },
+      {
+        "name": "姜",
+        "amount": 1,
+        "unit": "块",
+        "group": "seasoning"
+      },
+      {
+        "name": "蒜",
+        "amount": 1,
+        "unit": "瓣",
+        "group": "seasoning"
+      },
+      {
+        "name": "料酒",
+        "amount": null,
+        "unit": "适量（调汁3调味勺，焯水少许）",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": 1.5,
+        "unit": "调味勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "蚝油",
+        "amount": 1,
+        "unit": "调味勺",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "鸡腿去皮，在厚肉处划开几刀。",
+        "timerSeconds": null
+      },
+      {
+        "text": "水烧开加姜和少许料酒，鸡腿放进去煮约3分钟，取出过凉水。",
+        "timerSeconds": 180
+      },
+      {
+        "text": "姜蒜切片，与3调味勺料酒、1.5调味勺生抽、1调味勺蚝油混合，鸡腿放入拌匀。",
+        "timerSeconds": null
+      },
+      {
+        "text": "装入耐热碗，上锅蒸约45分钟至肉熟透。",
+        "timerSeconds": 2700
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-ceefe2806ebe",
+    "name": "蒸胡萝卜丝",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/106422175/",
+    "image": "/images/dish-ceefe2806ebe.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "胡萝卜",
+      "玉米面",
+      "面粉",
+      "生抽"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "胡萝卜",
+        "amount": 2,
+        "unit": "根",
+        "group": "veg"
+      },
+      {
+        "name": "玉米面",
+        "amount": 50,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "面粉",
+        "amount": 30,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "橄榄油",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "蒜",
+        "amount": 5,
+        "unit": "瓣",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "香醋",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": 0.5,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "香油",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "胡萝卜擦丝，拌少许橄榄油，再依次拌入玉米面和面粉，使每根均匀裹粉。",
+        "timerSeconds": null
+      },
+      {
+        "text": "蒸屉铺湿后拧干的蒸布，水烧开后放入胡萝卜丝，蒸约8分钟。",
+        "timerSeconds": 480
+      },
+      {
+        "text": "取出抖散，稍散热气。蒜切泥，与生抽、香醋、盐和香油调汁，拌入萝卜丝。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-8e5ad9a9a574",
+    "name": "西兰花蒸虾",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/102953881/",
+    "image": "/images/dish-8e5ad9a9a574.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "西兰花",
+      "虾"
+    ],
+    "proteinType": "shrimp",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "西兰花",
+        "amount": 150,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "大虾",
+        "amount": 200,
+        "unit": "g",
+        "group": "meat"
+      },
+      {
+        "name": "蚝油",
+        "amount": 5,
+        "unit": "g",
+        "group": "seasoning"
+      },
+      {
+        "name": "淀粉",
+        "amount": 10,
+        "unit": "g",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "西兰花分小朵，洗净后围放盘边；大虾清理干净，拌淀粉后放在盘中。",
+        "timerSeconds": null
+      },
+      {
+        "text": "使用电蒸箱100℃蒸15分钟至虾熟透。",
+        "timerSeconds": 900
+      },
+      {
+        "text": "另用小锅将水和蚝油煮开，至汁略稠后淋在蒸好的菜上。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-556b0af704b0",
+    "name": "清煮冬瓜汤",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/106972264/",
+    "image": "/images/dish-556b0af704b0.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "冬瓜"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "煮",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "冬瓜",
+        "amount": 150,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "味精",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "冬瓜去皮去籽，切成薄片。",
+        "timerSeconds": null
+      },
+      {
+        "text": "锅里水烧开，放入冬瓜，大火煮2—3分钟；想吃更软的口感可继续煮至合意。",
+        "timerSeconds": 180
+      },
+      {
+        "text": "关火后少量加盐和味精调味。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-6a2608046a47",
+    "name": "清蒸芦笋龙利鱼",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/101796736/",
+    "image": "/images/dish-6a2608046a47.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "芦笋",
+      "龙利鱼",
+      "生抽"
+    ],
+    "proteinType": "fish",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "芦笋",
+        "amount": null,
+        "unit": "适量",
+        "group": "veg"
+      },
+      {
+        "name": "龙利鱼",
+        "amount": null,
+        "unit": "适量",
+        "group": "meat"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "蚝油",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "香油",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "芦笋洗净切段，较老的根部削皮后摆盘。",
+        "timerSeconds": null
+      },
+      {
+        "text": "鱼肉用少许盐腌15—20分钟。",
+        "timerSeconds": 1200
+      },
+      {
+        "text": "少许蚝油和生抽加清水调匀，鱼铺在芦笋上，淋汁并滴少许香油。",
+        "timerSeconds": null
+      },
+      {
+        "text": "上锅蒸约20分钟，至鱼肉完全熟透。",
+        "timerSeconds": 1200
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-33464a665374",
+    "name": "原味蒸山药",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/264711/",
+    "image": "/images/dish-33464a665374.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "铁棍山药"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "铁棍山药",
+        "amount": null,
+        "unit": "适量",
+        "group": "veg"
+      }
+    ],
+    "steps": [
+      {
+        "text": "山药表面的毛按原方在灶火上烤去，再清洗干净，切段。",
+        "timerSeconds": null
+      },
+      {
+        "text": "上锅蒸，出大汽后计时10—15分钟；用筷子确认能扎透、山药熟软。",
+        "timerSeconds": 900
+      },
+      {
+        "text": "取出食用。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-c764326acfd2",
+    "name": "蒜醋蒸茄子",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/106868561/",
+    "image": "/images/dish-c764326acfd2.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "茄子",
+      "生抽"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "茄子",
+        "amount": null,
+        "unit": "适量",
+        "group": "veg"
+      },
+      {
+        "name": "蒜",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "醋",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "茄子洗净切条，放入耐热蒸碗。",
+        "timerSeconds": null
+      },
+      {
+        "text": "蒸锅上汽后放入，蒸10—15分钟至熟软。",
+        "timerSeconds": 900
+      },
+      {
+        "text": "小锅加少量水、醋、生抽和蒜末，煮开后浇在茄子上拌匀。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-a6751028bc8d",
+    "name": "清蒸杏鲍菇",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/100634156/",
+    "image": "/images/dish-a6751028bc8d.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "杏鲍菇",
+      "生抽"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "杏鲍菇",
+        "amount": 300,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "味精",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "葱",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "姜",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "植物油",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "杏鲍菇切片，用少许盐拌匀，装盘并撒姜丝。",
+        "timerSeconds": null
+      },
+      {
+        "text": "水烧开后大火蒸约15分钟，关火焖4分钟再取出。",
+        "timerSeconds": 900
+      },
+      {
+        "text": "加葱姜丝和生抽，淋热植物油，少量味精调味。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-c2dac38e97f6",
+    "name": "蒸油麦菜",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/103028795/",
+    "image": "/images/dish-c2dac38e97f6.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "油麦菜",
+      "面粉"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "油麦菜",
+        "amount": 1,
+        "unit": "把",
+        "group": "veg"
+      },
+      {
+        "name": "面粉",
+        "amount": 0.5,
+        "unit": "碗",
+        "group": "veg"
+      },
+      {
+        "name": "蒜",
+        "amount": null,
+        "unit": "4—5瓣",
+        "group": "seasoning"
+      },
+      {
+        "name": "香油",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "油麦菜洗净充分沥水，切一指宽的段。拌入面粉，让菜段均匀挂粉。",
+        "timerSeconds": null
+      },
+      {
+        "text": "蒸屉铺布，放入菜，大火蒸约10分钟至熟；原作者提示火力弱的电饭锅约需30分钟。",
+        "timerSeconds": 1800
+      },
+      {
+        "text": "蒜捣成泥，加盐和香油拌匀。蒸好的菜抖散，用蒜泥汁拌食。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-d386f0b8380e",
+    "name": "菠菜蒸蛋",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/106699910/",
+    "image": "/images/dish-d386f0b8380e.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "菠菜",
+      "鸡蛋"
+    ],
+    "proteinType": "egg",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "菠菜",
+        "amount": 1,
+        "unit": "把",
+        "group": "veg"
+      },
+      {
+        "name": "鸡蛋",
+        "amount": 3,
+        "unit": "个",
+        "group": "meat"
+      },
+      {
+        "name": "淀粉",
+        "amount": 3,
+        "unit": "g",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": 2,
+        "unit": "g",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "15g水与3g淀粉搅匀；鸡蛋打散，加水淀粉和盐混合。",
+        "timerSeconds": null
+      },
+      {
+        "text": "菠菜洗净焯水，晾凉后切碎，拌入蛋液，倒进耐热长方容器。",
+        "timerSeconds": null
+      },
+      {
+        "text": "蒸锅水烧开后转中火，放入蒸10分钟至蛋液凝固熟透。",
+        "timerSeconds": 600
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-2a6417d627e0",
+    "name": "丝瓜蒸蛋盅",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/105914267/",
+    "image": "/images/dish-2a6417d627e0.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "鸡蛋",
+      "丝瓜"
+    ],
+    "proteinType": "egg",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "鸡蛋",
+        "amount": 1,
+        "unit": "个",
+        "group": "meat"
+      },
+      {
+        "name": "丝瓜",
+        "amount": 1,
+        "unit": "根",
+        "group": "veg"
+      }
+    ],
+    "steps": [
+      {
+        "text": "丝瓜清理后切段，中间挖出可装蛋液的空间，底部保留不挖穿。",
+        "timerSeconds": null
+      },
+      {
+        "text": "鸡蛋打散，分别倒进丝瓜盅内。",
+        "timerSeconds": null
+      },
+      {
+        "text": "冷水上锅，蒸约15—20分钟，确认蛋液凝固、丝瓜熟软。",
+        "timerSeconds": 1200
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-ea98b06d03d4",
+    "name": "清蒸蛏子",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/107008310/",
+    "image": "/images/dish-ea98b06d03d4.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "蛏子"
+    ],
+    "proteinType": "shrimp",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "蛏子",
+        "amount": 500,
+        "unit": "g",
+        "group": "meat"
+      },
+      {
+        "name": "姜",
+        "amount": 20,
+        "unit": "g",
+        "group": "seasoning"
+      },
+      {
+        "name": "米酒",
+        "amount": 2,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "吐沙用",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "蛏子清洗后，用盐水浸泡至少1小时吐沙，再洗净。",
+        "timerSeconds": 3600
+      },
+      {
+        "text": "蛏子在深平底碗内竖放，姜切丝放入缝隙，加50ml水和米酒。",
+        "timerSeconds": null
+      },
+      {
+        "text": "用适合高温蒸制的食品膜覆盖，扎小孔，上锅大火蒸8分钟至熟透。",
+        "timerSeconds": 480
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-5162e447c2cb",
+    "name": "清蒸扇贝",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/100379832/",
+    "image": "/images/dish-5162e447c2cb.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "活扇贝"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "活扇贝",
+        "amount": null,
+        "unit": "适量",
+        "group": "meat"
+      },
+      {
+        "name": "米醋",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "姜",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "选活扇贝，流水清洗干净外壳。",
+        "timerSeconds": null
+      },
+      {
+        "text": "蒸锅加水，扇贝放在蒸屉上，冷水开蒸。",
+        "timerSeconds": null
+      },
+      {
+        "text": "水开冒汽后蒸约5分钟，至扇贝开口且肉熟透，取出装盘。",
+        "timerSeconds": 300
+      },
+      {
+        "text": "姜切末，与米醋混合，蘸食。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-f20368a9ee48",
+    "name": "清蒸鱿鱼",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/103812708/",
+    "image": "/images/dish-f20368a9ee48.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "鱿鱼",
+      "生抽"
+    ],
+    "proteinType": "shrimp",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "鱿鱼",
+        "amount": 3,
+        "unit": "只",
+        "group": "meat"
+      },
+      {
+        "name": "葱",
+        "amount": 4,
+        "unit": "根",
+        "group": "seasoning"
+      },
+      {
+        "name": "姜",
+        "amount": 1,
+        "unit": "块",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "料酒",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "食用油",
+        "amount": null,
+        "unit": "少量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "鱿鱼清理内脏等不可食部分，洗净切圈，触腕一并装盘，加葱姜和少许料酒。",
+        "timerSeconds": null
+      },
+      {
+        "text": "水开后上锅蒸5—7分钟，确认鱿鱼完全熟透。",
+        "timerSeconds": 420
+      },
+      {
+        "text": "倒去蒸出的汁和葱姜，另放葱花，淋少量热油及生抽。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-5f5ba7d2b793",
+    "name": "番茄香菇蒸牛肉",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/107671664/",
+    "image": "/images/dish-5f5ba7d2b793.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "牛肉",
+      "生抽",
+      "番茄",
+      "香菇"
+    ],
+    "proteinType": "pork",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "牛里脊",
+        "amount": 150,
+        "unit": "g",
+        "group": "meat"
+      },
+      {
+        "name": "姜",
+        "amount": 0.5,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "料酒",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": 0.5,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "淀粉",
+        "amount": null,
+        "unit": "1/3—1/2勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "食用油",
+        "amount": 0.5,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "番茄",
+        "amount": 2,
+        "unit": "个",
+        "group": "veg"
+      },
+      {
+        "name": "香菇",
+        "amount": 3,
+        "unit": "朵",
+        "group": "veg"
+      },
+      {
+        "name": "葱",
+        "amount": 0.5,
+        "unit": "勺",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "牛里脊切片，加姜丝、料酒、生抽、淀粉和油抓匀，腌15分钟。",
+        "timerSeconds": 900
+      },
+      {
+        "text": "番茄去皮切块，香菇切片，铺在碗底，放上腌好的牛肉和姜丝。",
+        "timerSeconds": null
+      },
+      {
+        "text": "水开后放蒸屉，中火蒸10分钟至熟透，夹去姜丝，撒葱花。",
+        "timerSeconds": 600
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-44566a49cbbb",
+    "name": "西兰花蒸鸡胸肉",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/100434689/",
+    "image": "/images/dish-44566a49cbbb.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "鸡肉",
+      "西兰花",
+      "蘑菇",
+      "生抽"
+    ],
+    "proteinType": "chicken",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "鸡胸肉",
+        "amount": null,
+        "unit": "113—170g",
+        "group": "meat"
+      },
+      {
+        "name": "西兰花",
+        "amount": 1,
+        "unit": "大朵",
+        "group": "veg"
+      },
+      {
+        "name": "蘑菇",
+        "amount": null,
+        "unit": "适量",
+        "group": "veg"
+      },
+      {
+        "name": "生抽",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "葱",
+        "amount": 1,
+        "unit": "根",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "鸡胸肉洗净，切开口袋状切口，用盐、生抽腌约1小时；蘑菇切片，葱切段。",
+        "timerSeconds": 3600
+      },
+      {
+        "text": "盘底铺葱，鸡肉切口和表面放蘑菇，中火蒸18—20分钟，再焖2—3分钟。",
+        "timerSeconds": 1200
+      },
+      {
+        "text": "接近鸡肉蒸好时，将洗净切小朵的西兰花另蒸4—5分钟至熟，与鸡肉一起装盘。",
+        "timerSeconds": 300
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-5868edf7e202",
+    "name": "葱油蒸豆腐",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/104354300/",
+    "image": "/images/dish-5868edf7e202.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "豆腐",
+      "生抽"
+    ],
+    "proteinType": "tofu",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "内酯豆腐",
+        "amount": 1,
+        "unit": "盒",
+        "group": "veg"
+      },
+      {
+        "name": "葱",
+        "amount": 1,
+        "unit": "段",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": 2,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "蒜",
+        "amount": 3,
+        "unit": "瓣",
+        "group": "seasoning"
+      },
+      {
+        "name": "食用油",
+        "amount": 2,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "姜",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "蒸锅水烧开，豆腐装盘，上锅蒸8分钟。",
+        "timerSeconds": 480
+      },
+      {
+        "text": "豆腐上放葱丝、蒜末和姜丝，淋生抽。",
+        "timerSeconds": null
+      },
+      {
+        "text": "锅内加食用油烧热，淋到豆腐表面。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-ca76a7eeb4dc",
+    "name": "蒸毛豆仁",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/100579567/",
+    "image": "/images/dish-ca76a7eeb4dc.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "毛豆仁"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 45,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "毛豆仁",
+        "amount": 250,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "香油",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "毛豆剥仁、洗净，装耐热碗。",
+        "timerSeconds": null
+      },
+      {
+        "text": "覆盖适合高温蒸制的食品膜并扎孔，水开后蒸25—30分钟至完全熟透。",
+        "timerSeconds": 1800
+      },
+      {
+        "text": "取出加少许盐和香油拌匀。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-daa19bc14d06",
+    "name": "蒸茼蒿",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/107683344/",
+    "image": "/images/dish-daa19bc14d06.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "茼蒿",
+      "面粉",
+      "鸡蛋",
+      "生抽"
+    ],
+    "proteinType": "egg",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "茼蒿",
+        "amount": 500,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "面粉",
+        "amount": 1,
+        "unit": "碗",
+        "group": "veg"
+      },
+      {
+        "name": "鸡蛋",
+        "amount": 1,
+        "unit": "个",
+        "group": "meat"
+      },
+      {
+        "name": "香油",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "蒜",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "醋",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "茼蒿洗净控水、切段，拌入鸡蛋，再逐次加面粉，使菜叶均匀裹粉。",
+        "timerSeconds": null
+      },
+      {
+        "text": "水烧开后放蒸屉，蒸5—7分钟，再焖2分钟。",
+        "timerSeconds": 420
+      },
+      {
+        "text": "蒜切末，加香油、生抽、醋和盐调汁，与蒸菜拌匀。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-744e34e7c47e",
+    "name": "白萝卜蒸肉圆",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/106035036/",
+    "image": "/images/dish-744e34e7c47e.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "白萝卜",
+      "猪肉",
+      "生抽"
+    ],
+    "proteinType": "pork",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 45,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "白萝卜",
+        "amount": 0.5,
+        "unit": "根",
+        "group": "veg"
+      },
+      {
+        "name": "猪肉糜",
+        "amount": 300,
+        "unit": "g",
+        "group": "meat"
+      },
+      {
+        "name": "生抽",
+        "amount": 2,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "蚝油",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "白糖",
+        "amount": 0.5,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "约1/3勺，另少许腌萝卜",
+        "group": "seasoning"
+      },
+      {
+        "name": "玉米淀粉",
+        "amount": 2,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "水淀粉",
+        "amount": 2,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "葱",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "白萝卜切约1mm薄片，加少许盐拌匀腌10分钟，变软后冲洗干净。",
+        "timerSeconds": 600
+      },
+      {
+        "text": "肉糜加蚝油、1勺生抽、白糖、盐和玉米淀粉，顺同一方向搅匀。",
+        "timerSeconds": null
+      },
+      {
+        "text": "萝卜片中夹肉馅，依次码入深盘，大火蒸15分钟至肉熟透。",
+        "timerSeconds": 900
+      },
+      {
+        "text": "倒一半蒸汁入小锅，加1勺生抽、2勺水淀粉，中火搅拌至稠，淋回盘中，撒葱丝。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-53980caa8237",
+    "name": "蛤蜊蒸蛋",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/106678016/",
+    "image": "/images/dish-53980caa8237.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "蛤蜊",
+      "鸡蛋",
+      "生抽"
+    ],
+    "proteinType": "shrimp",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "蛤蜊",
+        "amount": null,
+        "unit": "10余个",
+        "group": "meat"
+      },
+      {
+        "name": "鸡蛋",
+        "amount": 2,
+        "unit": "个",
+        "group": "meat"
+      },
+      {
+        "name": "盐",
+        "amount": 2,
+        "unit": "g",
+        "group": "seasoning"
+      },
+      {
+        "name": "葱",
+        "amount": 2,
+        "unit": "根",
+        "group": "seasoning"
+      },
+      {
+        "name": "姜",
+        "amount": 2,
+        "unit": "片",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "猪油",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "蛤蜊洗净，锅中水烧开，加姜片和葱结，再放蛤蜊；逐个开口后捞出冲净，放蒸盘。",
+        "timerSeconds": null
+      },
+      {
+        "text": "鸡蛋充分打散，用约1.5倍蛋液体积的温开水溶盐，加入蛋液搅匀，过滤后倒入蛤蜊盘。",
+        "timerSeconds": null
+      },
+      {
+        "text": "盘子加盖，水开后蒸约12分钟，再焖3分钟，确认蛋羹熟透。",
+        "timerSeconds": 720
+      },
+      {
+        "text": "生抽和少许猪油用开水稀释，淋在蛋羹上，撒葱花。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-797b0b0524b5",
+    "name": "原味蒸芋头",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/107225750/",
+    "image": "/images/dish-797b0b0524b5.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "芋头"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 55,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "芋头",
+        "amount": 8,
+        "unit": "个",
+        "group": "veg"
+      }
+    ],
+    "steps": [
+      {
+        "text": "芋头清洗干净，放入蒸锅。",
+        "timerSeconds": null
+      },
+      {
+        "text": "大火蒸至上汽，转小火再蒸30—40分钟，以筷子能轻松扎透为熟。",
+        "timerSeconds": 2400
+      },
+      {
+        "text": "取出后去皮食用。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-9c0ce5f63009",
+    "name": "蒸牛肉饼",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/104108926/",
+    "image": "/images/dish-9c0ce5f63009.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "牛肉",
+      "蛋清",
+      "生抽"
+    ],
+    "proteinType": "beef",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "牛肉",
+        "amount": 100,
+        "unit": "g",
+        "group": "meat"
+      },
+      {
+        "name": "蛋清",
+        "amount": null,
+        "unit": "1/3个",
+        "group": "meat"
+      },
+      {
+        "name": "生抽",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "蚝油",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "食用油",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "淀粉",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "葱",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "牛肉剁碎，加葱白继续剁匀。",
+        "timerSeconds": null
+      },
+      {
+        "text": "加入蛋清、生抽、蚝油、盐、油和淀粉，搅匀后腌20分钟。",
+        "timerSeconds": 1200
+      },
+      {
+        "text": "肉馅摊在耐热盘内，上锅大火烧开后转中小火，蒸18分钟至熟透；厚度和肉量不同需调整。",
+        "timerSeconds": 1080
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-1154ce6bf5e3",
+    "name": "清蒸巴沙鱼",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/106175719/",
+    "image": "/images/dish-1154ce6bf5e3.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "巴沙鱼",
+      "生抽"
+    ],
+    "proteinType": "fish",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "巴沙鱼",
+        "amount": null,
+        "unit": "适量",
+        "group": "meat"
+      },
+      {
+        "name": "姜",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "葱",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "食用油",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "鱼肉洗净装盘，撒姜丝和葱段。",
+        "timerSeconds": null
+      },
+      {
+        "text": "水烧开后上锅蒸8分钟至熟透，倒去盘内多余汤水。",
+        "timerSeconds": 480
+      },
+      {
+        "text": "葱切丝铺在鱼上，淋少许热油和生抽。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-45aed921e8c6",
+    "name": "清蒸鲳鱼",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/110646/",
+    "image": "/images/dish-45aed921e8c6.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "鲳鱼"
+    ],
+    "proteinType": "fish",
+    "cookMethod": "蒸",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "鲳鱼",
+        "amount": 1,
+        "unit": "条",
+        "group": "meat"
+      },
+      {
+        "name": "蒸鱼豉油",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "橄榄油",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "葱",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "姜",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "鲳鱼去鳃去内脏并洗净，两面划刀；葱段铺盘底，放鱼和姜片。",
+        "timerSeconds": null
+      },
+      {
+        "text": "水烧开后放入鱼，冒汽起大火蒸4分钟，取出倒掉盘中水并去姜片。",
+        "timerSeconds": 240
+      },
+      {
+        "text": "淋少许蒸鱼豉油和橄榄油，再蒸3分钟，关火焖2分钟；较大鱼按原方提示延长至熟透。",
+        "timerSeconds": 180
+      },
+      {
+        "text": "取出后撒葱丝。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-3abc76d98154",
+    "name": "洋葱蔬菜炖鸡胸",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/100591332/",
+    "image": "/images/dish-3abc76d98154.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "鸡肉",
+      "洋葱",
+      "包菜",
+      "口蘑",
+      "生抽"
+    ],
+    "proteinType": "chicken",
+    "cookMethod": "炖",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 65,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "鸡胸肉",
+        "amount": 365,
+        "unit": "g",
+        "group": "meat"
+      },
+      {
+        "name": "洋葱",
+        "amount": 1,
+        "unit": "个",
+        "group": "veg"
+      },
+      {
+        "name": "包菜",
+        "amount": 188,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "口蘑",
+        "amount": 114,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "生抽",
+        "amount": 15,
+        "unit": "ml",
+        "group": "seasoning"
+      },
+      {
+        "name": "玉米淀粉",
+        "amount": 8,
+        "unit": "g",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "鸡胸肉与洋葱、包菜、口蘑、生抽一起放入密封性较好的锅中。",
+        "timerSeconds": null
+      },
+      {
+        "text": "选择原方普通锅做法：小火炖约40分钟，视锅内水分酌量加水，至鸡肉完全熟透。",
+        "timerSeconds": 2400
+      },
+      {
+        "text": "少量加盐调味，盛出菜和肉，锅内保留汤汁。",
+        "timerSeconds": null
+      },
+      {
+        "text": "汤汁加玉米淀粉，小火加热并搅拌至浓稠，再浇在菜上。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-5be2aa4c367b",
+    "name": "裙带菜瘦肉豆腐汤",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/106952709/",
+    "image": "/images/dish-5be2aa4c367b.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "干裙带菜",
+      "豆腐",
+      "猪肉",
+      "芹菜"
+    ],
+    "proteinType": "pork",
+    "cookMethod": "煮",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "干裙带菜",
+        "amount": null,
+        "unit": "少许",
+        "group": "veg"
+      },
+      {
+        "name": "嫩豆腐",
+        "amount": 1,
+        "unit": "块",
+        "group": "veg"
+      },
+      {
+        "name": "瘦肉",
+        "amount": 100,
+        "unit": "g",
+        "group": "meat"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "芹菜",
+        "amount": 1,
+        "unit": "根",
+        "group": "veg"
+      },
+      {
+        "name": "食用油",
+        "amount": 3,
+        "unit": "g",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "裙带菜泡发、洗净、切小段；豆腐切块，瘦肉切片，芹菜切碎。",
+        "timerSeconds": null
+      },
+      {
+        "text": "锅中清水煮开，加3g油和裙带菜，再次煮开后放豆腐、瘦肉。",
+        "timerSeconds": null
+      },
+      {
+        "text": "煮至肉片完全熟透，用盐调味，放芹菜再煮至熟。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-ef80be39c4f7",
+    "name": "黄瓜豆芽拌鸡丝",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/103748458/",
+    "image": "/images/dish-ef80be39c4f7.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "鸡小胸",
+      "绿豆芽",
+      "黄瓜",
+      "生抽",
+      "干罗勒叶",
+      "青柠檬"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "拌",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 45,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "鸡小胸",
+        "amount": 200,
+        "unit": "g",
+        "group": "meat"
+      },
+      {
+        "name": "绿豆芽",
+        "amount": 150,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "黄瓜",
+        "amount": 80,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "2—3g",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": 4,
+        "unit": "g",
+        "group": "seasoning"
+      },
+      {
+        "name": "料酒",
+        "amount": 3,
+        "unit": "g",
+        "group": "seasoning"
+      },
+      {
+        "name": "干罗勒叶",
+        "amount": null,
+        "unit": "5—6片",
+        "group": "seasoning"
+      },
+      {
+        "name": "青柠檬",
+        "amount": null,
+        "unit": "1—2片",
+        "group": "seasoning"
+      },
+      {
+        "name": "姜",
+        "amount": null,
+        "unit": "2—3片",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "鸡小胸洗净，沸水下锅，加姜片、料酒和少许盐，煮约20分钟至熟透；取出冷却后撕丝。",
+        "timerSeconds": 1200
+      },
+      {
+        "text": "绿豆芽沸水煮约2分钟至熟，黄瓜洗净切丝。",
+        "timerSeconds": 120
+      },
+      {
+        "text": "生抽和罗勒叶加热熬成拌汁，冷却后加柠檬片，再与鸡丝、豆芽、黄瓜混匀。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-eb5893a0acdf",
+    "name": "番茄金针菇汤",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/105842352/",
+    "image": "/images/dish-eb5893a0acdf.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "金针菇",
+      "番茄",
+      "生抽"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "煮",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "金针菇",
+        "amount": 1,
+        "unit": "把",
+        "group": "veg"
+      },
+      {
+        "name": "番茄",
+        "amount": 1,
+        "unit": "个",
+        "group": "veg"
+      },
+      {
+        "name": "葱",
+        "amount": 1,
+        "unit": "根",
+        "group": "seasoning"
+      },
+      {
+        "name": "蒜",
+        "amount": 2,
+        "unit": "瓣",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "食用油",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "鸡精",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "番茄酱",
+        "amount": 1,
+        "unit": "小勺",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "葱蒜切末，番茄切丁，金针菇去根洗净。",
+        "timerSeconds": null
+      },
+      {
+        "text": "用少许油炒香葱蒜，放番茄丁和番茄酱，炒至番茄软烂。",
+        "timerSeconds": null
+      },
+      {
+        "text": "加一碗水，煮开后放金针菇和生抽，煮软熟透；加盐和少许鸡精，撒葱花。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-22bce272245e",
+    "name": "白灼虾",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/106101593/",
+    "image": "/images/dish-22bce272245e.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "虾",
+      "生抽"
+    ],
+    "proteinType": "shrimp",
+    "cookMethod": "煮",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "大虾",
+        "amount": 500,
+        "unit": "g",
+        "group": "meat"
+      },
+      {
+        "name": "姜",
+        "amount": 3,
+        "unit": "片",
+        "group": "seasoning"
+      },
+      {
+        "name": "蒜",
+        "amount": 2,
+        "unit": "瓣",
+        "group": "seasoning"
+      },
+      {
+        "name": "葱",
+        "amount": 2,
+        "unit": "根",
+        "group": "seasoning"
+      },
+      {
+        "name": "料酒",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": 1,
+        "unit": "小勺",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "大虾去虾线、剪虾须并洗净；葱分别打结、切花，姜切片，蒜切末。",
+        "timerSeconds": null
+      },
+      {
+        "text": "锅中加清水、葱结、姜、料酒和盐，煮开后下大虾，煮5分钟至熟。",
+        "timerSeconds": 300
+      },
+      {
+        "text": "捞出过凉水、沥水装盘；蒜末、葱花和生抽调匀作蘸汁。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-bbdda146cce4",
+    "name": "白灼芦笋尖",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/1087421/",
+    "image": "/images/dish-bbdda146cce4.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "芦笋尖",
+      "生抽"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "煮",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "芦笋尖",
+        "amount": 150,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "盐",
+        "amount": 1,
+        "unit": "小勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "白糖",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "食用油",
+        "amount": null,
+        "unit": "数滴",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "芦笋尖洗净，沸水中加盐和数滴油，放芦笋焯约1分钟至熟，捞出降温。",
+        "timerSeconds": 60
+      },
+      {
+        "text": "小锅加2勺清水和1勺生抽，煮开后加少许糖至溶化，淋在芦笋上。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-53ae72136dde",
+    "name": "葱姜蒜拌木耳",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/104715089/",
+    "image": "/images/dish-53ae72136dde.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "木耳",
+      "老抽",
+      "生抽"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "拌",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "木耳",
+        "amount": 30,
+        "unit": "朵",
+        "group": "veg"
+      },
+      {
+        "name": "老抽",
+        "amount": null,
+        "unit": "1/3勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "陈醋",
+        "amount": 2,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "蒜",
+        "amount": 6,
+        "unit": "瓣",
+        "group": "seasoning"
+      },
+      {
+        "name": "姜",
+        "amount": 1,
+        "unit": "块",
+        "group": "seasoning"
+      },
+      {
+        "name": "葱",
+        "amount": 5,
+        "unit": "根",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": 3,
+        "unit": "勺",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "木耳清水泡发约1小时，洗净后改刀。",
+        "timerSeconds": 3600
+      },
+      {
+        "text": "水烧开，木耳滚煮约5分钟，捞出沥水。",
+        "timerSeconds": 300
+      },
+      {
+        "text": "葱姜蒜切碎，与生抽、老抽、陈醋混匀，再拌入木耳。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-6d0b36c4cd67",
+    "name": "小白菜虾皮豆腐汤",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/102914583/",
+    "image": "/images/dish-6d0b36c4cd67.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "小白菜",
+      "豆腐",
+      "虾"
+    ],
+    "proteinType": "shrimp",
+    "cookMethod": "煮",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "小白菜",
+        "amount": 2,
+        "unit": "棵",
+        "group": "veg"
+      },
+      {
+        "name": "豆腐",
+        "amount": 1,
+        "unit": "块",
+        "group": "veg"
+      },
+      {
+        "name": "姜",
+        "amount": 1,
+        "unit": "片",
+        "group": "seasoning"
+      },
+      {
+        "name": "虾皮",
+        "amount": 1,
+        "unit": "把",
+        "group": "meat"
+      },
+      {
+        "name": "盐",
+        "amount": 3,
+        "unit": "g",
+        "group": "seasoning"
+      },
+      {
+        "name": "葱",
+        "amount": 1,
+        "unit": "根",
+        "group": "seasoning"
+      },
+      {
+        "name": "香油",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "豆腐切小块，虾皮洗净沥水，小白菜洗净切段。",
+        "timerSeconds": null
+      },
+      {
+        "text": "姜末和虾皮随清水入锅，中火煮开；放豆腐，再次煮开后小火炖6分钟。",
+        "timerSeconds": 360
+      },
+      {
+        "text": "加小白菜和少许香油，煮至菜熟，盐调味，撒葱花。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-5dcedf55b62f",
+    "name": "蘑菇冻豆腐虾汤",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/103991305/",
+    "image": "/images/dish-5dcedf55b62f.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "干蘑菇",
+      "鸡蛋",
+      "冻豆腐",
+      "虾"
+    ],
+    "proteinType": "shrimp",
+    "cookMethod": "煮",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 45,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "干蘑菇",
+        "amount": 2,
+        "unit": "个",
+        "group": "veg"
+      },
+      {
+        "name": "鸡蛋",
+        "amount": 1,
+        "unit": "个",
+        "group": "meat"
+      },
+      {
+        "name": "冻豆腐",
+        "amount": null,
+        "unit": "适量",
+        "group": "veg"
+      },
+      {
+        "name": "香菜",
+        "amount": null,
+        "unit": "适量",
+        "group": "veg"
+      },
+      {
+        "name": "鲜虾",
+        "amount": 3,
+        "unit": "只",
+        "group": "meat"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "干蘑菇洗净泡发，留干净泡菇水；蘑菇和冻豆腐切块，鲜虾清理，鸡蛋打散。",
+        "timerSeconds": null
+      },
+      {
+        "text": "蘑菇、冻豆腐和泡菇水入锅，大火烧开后转小火炖约20分钟。",
+        "timerSeconds": 1200
+      },
+      {
+        "text": "加入虾、蛋液，煮至全部熟透，再放香菜和盐。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-766cbb5342c1",
+    "name": "菌菇清汤",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/107370435/",
+    "image": "/images/dish-766cbb5342c1.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "香菇",
+      "松茸菇",
+      "蟹味菇",
+      "虫草菇",
+      "白玉菇"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "炖",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 55,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "香菇",
+        "amount": null,
+        "unit": "适量",
+        "group": "veg"
+      },
+      {
+        "name": "松茸菇",
+        "amount": null,
+        "unit": "适量",
+        "group": "veg"
+      },
+      {
+        "name": "蟹味菇",
+        "amount": null,
+        "unit": "适量",
+        "group": "veg"
+      },
+      {
+        "name": "虫草菇",
+        "amount": null,
+        "unit": "适量",
+        "group": "veg"
+      },
+      {
+        "name": "白玉菇",
+        "amount": null,
+        "unit": "适量",
+        "group": "veg"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "所有菌菇清洗干净，去不可食部分，切成方便入口的大小。",
+        "timerSeconds": null
+      },
+      {
+        "text": "砂锅加开水和少许盐，放入菌菇。",
+        "timerSeconds": null
+      },
+      {
+        "text": "中小火炖至少30分钟，至菌菇完全熟透。",
+        "timerSeconds": 1800
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-017c0a098ae7",
+    "name": "山药胡萝卜煲",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/107370435/",
+    "image": "/images/dish-017c0a098ae7.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "山药",
+      "胡萝卜",
+      "生抽"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "炖",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 45,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "山药",
+        "amount": null,
+        "unit": "适量",
+        "group": "veg"
+      },
+      {
+        "name": "胡萝卜",
+        "amount": null,
+        "unit": "适量",
+        "group": "veg"
+      },
+      {
+        "name": "盐",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "香菜",
+        "amount": 1,
+        "unit": "把",
+        "group": "veg"
+      }
+    ],
+    "steps": [
+      {
+        "text": "山药和胡萝卜去皮后切块。",
+        "timerSeconds": null
+      },
+      {
+        "text": "砂锅加开水，放入山药、胡萝卜、盐和生抽，中火炖至熟软。",
+        "timerSeconds": null
+      },
+      {
+        "text": "出锅前撒香菜。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-e379f7cae453",
+    "name": "冬瓜虾皮蛋汤",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/104773221/",
+    "image": "/images/dish-e379f7cae453.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "冬瓜",
+      "虾",
+      "鸡蛋"
+    ],
+    "proteinType": "shrimp",
+    "cookMethod": "煮",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "冬瓜",
+        "amount": 1,
+        "unit": "小块",
+        "group": "veg"
+      },
+      {
+        "name": "虾皮",
+        "amount": null,
+        "unit": "少许",
+        "group": "meat"
+      },
+      {
+        "name": "鸡蛋",
+        "amount": 1,
+        "unit": "个",
+        "group": "meat"
+      },
+      {
+        "name": "鸡精",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "香油",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "香菜",
+        "amount": 1,
+        "unit": "根",
+        "group": "veg"
+      }
+    ],
+    "steps": [
+      {
+        "text": "冬瓜去皮洗净切小块，锅中加清水与冬瓜开煮。",
+        "timerSeconds": null
+      },
+      {
+        "text": "加入虾皮，煮至冬瓜熟软后，用盐和鸡精调味。",
+        "timerSeconds": null
+      },
+      {
+        "text": "鸡蛋打散，淋入汤中，待蛋花熟透后加少许香油和香菜。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-6bebe14527ee",
+    "name": "番茄鸡蛋清汤",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/107592951/",
+    "image": "/images/dish-6bebe14527ee.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "番茄",
+      "鸡蛋"
+    ],
+    "proteinType": "egg",
+    "cookMethod": "煮",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "番茄",
+        "amount": null,
+        "unit": "适量",
+        "group": "veg"
+      },
+      {
+        "name": "鸡蛋",
+        "amount": null,
+        "unit": "适量",
+        "group": "meat"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "葱",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "锅中加入饮用水加热；番茄去蒂切块，随水入锅，加适量盐。",
+        "timerSeconds": null
+      },
+      {
+        "text": "持续煮至番茄软烂。鸡蛋打散，缓缓淋入锅中，轻搅一圈后停止搅动。",
+        "timerSeconds": null
+      },
+      {
+        "text": "汤再次煮沸、蛋液熟透后关火，撒葱花。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-ed8716dd47f9",
+    "name": "丝瓜毛豆蛤蜊汤",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/101880936/",
+    "image": "/images/dish-ed8716dd47f9.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "蛤蜊",
+      "丝瓜",
+      "毛豆仁"
+    ],
+    "proteinType": "shrimp",
+    "cookMethod": "煮",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "蛤蜊",
+        "amount": 250,
+        "unit": "g",
+        "group": "meat"
+      },
+      {
+        "name": "丝瓜",
+        "amount": 1,
+        "unit": "根",
+        "group": "veg"
+      },
+      {
+        "name": "毛豆仁",
+        "amount": null,
+        "unit": "少许",
+        "group": "veg"
+      },
+      {
+        "name": "姜",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "葱",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "蛤蜊提前吐净沙，洗净；丝瓜去皮切块，姜切丝。",
+        "timerSeconds": null
+      },
+      {
+        "text": "清水加姜丝和盐煮开，放毛豆仁煮1—2分钟，再下蛤蜊。",
+        "timerSeconds": 120
+      },
+      {
+        "text": "蛤蜊开口后加丝瓜再煮2分钟，确认毛豆、蛤蜊和丝瓜均熟透，撒葱花。",
+        "timerSeconds": 120
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-04dc2114d290",
+    "name": "蒜香拌豆腐",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/106787698/",
+    "image": "/images/dish-04dc2114d290.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "豆腐",
+      "生抽"
+    ],
+    "proteinType": "tofu",
+    "cookMethod": "拌",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 25,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "豆腐",
+        "amount": 1,
+        "unit": "块",
+        "group": "veg"
+      },
+      {
+        "name": "香菜",
+        "amount": 2,
+        "unit": "根",
+        "group": "veg"
+      },
+      {
+        "name": "生抽",
+        "amount": 3,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "蚝油",
+        "amount": 0.5,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "醋",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "蒜",
+        "amount": 4,
+        "unit": "瓣",
+        "group": "seasoning"
+      },
+      {
+        "name": "芝麻",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "食用油",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "豆腐放沸水焯3分钟，捞出晾凉，放香菜。",
+        "timerSeconds": 180
+      },
+      {
+        "text": "蒜切末，与芝麻放小碗，淋少许热油，再加生抽、醋、蚝油拌匀。",
+        "timerSeconds": null
+      },
+      {
+        "text": "调味汁淋到豆腐上，轻轻拌匀。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-f6e4cc4274b1",
+    "name": "海带虾仁豆腐汤",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/106277913/",
+    "image": "/images/dish-f6e4cc4274b1.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "干海带苗",
+      "豆腐",
+      "虾"
+    ],
+    "proteinType": "shrimp",
+    "cookMethod": "煮",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "干海带苗",
+        "amount": 15,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "豆腐",
+        "amount": 250,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "虾仁",
+        "amount": 6,
+        "unit": "只",
+        "group": "meat"
+      },
+      {
+        "name": "葱",
+        "amount": 1,
+        "unit": "小把",
+        "group": "seasoning"
+      },
+      {
+        "name": "淀粉",
+        "amount": 0.5,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "料酒",
+        "amount": 0.5,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "香油",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "虾仁清理，加料酒、盐、淀粉抓匀腌一会；豆腐切块，海带苗洗净。",
+        "timerSeconds": null
+      },
+      {
+        "text": "砂锅加600ml水与海带苗，煮开后放豆腐，再开后放虾仁。",
+        "timerSeconds": null
+      },
+      {
+        "text": "煮至虾仁熟透，加盐调味，撒葱花、淋香油。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-4e79e6a94726",
+    "name": "玉米海带虾汤",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/102343902/",
+    "image": "/images/dish-4e79e6a94726.webp",
+    "isMeat": true,
+    "mainIngredients": [
+      "玉米",
+      "海带结",
+      "虾"
+    ],
+    "proteinType": "shrimp",
+    "cookMethod": "煮",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 45,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "玉米",
+        "amount": 1,
+        "unit": "根",
+        "group": "veg"
+      },
+      {
+        "name": "海带结",
+        "amount": 8,
+        "unit": "个",
+        "group": "veg"
+      },
+      {
+        "name": "虾仁",
+        "amount": 6,
+        "unit": "个",
+        "group": "meat"
+      },
+      {
+        "name": "盐",
+        "amount": 0.5,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "香油",
+        "amount": null,
+        "unit": "数滴",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "海带泡发打结，玉米洗净切段；虾仁开背去线。",
+        "timerSeconds": null
+      },
+      {
+        "text": "海带结冷水下锅，水煮沸后加入玉米，煮至海带软、玉米熟。",
+        "timerSeconds": null
+      },
+      {
+        "text": "放虾仁再煮3分钟至熟，少量盐调味，滴香油。",
+        "timerSeconds": 180
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-c15043556584",
+    "name": "黄瓜金针菇拌三丝",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/105895548/",
+    "image": "/images/dish-c15043556584.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "黄瓜",
+      "金针菇",
+      "胡萝卜",
+      "生抽"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "拌",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 30,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "黄瓜",
+        "amount": 204,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "金针菇",
+        "amount": 125,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "胡萝卜",
+        "amount": 110,
+        "unit": "g",
+        "group": "veg"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "香醋",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "陈醋",
+        "amount": 1,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "生抽",
+        "amount": 0.5,
+        "unit": "勺",
+        "group": "seasoning"
+      },
+      {
+        "name": "蒜",
+        "amount": 1,
+        "unit": "瓣",
+        "group": "seasoning"
+      },
+      {
+        "name": "玉米油",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "黄瓜和胡萝卜去皮切丝，分别加少量盐抓软，倒掉析出的水。",
+        "timerSeconds": null
+      },
+      {
+        "text": "金针菇去根、洗净、撕开，沸水煮熟后冲凉、沥水，与蔬菜丝合放。",
+        "timerSeconds": null
+      },
+      {
+        "text": "油锅小火炒香蒜片，关火后加香醋、陈醋、生抽拌匀，浇在三丝上拌匀。",
+        "timerSeconds": null
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
+  },
+  {
+    "id": "dish-f5ca6de622ca",
+    "name": "荷塘小炒",
+    "source": "family",
+    "sourceUrl": "https://m.xiachufang.com/recipe/106176862/",
+    "image": "/images/dish-f5ca6de622ca.webp",
+    "isMeat": false,
+    "mainIngredients": [
+      "莲藕",
+      "胡萝卜",
+      "荷兰豆",
+      "干木耳"
+    ],
+    "proteinType": "vegetable",
+    "cookMethod": "炒",
+    "flavorTags": [
+      "无辣"
+    ],
+    "spicyLevel": 0,
+    "difficulty": 2,
+    "cookTimeMinutes": 35,
+    "servings": 2,
+    "ingredients": [
+      {
+        "name": "莲藕",
+        "amount": 1,
+        "unit": "节",
+        "group": "veg"
+      },
+      {
+        "name": "胡萝卜",
+        "amount": 0.5,
+        "unit": "根",
+        "group": "veg"
+      },
+      {
+        "name": "荷兰豆",
+        "amount": null,
+        "unit": "适量",
+        "group": "veg"
+      },
+      {
+        "name": "干木耳",
+        "amount": 10,
+        "unit": "朵",
+        "group": "veg"
+      },
+      {
+        "name": "盐",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "蒜",
+        "amount": 1,
+        "unit": "瓣",
+        "group": "seasoning"
+      },
+      {
+        "name": "食用油",
+        "amount": null,
+        "unit": "适量",
+        "group": "seasoning"
+      },
+      {
+        "name": "白糖",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      },
+      {
+        "name": "水淀粉",
+        "amount": null,
+        "unit": "少许",
+        "group": "seasoning"
+      }
+    ],
+    "steps": [
+      {
+        "text": "木耳提前泡发洗净，荷兰豆洗净，莲藕和胡萝卜切片，蒜切末。",
+        "timerSeconds": null
+      },
+      {
+        "text": "沸水滴数滴油，莲藕、胡萝卜和荷兰豆焯约30秒捞出；木耳另焯约1分钟。",
+        "timerSeconds": 60
+      },
+      {
+        "text": "油锅炒香蒜末，下全部食材翻炒约40秒，加盐、少许糖和水淀粉，继续炒至完全熟透。",
+        "timerSeconds": 40
+      }
+    ],
+    "tips": "调味从少量开始。未知用量按原文适量，购买调味品时选择无刺激性配料的产品。",
+    "homeSubstitute": null
   }
 ]

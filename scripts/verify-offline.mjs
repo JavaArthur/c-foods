@@ -161,10 +161,20 @@ try {
   await page.locator(".shopping-row input").first().check();
   await page.getByRole("button", { name: "买好了，开做" }).click();
   await page.locator(".cook-list-row").first().click();
-  await page.locator(".step-text").waitFor();
-  await page.getByRole("button", { name: "食材", exact: true }).click();
+  await page.locator(".step-text").first().waitFor();
   await page.locator(".ingredient-detail").waitFor();
-  await page.getByRole("button", { name: "关闭", exact: true }).click();
+  await page.getByRole("link", { name: "计时器", exact: true }).click();
+  await page.getByRole("button", { name: "1 分钟 01:00", exact: true }).click();
+  const timers = await page.evaluate(
+    () => JSON.parse(localStorage.getItem("dinner-v1")).kitchenTimers,
+  );
+  await page.reload();
+  await page.locator(".timer-item").waitFor();
+  const reloaded = await page.evaluate(
+    () => JSON.parse(localStorage.getItem("dinner-v1")).kitchenTimers,
+  );
+  assert.deepEqual(Object.keys(reloaded), Object.keys(timers));
+  assert.equal(Object.values(reloaded)[0].end, Object.values(timers)[0].end);
   await page.goto(base + "#/cook/" + customId);
   await page.locator(".custom-cooking").waitFor();
   await page.getByRole("button", { name: "这道完成啦" }).click();
@@ -191,6 +201,7 @@ try {
           "shopping",
           "cooking",
           "details",
+          "independent timer reload",
           "custom dish persistence and cooking",
           ...(previous ? ["retired recipe link"] : []),
         ],

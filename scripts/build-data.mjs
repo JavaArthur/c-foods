@@ -187,6 +187,21 @@ for (const dish of dishes) {
 const family = await familyCatalog(dishes, meta, images);
 dishes = family.dishes;
 meta = family.meta;
+const tags = JSON.parse(await fs.readFile("data/dish-tags.json", "utf8"));
+meta.discoveryPolicy = tags.policy;
+for (const dish of dishes) {
+  const tag = tags.dishes[dish.id];
+  if (
+    !tag ||
+    tag.name !== dish.name ||
+    typeof tag.steamed !== "boolean" ||
+    typeof tag.weightFriendly !== "boolean" ||
+    !tag.reason ||
+    !tag.sources?.length
+  )
+    throw Error(`缺少完整筛选审核：${dish.name}`);
+  meta.dishes[dish.id].discovery = tag;
+}
 report.family = family.changes;
 await fs.writeFile(
   "data/family-report.json",

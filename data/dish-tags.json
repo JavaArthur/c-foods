@@ -1,0 +1,1444 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-05",
+  "policy": {
+    "label": "减脂友好",
+    "scope": "仅供成人选菜参考；不是热量计算、减重保证或宝宝减重建议。两大一小同桌时，宝宝仍按成长需要正常吃饭。",
+    "criteria": "人工核对原料和完整做法：优先蔬菜、豆制品、明确瘦肉或鱼虾，且不额外加油、只用少许油或有较低用油记录；不因蒸、煮、清淡菜名直接入选。油糖、肉类脂肪或加工配料不明时保守排除。薯类和玉米计入主食。",
+    "sources": [
+      "https://www.nhc.gov.cn/cms-search/downFiles/6d7f12d8c8da45f0859c1c6be6f99726.pdf"
+    ]
+  },
+  "dishes": {
+    "dish-2256b2c0c16a": {
+      "name": "蛏抱蛋",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原做法含油炸或较多油糖，不纳入减脂友好精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E8%9B%8F%E6%8A%B1%E8%9B%8B/%E8%9B%8F%E6%8A%B1%E8%9B%8B.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-ce564879325d": {
+      "name": "葱烧海参",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E8%91%B1%E7%83%A7%E6%B5%B7%E5%8F%82/%E8%91%B1%E7%83%A7%E6%B5%B7%E5%8F%82.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-572e443d2b4f": {
+      "name": "清蒸鲈鱼",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+      "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-51b421c7dd58": {
+      "name": "清蒸生蚝",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "生蚝清蒸，原方未另加烹调油或糖。",
+      "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E6%B8%85%E8%92%B8%E7%94%9F%E8%9A%9D.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-8e6f9fac4821": {
+      "name": "蒜香黄油虾",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E8%92%9C%E9%A6%99%E9%BB%84%E6%B2%B9%E8%99%BE/%E8%92%9C%E9%A6%99%E9%BB%84%E6%B2%B9%E8%99%BE.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-270bae9a3e69": {
+      "name": "糖醋鲤鱼",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原做法含油炸或较多油糖，不纳入减脂友好精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E7%B3%96%E9%86%8B%E9%B2%A4%E9%B1%BC/%E7%B3%96%E9%86%8B%E9%B2%A4%E9%B1%BC.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-c2113a4d8b32": {
+      "name": "微波葱姜黑鳕鱼",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/aquatic/%E5%BE%AE%E6%B3%A2%E8%91%B1%E5%A7%9C%E9%BB%91%E9%B3%95%E9%B1%BC.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-9b7527e52267": {
+      "name": "豉汁排骨",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+      "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%B1%89%E6%B1%81%E6%8E%92%E9%AA%A8.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-4323fc57af18": {
+      "name": "带把肘子",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+      "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%B8%A6%E6%8A%8A%E8%82%98%E5%AD%90.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-2a766decfc82": {
+      "name": "冬瓜桑拿鸡",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "肉类部位、脂肪比例或预加工配料信息不足，保守不入选。",
+      "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%86%AC%E7%93%9C%E6%A1%91%E6%8B%BF%E9%B8%A1.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-d400a76b1972": {
+      "name": "豆豉鲮鱼油麦菜",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "含腊肠、培根、午餐肉或油制罐头，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%B1%86%E8%B1%89%E9%B2%AE%E9%B1%BC%E6%B2%B9%E9%BA%A6%E8%8F%9C/%E8%B1%86%E8%B1%89%E9%B2%AE%E9%B1%BC%E6%B2%B9%E9%BA%A6%E8%8F%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-9fcd0a23ba29": {
+      "name": "腐乳肉",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%85%90%E4%B9%B3%E8%82%89.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-ba8bc67dd810": {
+      "name": "荷兰豆炒腊肠",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "含腊肠、培根、午餐肉或油制罐头，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%8D%B7%E5%85%B0%E8%B1%86%E7%82%92%E8%85%8A%E8%82%A0/%E8%8D%B7%E5%85%B0%E8%B1%86%E7%82%92%E8%85%8A%E8%82%A0.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-c4210fe787bf": {
+      "name": "简易红烧肉",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E8%82%89/%E7%AE%80%E6%98%93%E7%BA%A2%E7%83%A7%E8%82%89.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-9adf3a818eb5": {
+      "name": "红烧猪蹄",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%BA%A2%E7%83%A7%E7%8C%AA%E8%B9%84/%E7%BA%A2%E7%83%A7%E7%8C%AA%E8%B9%84.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-e5fb59ad789e": {
+      "name": "茭白炒肉",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%8C%AD%E7%99%BD%E7%82%92%E8%82%89/%E8%8C%AD%E7%99%BD%E7%82%92%E8%82%89.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-0e59f44026ad": {
+      "name": "可乐鸡翅",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方有较多添加糖、油或浓稠调味酱，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%8F%AF%E4%B9%90%E9%B8%A1%E7%BF%85.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-747b0431e0da": {
+      "name": "老式锅包肉",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原做法含油炸或较多油糖，不纳入减脂友好精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89/%E8%80%81%E5%BC%8F%E9%94%85%E5%8C%85%E8%82%89.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-b0a818c22f10": {
+      "name": "荔枝肉",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原做法含油炸或较多油糖，不纳入减脂友好精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%8D%94%E6%9E%9D%E8%82%89/%E8%8D%94%E6%9E%9D%E8%82%89.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-8e92cbbdd934": {
+      "name": "奶酪培根通心粉",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "含腊肠、培根、午餐肉或油制罐头，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%A5%B6%E9%85%AA%E5%9F%B9%E6%A0%B9%E9%80%9A%E5%BF%83%E7%B2%89/%E5%A5%B6%E9%85%AA%E5%9F%B9%E6%A0%B9%E9%80%9A%E5%BF%83%E7%B2%89.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-4091a109a237": {
+      "name": "黔式腊肠娃娃菜",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "含腊肠、培根、午餐肉或油制罐头，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%BB%94%E5%BC%8F%E8%85%8A%E8%82%A0%E5%A8%83%E5%A8%83%E8%8F%9C/%E9%BB%94%E5%BC%8F%E8%85%8A%E8%82%A0%E5%A8%83%E5%A8%83%E8%8F%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-cb4748d03c22": {
+      "name": "商芝肉",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+      "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E5%95%86%E8%8A%9D%E8%82%89.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-536e6245d34e": {
+      "name": "瘦肉土豆片",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E7%98%A6%E8%82%89%E5%9C%9F%E8%B1%86%E7%89%87/%E7%98%A6%E8%82%89%E5%9C%9F%E8%B1%86%E7%89%87.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-28499e879e96": {
+      "name": "蒜苔炒肉末",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%92%9C%E8%8B%94%E7%82%92%E8%82%89%E6%9C%AB.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-ec37c5b55597": {
+      "name": "香菇滑鸡",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "肉类部位、脂肪比例或预加工配料信息不足，保守不入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%A6%99%E8%8F%87%E6%BB%91%E9%B8%A1/%E9%A6%99%E8%8F%87%E6%BB%91%E9%B8%A1.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-ee3fd3ed08a5": {
+      "name": "淄博烧烤",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E6%B7%84%E5%8D%9A%E7%83%A7%E7%83%A4/%E6%B7%84%E5%8D%9A%E7%83%A7%E7%83%A4.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-473daabe1e6c": {
+      "name": "醉排骨",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原做法含油炸或较多油糖，不纳入减脂友好精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E9%86%89%E6%8E%92%E9%AA%A8/%E9%86%89%E6%8E%92%E9%AA%A8.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-aa3241c160a3": {
+      "name": "拔丝土豆",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原做法含油炸或较多油糖，不纳入减脂友好精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%8B%94%E4%B8%9D%E5%9C%9F%E8%B1%86/%E6%8B%94%E4%B8%9D%E5%9C%9F%E8%B1%86.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-17ef9ac3e39d": {
+      "name": "菠菜炒鸡蛋",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%8F%A0%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B/%E8%8F%A0%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-b16b22dee990": {
+      "name": "脆皮豆腐",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%84%86%E7%9A%AE%E8%B1%86%E8%85%90.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-19e72a1ce0e1": {
+      "name": "蚝油生菜",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%9A%9D%E6%B2%B9%E7%94%9F%E8%8F%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-6b2f7287871f": {
+      "name": "红烧冬瓜",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C/%E7%BA%A2%E7%83%A7%E5%86%AC%E7%93%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-075083422a21": {
+      "name": "话梅煮毛豆",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "含加工配料，油糖实际用量不明确，保守不入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%AF%9D%E6%A2%85%E7%85%AE%E6%AF%9B%E8%B1%86/%E8%AF%9D%E6%A2%85%E7%85%AE%E6%AF%9B%E8%B1%86.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-c6bc911a286b": {
+      "name": "鸡蛋花",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方有较多添加糖、油或浓稠调味酱，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E9%B8%A1%E8%9B%8B%E8%8A%B1/%E9%B8%A1%E8%9B%8B%E8%8A%B1.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-e9412f79e65a": {
+      "name": "乾隆白菜",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方有较多添加糖、油或浓稠调味酱，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E4%B9%BE%E9%9A%86%E7%99%BD%E8%8F%9C/%E4%B9%BE%E9%9A%86%E7%99%BD%E8%8F%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-56d348d33b1f": {
+      "name": "芹菜拌茶树菇",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "含加工配料，油糖实际用量不明确，保守不入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%8A%B9%E8%8F%9C%E6%8B%8C%E8%8C%B6%E6%A0%91%E8%8F%87/%E8%8A%B9%E8%8F%9C%E6%8B%8C%E8%8C%B6%E6%A0%91%E8%8F%87.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-a6ca987f0c7d": {
+      "name": "清炒花菜",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%B8%85%E7%82%92%E8%8A%B1%E8%8F%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-5e98a61bbf97": {
+      "name": "清蒸南瓜",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "南瓜原味蒸熟，不额外加油糖；南瓜应计入本餐主食安排。",
+      "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%B8%85%E8%92%B8%E5%8D%97%E7%93%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-6c3c664e4159": {
+      "name": "上汤娃娃菜",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "含腊肠、培根、午餐肉或油制罐头，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-b4f2f53b27ff": {
+      "name": "水油焖蔬菜",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "300g叶菜采用水油焖法，步骤记录约2ml油。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%B0%B4%E6%B2%B9%E7%84%96%E8%94%AC%E8%8F%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-dfe5a882445f": {
+      "name": "松仁玉米",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方有较多添加糖、油或浓稠调味酱，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%9D%BE%E4%BB%81%E7%8E%89%E7%B1%B3.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-40552b54f402": {
+      "name": "蒜蓉炒芹菜",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E7%82%92%E8%8A%B9%E8%8F%9C/%E8%92%9C%E8%93%89%E7%82%92%E8%8A%B9%E8%8F%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-97ed025a03b5": {
+      "name": "蒜蓉空心菜",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E7%A9%BA%E5%BF%83%E8%8F%9C/%E8%92%9C%E8%93%89%E7%A9%BA%E5%BF%83%E8%8F%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-bb921a0a7723": {
+      "name": "蒜蓉西兰花",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%92%9C%E8%93%89%E8%A5%BF%E5%85%B0%E8%8A%B1.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-bfb9b74ffa8e": {
+      "name": "糖拌西红柿",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方有较多添加糖、油或浓稠调味酱，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E7%B3%96%E6%8B%8C%E8%A5%BF%E7%BA%A2%E6%9F%BF/%E7%B3%96%E6%8B%8C%E8%A5%BF%E7%BA%A2%E6%9F%BF.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-ca376a4897e4": {
+      "name": "莴笋叶煎饼",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%8E%B4%E7%AC%8B%E5%8F%B6%E7%85%8E%E9%A5%BC/%E8%8E%B4%E7%AC%8B%E5%8F%B6%E7%85%8E%E9%A5%BC.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-e154b5b48437": {
+      "name": "西红柿炒鸡蛋",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%82%92%E9%B8%A1%E8%9B%8B.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-5dd92a985962": {
+      "name": "西红柿豆腐汤羹",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "番茄、豆腐和鸡蛋煮汤，记录用油5ml。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E8%B1%86%E8%85%90%E6%B1%A4%E7%BE%B9/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E8%B1%86%E8%85%90%E6%B1%A4%E7%BE%B9.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-19715afd5528": {
+      "name": "西葫芦炒鸡蛋",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%A5%BF%E8%91%AB%E8%8A%A6%E7%82%92%E9%B8%A1%E8%9B%8B/%E8%A5%BF%E8%91%AB%E8%8A%A6%E7%82%92%E9%B8%A1%E8%9B%8B.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-d2b3b5355782": {
+      "name": "洋葱炒鸡蛋",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E6%B4%8B%E8%91%B1%E7%82%92%E9%B8%A1%E8%9B%8B/%E6%B4%8B%E8%91%B1%E7%82%92%E9%B8%A1%E8%9B%8B.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-dcef94290a14": {
+      "name": "包菜炒鸡蛋",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E5%8C%85%E8%8F%9C%E7%82%92%E9%B8%A1%E8%9B%8B.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-d4f8f0792145": {
+      "name": "胡萝卜炒鸡蛋",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%83%A1%E8%90%9D%E5%8D%9C%E7%82%92%E9%B8%A1%E8%9B%8B.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-40467303cc00": {
+      "name": "黄瓜炒红肠",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "含腊肠、培根、午餐肉或油制罐头，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E9%BB%84%E7%93%9C%E7%82%92%E7%BA%A2%E8%82%A0.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-ff0a9c789742": {
+      "name": "清炒菜心",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E8%8F%9C%E5%BF%83.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-1c66ba8e3f41": {
+      "name": "清炒春菜",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E6%98%A5%E8%8F%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-c6e38eafbfc6": {
+      "name": "清炒毛白菜",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E6%AF%9B%E7%99%BD%E8%8F%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-6cb3e5005e3b": {
+      "name": "清炒青菜",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E9%9D%92%E8%8F%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-2225a7ec897e": {
+      "name": "清炒西兰花",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E8%A5%BF%E5%85%B0%E8%8A%B1.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-1c1b1068a1ad": {
+      "name": "清炒油麦菜",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E6%B8%85%E7%82%92%E6%B2%B9%E9%BA%A6%E8%8F%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-b48d348f6cf9": {
+      "name": "生炒上海青",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E7%94%9F%E7%82%92%E4%B8%8A%E6%B5%B7%E9%9D%92.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-86b6c94fad36": {
+      "name": "蒜泥菠菜",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%92%9C%E6%B3%A5%E8%8F%A0%E8%8F%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-fa4343701f04": {
+      "name": "莴笋丝炒鸡蛋",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%8E%B4%E7%AC%8B%E4%B8%9D%E7%82%92%E9%B8%A1%E8%9B%8B.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-1a0cf72cd9c0": {
+      "name": "西芹炒虾仁",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E8%A5%BF%E8%8A%B9%E7%82%92%E8%99%BE%E4%BB%81.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-c3d1622b1d6c": {
+      "name": "香菇青菜",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "原配方烹调油用量较多，不因蔬菜或清淡菜名自动入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%92%E8%8F%9C/%E9%A6%99%E8%8F%87%E9%9D%92%E8%8F%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-6507a71923dd": {
+      "name": "鸡血汤",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "使用鸡油或脂肪量不明的鸡汤，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%82%96%E8%8F%9C/%E9%B8%A1%E8%A1%80%E6%B1%A4.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-a36a517ee6ba": {
+      "name": "砂锅牛杂煲",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "肉类部位、脂肪比例或预加工配料信息不足，保守不入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%A0%82%E9%94%85%E8%8F%9C/%E7%A0%82%E9%94%85%E7%89%9B%E6%9D%82%E7%85%B2.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-37b7e61ba43e": {
+      "name": "老鸡汤",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "使用鸡油或脂肪量不明的鸡汤，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E6%B1%A4/%E8%80%81%E9%B8%A1%E6%B1%A4.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-74b0558a7a5f": {
+      "name": "鸡汤娃娃菜",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "使用鸡油或脂肪量不明的鸡汤，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E7%83%AB%E8%8F%9C/%E9%B8%A1%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-878db570afa6": {
+      "name": "蜜汁南瓜",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "原配方有较多添加糖、油或浓稠调味酱，未纳入精选。",
+      "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E8%9C%9C%E6%B1%81%E5%8D%97%E7%93%9C.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-379461ae81d2": {
+      "name": "豌豆肉末",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "肉类部位、脂肪比例或预加工配料信息不足，保守不入选。",
+      "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+      "sources": [
+        "https://github.com/Gar-b-age/CookLikeHOC/blob/main/%E8%92%B8%E8%8F%9C/%E8%B1%8C%E8%B1%86%E8%82%89%E6%9C%AB.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-7ccc1e361529": {
+      "name": "土豆胡萝卜烧肉",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/105977585/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-8352744b98fa": {
+      "name": "香菇烧肉（家庭无辣版）",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "主料含五花肉、猪皮或肥肉，未纳入精选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://www.wecook123.com/6pjdkuw3f3s/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-0eb1db8409d9": {
+      "name": "番茄土豆炖牛肉（家庭无辣版）",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "肉类部位、脂肪比例或预加工配料信息不足，保守不入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://github.com/Anduin2017/HowToCook/blob/master/dishes/meat_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E5%9C%9F%E8%B1%86%E7%82%96%E7%89%9B%E8%82%89.md"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-00050641b3fe": {
+      "name": "香菇胡萝卜炖鸡",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "肉类部位、脂肪比例或预加工配料信息不足，保守不入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://www.sohu.com/a/720923026_121119253"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-3dc16b377dd1": {
+      "name": "冬瓜肉丸汤",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "肉类部位、脂肪比例或预加工配料信息不足，保守不入选。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://home.meishichina.com/recipe-523547.html"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-9a01cc496dcc": {
+      "name": "山药蒸肉饼（家庭无辣版）",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "核对原方后，油糖用量或份量依据不足以纳入本次少油精选。",
+      "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/107244778/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-2046a2ea390e": {
+      "name": "虾仁蒸豆腐",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "虾仁和豆腐蒸熟，原方只用少许油。",
+      "methodReason": "核对完整步骤，主体食材以蒸制完成。",
+      "sources": [
+        "https://home.meishichina.com/recipe-420754.html"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-6e4089b00b73": {
+      "name": "鱼片豆腐汤（家庭无辣版）",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "鱼片搭配豆腐煮汤，做法只用少量油。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/104594334/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-9c21480b55fb": {
+      "name": "清炒茼蒿",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "以绿叶菜为主，原方步骤使用少量油。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/107515120/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-553db321a0f3": {
+      "name": "蒜蓉芥蓝",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "以芥蓝为主，整理后的做法只用少量油。",
+      "methodReason": "主体烹调不是蒸制；不以局部预处理或菜名判断。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/100001114/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-2df8eaac30ea": {
+      "name": "香菇蒸鸡胸肉",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "鸡胸肉配香菇清蒸，原方不另加烹调油。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/104562077/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-a249a63cebe9": {
+      "name": "蒜蓉蒸丝瓜",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "蒜蓉先用油炒制，原方油量未明确，保守不入选。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/106399820/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-9af494575628": {
+      "name": "金针菇蒸娃娃菜",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "调味汁用油量未明确，不因蒸蔬菜自动入选。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/107198146/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-58f476124d3f": {
+      "name": "冬瓜蒸虾仁",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "冬瓜和虾仁蒸熟后按原方补充加热，不另加油。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/107172886/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-c9ca2b61ad39": {
+      "name": "清蒸鳕鱼",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "鱼肉清蒸，只淋少许油，不使用甜味酱汁。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/106986436/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-2a050b9836dd": {
+      "name": "鸡蛋蒸豆腐",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "鸡蛋搭配豆腐蒸熟，最后只淋少许香油。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/106216628/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-725fbb1bd5c4": {
+      "name": "清蒸去皮鸡腿",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "鸡腿去皮后蒸熟，原方不另加烹调油。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/104109940/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-ceefe2806ebe": {
+      "name": "蒸胡萝卜丝",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "裹玉米面和面粉，并加香油；调味油量未明确。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/106422175/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-8e5ad9a9a574": {
+      "name": "西兰花蒸虾",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "西兰花和虾采用蒸制，原方不另加油，淀粉10g。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/102953881/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-556b0af704b0": {
+      "name": "清煮冬瓜汤",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "冬瓜清水煮汤，原方不另加烹调油或糖。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/106972264/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-6a2608046a47": {
+      "name": "清蒸芦笋龙利鱼",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "鱼肉搭配芦笋蒸熟，只用少许香油。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/101796736/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-33464a665374": {
+      "name": "原味蒸山药",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "山药原味蒸熟，不加油糖；应替代本餐部分主食。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/264711/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-c764326acfd2": {
+      "name": "蒜醋蒸茄子",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "茄子蒸软后用蒜醋汁调味，原方不另加油。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/106868561/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-a6751028bc8d": {
+      "name": "清蒸杏鲍菇",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "蒸后需要淋热油，但油量未明确，保守不入选。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/100634156/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-c2dac38e97f6": {
+      "name": "蒸油麦菜",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "菜叶裹面粉并用香油拌食，面粉及油量不够明确。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/103028795/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-d386f0b8380e": {
+      "name": "菠菜蒸蛋",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "菠菜与蛋液蒸熟，原方不另加烹调油，淀粉3g。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/106699910/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-2a6417d627e0": {
+      "name": "丝瓜蒸蛋盅",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "丝瓜和鸡蛋直接蒸熟，原方不另加油糖。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/105914267/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-ea98b06d03d4": {
+      "name": "清蒸蛏子",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "蛏子配姜丝清蒸，原方不另加烹调油。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/107008310/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-5162e447c2cb": {
+      "name": "清蒸扇贝",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "扇贝清蒸，搭配姜醋汁，原方不另加油。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/100379832/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-f20368a9ee48": {
+      "name": "清蒸鱿鱼",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "鱿鱼清蒸，原方明确只淋少量热油。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/103812708/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-5f5ba7d2b793": {
+      "name": "番茄香菇蒸牛肉",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "150g牛里脊配番茄香菇蒸熟，用油半勺。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/107671664/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-44566a49cbbb": {
+      "name": "西兰花蒸鸡胸肉",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "鸡胸肉搭配蘑菇和西兰花蒸熟，不另加油。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/100434689/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-5868edf7e202": {
+      "name": "葱油蒸豆腐",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "一盒豆腐淋2勺热油，不纳入少油精选。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/104354300/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-ca76a7eeb4dc": {
+      "name": "蒸毛豆仁",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "250g毛豆加1勺香油，本次不纳入少油精选。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/100579567/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-daa19bc14d06": {
+      "name": "蒸茼蒿",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "菜叶裹一碗面粉，拌汁香油量未明确。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/107683344/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-744e34e7c47e": {
+      "name": "白萝卜蒸肉圆",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "肉糜肥瘦比例未明确，另含白糖及勾芡，不入选。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/106035036/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-53980caa8237": {
+      "name": "蛤蜊蒸蛋",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "调汁使用猪油且总份量未明确，保守不入选。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/106678016/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-797b0b0524b5": {
+      "name": "原味蒸芋头",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "芋头原味蒸熟，不加油糖；应替代本餐部分主食。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/107225750/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-9c0ce5f63009": {
+      "name": "蒸牛肉饼",
+      "steamed": true,
+      "weightFriendly": false,
+      "reason": "牛肉部位及腌料油量未明确，保守不入选。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/104108926/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-1154ce6bf5e3": {
+      "name": "清蒸巴沙鱼",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "鱼肉清蒸，只淋少许热油和生抽。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/106175719/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-45aed921e8c6": {
+      "name": "清蒸鲳鱼",
+      "steamed": true,
+      "weightFriendly": true,
+      "reason": "鲳鱼清蒸，原方只用少许橄榄油。",
+      "methodReason": "核对原文，主体食材蒸制（具体辅助步骤见做法）。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/110646/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-3abc76d98154": {
+      "name": "洋葱蔬菜炖鸡胸",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "鸡胸肉与多种蔬菜炖熟，原方不另加烹调油。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/100591332/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-5be2aa4c367b": {
+      "name": "裙带菜瘦肉豆腐汤",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "100g瘦肉搭配裙带菜和豆腐煮汤，用油3g。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/106952709/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-ef80be39c4f7": {
+      "name": "黄瓜豆芽拌鸡丝",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "鸡小胸水煮后与蔬菜拌食，原方不另加油。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/103748458/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-eb5893a0acdf": {
+      "name": "番茄金针菇汤",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "加入番茄酱，添加糖量不明确，本次保守不入选。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/105842352/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-22bce272245e": {
+      "name": "白灼虾",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "大虾水煮，配葱蒜生抽汁，原方不另加油。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/106101593/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-bbdda146cce4": {
+      "name": "白灼芦笋尖",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "芦笋焯水只用数滴油；调汁的少许糖仍应计入调味。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/1087421/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-53ae72136dde": {
+      "name": "葱姜蒜拌木耳",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "木耳煮熟后用葱姜蒜和醋拌食，原方不另加油。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/104715089/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-6d0b36c4cd67": {
+      "name": "小白菜虾皮豆腐汤",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "小白菜、虾皮、豆腐清煮，只用少许香油。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/102914583/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-5dcedf55b62f": {
+      "name": "蘑菇冻豆腐虾汤",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "菌菇、冻豆腐、虾和鸡蛋煮汤，原方不另加油。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/103991305/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-766cbb5342c1": {
+      "name": "菌菇清汤",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "多种菌菇清水炖汤，原方不另加油糖。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/107370435/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-017c0a098ae7": {
+      "name": "山药胡萝卜煲",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "山药和胡萝卜清水炖熟，不另加油；山药计入主食安排。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/107370435/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-e379f7cae453": {
+      "name": "冬瓜虾皮蛋汤",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "冬瓜、虾皮与鸡蛋煮汤，最后只用少许香油。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/104773221/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-6bebe14527ee": {
+      "name": "番茄鸡蛋清汤",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "番茄与鸡蛋直接煮汤，原方不另加烹调油。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/107592951/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-ed8716dd47f9": {
+      "name": "丝瓜毛豆蛤蜊汤",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "丝瓜、毛豆和蛤蜊清煮，原方不另加油。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/101880936/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-04dc2114d290": {
+      "name": "蒜香拌豆腐",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "豆腐焯水后拌汁，原方只用少许油；芝麻也计入本餐用量。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/106787698/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-f6e4cc4274b1": {
+      "name": "海带虾仁豆腐汤",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "调味香油用量未明确，本次保守不入选。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/106277913/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-4e79e6a94726": {
+      "name": "玉米海带虾汤",
+      "steamed": false,
+      "weightFriendly": true,
+      "reason": "玉米、海带与虾仁清煮，只滴数滴香油；玉米计入主食安排。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/102343902/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-c15043556584": {
+      "name": "黄瓜金针菇拌三丝",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "拌汁用油量未明确，不因凉拌蔬菜自动入选。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/105895548/"
+      ],
+      "reviewedAt": "2026-10-05"
+    },
+    "dish-f5ca6de622ca": {
+      "name": "荷塘小炒",
+      "steamed": false,
+      "weightFriendly": false,
+      "reason": "炒制用油量未明确，不因蔬菜搭配自动入选。",
+      "methodReason": "核对原文，主体食材采用煮、炖、拌或炒。",
+      "sources": [
+        "https://m.xiachufang.com/recipe/106176862/"
+      ],
+      "reviewedAt": "2026-10-05"
+    }
+  }
+}

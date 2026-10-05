@@ -18,6 +18,7 @@ import {
 } from "./migrate.js";
 import { isLeafDish } from "./nutrition.js";
 import { cacheDishImages } from "./offline.js";
+import { defaultPresets } from "./timer-model.js";
 const KEY = "dinner-v1";
 const defaults = () => ({
   settings: {
@@ -35,6 +36,8 @@ const defaults = () => ({
   checks: {},
   progress: {},
   timers: {},
+  kitchenTimers: {},
+  timerPresets: defaultPresets(),
 });
 let saved;
 try {

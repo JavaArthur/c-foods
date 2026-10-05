@@ -1,4 +1,5 @@
 <script setup>
+import DishActions from "../components/DishActions.vue";
 import { computed, ref } from "vue";
 import { useRouter } from "vue-router";
 import Icon from "../components/Icon.vue";
@@ -337,7 +338,7 @@ function status(d) {
         ><details
           v-if="list.some((i) => i.group === g)"
           class="shopping-group"
-          :open="g !== 'pantry'"
+          open
         >
           <summary>
             {{ title
@@ -376,21 +377,19 @@ function status(d) {
           </li>
         </ol>
       </section>
-      <button
-        v-for="d in cookOrder(menu)"
-        :key="d.id"
-        class="cook-list-row"
-        @click="router.push('/cook/' + d.id)"
-      >
-        <span
-          class="badge"
-          :class="isCustomDish(d) ? 'custom' : d.isMeat ? 'meat' : 'veg'"
-          >{{ isCustomDish(d) ? "自家菜" : d.isMeat ? "荤" : "素" }}</span
-        ><span
-          ><strong>{{ d.name }}</strong
-          ><small>{{ status(d) }}</small></span
-        ><Icon name="right" />
-      </button>
+      <article v-for="d in cookOrder(menu)" :key="d.id" class="cook-list-item">
+        <button class="cook-list-row" @click="router.push('/cook/' + d.id)">
+          <span
+            class="badge"
+            :class="isCustomDish(d) ? 'custom' : d.isMeat ? 'meat' : 'veg'"
+            >{{ isCustomDish(d) ? "自家菜" : d.isMeat ? "荤" : "素" }}</span
+          ><span
+            ><strong>{{ d.name }}</strong
+            ><small>{{ status(d) }}</small></span
+          ><Icon name="right" />
+        </button>
+        <DishActions :dish="d" blacklist-only />
+      </article>
       <div
         v-if="menu.every((d) => state.progress[d.id]?.done)"
         class="finished-message"

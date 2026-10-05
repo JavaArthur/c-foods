@@ -19,6 +19,7 @@ import {
   PhMinus,
   PhLeaf,
   PhBowlFood,
+  PhProhibit,
 } from "@phosphor-icons/vue";
 defineProps({ name: String, size: { default: 22 } });
 const icons = {
@@ -41,6 +42,7 @@ const icons = {
   minus: PhMinus,
   leaf: PhLeaf,
   bowl: PhBowlFood,
+  block: PhProhibit,
 };
 </script>
 <template>

@@ -1746,5 +1746,405 @@
     "kind": "illustration",
     "generator": "image_gen",
     "prompt": "Use case: illustration-story. Asset: a square recipe card illustration for a Chinese family dinner app, 蒜蓉芥蓝. Subject: cooked Chinese broccoli leafy greens with thick tender green stems and chopped garlic. Warm hand-painted gouache editorial food illustration with softly textured cream background, a single ceramic serving bowl or plate centered, top-down three-quarter view, appetizing realistic ingredient shapes but clearly illustrated, generous background margin, no people, no lettering, no logos, no peppers, no chilies, no peppercorns, no garnishes beyond listed ingredients. The whole serving dish must be visible."
+  },
+  "dish-a249a63cebe9": {
+    "name": "蒜蓉蒸丝瓜",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-a249a63cebe9.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: square recipe illustration for a Chinese family dinner PWA. Subject: 蒜蓉蒸丝瓜, steamed luffa gourd cylinders topped with golden minced garlic. Hand-painted gouache with visible brush texture, not photography. Shallow ivory ceramic plate, warm cream #FFF8F0 background, natural appetizing colors, soft daylight, overhead three-quarter view, entire plate rim visible and centered generous margins. No chili, pepper, text, watermark, side dishes. App labels it 示意图. Return generated file for local project."
+  },
+  "dish-9af494575628": {
+    "name": "金针菇蒸娃娃菜",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-9af494575628.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: square recipe illustration for a Chinese family dinner PWA. Subject: 金针菇蒸娃娃菜, steamed pale baby napa cabbage with slender enoki mushrooms and garlic. Hand-painted gouache with visible brush texture, not photography. Shallow ivory ceramic plate, warm cream #FFF8F0 background, natural appetizing colors, soft daylight, overhead three-quarter view, entire plate rim visible and centered generous margins. No chili, pepper, text, watermark, side dishes. App labels it 示意图. Return generated file for local project."
+  },
+  "dish-58f476124d3f": {
+    "name": "冬瓜蒸虾仁",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-58f476124d3f.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: square recipe illustration for a Chinese family dinner PWA. Subject: 冬瓜蒸虾仁, steamed translucent winter melon slices with peeled shrimp and ginger. Hand-painted gouache with visible brush texture, not photography. Shallow ivory ceramic plate, warm cream #FFF8F0 background, natural appetizing colors, soft daylight, overhead three-quarter view, entire plate rim visible and centered generous margins. No chili, pepper, text, watermark, side dishes. App labels it 示意图. Return generated file for local project."
+  },
+  "dish-c9ca2b61ad39": {
+    "name": "清蒸鳕鱼",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-c9ca2b61ad39.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: square recipe illustration for a Chinese family dinner PWA. Subject: 清蒸鳕鱼, steamed thick white cod fillet with ginger and scallion. Hand-painted gouache with visible brush texture, not photography. Shallow ivory ceramic plate, warm cream #FFF8F0 background, natural appetizing colors, soft daylight, overhead three-quarter view, entire plate rim visible and centered generous margins. No chili, pepper, text, watermark, side dishes. App labels it 示意图. Return generated file for local project."
+  },
+  "dish-2df8eaac30ea": {
+    "name": "香菇蒸鸡胸肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-2df8eaac30ea.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square gouache recipe illustration: steamed chicken breast strips with sliced shiitake mushrooms and thin ginger slivers in an ivory plate, cream background, no chili or pepper, no text."
+  },
+  "dish-2a050b9836dd": {
+    "name": "鸡蛋蒸豆腐",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-2a050b9836dd.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 鸡蛋蒸豆腐, pale yellow steamed egg custard containing soft white tofu cubes. Hand-painted gouache with brush texture, ivory ceramic plate or bowl, cream #FFF8F0 backdrop, appetizing natural colors, soft daylight, overhead three-quarter view, full rim centered with margins. No chili, pepper, text, watermark or unrelated food."
+  },
+  "dish-725fbb1bd5c4": {
+    "name": "清蒸去皮鸡腿",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-725fbb1bd5c4.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 清蒸去皮鸡腿, a skinless steamed chicken drumstick with sliced ginger garlic in light soy broth. Hand-painted gouache with brush texture, ivory ceramic plate or bowl, cream #FFF8F0 backdrop, appetizing natural colors, soft daylight, overhead three-quarter view, full rim centered with margins. No chili, pepper, text, watermark or unrelated food."
+  },
+  "dish-ceefe2806ebe": {
+    "name": "蒸胡萝卜丝",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-ceefe2806ebe.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 蒸胡萝卜丝, steamed orange carrot shreds lightly coated in cornmeal and flour. Hand-painted gouache with brush texture, ivory ceramic plate or bowl, cream #FFF8F0 backdrop, appetizing natural colors, soft daylight, overhead three-quarter view, full rim centered with margins. No chili, pepper, text, watermark or unrelated food."
+  },
+  "dish-8e5ad9a9a574": {
+    "name": "西兰花蒸虾",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-8e5ad9a9a574.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 西兰花蒸虾, steamed whole peeled shrimp surrounded by broccoli florets. Hand-painted gouache with brush texture, ivory ceramic plate or bowl, cream #FFF8F0 backdrop, appetizing natural colors, soft daylight, overhead three-quarter view, full rim centered with margins. No chili, pepper, text, watermark or unrelated food."
+  },
+  "dish-556b0af704b0": {
+    "name": "清煮冬瓜汤",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-556b0af704b0.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 清煮冬瓜汤, a bowl of clear soup containing translucent winter melon slices. Hand-painted gouache with brush texture, ivory ceramic plate or bowl, cream #FFF8F0 backdrop, appetizing natural colors, soft daylight, overhead three-quarter view, full rim centered with margins. No chili, pepper, text, watermark or unrelated food."
+  },
+  "dish-6a2608046a47": {
+    "name": "清蒸芦笋龙利鱼",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-6a2608046a47.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 清蒸芦笋龙利鱼, steamed white sole fish fillet over asparagus segments. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-33464a665374": {
+    "name": "原味蒸山药",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-33464a665374.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 原味蒸山药, plain steamed Chinese yam segments with brown thin skin and white cut ends. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-c764326acfd2": {
+    "name": "蒜醋蒸茄子",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-c764326acfd2.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 蒜醋蒸茄子, steamed purple eggplant strips with minced garlic and light soy vinegar dressing. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-a6751028bc8d": {
+    "name": "清蒸杏鲍菇",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-a6751028bc8d.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 清蒸杏鲍菇, steamed king oyster mushroom slices with ginger and scallion. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-c2dac38e97f6": {
+    "name": "蒸油麦菜",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-c2dac38e97f6.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 蒸油麦菜, steamed chopped green lettuce lightly coated with flour. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-d386f0b8380e": {
+    "name": "菠菜蒸蛋",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-d386f0b8380e.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 菠菜蒸蛋, pale yellow firm steamed egg custard with chopped spinach cut into rectangles. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-2a6417d627e0": {
+    "name": "丝瓜蒸蛋盅",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-2a6417d627e0.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 丝瓜蒸蛋盅, green luffa cylinders hollowed and filled with cooked yellow egg. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-ea98b06d03d4": {
+    "name": "清蒸蛏子",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-ea98b06d03d4.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 清蒸蛏子, steamed razor clams with long thin shells and ginger in a deep bowl. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-5162e447c2cb": {
+    "name": "清蒸扇贝",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-5162e447c2cb.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 清蒸扇贝, steamed scallops in open fan shaped shells with ginger. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-f20368a9ee48": {
+    "name": "清蒸鱿鱼",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-f20368a9ee48.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 清蒸鱿鱼, steamed white squid rings and tentacles with ginger and scallion. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-5f5ba7d2b793": {
+    "name": "番茄香菇蒸牛肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-5f5ba7d2b793.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 番茄香菇蒸牛肉, steamed lean beef slices over red tomato chunks and shiitake mushrooms. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-44566a49cbbb": {
+    "name": "西兰花蒸鸡胸肉",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-44566a49cbbb.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 西兰花蒸鸡胸肉, steamed chicken breast stuffed with mushroom slices and broccoli florets beside it. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-5868edf7e202": {
+    "name": "葱油蒸豆腐",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-5868edf7e202.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 葱油蒸豆腐, one block of soft white tofu topped with scallion ginger minced garlic and soy sauce. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-ca76a7eeb4dc": {
+    "name": "蒸毛豆仁",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-ca76a7eeb4dc.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 蒸毛豆仁, a bowl of shelled green steamed edamame beans. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-daa19bc14d06": {
+    "name": "蒸茼蒿",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-daa19bc14d06.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 蒸茼蒿, chopped steamed garland chrysanthemum greens lightly flour coated. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-744e34e7c47e": {
+    "name": "白萝卜蒸肉圆",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-744e34e7c47e.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 白萝卜蒸肉圆, translucent white radish slices folded around ground pork filling in a circle. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-53980caa8237": {
+    "name": "蛤蜊蒸蛋",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-53980caa8237.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 蛤蜊蒸蛋, steamed smooth yellow egg custard with open clam shells. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-797b0b0524b5": {
+    "name": "原味蒸芋头",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-797b0b0524b5.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 原味蒸芋头, steamed small taro corms some peeled revealing pale white flesh. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-9c0ce5f63009": {
+    "name": "蒸牛肉饼",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-9c0ce5f63009.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 蒸牛肉饼, a steamed thin round ground beef patty with scallion. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-1154ce6bf5e3": {
+    "name": "清蒸巴沙鱼",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-1154ce6bf5e3.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 清蒸巴沙鱼, steamed white basa fish fillet pieces with ginger and scallion. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-45aed921e8c6": {
+    "name": "清蒸鲳鱼",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-45aed921e8c6.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Square recipe illustration: 清蒸鲳鱼, one whole flat silver pomfret fish steamed with scallion ginger. Hand-painted gouache with visible brush texture. Ivory ceramic serving dish on cream #FFF8F0 background, soft daylight, overhead three-quarter view, complete rim centered generous margins. No chili or pepper, no text, logos, watermark, unrelated ingredients. Clearly illustration, not photography."
+  },
+  "dish-3abc76d98154": {
+    "name": "洋葱蔬菜炖鸡胸",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-3abc76d98154.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 洋葱蔬菜炖鸡胸, pale braised chicken breast chunks with onion tomato and cabbage. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-5be2aa4c367b": {
+    "name": "裙带菜瘦肉豆腐汤",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-5be2aa4c367b.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 裙带菜瘦肉豆腐汤, clear soup with wakame seaweed thin lean pork slices and white tofu cubes. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-ef80be39c4f7": {
+    "name": "黄瓜豆芽拌鸡丝",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-ef80be39c4f7.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 黄瓜豆芽拌鸡丝, shredded poached chicken cucumber matchsticks and bean sprouts salad. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-eb5893a0acdf": {
+    "name": "番茄金针菇汤",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-eb5893a0acdf.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 番茄金针菇汤, light tomato soup with red tomato wedges and white enoki mushrooms. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-22bce272245e": {
+    "name": "白灼虾",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-22bce272245e.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 白灼虾, a plate of poached whole pink prawns. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-bbdda146cce4": {
+    "name": "白灼芦笋尖",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-bbdda146cce4.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 白灼芦笋尖, a plate of blanched fresh green asparagus tips. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-53ae72136dde": {
+    "name": "葱姜蒜拌木耳",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-53ae72136dde.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 葱姜蒜拌木耳, black wood ear mushroom salad with scallion ginger and minced garlic. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-6d0b36c4cd67": {
+    "name": "小白菜虾皮豆腐汤",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-6d0b36c4cd67.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 小白菜虾皮豆腐汤, light soup with bok choy tiny dried shrimp and tofu cubes. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-5dcedf55b62f": {
+    "name": "蘑菇冻豆腐虾汤",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-5dcedf55b62f.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 蘑菇冻豆腐虾汤, clear soup with button mushrooms porous frozen tofu cubes and peeled shrimp. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-766cbb5342c1": {
+    "name": "菌菇清汤",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-766cbb5342c1.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 菌菇清汤, clear mixed mushroom soup with shiitake enoki and oyster mushrooms. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-017c0a098ae7": {
+    "name": "山药胡萝卜煲",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-017c0a098ae7.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 山药胡萝卜煲, yam carrot and shiitake mushroom soup. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-e379f7cae453": {
+    "name": "冬瓜虾皮蛋汤",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-e379f7cae453.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 冬瓜虾皮蛋汤, clear winter melon soup with tiny dried shrimp and egg ribbons. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-6bebe14527ee": {
+    "name": "番茄鸡蛋清汤",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-6bebe14527ee.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 番茄鸡蛋清汤, clear soup with tomatoes and egg ribbons. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-ed8716dd47f9": {
+    "name": "丝瓜毛豆蛤蜊汤",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-ed8716dd47f9.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 丝瓜毛豆蛤蜊汤, clear soup with green loofah chunks edamame beans and clams in shells. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-04dc2114d290": {
+    "name": "蒜香拌豆腐",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-04dc2114d290.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 蒜香拌豆腐, white tofu cubes with finely minced garlic and a little light soy sauce. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-f6e4cc4274b1": {
+    "name": "海带虾仁豆腐汤",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-f6e4cc4274b1.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 海带虾仁豆腐汤, clear soup with dark kelp peeled shrimp and white tofu cubes. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-4e79e6a94726": {
+    "name": "玉米海带虾汤",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-4e79e6a94726.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 玉米海带虾汤, clear soup with yellow corn cob rounds kelp knots and pink prawns. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-c15043556584": {
+    "name": "黄瓜金针菇拌三丝",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-c15043556584.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 黄瓜金针菇拌三丝, cucumber carrot matchsticks and enoki mushroom salad. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
+  },
+  "dish-f5ca6de622ca": {
+    "name": "荷塘小炒",
+    "kind": "illustration",
+    "sourceUrl": null,
+    "file": "/images/dish-f5ca6de622ca.webp",
+    "generator": "image_gen",
+    "prompt": "Use case: illustration-story. Asset: one square recipe illustration for a Chinese family dinner PWA. Subject: 荷塘小炒, lotus root slices snow peas carrot slices and black wood ear mushroom stir fry. Clearly a hand-painted gouache illustration with visible brush texture, not a photograph. Warm cream background #FFF8F0, appetizing natural colors, soft daylight, overhead three-quarter view, a complete ivory ceramic bowl or plate rim visible, centered generous margins. No chili, no pepper, no text, no watermark, no side dishes. The app labels this image 示意图. Return the generated file for use in the local project."
   }
 }

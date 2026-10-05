@@ -103,7 +103,7 @@ test("发布菜库全无辣，有至少八种叶菜及带依据的新菜；重�
       .size >= 8,
   );
   const curated = JSON.parse(fs.readFileSync("data/family-recipes.json"));
-  assert.equal(dishes.filter((d) => d.source === "family").length, 10);
+  assert.equal(dishes.filter((d) => d.source === "family").length, 60);
   for (const d of dishes) {
     assert.equal(d.spicyLevel, 0, d.name);
     assert.deepEqual(stimulusReasons(d), [], d.name);

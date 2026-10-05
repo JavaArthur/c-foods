@@ -12,10 +12,10 @@
   font-synthesis: none;
   font-size: 16px;
   --cream: #fff8f0;
-  --orange: #ff8a3d;
+  --orange: #a84816;
   --muted: #78685b;
   --line: #e8dccd;
-  --nav: 68px;
+  --nav: 74px;
   color-scheme: light;
 }
 * {
@@ -205,14 +205,14 @@ input[type="checkbox"] {
 }
 .stepper button.active span {
   background: var(--orange);
-  color: #3a210e;
+  color: #fffdf9;
 }
 .stepper button.done span {
   background: #e1efdc;
   color: #256b41;
 }
 .page {
-  padding: 24px 20px calc(var(--nav) + 30px + env(safe-area-inset-bottom));
+  padding: 16px 16px calc(var(--nav) + 24px + env(safe-area-inset-bottom));
   min-height: calc(100dvh - 52px);
 }
 .tonight {
@@ -372,8 +372,8 @@ input[type="checkbox"] {
 }
 .primary,
 .secondary {
-  min-height: 56px;
-  border-radius: 16px;
+  min-height: 44px;
+  border-radius: 10px;
   font-weight: 700;
   display: inline-flex;
   align-items: center;
@@ -385,11 +385,11 @@ input[type="checkbox"] {
 }
 .primary {
   background: var(--orange);
-  color: #3d240f;
+  color: #fffdf9;
   box-shadow: 0 4px 12px #ad602b14;
 }
 .primary:hover {
-  background: #ff9b59;
+  background: #8b3910;
 }
 .secondary {
   background: #fffdf9;
@@ -410,7 +410,9 @@ input[type="checkbox"] {
 .icon-button {
   display: grid;
   place-items: center;
-  border-radius: 50%;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: #fffdf9;
   flex: none;
 }
 .icon-button:hover,
@@ -456,14 +458,16 @@ input[type="checkbox"] {
   background: #fffcf7;
   border-top: 1px solid var(--line);
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   z-index: 30;
 }
 .bottom-nav a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3px;
+  gap: 2px;
+  position: relative;
+  border-radius: 10px;
   flex-direction: column;
   font-size: 14px;
   color: #75685d;
@@ -472,6 +476,7 @@ input[type="checkbox"] {
 .bottom-nav a.active {
   color: #99420a;
   font-weight: 700;
+  background: #f8ebde;
 }
 .bottom-nav a.active svg {
   background: #ffead7;
@@ -511,7 +516,8 @@ input[type="checkbox"] {
   align-items: center;
   justify-content: space-between;
   padding: 0 8px 0 12px;
-  height: 36px;
+  height: 48px;
+  gap: 6px;
 }
 .badge {
   display: inline-grid;
@@ -787,6 +793,12 @@ input[type="checkbox"] {
   box-shadow: 0 -8px 35px #24160818;
   animation: sheet-in 0.25s ease-out;
   overscroll-behavior: contain;
+  scroll-padding-top: 100px;
+}
+.sheet-content button,
+.sheet-content input {
+  scroll-margin-top: 100px;
+  scroll-margin-bottom: 16px;
 }
 .sheet::backdrop {
   background: #2a20166b;
@@ -816,8 +828,8 @@ input[type="checkbox"] {
 }
 .sheet-content > .dish-image {
   width: 100%;
-  height: 180px;
-  border-radius: 16px;
+  height: 120px;
+  border-radius: 12px;
 }
 .detail-actions {
   display: flex;
@@ -836,7 +848,7 @@ input[type="checkbox"] {
   display: flex;
   justify-content: space-between;
   gap: 12px;
-  padding: 12px 0;
+  padding: 7px 0;
   border-bottom: 1px solid var(--line);
   font-size: 15px;
   line-height: 1.55;
@@ -976,6 +988,7 @@ input[type="checkbox"] {
   z-index: 1;
   top: 8px;
   left: 8px;
+  right: 8px;
   padding: 0;
   height: auto;
 }
@@ -990,10 +1003,10 @@ input[type="checkbox"] {
 }
 .compact .dish-copy {
   padding: 12px 10px 0;
-  min-height: 88px;
+  min-height: 72px;
 }
 .compact .dish-copy h2 {
-  font-size: 20px;
+  font-size: 17px;
 }
 .compact .dish-copy p {
   font-size: 14px;
@@ -1539,4 +1552,472 @@ input[type="checkbox"] {
 .class-row span,
 .sheet h2 {
   overflow-wrap: anywhere;
+}
+
+/* Shared compact controls and recipe discovery. */
+.page-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.page-title-row h1 {
+  font-size: 25px;
+}
+.page-title-row .eyebrow {
+  margin-bottom: 2px;
+}
+.page-title-row .add-recipe {
+  padding: 8px 10px;
+  font-size: 14px;
+  flex: none;
+}
+.muted {
+  color: var(--muted);
+  font-size: 14px;
+}
+.dish-actions {
+  display: flex;
+  align-items: stretch;
+  gap: 6px;
+  margin: 12px 0;
+}
+.dish-actions > button {
+  padding: 8px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.dish-actions > .primary {
+  flex: 1;
+}
+.dish-actions .secondary {
+  gap: 4px;
+}
+.dish-actions.blacklist-only {
+  margin: 0;
+  flex: none;
+}
+.danger-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-height: 44px;
+  padding: 8px 10px;
+  border: 1px solid #d1a99c;
+  border-radius: 10px;
+  background: #fff8f3;
+  color: #8b3426;
+  font-size: 14px;
+  font-weight: 600;
+}
+.danger-button:hover {
+  background: #fae4dc;
+}
+.card-top > .card-controls {
+  margin-left: auto;
+}
+.compact .danger-button {
+  padding: 7px;
+  background: #fffaf4f5;
+}
+.dish-management:empty {
+  display: none;
+}
+.dish-management .text-button {
+  border: 1px solid var(--line);
+  background: #fffdf9;
+  border-radius: 10px;
+}
+.nav-timer {
+  font-size: 12px;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  color: #8b3910;
+}
+.bottom-nav a:has(.nav-timer) {
+  gap: 1px;
+}
+.bottom-nav a:has(.nav-timer) svg {
+  width: 19px;
+  height: 19px;
+}
+.library-categories {
+  margin: 12px 0;
+  gap: 2px;
+  padding: 4px;
+  border-radius: 12px;
+}
+.library-categories button {
+  min-width: 0;
+  padding: 6px 4px;
+  font-size: 14px;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+.discovery-filters {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 8px 11px;
+  border: 1px solid #bca58e;
+  background: #fffdf9;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.filter-chip:hover {
+  background: #f7ecdf;
+}
+.filter-chip.selected,
+.filter-options .selected {
+  background: #f5dcc7;
+  border-color: #a84816;
+  color: #72300f;
+  font-weight: 700;
+}
+.filter-options {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+.filter-options button {
+  padding: 8px 5px;
+  font-size: 15px;
+}
+.filter-explanation {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.result-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 52px;
+}
+.result-toolbar .result-count {
+  margin: 0;
+}
+.clear-filters {
+  font-size: 14px;
+  padding: 8px 10px;
+}
+.load-more {
+  margin-top: 16px;
+}
+.discovery-note {
+  background: #edf2e6;
+  color: #3b5632;
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin: 10px 0;
+}
+.discovery-note p {
+  color: #43583a;
+}
+.cook-list-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid var(--line);
+}
+.cook-list-item .cook-list-row {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  margin: 0;
+  padding-left: 0;
+}
+.cook-list-item .cook-list-row > span:nth-child(2) {
+  min-width: 0;
+}
+
+/* A complete recipe stays on one scrollable page. */
+.cooking-flat {
+  height: auto;
+  min-height: 100dvh;
+  display: block;
+  overflow: visible;
+  padding: 12px 16px calc(var(--nav) + 24px + env(safe-area-inset-bottom));
+}
+.cooking-flat .cooking-header h1 {
+  font-size: 24px;
+  overflow-wrap: anywhere;
+}
+.cooking-flat .cooking-header {
+  margin-bottom: 8px;
+}
+.cooking-flat .dish-actions {
+  margin-bottom: 16px;
+}
+.cooking-flat .section-heading {
+  gap: 10px;
+  margin: 16px 0 8px;
+}
+.cooking-flat .section-heading > span {
+  font-size: 14px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.cooking-preparation {
+  margin: 14px 0;
+  padding: 12px;
+  background: #f2e8d9;
+  border-radius: 12px;
+}
+.cooking-preparation p {
+  font-size: 14px;
+  margin-top: 4px;
+}
+.cooking-flat .cooking-progress {
+  padding-top: 0;
+}
+.cooking-steps {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+.cooking-step {
+  padding: 12px;
+  border: 1px solid #decdbb;
+  border-radius: 12px;
+  background: #fffdf9;
+  scroll-margin-top: 12px;
+}
+.cooking-step.current-step {
+  border-color: #ac5828;
+  box-shadow: inset 3px 0 #ac5828;
+}
+.step-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+  color: #87401a;
+}
+.mark-step {
+  font-size: 14px;
+  padding: 7px 10px;
+  font-weight: 500;
+}
+.mark-step[aria-pressed="true"] {
+  background: #f7e3d0;
+  border-color: #ac5828;
+  color: #75330e;
+}
+.cooking-flat .step-text {
+  font-size: 22px;
+  line-height: 1.65;
+  font-weight: 500;
+}
+.step-timer {
+  margin-top: 12px;
+  font-size: 16px;
+}
+.cooking-flat > .note {
+  margin-top: 14px;
+}
+.child-notes {
+  margin: 20px 0 12px;
+}
+.child-notes h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.cooking-finish {
+  margin-top: 12px;
+}
+
+/* Global timers, shared by recipe steps and the timer tab. */
+.panel {
+  background: #fffdf9;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 14px;
+}
+.timer-create {
+  display: grid;
+  gap: 12px;
+}
+.duration-fields {
+  display: grid;
+  grid-template-columns: 1fr 18px 1fr;
+  align-items: end;
+  gap: 8px;
+}
+.duration-fields label {
+  font-size: 14px;
+  font-weight: 600;
+}
+.duration-fields input {
+  display: block;
+  margin-top: 6px;
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  font-variant-numeric: tabular-nums;
+  padding: 8px;
+  height: 60px;
+}
+.duration-fields > span {
+  align-self: end;
+  padding-bottom: 12px;
+  text-align: center;
+  font-size: 28px;
+  color: var(--muted);
+}
+.timer-name {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+.timer-name > span {
+  color: var(--muted);
+  font-weight: 400;
+}
+.timer-name input {
+  width: 100%;
+  display: block;
+  margin-top: 6px;
+}
+.timers-page > .section-heading {
+  margin-top: 20px;
+}
+.timer-presets {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+.timer-preset {
+  background: #fffdf9;
+  border: 1px solid #cbb69f;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.preset-start {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+  align-items: center;
+  padding: 10px 6px;
+  min-height: 64px;
+}
+.preset-start strong {
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+.preset-start span {
+  font-size: 16px;
+  font-variant-numeric: tabular-nums;
+  color: #8b3910;
+}
+.preset-start:hover {
+  background: #f7e8d9;
+}
+.preset-edit {
+  width: 100%;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+  color: #78533a;
+  background: #faf2e7;
+}
+.timer-item {
+  border: 1px solid #d3bba4;
+  background: #fffdf9;
+  padding: 12px;
+  border-radius: 12px;
+  margin: 10px 0;
+}
+.timer-item-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+}
+.timer-item-heading > strong {
+  flex: 1 0 100%;
+  font-size: 16px;
+  overflow-wrap: anywhere;
+}
+.timer-digits {
+  font-size: 32px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #75330e;
+}
+.timer-state {
+  font-size: 14px;
+  color: #8b3426;
+  font-weight: 600;
+}
+.timer-controls {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+  margin-top: 8px;
+}
+.timer-controls button {
+  padding: 8px 3px;
+  font-size: 14px;
+  min-width: 0;
+}
+.timer-ended {
+  border-color: #ba654c;
+  background: #fff2e8;
+}
+.timer-inline {
+  margin: 12px 0 0;
+  padding: 10px;
+  background: #faf0e5;
+}
+.timer-inline .timer-controls {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.timer-empty {
+  padding: 16px;
+  border: 1px dashed #c7ad93;
+  border-radius: 12px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+.timer-note {
+  margin-top: 18px;
+}
+@media (max-height: 700px) {
+  .two-dishes .dish-card:not(.compact) .card-top {
+    height: 44px;
+  }
+  .two-dishes .dish-open {
+    padding: 0 10px;
+    gap: 10px;
+  }
+  .two-dishes .dish-card:not(.compact) .dish-image {
+    height: 64px;
+    width: 74px;
+  }
+  .two-dishes .dish-card:not(.compact) .dish-open {
+    min-height: 64px;
+  }
+  .two-dishes .dish-copy h2 {
+    font-size: 20px;
+  }
+  .two-dishes .dish-meta {
+    padding: 3px 10px 5px;
+  }
+  .menu-heading {
+    margin-bottom: 4px;
+  }
 }

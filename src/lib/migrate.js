@@ -1,3 +1,4 @@
+import { normalizeTimers, normalizePresets } from "./timer-model.js";
 // 合并菜谱时迁移用户选项；旧做菜步骤与新菜谱不同，重置其进度和计时。
 export function migrateRecipeIds(state, redirects = {}) {
   const id = (value) => redirects[value] || value;
@@ -88,8 +89,9 @@ export function normalizeState(saved, defaults) {
       : null;
   for (const key of ["checks", "progress", "timers"])
     if (!object(state[key])) state[key] = {};
-  for (const [key, t] of Object.entries(state.timers))
-    if (!object(t) || !Number.isFinite(t.end)) delete state.timers[key];
+  state.timers = normalizeTimers(state.timers);
+  state.kitchenTimers = normalizeTimers(state.kitchenTimers);
+  state.timerPresets = normalizePresets(state.timerPresets);
   for (const [key, p] of Object.entries(state.progress))
     if (!object(p) || !Number.isInteger(p.step) || p.step < 0)
       delete state.progress[key];
