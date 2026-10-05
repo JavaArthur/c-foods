@@ -10,12 +10,14 @@
 - 用户偏好、收藏、历史、菜单、勾选、计时仅保存在 localStorage。去重或改 ID 时必须迁移旧记录。
 - 自录菜保存在 `dinner-v1.customDishes`，使用稳定的 `custom-` ID；仅录入名字，不编造配方、荤素、辣度或用时。支持手动加入菜单，不参与自动推荐、绿叶菜判断和食材统计；公共菜库迁移必须保留自录记录。
 - 拉黑从菜库、收藏展示和推荐中隐藏，可在设置恢复，保留历史及收藏关系；删除自录菜需保存历史菜名快照。拉黑或删除当前菜品时移出菜单并要求重新确认。
+- 厨房计时页支持多个独立计时；步骤计时与独立计时共用全局服务。`dinner-v1.kitchenTimers` 和 `timerPresets` 保存独立计时及常用时长；菜单失效只清理步骤计时，保留独立计时。做菜页一次展示当前菜的全部步骤。
 
 ## 数据契约
 
 - 做法优先来自 `Anduin2017/HowToCook@master` 和 `Gar-b-age/CookLikeHOC@main`；缺少的家庭无辣菜可使用有作者和完整做法的公开来源，记录在 `data/family-recipes.json`，保留出处、整理日期和改编内容。收录目录以 `scripts/build-data.mjs` 为准，不编造步骤、食材用量。
 - `public/data/dishes.json` 保持原有字段结构；图片出处、示意标记、估时依据和旧 ID 映射放在 `public/data/dish-meta.json`。
 - `data/overlays.json` 为字段人工覆盖表；`data/recipe-aliases.json` 为确认过的同菜别名；`data/time-overrides.json` 为有依据的用时修正。
+- `data/dish-tags.json` 为全库蒸菜、减脂友好人工审核表，编译到 `dish-meta.json`；每项保留理由、出处和审核日期。不凭菜名自动标记，不把减脂标签用于宝宝营养建议；两个筛选仅作用于菜谱库并取交集。
 - 同名菜保留 HowToCook 做法，优先补充库成品图。相近名称需核对主料和方法，不能仅凭字符串相似度合并。
 - 图片必须保存在 `public/images/`；真实图片出处和生成插画提示词见 `data/image-manifest.json`。插画明确标记「示意图」，不冒充菜谱原图。
 - 用时是家庭规划估算；区分提前腌制、泡发、解冻等准备，详情保留依据。单步倒计时来自原文，支持中文数词、区间和复合时长。
@@ -35,6 +37,7 @@
 
 ## 部署
 
+- 用户已授权：每次完成项目改动并通过相称验证后，直接提交、推送并发布上线，无需再次询问部署确认；若用户当次明确要求暂不发布，则按当次指令执行。发布后必须检查部署工作流和线上版本，失败时继续排查修复。
 - GitHub 仓库：<https://github.com/JavaArthur/c-foods>。
 - 当前站点：<https://javaarthur.github.io/c-foods/>，工作流 `.github/workflows/deploy.yml`。
 - Cloudflare Pages 构建命令 `npm run build`，产物 `dist`；子目录部署时设置 `BASE_PATH`。
