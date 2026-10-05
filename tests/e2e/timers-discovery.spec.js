@@ -54,17 +54,18 @@ test("独立计时并行、暂停与刷新、加时、到期、预设持久化",
   await page.goto("/#/timers");
   await expect(page.getByRole("heading", { name: "厨房计时器" })).toBeVisible();
   await page.clock.install();
+  await page.getByRole("button", { name: "新建计时", exact: true }).click();
   await page.getByLabel("计时分钟", { exact: true }).fill("0");
   await page.getByLabel("计时秒数", { exact: true }).fill("5");
   await page.getByPlaceholder("例如：蒸鱼、煮汤").fill("短计时");
   await page.getByRole("button", { name: "开始计时", exact: true }).click();
   await page.getByRole("button", { name: "1 分钟 01:00", exact: true }).click();
-  await expect(page.locator(".timer-item")).toHaveCount(2);
+  await expect(page.locator(".timer-item, .timer-summary")).toHaveCount(2);
   const long = page.getByRole("region", { name: "1 分钟", exact: true });
   await long.getByRole("button", { name: "暂停", exact: true }).click();
   await page.clock.fastForward(6000);
   await expect(
-    page.getByRole("region", { name: "短计时", exact: true }),
+    page.getByRole("button", { name: "查看计时：短计时", exact: true }),
   ).toContainText("时间到");
   await expect(long).toContainText("已暂停");
   const paused = (await stored(page)).kitchenTimers;
@@ -192,9 +193,11 @@ test("步骤计时同步全局页，拉黑只清理菜谱计时", async ({ page 
     .getByRole("button", { name: /开始计时/ })
     .click();
   await page.getByRole("link", { name: /计时器/ }).click();
-  await expect(page.locator(".timer-item")).toHaveCount(2);
+  await expect(page.locator(".timer-item, .timer-summary")).toHaveCount(2);
   await page.goto("/#/cook/" + dish.id);
   await page.getByRole("button", { name: "拉黑菜品", exact: true }).click();
+  // Blacklisting redirects out of the recipe before the next navigation.
+  await expect(page.locator(".tonight")).toHaveCSS("opacity", "1");
   await page.getByRole("link", { name: /计时器/ }).click();
   await expect(page.locator(".timer-item")).toHaveCount(1);
   await expect(page.locator(".timer-item")).toContainText("5 分钟");

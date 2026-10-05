@@ -5,6 +5,10 @@ import {
   runningTimers,
   nearestTimer,
   doneTimers,
+  ringingTimers,
+  timerLabel,
+  stopTimerSound,
+  soundUnavailable,
 } from "./lib/timers.js";
 import { useRoute } from "vue-router";
 import Icon from "./components/Icon.vue";
@@ -33,7 +37,7 @@ onMounted(() => {
 onBeforeUnmount(() => stopTimers?.());
 </script>
 <template>
-  <div class="app-shell">
+  <div class="app-shell" :class="{ 'has-timer-alarm': ringingTimers.length }">
     <template v-if="!route.path.startsWith('/cook/')"
       ><header class="brand">
         <router-link to="/" class="brand-name"
@@ -95,6 +99,19 @@ onBeforeUnmount(() => stopTimers?.());
         ></router-link
       >
     </nav>
+    <aside
+      v-if="ringingTimers.length"
+      class="timer-alarm"
+      aria-label="计时到期提醒"
+    >
+      <div class="timer-alarm-copy" role="alert">
+        <strong
+          >时间到<span v-if="soundUnavailable"> · 声音未启用</span></strong
+        >
+        <p>{{ ringingTimers.map(timerLabel).join("、") }}</p>
+      </div>
+      <button class="primary" @click="stopTimerSound">停止响铃</button>
+    </aside>
     <Transition name="page"
       ><div v-if="toast" class="toast" role="status">
         {{ toast }}

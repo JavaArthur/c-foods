@@ -10,6 +10,7 @@ import { remainingSeconds } from "../lib/timer-model.js";
 const props = defineProps({
   entry: { type: Object, required: true },
   compact: Boolean,
+  featured: Boolean,
 });
 const remaining = computed(() =>
   remainingSeconds(props.entry.timer, timerNow.value),
@@ -21,9 +22,11 @@ const remaining = computed(() =>
     :class="{
       'timer-ended': entry.timer.status === 'done',
       'timer-inline': compact,
+      'timer-featured': featured,
     }"
     :aria-label="timerLabel(entry)"
   >
+    <p v-if="featured" class="timer-current-label">当前计时</p>
     <div class="timer-item-heading">
       <strong v-if="!compact">{{ timerLabel(entry) }}</strong>
       <span class="timer-digits" aria-label="剩余时间">{{
@@ -38,6 +41,7 @@ const remaining = computed(() =>
       <span v-else-if="entry.timer.status === 'paused'" class="timer-state"
         >已暂停</span
       >
+      <span v-else-if="featured" class="timer-state">计时中</span>
     </div>
     <div class="timer-controls">
       <button

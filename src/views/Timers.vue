@@ -1,11 +1,48 @@
 <script setup>
-import { ref } from "vue";
+import { computed, nextTick, ref } from "vue";
 import { state, tell } from "../lib/store.js";
-import { allTimers, startKitchenTimer, formatClock } from "../lib/timers.js";
-import { inputSeconds } from "../lib/timer-model.js";
+import {
+  allTimers,
+  currentTimer,
+  selectTimer,
+  timerKey,
+  timerLabel,
+  timerNow,
+  startKitchenTimer,
+  formatClock,
+  previewTimerSound,
+  previewingSound,
+  ringingTimers,
+  soundUnavailable,
+} from "../lib/timers.js";
+import { inputSeconds, remainingSeconds } from "../lib/timer-model.js";
 import TimerControls from "../components/TimerControls.vue";
 import Sheet from "../components/Sheet.vue";
 import Icon from "../components/Icon.vue";
+const creating = ref(false),
+  currentCard = ref();
+const otherTimers = computed(() =>
+  allTimers.value.filter(
+    (entry) =>
+      timerKey(entry) !== (currentTimer.value && timerKey(currentTimer.value)),
+  ),
+);
+async function revealCurrent() {
+  document.activeElement?.blur();
+  await nextTick();
+  currentCard.value?.focus({ preventScroll: true });
+  currentCard.value?.scrollIntoView({ block: "start", behavior: "instant" });
+}
+function choose(entry) {
+  selectTimer(entry);
+  revealCurrent();
+}
+function launch(duration, label) {
+  const id = startKitchenTimer(duration, label);
+  if (!id) return;
+  creating.value = false;
+  revealCurrent();
+}
 const minutes = ref(5),
   seconds = ref(0),
   name = ref(""),
@@ -22,7 +59,7 @@ function start() {
     return;
   }
   error.value = "";
-  startKitchenTimer(duration, name.value);
+  launch(duration, name.value);
   name.value = "";
 }
 function edit(p) {
@@ -51,41 +88,33 @@ function savePreset() {
         <p class="eyebrow">几个锅，一起照看</p>
         <h1>厨房计时器</h1>
       </div>
-      <Icon name="clock" :size="32" />
-    </div>
-    <form class="timer-create panel" @submit.prevent="start">
-      <div class="duration-fields">
-        <label
-          >分钟<input
-            v-model="minutes"
-            type="number"
-            inputmode="numeric"
-            min="0"
-            max="999"
-            step="1"
-            aria-label="计时分钟"
-        /></label>
-        <span aria-hidden="true">:</span>
-        <label
-          >秒<input
-            v-model="seconds"
-            type="number"
-            inputmode="numeric"
-            min="0"
-            max="59"
-            step="1"
-            aria-label="计时秒数"
-        /></label>
-      </div>
-      <label class="timer-name"
-        >计时名称 <span>选填</span
-        ><input v-model="name" maxlength="40" placeholder="例如：蒸鱼、煮汤"
-      /></label>
-      <p v-if="error" role="alert" class="form-error">{{ error }}</p>
-      <button type="submit" class="primary full">
-        <Icon name="clock" :size="20" />开始计时
+      <button
+        class="primary timer-new"
+        @click="
+          creating = true;
+          error = '';
+        "
+      >
+        新建计时
       </button>
-    </form>
+    </div>
+    <div
+      v-if="currentTimer"
+      ref="currentCard"
+      class="current-timer"
+      tabindex="-1"
+    >
+      <TimerControls
+        :key="timerKey(currentTimer)"
+        :entry="currentTimer"
+        featured
+      />
+    </div>
+    <div v-else class="timer-empty">
+      <Icon name="clock" :size="32" />
+      <h2>让时间帮你看着锅</h2>
+      <p>点下方常用时长，即刻开始。<br />也可以新建一个自己的计时。</p>
+    </div>
     <div class="section-heading">
       <h2>常用时长</h2>
       <span class="muted">点时长即开始</span>
@@ -98,7 +127,7 @@ function savePreset() {
       >
         <button
           class="preset-start"
-          @click="startKitchenTimer(preset.seconds, preset.name)"
+          @click="launch(preset.seconds, preset.name)"
         >
           <strong>{{ preset.name }}</strong
           ><span>{{ formatClock(preset.seconds) }}</span>
@@ -112,21 +141,88 @@ function savePreset() {
         </button>
       </div>
     </div>
-    <div class="section-heading">
-      <h2>我的计时</h2>
-      <span class="muted">{{ allTimers.length }} 个</span>
+    <template v-if="otherTimers.length">
+      <div class="section-heading">
+        <h2>其他计时</h2>
+        <span class="muted">{{ otherTimers.length }} 个 · 点选切换</span>
+      </div>
+      <div class="timer-list">
+        <button
+          v-for="entry in otherTimers"
+          :key="timerKey(entry)"
+          class="timer-summary"
+          :class="{ 'timer-ended': entry.timer.status === 'done' }"
+          :aria-label="'查看计时：' + timerLabel(entry)"
+          @click="choose(entry)"
+        >
+          <span class="timer-summary-copy"
+            ><strong>{{ timerLabel(entry) }}</strong>
+            <span>{{
+              entry.timer.status === "done"
+                ? "时间到"
+                : entry.timer.status === "paused"
+                  ? "已暂停"
+                  : "计时中"
+            }}</span>
+          </span>
+          <span class="timer-summary-clock">{{
+            formatClock(remainingSeconds(entry.timer, timerNow))
+          }}</span>
+          <span aria-hidden="true">›</span>
+        </button>
+      </div>
+    </template>
+    <div class="timer-sound-settings">
+      <span>到时响铃约 15 秒</span>
+      <button
+        class="secondary"
+        :disabled="ringingTimers.length > 0"
+        @click="previewTimerSound"
+      >
+        {{ previewingSound ? "停止试听" : "试听提醒" }}
+      </button>
     </div>
-    <div v-if="!allTimers.length" class="timer-empty">
-      还没有计时。选择常用时长，或输入分钟和秒。
-    </div>
-    <TimerControls
-      v-for="entry in allTimers"
-      :key="entry.kind + entry.id"
-      :entry="entry"
-    />
+    <p v-if="soundUnavailable" class="form-error" role="status">
+      声音暂未启用，请点“试听提醒”重试，并检查设备媒体音量。
+    </p>
     <p class="note timer-note">
       离开本页也会继续计时。锁屏或关闭浏览器可能延迟响铃，回来后会校正并提示到期。
     </p>
+    <Sheet v-if="creating" title="新建计时" @close="creating = false">
+      <form class="timer-create" @submit.prevent="start">
+        <div class="duration-fields">
+          <label
+            >分钟<input
+              v-model="minutes"
+              type="number"
+              inputmode="numeric"
+              min="0"
+              max="999"
+              step="1"
+              aria-label="计时分钟"
+          /></label>
+          <span aria-hidden="true">:</span>
+          <label
+            >秒<input
+              v-model="seconds"
+              type="number"
+              inputmode="numeric"
+              min="0"
+              max="59"
+              step="1"
+              aria-label="计时秒数"
+          /></label>
+        </div>
+        <label class="timer-name"
+          >计时名称 <span>选填</span>
+          <input v-model="name" maxlength="40" placeholder="例如：蒸鱼、煮汤" />
+        </label>
+        <p v-if="error" role="alert" class="form-error">{{ error }}</p>
+        <button type="submit" class="primary full">
+          <Icon name="clock" :size="20" />开始计时
+        </button>
+      </form>
+    </Sheet>
     <Sheet v-if="editing" title="编辑常用时长" @close="editing = null">
       <form class="timer-create" @submit.prevent="savePreset">
         <label class="timer-name"
