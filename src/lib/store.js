@@ -19,6 +19,7 @@ import {
 import { isLeafDish } from "./nutrition.js";
 import { cacheDishImages } from "./offline.js";
 import { defaultPresets } from "./timer-model.js";
+import { extraAllowed } from "./meal-extras.js";
 const KEY = "dinner-v1";
 const defaults = () => ({
   settings: {
@@ -31,6 +32,8 @@ const defaults = () => ({
   },
   favorites: [],
   customDishes: [],
+  breakfast: { items: [], lastPickedId: null },
+  drinks: { lastPickedId: null },
   history: [],
   today: null,
   checks: {},
@@ -44,6 +47,21 @@ try {
   saved = JSON.parse(localStorage.getItem(KEY) || "null");
 } catch {}
 export const state = reactive(normalizeState(saved, defaults()));
+watch(
+  () => [
+    state.breakfast.items,
+    state.settings.avoids,
+    state.settings.blacklist,
+  ],
+  () => {
+    const current = state.breakfast.items.find(
+      (i) => i.id === state.breakfast.lastPickedId,
+    );
+    if (current && !extraAllowed(current, state.settings))
+      state.breakfast.lastPickedId = null;
+  },
+  { deep: true, immediate: true },
+);
 export const familyLabel = "两大一小 · 宝宝3岁";
 export const portionLabel = computed(
   () => `备菜约 ${state.settings.servings} 份`,

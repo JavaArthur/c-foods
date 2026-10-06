@@ -48,7 +48,7 @@ test("自录菜贯穿菜单、换菜、购物清单和做菜，刷新保留且�
   await expect(page.getByRole("dialog")).not.toContainText("HowToCook");
   await page.getByRole("button", { name: "想再吃" }).click();
   await page.getByRole("button", { name: "加入今晚菜单" }).click();
-  await page.getByRole("link", { name: "今晚吃啥", exact: true }).click();
+  await page.getByRole("link", { name: "吃什么", exact: true }).click();
   await expect(page.locator(".menu-cards .dish-card")).toHaveCount(3);
   await expect(
     page.getByRole("button", { name: "移出今晚：" + custom.name }),
@@ -132,7 +132,7 @@ test("拉黑立即隐藏、移出菜单并要求重确认；恢复保留收藏�
   await page.getByRole("button", { name: "恢复" + meat.name }).click();
   await page.getByRole("link", { name: "收藏", exact: true }).click();
   await expect(page.locator(".dish-card")).toContainText(meat.name);
-  await page.getByRole("link", { name: "今晚吃啥", exact: true }).click();
+  await page.getByRole("link", { name: "吃什么", exact: true }).click();
   await expect(page.locator(".menu-cards .dish-card")).toHaveCount(1);
   await page.reload();
   s = await stored(page);
@@ -221,7 +221,7 @@ test("自录菜不能替代绿叶菜，不绕过忌口，长菜名和录入弹�
     expect(Number(box.width.toFixed(2))).toBeGreaterThanOrEqual(44);
   }
   await page.getByRole("button", { name: "加入今晚菜单" }).click();
-  await page.getByRole("link", { name: "今晚吃啥", exact: true }).click();
+  await page.getByRole("link", { name: "吃什么", exact: true }).click();
   await page.getByRole("button", { name: "就做这些" }).click();
   await expect(page.getByRole("dialog")).toHaveCount(0);
   await expect(page.getByRole("status")).toContainText("绿叶菜");

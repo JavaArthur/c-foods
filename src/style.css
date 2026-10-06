@@ -1,4 +1,196 @@
 @import "tailwindcss";
+/* Home meal switch and independent breakfast / drink collections. */
+.meal-tabs {
+  display: flex;
+  margin: 0;
+  gap: 4px;
+  min-width: 144px;
+}
+.meal-tabs a {
+  flex: 1;
+  min-width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  font-size: 15px;
+  color: var(--muted);
+  border-bottom: 3px solid transparent;
+}
+.meal-tabs a[aria-current="page"] {
+  color: var(--orange);
+  border-color: var(--orange);
+  font-weight: 700;
+}
+.extras-page {
+  padding-top: 20px;
+}
+.extras-intro {
+  margin: 10px 0 20px;
+}
+.random-panel {
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: #fffdf8;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.random-panel > svg {
+  color: var(--orange);
+}
+.random-panel h2 {
+  font-size: 25px;
+  overflow-wrap: anywhere;
+  margin: 4px 0;
+}
+.breakfast-panel {
+  background: #fff0d9;
+}
+.drink-panel {
+  background: #edf1e7;
+  border-color: #d8dfce;
+}
+.drink-panel > svg {
+  color: #506a40;
+}
+.extras-heading {
+  margin-top: 28px;
+}
+.extras-heading .text-button,
+.random-panel .text-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.extras-count {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--muted);
+}
+.breakfast-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+}
+.breakfast-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.breakfast-list li > div:first-child {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.breakfast-actions {
+  display: flex;
+  flex-shrink: 0;
+}
+.extras-form {
+  display: grid;
+  gap: 14px;
+}
+.extras-form input,
+.extras-search input {
+  width: 100%;
+  min-height: 48px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px 12px;
+  background: #fffdf8;
+}
+.extras-search {
+  margin: 24px 0 12px;
+  display: grid;
+  gap: 8px;
+}
+.chips.drink-filters {
+  gap: 8px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.extras-space {
+  margin-top: 14px;
+}
+.extras-empty {
+  padding: 28px 0;
+  text-align: center;
+}
+.drink-list {
+  margin-top: 12px;
+  display: grid;
+  gap: 10px;
+}
+.drink-card {
+  text-align: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 12px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: #fffdf8;
+}
+.drink-icon {
+  width: 44px;
+  height: 48px;
+  border-radius: 14px;
+  background: #edf1e7;
+  color: #506a40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.drink-copy {
+  display: grid;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+.drink-copy strong {
+  font-size: 17px;
+  overflow-wrap: anywhere;
+}
+.drink-copy > span {
+  font-size: 14px;
+  color: var(--muted);
+}
+.drink-steps {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 20px;
+}
+.drink-steps li {
+  display: flex;
+  gap: 12px;
+}
+.drink-steps li > span {
+  color: var(--orange);
+  font-weight: 700;
+  font-size: 22px;
+}
+.drink-steps p {
+  font-size: 22px;
+  color: inherit;
+}
+.drink-source {
+  margin-top: 28px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+.drink-source a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--orange);
+}
 @theme {
   --color-cream: #fff8f0;
   --color-orange: #ff8a3d;

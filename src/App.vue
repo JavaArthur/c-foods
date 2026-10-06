@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, onBeforeUnmount } from "vue";
+import { computed, onMounted, onBeforeUnmount } from "vue";
 import {
   startTimerService,
   runningTimers,
@@ -22,8 +22,13 @@ import {
   goStep,
 } from "./lib/store";
 const route = useRoute();
+const homePaths = ["/", "/breakfast", "/drinks"];
+const isHome = computed(() => homePaths.includes(route.path));
+const needsDinner = computed(
+  () => !["/breakfast", "/drinks"].includes(route.path),
+);
 const tabs = [
-  ["/", "pot", "今晚吃啥"],
+  ["/", "pot", "吃什么"],
   ["/recipes", "book", "菜谱库"],
   ["/timers", "clock", "计时器"],
   ["/favorites", "heart", "收藏"],
@@ -43,7 +48,20 @@ onBeforeUnmount(() => stopTimers?.());
         <router-link to="/" class="brand-name"
           ><span class="brand-mark"><Icon name="pot" :size="25" /></span
           >今晚吃什么<span class="brand-dot">.</span></router-link
-        ><span class="brand-tag">好好吃饭，慢慢生活</span>
+        ><span v-if="!isHome" class="brand-tag">好好吃饭，慢慢生活</span>
+        <nav v-if="isHome" class="meal-tabs" aria-label="选择餐饮模块">
+          <router-link
+            v-for="[url, label] in [
+              ['/', '晚餐'],
+              ['/breakfast', '早餐'],
+              ['/drinks', '饮品'],
+            ]"
+            :key="url"
+            :to="url"
+            :aria-current="route.path === url ? 'page' : undefined"
+            >{{ label }}</router-link
+          >
+        </nav>
       </header>
       <nav class="stepper" aria-label="今晚做饭进度" v-if="route.path === '/'">
         <button
@@ -60,7 +78,7 @@ onBeforeUnmount(() => stopTimers?.());
       </nav></template
     >
     <main
-      v-if="loading"
+      v-if="needsDinner && loading"
       class="page"
       aria-busy="true"
       aria-label="正在准备菜谱"
@@ -69,7 +87,7 @@ onBeforeUnmount(() => stopTimers?.());
       <div class="skeleton sk-card"></div>
       <div class="skeleton sk-card"></div>
     </main>
-    <main v-else-if="loadError" class="page empty">
+    <main v-else-if="needsDinner && loadError" class="page empty">
       <Icon name="bowl" :size="64" />
       <h1>菜谱还没端上来</h1>
       <p>菜谱没加载出来，点我再试一次。</p>
@@ -77,14 +95,17 @@ onBeforeUnmount(() => stopTimers?.());
     </main>
     <router-view v-else v-slot="{ Component }"
       ><Transition name="page" mode="out-in"
-        ><component :is="Component" :key="route.path" /></Transition
+        ><KeepAlive include="Tonight,Breakfast,Drinks"
+          ><component
+            :is="Component"
+            :key="route.path" /></KeepAlive></Transition
     ></router-view>
     <nav class="bottom-nav" aria-label="主导航">
       <router-link
         v-for="[url, icon, label] in tabs"
         :key="url"
         :to="url"
-        :class="{ active: route.path === url }"
+        :class="{ active: url === '/' ? isHome : route.path === url }"
         ><Icon :name="icon" /><span
           >{{ label
           }}{{

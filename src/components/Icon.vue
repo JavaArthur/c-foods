@@ -20,6 +20,8 @@ import {
   PhLeaf,
   PhBowlFood,
   PhProhibit,
+  PhCoffee,
+  PhFlower,
 } from "@phosphor-icons/vue";
 defineProps({ name: String, size: { default: 22 } });
 const icons = {
@@ -43,6 +45,8 @@ const icons = {
   leaf: PhLeaf,
   bowl: PhBowlFood,
   block: PhProhibit,
+  cup: PhCoffee,
+  flower: PhFlower,
 };
 </script>
 <template>

@@ -172,7 +172,7 @@ onBeforeUnmount(() =>
     </footer>
     <Sheet v-if="clear" title="和旧记录说再见？" @close="clear = false"
       ><p>
-        会清空这台设备上的偏好、收藏、自录菜品、黑名单、历史菜单和做菜进度。
+        会清空这台设备上的偏好、收藏、自录菜品、早餐清单、饮品选择、黑名单、历史菜单、做菜进度和计时。
       </p>
       <button
         class="primary full"

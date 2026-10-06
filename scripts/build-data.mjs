@@ -1,4 +1,5 @@
 import { familyCatalog } from "./family-data.mjs";
+import { buildDrinks } from "./drink-data.mjs";
 import { stimulusReasons } from "../src/lib/nutrition.js";
 import fs from "node:fs/promises";
 import { createHash } from "node:crypto";
@@ -219,6 +220,7 @@ await fs.writeFile(
   "public/data/dish-meta.json",
   JSON.stringify(meta, null, 2) + "\n",
 );
+await buildDrinks();
 console.log(
   `完成：${dishes.length} 道，荤 ${dishes.filter((x) => x.isMeat).length} / 素 ${dishes.filter((x) => !x.isMeat).length}；跳过 ${report.skipped.length}，详情见 data/build-report.json`,
 );

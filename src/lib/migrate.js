@@ -1,4 +1,5 @@
 import { normalizeTimers, normalizePresets } from "./timer-model.js";
+import { normalizeBreakfast } from "./meal-extras.js";
 // 合并菜谱时迁移用户选项；旧做菜步骤与新菜谱不同，重置其进度和计时。
 export function migrateRecipeIds(state, redirects = {}) {
   const id = (value) => redirects[value] || value;
@@ -35,6 +36,13 @@ export function normalizeState(saved, defaults) {
     },
   };
   state.settings.spicy = 0;
+  state.breakfast = normalizeBreakfast(source.breakfast);
+  state.drinks = {
+    lastPickedId:
+      typeof source.drinks?.lastPickedId === "string"
+        ? source.drinks.lastPickedId
+        : null,
+  };
   state.settings.servings = Number.isFinite(state.settings.servings)
     ? Math.min(6, Math.max(1, state.settings.servings))
     : 2;

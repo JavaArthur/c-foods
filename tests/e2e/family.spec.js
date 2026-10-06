@@ -53,7 +53,7 @@ test("调份量后清空旧购物勾选，详情、购物和做菜用量保持�
   });
   await page.getByRole("link", { name: "我的", exact: true }).click();
   await page.getByRole("button", { name: "增加备菜份量" }).click();
-  await page.getByRole("link", { name: "今晚吃啥", exact: true }).click();
+  await page.getByRole("link", { name: "吃什么", exact: true }).click();
   await page.getByRole("button", { name: "查看" + pork.name }).click();
   const expected = shoppingList([pork], 3)[0];
   await expect(page.getByRole("dialog")).toContainText("备菜约 3 份");
@@ -76,7 +76,7 @@ test("调份量后清空旧购物勾选，详情、购物和做菜用量保持�
   await page.getByRole("button", { name: "返回今晚做菜列表" }).click();
   await page.getByRole("link", { name: "我的", exact: true }).click();
   await page.getByRole("button", { name: "猪肉", exact: true }).click();
-  await page.getByRole("link", { name: "今晚吃啥", exact: true }).click();
+  await page.getByRole("link", { name: "吃什么", exact: true }).click();
   await expect(page.getByRole("button", { name: "3 买菜" })).toBeDisabled();
   await page.getByRole("button", { name: "就做这些" }).click();
   await expect(page.getByRole("dialog")).toHaveCount(0);

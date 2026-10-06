@@ -134,7 +134,7 @@ try {
   await page.getByRole("button", { name: "查看" + customName }).click();
   await page.getByRole("button", { name: "想再吃" }).click();
   await page.getByRole("button", { name: "加入今晚菜单" }).click();
-  await page.getByRole("link", { name: "今晚吃啥", exact: true }).click();
+  await page.getByRole("link", { name: "吃什么", exact: true }).click();
   await page.getByRole("button", { name: "就做这些" }).click();
   await page.getByRole("button", { name: "去看要买啥" }).click();
   const customId = await page.evaluate(
@@ -185,6 +185,27 @@ try {
   assert(saved.customDishes.some((d) => d.id === customId));
   assert(saved.favorites.includes(customId));
   assert(saved.progress[customId].done);
+  await page.goto(base + "#/breakfast");
+  await page.getByRole("button", { name: "添加早餐", exact: true }).click();
+  await page.getByLabel("早餐名称").fill("离线小米粥");
+  await page.getByRole("button", { name: "保存早餐" }).click();
+  await page.getByRole("button", { name: "随机选早餐" }).click();
+  await page.reload();
+  await page.getByRole("button", { name: "换一个", exact: true }).waitFor();
+  assert(
+    (await page.locator(".random-panel h2").textContent()).includes(
+      "离线小米粥",
+    ),
+  );
+  await page.goto(base + "#/drinks");
+  await page.locator(".drink-card").first().waitFor();
+  assert.equal(await page.locator(".drink-card").count(), 18);
+  await page.getByRole("button", { name: "随机选一杯", exact: true }).click();
+  await page.getByRole("button", { name: "查看这杯做法" }).click();
+  await page.locator(".drink-steps").waitFor();
+  await page.getByRole("button", { name: "关闭", exact: true }).click();
+  await page.reload();
+  await page.getByRole("button", { name: "换一杯", exact: true }).waitFor();
   if (previous) {
     await page.goto(base + "#/cook/" + removed);
     await page.getByText("已下架：", { exact: false }).waitFor();
@@ -203,6 +224,8 @@ try {
           "details",
           "independent timer reload",
           "custom dish persistence and cooking",
+          "breakfast create and random reload",
+          "drink catalog, details and random reload",
           ...(previous ? ["retired recipe link"] : []),
         ],
         cacheKeys: keys,

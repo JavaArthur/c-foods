@@ -2,6 +2,10 @@
 
 给忙碌的家人准备一桌热乎饭：选搭配 → 看菜单 → 买菜 → 做菜。全站简体中文，手机优先，个人数据只存本机，不需要注册或登录。
 
+首页还可切换「早餐」「饮品」：早餐初始为空，添加名称后支持随机、改名和删除；饮品提供18款有出处的家常配方，可分类、搜索、随机选一杯及查看做法。两个模块独立保存，不进入晚餐菜单及营养统计。饮品按完整食材匹配忌口，早餐只按已录名称匹配。
+
+饮品源数据位于 `data/drink-recipes.json`，可用 `node scripts/drink-data.mjs` 单独编译，或随 `npm run data:build` 一起生成。配方保留原方份量，不随晚餐人数缩放；离线安装后仍可使用早餐和饮品模块。
+
 **在线体验：[今晚吃什么](https://javaarthur.github.io/c-foods/)** · **[GitHub 仓库](https://github.com/JavaArthur/c-foods)**
 
 **技术栈：** Vue 3 Composition API、Vite、Tailwind CSS 4、vue-router hash 路由。没有后端或数据库，没有付费接口。

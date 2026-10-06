@@ -70,7 +70,7 @@ test("锁定与换菜、收藏、筛选、自定义、人数和忌口", async ({
   await expect(
     page.getByRole("button", { name: "花生", exact: true }),
   ).toHaveAttribute("aria-pressed", "true");
-  await page.getByRole("link", { name: "今晚吃啥", exact: true }).click();
+  await page.getByRole("link", { name: "吃什么", exact: true }).click();
   await page.getByRole("button", { name: /选搭配/ }).click();
   await page.getByRole("button", { name: /自定义/ }).click();
   await page.getByRole("button", { name: "减少荤菜" }).click();

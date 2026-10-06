@@ -1,0 +1,601 @@
+[
+  {
+    "id": "drink-soy",
+    "name": "原味豆浆",
+    "category": "豆浆",
+    "equipment": "加热破壁机",
+    "yield": "原方食材与水合计至 1400mL 刻度",
+    "ingredients": [
+      {
+        "name": "干黄豆",
+        "amount": "100g"
+      },
+      {
+        "name": "水",
+        "amount": "加入黄豆后补至 1400mL 刻度"
+      }
+    ],
+    "preparation": [
+      "使用本机可煮熟豆谷的加热程序，完整运行结束；容量须符合本机热饮上下限。原方程序时长仅作设备参考。"
+    ],
+    "steps": [
+      "将黄豆洗净放入杯内，加水至指定刻度，装好杯盖。",
+      "启动加热豆浆程序，等待完整结束；原方设备约 38 分钟。"
+    ],
+    "author": "小米官方",
+    "url": "https://www.mi.com/tw/support/faq/details/KA-527937/",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "保留官方豆浆配比；不另加糖。"
+  },
+  {
+    "id": "drink-black-walnut",
+    "name": "黑豆黑米核桃浆",
+    "category": "豆浆",
+    "equipment": "加热破壁机",
+    "yield": "原方使用 400g 净水；成品量未定量",
+    "ingredients": [
+      {
+        "name": "黑豆",
+        "amount": "10g（泡前）"
+      },
+      {
+        "name": "黑米",
+        "amount": "10g（泡前）"
+      },
+      {
+        "name": "黑芝麻",
+        "amount": "10g"
+      },
+      {
+        "name": "核桃仁",
+        "amount": "10g"
+      },
+      {
+        "name": "水",
+        "amount": "400g"
+      }
+    ],
+    "preparation": [
+      "黑豆、黑米提前浸泡一夜；家庭整理：浸泡时放冰箱冷藏。",
+      "使用本机可煮熟豆谷的加热程序，完整运行结束；容量须符合本机热饮上下限。原方程序时长仅作设备参考。"
+    ],
+    "steps": [
+      "将泡好的黑豆、黑米与洗净的芝麻、核桃放入杯内，加入净水。",
+      "选择五谷豆浆加热程序并等到结束，原方迷你机约 25 分钟。"
+    ],
+    "author": "乐活教主",
+    "url": "https://m.xiachufang.com/recipe/106683692/",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "按原方事实整理，未采用原文的功效描述。"
+  },
+  {
+    "id": "drink-peanut-date",
+    "name": "花生核桃红枣豆浆",
+    "category": "豆浆",
+    "equipment": "加热破壁机",
+    "yield": "原方使用 400g 净水；成品量未注明",
+    "ingredients": [
+      {
+        "name": "黄豆",
+        "amount": "10g（泡前）"
+      },
+      {
+        "name": "花生",
+        "amount": "10g"
+      },
+      {
+        "name": "红枣",
+        "amount": "10g"
+      },
+      {
+        "name": "核桃仁",
+        "amount": "10g"
+      },
+      {
+        "name": "水",
+        "amount": "400g"
+      }
+    ],
+    "preparation": [
+      "黄豆提前浸泡一夜；家庭整理：冷藏浸泡。",
+      "使用本机可煮熟豆谷的加热程序，完整运行结束；容量须符合本机热饮上下限。原方程序时长仅作设备参考。"
+    ],
+    "steps": [
+      "红枣去核，将泡好的黄豆与其余洗净食材、水一起放入杯内。",
+      "运行五谷豆浆加热程序至结束，原方约 25 分钟。"
+    ],
+    "author": "乐活教主",
+    "url": "https://m.xiachufang.com/recipe/106683692/",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "补充红枣去核的备料说明，不增加糖。"
+  },
+  {
+    "id": "drink-oat-date",
+    "name": "燕麦红枣小米豆浆",
+    "category": "豆浆",
+    "equipment": "加热破壁机",
+    "yield": "原方使用 400g 净水；成品量未注明",
+    "ingredients": [
+      {
+        "name": "黄豆",
+        "amount": "10g（泡前）"
+      },
+      {
+        "name": "燕麦",
+        "amount": "10g（泡前）"
+      },
+      {
+        "name": "红枣",
+        "amount": "10g"
+      },
+      {
+        "name": "小米",
+        "amount": "10g"
+      },
+      {
+        "name": "水",
+        "amount": "400g"
+      }
+    ],
+    "preparation": [
+      "黄豆、燕麦提前浸泡一夜；家庭整理：冷藏浸泡。",
+      "使用本机可煮熟豆谷的加热程序，完整运行结束；容量须符合本机热饮上下限。原方程序时长仅作设备参考。"
+    ],
+    "steps": [
+      "红枣去核，连同泡好的黄豆、燕麦和洗净的小米放入杯内，加水。",
+      "使用五谷豆浆加热程序，等待运行结束；原方约 25 分钟。"
+    ],
+    "author": "乐活教主",
+    "url": "https://m.xiachufang.com/recipe/106683692/",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "按原方事实整理，未采用原文的功效描述。"
+  },
+  {
+    "id": "drink-black-millet",
+    "name": "黑豆小米红枣糊",
+    "category": "谷物饮",
+    "equipment": "加热破壁机",
+    "yield": "原方为 2 人份，以家用碗量水，碗容量未注明",
+    "ingredients": [
+      {
+        "name": "黑豆",
+        "amount": "20粒"
+      },
+      {
+        "name": "小米",
+        "amount": "2小勺"
+      },
+      {
+        "name": "去核红枣",
+        "amount": "4颗"
+      },
+      {
+        "name": "水",
+        "amount": "2碗（原方每人1碗，碗容量未注明）"
+      }
+    ],
+    "preparation": [
+      "使用本机可煮熟豆谷的加热程序，完整运行结束；容量须符合本机热饮上下限。原方程序时长仅作设备参考。"
+    ],
+    "steps": [
+      "将备好的黑豆、小米、去核红枣和水放入杯中。",
+      "启动五谷浆加热程序，等待完整结束；作者设备默认 36 分钟。"
+    ],
+    "author": "Emilyxuan",
+    "url": "https://m.xiachufang.com/recipe/106046915/",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "保留原方碗、勺、粒的量法，不换算克数；按原作者建议不另加糖。"
+  },
+  {
+    "id": "drink-pumpkin",
+    "name": "南瓜双米糊",
+    "category": "谷物饮",
+    "equipment": "加热破壁机",
+    "yield": "食材与水合计至 1200mL 刻度",
+    "ingredients": [
+      {
+        "name": "南瓜",
+        "amount": "300g"
+      },
+      {
+        "name": "大米",
+        "amount": "30g"
+      },
+      {
+        "name": "小米",
+        "amount": "30g"
+      },
+      {
+        "name": "水",
+        "amount": "放入食材后补至 1200mL 刻度"
+      }
+    ],
+    "preparation": [
+      "使用本机可煮熟豆谷的加热程序，完整运行结束；容量须符合本机热饮上下限。原方程序时长仅作设备参考。"
+    ],
+    "steps": [
+      "南瓜去皮去籽，切成约 1.5cm 小块；米洗净后与南瓜放入杯内，加水。",
+      "选择加热米糊程序，等程序结束；原方设备约 35 分钟。"
+    ],
+    "author": "小米官方",
+    "url": "https://www.mi.com/tw/support/faq/details/KA-527937/",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "按官方米糊配比整理，不另加糖。"
+  },
+  {
+    "id": "drink-corn",
+    "name": "小米玉米饮",
+    "category": "谷物饮",
+    "equipment": "加热破壁机",
+    "yield": "原方标注 2–4 人，水量 1000mL",
+    "ingredients": [
+      {
+        "name": "甜玉米粒",
+        "amount": "300g"
+      },
+      {
+        "name": "小米",
+        "amount": "30g"
+      },
+      {
+        "name": "水",
+        "amount": "1000mL"
+      }
+    ],
+    "preparation": [
+      "使用本机可煮熟豆谷的加热程序，完整运行结束；容量须符合本机热饮上下限。原方程序时长仅作设备参考。"
+    ],
+    "steps": [
+      "玉米掰粒、洗净，与淘洗的小米及水一起倒入杯内。",
+      "运行加热米糊程序至结束，原文整体操作约 40 分钟。",
+      "按原方过滤后倒入杯中。"
+    ],
+    "author": "乐活教主",
+    "url": "https://m.xiachufang.com/recipe/103912523/",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "采用原文第一种热饮做法，省去原方 20g 白砂糖。"
+  },
+  {
+    "id": "drink-orange-pear",
+    "name": "橙子雪梨汁",
+    "category": "果蔬汁",
+    "equipment": "破壁机果蔬程序",
+    "yield": "原方梨 200g、橙子 100g，加水 300mL",
+    "ingredients": [
+      {
+        "name": "梨果肉",
+        "amount": "200g"
+      },
+      {
+        "name": "橙子果肉",
+        "amount": "100g"
+      },
+      {
+        "name": "饮用水",
+        "amount": "300mL"
+      }
+    ],
+    "preparation": [],
+    "steps": [
+      "水果洗净，去皮去核后称取果肉、切小块。",
+      "连同饮用水放入杯内，运行果蔬汁程序至完成。"
+    ],
+    "author": "Sakura_K",
+    "url": "https://m.xiachufang.com/recipe/105995309/",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "补充去皮去核和称取果肉的备料说明，保留原方比例。"
+  },
+  {
+    "id": "drink-kiwi-spinach",
+    "name": "奇异果菠菜汁",
+    "category": "果蔬汁",
+    "equipment": "破壁机果蔬程序",
+    "yield": "原方水量 700mL，成品量未注明",
+    "ingredients": [
+      {
+        "name": "奇异果",
+        "amount": "2个"
+      },
+      {
+        "name": "苹果",
+        "amount": "半个"
+      },
+      {
+        "name": "菠菜叶",
+        "amount": "4片"
+      },
+      {
+        "name": "饮用水",
+        "amount": "700mL"
+      }
+    ],
+    "preparation": [],
+    "steps": [
+      "水果与菠菜叶洗净；奇异果去皮、苹果去核切块，菠菜去梗切碎。",
+      "全部放入搅拌杯，加水，分四次各搅打约 15 秒，每次停机查看状态。"
+    ],
+    "author": "HowToCook 社区贡献者",
+    "url": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/drink/奇异果菠菜特调/奇异果菠菜特调.md",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "采用原文允许的 0g 加糖版本；补充清洗、去皮去核，不采用原文功效描述。"
+  },
+  {
+    "id": "drink-carrot-apple",
+    "name": "胡萝卜苹果饮",
+    "category": "果蔬汁",
+    "equipment": "锅具＋破壁机",
+    "yield": "原方水量 500g，成品量未注明",
+    "ingredients": [
+      {
+        "name": "苹果",
+        "amount": "100g"
+      },
+      {
+        "name": "胡萝卜",
+        "amount": "100g"
+      },
+      {
+        "name": "水",
+        "amount": "500g"
+      }
+    ],
+    "preparation": [],
+    "steps": [
+      "苹果去核、胡萝卜洗净后切块，与水放入锅中。",
+      "煮开后煮约 10 分钟；待降至本机允许的搅拌温度后，将果蔬与汤水一起搅打约 1 分钟。"
+    ],
+    "author": "美食潆响力",
+    "url": "https://m.xiachufang.com/recipe/106764648/",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "原方美善品 100℃煮10分钟后搅打，家庭改为锅煮后用破壁机；省去15g冰糖。"
+  },
+  {
+    "id": "drink-avocado",
+    "name": "牛油果酸奶饮",
+    "category": "奶饮",
+    "equipment": "破壁机奶昔程序",
+    "yield": "原方 1 人份",
+    "ingredients": [
+      {
+        "name": "熟牛油果",
+        "amount": "1个"
+      },
+      {
+        "name": "原味酸奶",
+        "amount": "120mL"
+      },
+      {
+        "name": "牛奶",
+        "amount": "60mL"
+      }
+    ],
+    "preparation": [],
+    "steps": [
+      "牛油果剥皮去核，将果肉切成小块。",
+      "果肉、酸奶和牛奶放进杯内，搅打约 1 分钟，均匀顺滑后倒出。"
+    ],
+    "author": "HowToCook 社区贡献者",
+    "url": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/drink/牛油果拉西.md",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "省去原方1汤匙蜂蜜，以及可选的小豆蔻、薄荷和坚果装饰。"
+  },
+  {
+    "id": "drink-dragon-milk",
+    "name": "红心火龙果奶饮",
+    "category": "奶饮",
+    "equipment": "破壁机果蔬程序",
+    "yield": "原方果肉 400g、牛奶 300mL",
+    "ingredients": [
+      {
+        "name": "红心火龙果果肉",
+        "amount": "400g"
+      },
+      {
+        "name": "牛奶",
+        "amount": "300mL"
+      }
+    ],
+    "preparation": [],
+    "steps": [
+      "火龙果去皮后切小块，与牛奶放入杯内。",
+      "选择不加热的果蔬程序，原方设备约 2 分钟。"
+    ],
+    "author": "小米官方",
+    "url": "https://www.mi.com/tw/support/faq/details/KA-527937/",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "省去原方少许蜂蜜。"
+  },
+  {
+    "id": "drink-mango-yogurt",
+    "name": "芒果酸奶饮",
+    "category": "奶饮",
+    "equipment": "破壁机奶昔程序",
+    "yield": "原方果肉 350g、酸奶 300g，另加水和冰",
+    "ingredients": [
+      {
+        "name": "芒果果肉",
+        "amount": "350g"
+      },
+      {
+        "name": "酸奶",
+        "amount": "300g"
+      },
+      {
+        "name": "冰块",
+        "amount": "5块（原方约2cm³/块）"
+      },
+      {
+        "name": "饮用水",
+        "amount": "120mL"
+      }
+    ],
+    "preparation": [],
+    "steps": [
+      "芒果去皮去核切小块，全部材料放入杯内。",
+      "选不加热的奶昔程序，原方设备约 2 分钟。"
+    ],
+    "author": "小米官方",
+    "url": "https://www.mi.com/tw/support/faq/details/KA-527937/",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "保留原方配比；冰块须符合本机搅拌要求。"
+  },
+  {
+    "id": "drink-banana-cucumber",
+    "name": "香蕉黄瓜酸奶饮",
+    "category": "奶饮",
+    "equipment": "破壁机奶昔程序",
+    "yield": "原方酸奶1杯，未注明杯容量",
+    "ingredients": [
+      {
+        "name": "香蕉",
+        "amount": "2根（按大小）"
+      },
+      {
+        "name": "黄瓜",
+        "amount": "半根"
+      },
+      {
+        "name": "酸奶",
+        "amount": "1杯（原方未注明容量）"
+      }
+    ],
+    "preparation": [],
+    "steps": [
+      "香蕉、黄瓜去皮切段。",
+      "杯中先放酸奶，再放果蔬，搅打约 1 分钟至均匀。"
+    ],
+    "author": "心蓝",
+    "url": "https://m.xiangha.com/caipu/82726513.html",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "采用作者不加糖、不加蜂蜜的版本，酸奶杯容量保留未知。"
+  },
+  {
+    "id": "drink-corn-milk",
+    "name": "奶香玉米饮",
+    "category": "奶饮",
+    "equipment": "加热破壁机",
+    "yield": "原方水 500mL，程序结束后加奶250mL",
+    "ingredients": [
+      {
+        "name": "玉米",
+        "amount": "1根"
+      },
+      {
+        "name": "糯米",
+        "amount": "30g"
+      },
+      {
+        "name": "小米",
+        "amount": "15g"
+      },
+      {
+        "name": "水",
+        "amount": "500mL"
+      },
+      {
+        "name": "牛奶",
+        "amount": "250mL"
+      }
+    ],
+    "preparation": [
+      "使用本机可煮熟豆谷的加热程序，完整运行结束；容量须符合本机热饮上下限。原方程序时长仅作设备参考。"
+    ],
+    "steps": [
+      "玉米剥粒，与洗净的糯米、小米放入杯内，加水；此时不加牛奶。",
+      "运行加热玉米汁程序至完成，作者设备约 39 分钟。",
+      "停机后加入牛奶，搅匀倒出，原方无需过滤。"
+    ],
+    "author": "蹦蹦跳跳的加菲",
+    "url": "https://m.xiachufang.com/recipe/106601921/",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "采用原方允许的不加糖版本；牛奶在加热程序完成后加入。"
+  },
+  {
+    "id": "drink-chrysanthemum",
+    "name": "菊花茶",
+    "category": "花果茶",
+    "equipment": "烧水壶＋茶杯",
+    "yield": "原方水量500mL",
+    "ingredients": [
+      {
+        "name": "食用干菊花",
+        "amount": "10–15朵"
+      },
+      {
+        "name": "水",
+        "amount": "500mL"
+      }
+    ],
+    "preparation": [],
+    "steps": [
+      "将食用干菊花清洗干净，放入茶壶或耐热杯。",
+      "用约90℃热水冲泡，待花朵舒展即可。"
+    ],
+    "author": "倾城小厨娘",
+    "url": "https://m.xiachufang.com/recipe/101868664/",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "省去原方3颗冰糖；不保留原文功效和适宜人群描述。"
+  },
+  {
+    "id": "drink-lemon",
+    "name": "清爽柠檬水",
+    "category": "花果茶",
+    "equipment": "杯具",
+    "yield": "约500mL一杯",
+    "ingredients": [
+      {
+        "name": "柠檬",
+        "amount": "40–45g"
+      },
+      {
+        "name": "饮用水",
+        "amount": "补至约500mL"
+      }
+    ],
+    "preparation": [],
+    "steps": [
+      "柠檬洗净切片，放入杯中轻压出汁。",
+      "补入饮用水并搅匀。"
+    ],
+    "author": "HowToCook 社区贡献者",
+    "url": "https://github.com/Anduin2017/HowToCook/blob/master/dishes/drink/柠檬水/柠檬水.md",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "家庭无添加糖改编：省去原方40–45g果蜜和冰块，用杯具轻压代替雪克杯捶打。"
+  },
+  {
+    "id": "drink-pear-tremella",
+    "name": "银耳雪梨饮",
+    "category": "炖饮",
+    "equipment": "普通炖锅",
+    "yield": "原方未注明份数和水量",
+    "ingredients": [
+      {
+        "name": "银耳",
+        "amount": "1朵"
+      },
+      {
+        "name": "雪梨",
+        "amount": "1个"
+      },
+      {
+        "name": "枸杞",
+        "amount": "15粒"
+      },
+      {
+        "name": "水",
+        "amount": "适量（原方未定量）"
+      }
+    ],
+    "preparation": [
+      "银耳提前用温水泡开，原方未注明泡发时长。"
+    ],
+    "steps": [
+      "银耳泡发洗净，雪梨去核切块。",
+      "全部材料放入炖锅，加适量水，大火煮开后转小火炖约30分钟。"
+    ],
+    "author": "佟小鹤",
+    "url": "https://m.xiachufang.com/recipe/104144272/",
+    "reviewedAt": "2026-10-06",
+    "adaptation": "采用原文明火锅做法，省去20g冰糖；补充雪梨去核，不保留功效标题。"
+  }
+]

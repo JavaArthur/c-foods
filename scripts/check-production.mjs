@@ -105,5 +105,55 @@ await page.setViewportSize({ width: 1440, height: 900 });
 const app = await page.locator(".app-shell").boundingBox();
 if (app.width > 480) throw Error("桌面超过480px");
 console.log("PASS: 横屏与桌面最大480px");
+for (const [width, height] of [
+  [375, 667],
+  [667, 375],
+  [1440, 900],
+]) {
+  await page.setViewportSize({ width, height });
+  for (const module of ["breakfast", "drinks"]) {
+    await page.goto(base + "#/" + module);
+    await page.locator(".extras-page h1").waitFor();
+    if (module === "drinks") {
+      await page.locator(".drink-card").first().waitFor();
+      if ((await page.locator(".drink-card").count()) !== 18)
+        throw Error("饮品数量异常");
+    }
+    if (
+      (await page.evaluate(() => document.documentElement.scrollWidth)) > width
+    )
+      throw Error(module + " 横向溢出");
+    const links = await page
+      .locator(".meal-tabs a")
+      .evaluateAll((items) =>
+        items.map((i) => ({
+          width: i.getBoundingClientRect().width,
+          height: i.getBoundingClientRect().height,
+        })),
+      );
+    if (links.some((i) => i.width < 44 || i.height < 44))
+      throw Error("模块切换点击区域不足");
+    if ((await page.locator(".app-shell").boundingBox()).width > 480)
+      throw Error("桌面模块超过480px");
+    if (width === 375)
+      await page.screenshot({
+        path: `test-results/production/${module}.png`,
+        animations: "disabled",
+      });
+  }
+}
+await page.setViewportSize({ width: 375, height: 667 });
+await page.getByRole("button", { name: "查看原味豆浆", exact: true }).click();
+await page.locator(".drink-steps").waitFor();
+const stepFont = await page
+  .locator(".drink-steps p")
+  .first()
+  .evaluate((el) => parseFloat(getComputedStyle(el).fontSize));
+if (stepFont < 22) throw Error("饮品步骤字号不足22px");
+await page.screenshot({
+  path: "test-results/production/drink-detail.png",
+  animations: "disabled",
+});
+console.log("PASS: 早餐与18款饮品、手机/横屏/桌面、44px点击区域、22px做法步骤");
 if (errors.length) throw Error(errors.join("\n"));
 await browser.close();

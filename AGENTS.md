@@ -15,6 +15,9 @@
 
 ## 数据契约
 
+- 首页分为晚餐、早餐、饮品；早餐和饮品独立于晚餐菜单、清单、收藏和营养统计。`dinner-v1.breakfast` 保存仅名称的早餐列表及最近随机项，ID 为 `breakfast-`；初始空库，允许按名称匹配忌口后随机，未记录完整食材。`dinner-v1.drinks` 仅保存最近随机项；全量清空包含两个模块，晚餐菜库迁移不得清除它们。
+- 饮品源数据为 `data/drink-recipes.json`，`scripts/drink-data.mjs` 编译到 `public/data/drinks.json` 并接入 `data:build`；独立加载与重试，纳入 PWA 预缓存。配方须保留作者、来源、整理日期、原方用量/产量/设备/准备和步骤，未知用量明确标注，家庭改编单列，不随晚餐份数缩放，不使用功效宣传。忌口和黑名单始终为随机硬约束。
+
 - 做法优先来自 `Anduin2017/HowToCook@master` 和 `Gar-b-age/CookLikeHOC@main`；缺少的家庭无辣菜可使用有作者和完整做法的公开来源，记录在 `data/family-recipes.json`，保留出处、整理日期和改编内容。收录目录以 `scripts/build-data.mjs` 为准，不编造步骤、食材用量。
 - `public/data/dishes.json` 保持原有字段结构；图片出处、示意标记、估时依据和旧 ID 映射放在 `public/data/dish-meta.json`。
 - `data/overlays.json` 为字段人工覆盖表；`data/recipe-aliases.json` 为确认过的同菜别名；`data/time-overrides.json` 为有依据的用时修正。
