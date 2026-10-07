@@ -21,6 +21,7 @@ watch(
     :class="{
       'veg-image': dish.isMeat === false,
       'custom-image': dish.source === 'custom',
+      'image-placeholder': !dish.image || failed,
     }"
   >
     <img
@@ -33,6 +34,5 @@ watch(
       height="640"
       @error="failed = true"
     /><span v-else aria-hidden="true">{{ dish.name[0] }}</span>
-    <small v-if="illustration && !failed" class="image-label">示意图</small>
   </div>
 </template>

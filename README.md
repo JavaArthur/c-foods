@@ -117,7 +117,7 @@ HowToCook 仅收录 `dishes/meat_dish`、`dishes/aquatic`、`dishes/vegetable_di
 
 ### 图片策略
 
-**80 道发布菜谱全部使用项目内的 WebP 图片**，保存于 `public/images/`。其中 47 张取自指定原仓库，33 张为逐道生成的菜品插画，页面统一标注「示意图」，详情说明 AI 生成。原图 URL、生成工具和每张插画的完整提示词保存在 `data/image-manifest.json`。插画不作为做法或成品真实性依据。
+**80 道发布菜谱全部使用项目内的 WebP 图片**，保存于 `public/images/`。其中 47 张取自指定原仓库，33 张为逐道生成的菜品插画，图片不叠加文字角标，详情底部说明 AI 生成；详情图片按原比例完整显示。原图 URL、生成工具和每张插画的完整提示词保存在 `data/image-manifest.json`。插画不作为做法或成品真实性依据。
 
 原图下载脚本为 `node scripts/download-images.mjs`，优先 raw、失败重试 jsDelivr，缩放至最长边 640px。Markdown 图片解析兼容括号文件名，优先命名成品图，避免把第一张备料图当成菜图。更新菜库遇到新增图片记录或文件缺失时，`data:build` 会中止，需先补齐图片和来源记录，防止发布空图。
 

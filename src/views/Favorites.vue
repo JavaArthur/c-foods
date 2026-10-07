@@ -7,12 +7,14 @@ import {
   catalogMeta,
   visibleDishes as dishes,
   menuIds,
+  menuTarget,
   lockedIds,
   goStep,
   invalidate,
   tell,
 } from "../lib/store";
 import { canAddToMenu, uniqueDishes } from "../lib/menu";
+import { recipeCounts } from "../lib/menu-target";
 import DishCard from "../components/DishCard.vue";
 import DishDetails from "../components/DishDetails.vue";
 const tab = ref("saved"),
@@ -44,6 +46,7 @@ function again(h) {
     return;
   }
   menuIds.value = valid.map((d) => d.id);
+  menuTarget.value = recipeCounts(h.ids.map((id) => dishById.value.get(id)));
   lockedIds.value = [];
   invalidate();
   goStep(2);

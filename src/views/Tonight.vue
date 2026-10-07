@@ -15,6 +15,7 @@ import {
   recommendationDishes as dishes,
   menu,
   menuIds,
+  menuTarget,
   lockedIds,
   step,
   menuNote,
@@ -25,6 +26,7 @@ import {
   removeFromMenu,
 } from "../lib/store";
 import { isCustomDish } from "../lib/custom-dishes";
+import { recipeCounts } from "../lib/menu-target";
 import {
   generateMenu,
   shoppingList,
@@ -35,7 +37,7 @@ import {
   sameDish,
 } from "../lib/menu";
 const router = useRouter(),
-  counts = ref({ meat: 1, veg: 1 }),
+  counts = ref({ ...(menuTarget.value || { meat: 1, veg: 1 }) }),
   custom = ref(false),
   busy = ref(false),
   preview = ref(null),
@@ -99,6 +101,7 @@ function adjust(key, n) {
 }
 function generate() {
   busy.value = true;
+  menuTarget.value = { ...counts.value };
   const r = generateMenu(
     dishes.value,
     counts.value,
@@ -119,7 +122,11 @@ function generate() {
   if (r.note) tell(r.note);
 }
 function replace(id) {
-  if (!recipes.value.length) {
+  if (
+    !recipes.value.length &&
+    !menuTarget.value?.meat &&
+    !menuTarget.value?.veg
+  ) {
     tell("自家菜会为你保留，可以去菜谱库再加一道绿叶菜。");
     return;
   }
@@ -130,29 +137,51 @@ function replace(id) {
   const keep = recipes.value.filter((d) =>
     id ? d.id !== id : lockedIds.value.includes(d.id),
   );
-  const target = {
-    meat: recipes.value.filter((d) => d.isMeat).length,
-    veg: recipes.value.filter((d) => !d.isMeat).length,
-  };
-  const r = generateMenu(
-    dishes.value.filter(
-      (d) => !customDishes.value.some((other) => sameDish(d, other)),
-    ),
-    target,
-    state.settings,
-    state.history,
-    state.favorites,
-    keep,
-    menu.value.filter((d) => !keep.includes(d)).map((d) => d.id),
-  );
-  if (
-    !r.valid ||
-    r.menu.length < recipes.value.length ||
-    r.menu.length + customDishes.value.length > 10
-  ) {
-    tell(r.note || "暂时找不到更合适的菜，帮你留住这一桌啦。");
+  const current = recipeCounts(recipes.value);
+  const target = id ? current : { ...(menuTarget.value || current) };
+  if (!id) target.veg = Math.max(1, target.veg);
+  if (target.meat + target.veg + customDishes.value.length > 10) {
+    tell("补齐搭配后会超过 10 道，请先调整搭配或移出部分自家菜。");
     return;
   }
+  const pool = dishes.value.filter(
+    (d) => !customDishes.value.some((other) => sameDish(d, other)),
+  );
+  const generateReplacement = (exclude) =>
+    generateMenu(
+      pool,
+      target,
+      state.settings,
+      state.history,
+      state.favorites,
+      keep,
+      exclude,
+    );
+  const complete = (r) => {
+    const actual = recipeCounts(r.menu);
+    return r.valid && actual.meat === target.meat && actual.veg === target.veg;
+  };
+  let r = generateReplacement(
+    menu.value.filter((d) => !keep.includes(d)).map((d) => d.id),
+  );
+  // Keeping an allowed old dish is preferable to silently shrinking the table.
+  if (!id && !complete(r)) r = generateReplacement([]);
+  if (!complete(r)) {
+    const actual = recipeCounts(r.menu);
+    const missing = [
+      target.meat > actual.meat ? `${target.meat - actual.meat} 道荤菜` : "",
+      target.veg > actual.veg ? `${target.veg - actual.veg} 道素菜` : "",
+    ]
+      .filter(Boolean)
+      .join("、");
+    menuNote.value =
+      r.valid && missing
+        ? `还缺 ${missing}，暂时无法配齐，已保留当前菜单。可调整搭配或解锁菜品。`
+        : r.note || "暂时找不到更合适的菜，已保留当前菜单。";
+    tell(menuNote.value);
+    return;
+  }
+  if (!id) menuTarget.value = { ...target };
   menuIds.value = id
     ? menu.value.map((d) =>
         d.id === id

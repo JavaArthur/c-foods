@@ -10,7 +10,9 @@ import {
   customDishView,
   validateDishName,
   deleteCustomRecord,
+  isCustomDish,
 } from "./custom-dishes.js";
+import { recipeCounts, restoreMenuTarget } from "./menu-target.js";
 import {
   migrateRecipeIds,
   normalizeState,
@@ -108,6 +110,7 @@ export const dishById = computed(
   () => new Map(dishes.value.map((d) => [d.id, d])),
 );
 export const menuIds = ref([]),
+  menuTarget = ref(null),
   lockedIds = ref([]),
   step = ref(1),
   maxStep = ref(1),
@@ -147,6 +150,12 @@ export async function loadDishes() {
     catalogMeta.value = meta;
     rawDishes.value = data.map((d) => ({ ...d, _meta: meta.dishes[d.id] }));
     if (state.today?.date === localDate()) {
+      menuTarget.value = restoreMenuTarget(
+        state.today,
+        state.history,
+        dishById.value,
+      );
+      state.today.targetCounts = { ...menuTarget.value };
       const previousIds = state.today.ids;
       state.today.ids = previousIds.filter(
         (id) =>
@@ -212,7 +221,8 @@ export function confirmMenu() {
   }
   const date = localDate();
   const ids = [...menuIds.value];
-  state.today = { date, ids };
+  menuTarget.value ??= recipeCounts(menu.value);
+  state.today = { date, ids, targetCounts: { ...menuTarget.value } };
   if (
     !state.history.some((h) => h.date === date && h.ids.join() === ids.join())
   )
@@ -244,6 +254,8 @@ export function addDish(d) {
     tell("一桌最多 10 道，已经很丰盛啦。");
     return false;
   }
+  menuTarget.value ??= recipeCounts(menu.value);
+  if (!isCustomDish(d)) menuTarget.value[d.isMeat ? "meat" : "veg"]++;
   menuIds.value.push(d.id);
   invalidate();
   goStep(2);
@@ -253,6 +265,10 @@ export function addDish(d) {
 
 export function removeFromMenu(id) {
   const affected = menuIds.value.includes(id) || state.today?.ids.includes(id);
+  if (affected) {
+    menuTarget.value ??= recipeCounts(menu.value);
+    if (state.today) state.today.targetCounts = { ...menuTarget.value };
+  }
   menuIds.value = menuIds.value.filter((x) => x !== id);
   lockedIds.value = lockedIds.value.filter((x) => x !== id);
   delete state.progress[id];
@@ -311,6 +327,7 @@ export function deleteCustomDish(id) {
 export function resetAll() {
   Object.assign(state, defaults());
   menuIds.value = [];
+  menuTarget.value = null;
   lockedIds.value = [];
   step.value = 1;
   maxStep.value = 1;

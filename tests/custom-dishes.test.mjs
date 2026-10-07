@@ -20,6 +20,7 @@ import {
   recommendationDishes,
   dishById,
   menuIds,
+  menuTarget,
   lockedIds,
   step,
   maxStep,
@@ -124,6 +125,8 @@ test("拉黑幂等、立即隐藏并移出当前菜单，清理计时；恢复�
   assert(!visibleDishes.value.some((d) => d.id === meat.id));
   assert(dishById.value.has(meat.id));
   assert.deepEqual([...menuIds.value], [leaf.id]);
+  assert.deepEqual({ ...menuTarget.value }, { meat: 1, veg: 1 });
+  assert.deepEqual({ ...state.today.targetCounts }, { meat: 1, veg: 1 });
   assert.deepEqual([...lockedIds.value], []);
   assert.deepEqual(Object.keys(state.timers), [leaf.id + ":0"]);
   assert.deepEqual(Object.keys(state.progress), [leaf.id]);
@@ -137,6 +140,23 @@ test("拉黑幂等、立即隐藏并移出当前菜单，清理计时；恢复�
   assert(!menuIds.value.includes(meat.id));
   blacklistDish(leaf.id);
   assert.equal(step.value, 1);
+  assert.deepEqual({ ...menuTarget.value }, { meat: 1, veg: 1 });
+});
+
+test("手动加菜增加对应目标，自录菜不占荤素名额，清空重置目标", () => {
+  addDish(meat);
+  addDish(leaf);
+  const { id } = saveCustomDish("家里的拿手菜");
+  addDish(dishById.value.get(id));
+  assert.deepEqual({ ...menuTarget.value }, { meat: 1, veg: 1 });
+  assert(confirmMenu());
+  assert.deepEqual({ ...state.today.targetCounts }, { meat: 1, veg: 1 });
+  blacklistDish(meat.id);
+  restoreDish(meat.id);
+  addDish(meat);
+  assert.deepEqual({ ...menuTarget.value }, { meat: 2, veg: 1 });
+  resetAll();
+  assert.equal(menuTarget.value, null);
 });
 
 test("删除自录菜保留历史菜名，重新迁移幂等；旧版本和异常数据可恢复", () => {

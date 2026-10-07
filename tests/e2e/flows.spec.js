@@ -157,7 +157,7 @@ test("示意图片、估时依据、前置准备和旧收藏迁移", async ({ pa
   await page.getByRole("link", { name: "菜谱库", exact: true }).click();
   await page.getByRole("button", { name: /素菜库/ }).click();
   await page.getByRole("textbox", { name: "按菜名搜索" }).fill("蒜蓉西兰花");
-  await expect(page.locator(".dish-grid .image-label")).toHaveText("示意图");
+  await expect(page.locator(".dish-grid .image-label")).toHaveCount(0);
   const img = page.locator(".dish-grid img");
   await expect
     .poll(() => img.evaluate((el) => el.complete && el.naturalWidth > 0))
